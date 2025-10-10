@@ -170,7 +170,7 @@ class RssGeneratorTest extends TestCase
 
         $rss = $this->generator->generate($channel, $items);
 
-        $this->assertStringContainsString('<guid isPermaLink="false">https://example.com/test#abcdef12</guid>', $rss);
+        $this->assertStringContainsString('<guid isPermaLink="false">/docs/test#abcdef12</guid>', $rss);
     }
 
     public function testGenerateWithValidRfc822Date(): void

@@ -91,20 +91,23 @@ class BuildRssCommand extends Command
                 }
 
                 $treeData = $treeResult['data'];
-                $documentPaths = $documentFetcher->extractDocumentPaths($treeData['data'] ?? []);
+                $documentPaths = $documentFetcher->extractDocumentPaths($treeData['data']['document_tree'] ?? []);
+
+                $pagesLimit = $config->limits['pages'] ?? 300;
+                $documentPaths = array_slice($documentPaths, 0, $pagesLimit);
 
                 foreach ($documentPaths as $documentPath) {
                     try {
                         $detailData = $documentFetcher->fetchDetail($source, $documentPath);
 
-                        $contentHtml = $detailData['data']['content_html'] ?? '';
+                        $content = $detailData['data']['content'] ?? '';
                         $description = $detailData['data']['description'] ?? '';
 
                         if ($description === '') {
-                            $description = $this->generateSummary($contentHtml);
+                            $description = $this->generateSummary($content);
                         }
 
-                        $contentHash = hash('sha256', $contentHtml);
+                        $contentHash = hash('sha256', $content);
 
                         $existingItem = $stateManager->findItemByDocumentPath($state->items, $documentPath);
 
@@ -122,7 +125,7 @@ class BuildRssCommand extends Command
                             contentHash: $contentHash,
                             pubDate: date('c'),
                             link: $link,
-                            contentHtml: $contentHtml,
+                            contentHtml: $content,
                         );
 
                         $pagesChanged++;

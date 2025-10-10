@@ -35,7 +35,7 @@ class RssGenerator
                 'title' => $this->sanitizeXml($item->title),
                 'link' => $item->link,
                 'description' => $this->sanitizeHtml($item->description, 500),
-                'guid' => $this->generateGuid($item->link, $item->contentHash),
+                'guid' => $this->generateGuid($item->documentPath, $item->contentHash),
                 'pubDate' => $this->formatRfc822Date($item->pubDate),
                 'contentHtml' => $item->contentHtml !== null ? $this->sanitizeHtml($item->contentHtml) : null,
             ];
@@ -65,9 +65,9 @@ class RssGenerator
         return $sanitized;
     }
 
-    private function generateGuid(string $link, string $contentHash): string
+    private function generateGuid(string $documentPath, string $contentHash): string
     {
-        return $link . '#' . substr($contentHash, 0, 8);
+        return $documentPath . '#' . substr($contentHash, 0, 8);
     }
 
     private function formatRfc822Date(string $isoDate): string

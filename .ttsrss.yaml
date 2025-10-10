@@ -13,7 +13,7 @@ channel:
 rss:
   enable_content_encoded: true
 limits:
-  pages: 300
+  pages: 50
   items: 50
 concurrency: 10
 retry:

@@ -101,7 +101,7 @@ class DocumentFetcher
         $paths = [];
 
         foreach ($treeNodes as $node) {
-            if (isset($node['document_path']) && is_string($node['document_path'])) {
+            if (isset($node['document_path']) && is_string($node['document_path']) && $node['document_path'] !== '') {
                 $paths[] = $node['document_path'];
             }
 
