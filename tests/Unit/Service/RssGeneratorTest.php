@@ -70,7 +70,7 @@ class RssGeneratorTest extends TestCase
         $rss = $this->generator->generate($channel, $items, true);
 
         $this->assertStringContainsString('<content:encoded>', $rss);
-        $this->assertStringContainsString('&lt;p&gt;Full content HTML&lt;/p&gt;', $rss);
+        $this->assertStringContainsString('<p>Full content HTML</p>', $rss);
     }
 
     public function testGenerateWithoutContentEncoded(): void

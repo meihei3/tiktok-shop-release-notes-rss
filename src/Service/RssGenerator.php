@@ -56,13 +56,17 @@ class RssGenerator
 
     private function sanitizeHtml(string $html, ?int $maxLength = null): string
     {
-        $sanitized = strip_tags($html, '<p><br><a><strong><em><ul><ol><li><code><pre>');
-
-        if ($maxLength !== null && mb_strlen($sanitized) > $maxLength) {
-            $sanitized = mb_substr($sanitized, 0, $maxLength) . '...';
+        if ($maxLength !== null) {
+            // For description field with length limit, use plain text only
+            $plainText = strip_tags($html);
+            if (mb_strlen($plainText) > $maxLength) {
+                return mb_substr($plainText, 0, $maxLength - 3) . '...';
+            }
+            return $plainText;
         }
 
-        return $sanitized;
+        // For content:encoded, allow HTML tags
+        return strip_tags($html, '<p><br><a><strong><em><ul><ol><li><code><pre>');
     }
 
     private function generateGuid(string $documentPath, string $contentHash): string

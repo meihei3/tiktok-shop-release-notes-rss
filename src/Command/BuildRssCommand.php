@@ -290,7 +290,7 @@ class BuildRssCommand extends Command
         $text = trim($text ?? '');
 
         if (mb_strlen($text) > 500) {
-            return mb_substr($text, 0, 500) . '...';
+            return mb_substr($text, 0, 497) . '...';
         }
 
         return $text;

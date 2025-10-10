@@ -10,11 +10,11 @@
         <item>
             <title>{{ item.title|e }}</title>
             <link>{{ item.link }}</link>
-            <description><![CDATA[{{ item.description }}]]></description>
+            <description><![CDATA[{{ item.description|raw }}]]></description>
             <guid isPermaLink="false">{{ item.guid }}</guid>
             <pubDate>{{ item.pubDate }}</pubDate>
 {% if enableContentEncoded and item.contentHtml %}
-            <content:encoded><![CDATA[{{ item.contentHtml }}]]></content:encoded>
+            <content:encoded><![CDATA[{{ item.contentHtml|raw }}]]></content:encoded>
 {% endif %}
         </item>
 {% endfor %}
