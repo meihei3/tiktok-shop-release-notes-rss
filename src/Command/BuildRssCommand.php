@@ -117,13 +117,15 @@ class BuildRssCommand extends Command
 
                         $title = $detailData['data']['title'] ?? 'Untitled';
                         $link = str_replace('{document_path}', $documentPath, $source->publicUrlTemplate);
+                        $updateTime = $detailData['data']['update_time'] ?? null;
+                        $pubDate = $updateTime !== null ? date('c', (int) $updateTime) : date('c');
 
                         $newItems[] = new DocumentItem(
                             documentPath: $documentPath,
                             title: $title,
                             description: $description,
                             contentHash: $contentHash,
-                            pubDate: date('c'),
+                            pubDate: $pubDate,
                             link: $link,
                             contentHtml: $content,
                         );
@@ -290,7 +292,7 @@ class BuildRssCommand extends Command
         $text = trim($text ?? '');
 
         if (mb_strlen($text) > 500) {
-            return mb_substr($text, 0, 497) . '...';
+            return mb_substr($text, 0, 500) . '...';
         }
 
         return $text;

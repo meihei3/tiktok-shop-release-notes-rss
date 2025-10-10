@@ -60,7 +60,7 @@ class RssGenerator
             // For description field with length limit, use plain text only
             $plainText = strip_tags($html);
             if (mb_strlen($plainText) > $maxLength) {
-                return mb_substr($plainText, 0, $maxLength - 3) . '...';
+                return mb_substr($plainText, 0, $maxLength) . '...';
             }
             return $plainText;
         }
