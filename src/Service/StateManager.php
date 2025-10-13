@@ -54,7 +54,6 @@ class StateManager
                 contentHash: $itemData['contentHash'] ?? '',
                 pubDate: $itemData['pubDate'] ?? '',
                 link: $itemData['link'] ?? '',
-                contentHtml: $itemData['contentHtml'] ?? null,
             );
         }
 
@@ -89,7 +88,6 @@ class StateManager
                 'contentHash' => $item->contentHash,
                 'pubDate' => $item->pubDate,
                 'link' => $item->link,
-                'contentHtml' => $item->contentHtml,
             ], $state->items),
         ];
 

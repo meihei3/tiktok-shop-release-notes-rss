@@ -34,7 +34,6 @@ class RssGeneratorTest extends TestCase
                 contentHash: 'abc123',
                 pubDate: '2024-01-01T00:00:00+00:00',
                 link: 'https://example.com/test',
-                contentHtml: '<p>Test content</p>',
             ),
         ];
 
@@ -59,18 +58,17 @@ class RssGeneratorTest extends TestCase
             new DocumentItem(
                 documentPath: '/docs/test',
                 title: 'Test Article',
-                description: 'Test description',
+                description: 'Full content HTML',
                 contentHash: 'abc123',
                 pubDate: '2024-01-01T00:00:00+00:00',
                 link: 'https://example.com/test',
-                contentHtml: '<p>Full content HTML</p>',
             ),
         ];
 
         $rss = $this->generator->generate($channel, $items, true);
 
         $this->assertStringContainsString('<content:encoded>', $rss);
-        $this->assertStringContainsString('<p>Full content HTML</p>', $rss);
+        $this->assertStringContainsString('Full content HTML', $rss);
     }
 
     public function testGenerateWithoutContentEncoded(): void
@@ -89,7 +87,6 @@ class RssGeneratorTest extends TestCase
                 contentHash: 'abc123',
                 pubDate: '2024-01-01T00:00:00+00:00',
                 link: 'https://example.com/test',
-                contentHtml: '<p>Full content HTML</p>',
             ),
         ];
 

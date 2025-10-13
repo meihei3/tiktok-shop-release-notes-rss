@@ -13,7 +13,6 @@ readonly class DocumentItem
         public string $contentHash,
         public string $pubDate,
         public string $link,
-        public ?string $contentHtml = null,
     ) {
     }
 }

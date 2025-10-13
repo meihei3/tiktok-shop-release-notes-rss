@@ -127,7 +127,6 @@ class BuildRssCommand extends Command
                             contentHash: $contentHash,
                             pubDate: $pubDate,
                             link: $link,
-                            contentHtml: $content,
                         );
 
                         $pagesChanged++;

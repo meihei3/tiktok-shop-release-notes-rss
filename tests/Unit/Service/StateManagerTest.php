@@ -136,7 +136,6 @@ class StateManagerTest extends TestCase
                 contentHash: 'abc123',
                 pubDate: '2024-01-01T00:00:00+00:00',
                 link: 'https://example.com/test',
-                contentHtml: '<p>Test content</p>'
             ),
         ];
 

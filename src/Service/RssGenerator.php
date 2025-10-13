@@ -37,7 +37,7 @@ class RssGenerator
                 'description' => $this->sanitizeHtml($item->description, 500),
                 'guid' => $this->generateGuid($item->documentPath, $item->contentHash),
                 'pubDate' => $this->formatRfc822Date($item->pubDate),
-                'contentHtml' => $item->contentHtml !== null ? $this->sanitizeHtml($item->contentHtml) : null,
+                'contentHtml' => $item->description !== '' ? $this->sanitizeHtml($item->description) : null,
             ];
         }, $limitedItems);
 
