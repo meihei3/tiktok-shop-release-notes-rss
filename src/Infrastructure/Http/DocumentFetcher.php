@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Service;
+namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use TikTokShopRss\Model\Source;

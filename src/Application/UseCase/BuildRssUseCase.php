@@ -2,12 +2,15 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Service;
+namespace TikTokShopRss\Application\UseCase;
 
+use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Infrastructure\Persistence\StateManager;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
+use TikTokShopRss\Service\RssGenerator;
 
 use function array_slice;
 use function date;
@@ -21,7 +24,7 @@ use function strip_tags;
 use function trim;
 use function usleep;
 
-readonly class RssBuildService
+readonly class BuildRssUseCase
 {
     public function __construct(
         private DocumentFetcher $documentFetcher,

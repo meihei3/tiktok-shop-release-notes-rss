@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Tests\Unit\Service;
+namespace TikTokShopRss\Tests\Unit\Infrastructure\Http;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
+use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
 use TikTokShopRss\Model\Source;
-use TikTokShopRss\Service\DocumentFetcher;
 
 class DocumentFetcherTest extends TestCase
 {

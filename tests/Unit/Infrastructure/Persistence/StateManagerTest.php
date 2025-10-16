@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Tests\Unit\Service;
+namespace TikTokShopRss\Tests\Unit\Infrastructure\Persistence;
 
 use PHPUnit\Framework\TestCase;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
-use TikTokShopRss\Service\StateManager;
+use TikTokShopRss\Infrastructure\Persistence\StateManager;
 
 class StateManagerTest extends TestCase
 {

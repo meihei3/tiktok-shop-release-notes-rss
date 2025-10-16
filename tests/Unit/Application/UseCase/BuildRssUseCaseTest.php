@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Tests\Unit\Service;
+namespace TikTokShopRss\Tests\Unit\Application\UseCase;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\UseCase\BuildRssUseCase;
+use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Infrastructure\Persistence\StateManager;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\Source;
 use TikTokShopRss\Model\State;
-use TikTokShopRss\Service\DocumentFetcher;
-use TikTokShopRss\Service\RssBuildService;
 use TikTokShopRss\Service\RssGenerator;
-use TikTokShopRss\Service\StateManager;
 
-class RssBuildServiceTest extends TestCase
+class BuildRssUseCaseTest extends TestCase
 {
     public function testBuildWithNewDocument(): void
     {
@@ -93,8 +93,8 @@ class RssBuildServiceTest extends TestCase
                 return array_merge($existing, $new);
             });
 
-        $service = new RssBuildService($documentFetcher, $stateManager, $rssGenerator);
-        $result = $service->build($config, $state);
+        $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
+        $result = $useCase->build($config, $state);
 
         $this->assertSame(1, $result['pages_changed']);
         $this->assertInstanceOf(State::class, $result['state']);
@@ -145,8 +145,8 @@ class RssBuildServiceTest extends TestCase
             ->expects($this->never())
             ->method('fetchDetail');
 
-        $service = new RssBuildService($documentFetcher, $stateManager, $rssGenerator);
-        $result = $service->build($config, $state);
+        $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
+        $result = $useCase->build($config, $state);
 
         $this->assertSame(0, $result['pages_changed']);
         $this->assertInstanceOf(State::class, $result['state']);
@@ -196,8 +196,8 @@ class RssBuildServiceTest extends TestCase
             )
             ->willReturn('<rss>test</rss>');
 
-        $service = new RssBuildService($documentFetcher, $stateManager, $rssGenerator);
-        $result = $service->generateRss($config, $state);
+        $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
+        $result = $useCase->generateRss($config, $state);
 
         $this->assertSame('<rss>test</rss>', $result);
     }

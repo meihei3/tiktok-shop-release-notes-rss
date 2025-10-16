@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Service;
+namespace TikTokShopRss\Infrastructure\Persistence;
 
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;

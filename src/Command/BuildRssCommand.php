@@ -9,9 +9,9 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use TikTokShopRss\Application\UseCase\BuildRssUseCase;
+use TikTokShopRss\Infrastructure\Persistence\StateManager;
 use TikTokShopRss\Service\ConfigLoader;
-use TikTokShopRss\Service\RssBuildService;
-use TikTokShopRss\Service\StateManager;
 
 use function count;
 use function dirname;
@@ -35,7 +35,7 @@ use function time;
 class BuildRssCommand extends Command
 {
     public function __construct(
-        private readonly RssBuildService $rssBuildService,
+        private readonly BuildRssUseCase $buildRssUseCase,
     ) {
         parent::__construct();
     }
@@ -83,7 +83,7 @@ class BuildRssCommand extends Command
             $stateManager = new StateManager();
             $state = $stateManager->load($stateFile);
 
-            $buildResult = $this->rssBuildService->build($config, $state);
+            $buildResult = $this->buildRssUseCase->build($config, $state);
             $pagesChanged = $buildResult['pages_changed'];
             $state = $buildResult['state'];
 
@@ -92,7 +92,7 @@ class BuildRssCommand extends Command
                 $stateManager->save($stateFile, $state);
                 $stateWriteMs = (microtime(true) - $stateWriteStart) * 1000;
 
-                $rss = $this->rssBuildService->generateRss($config, $state);
+                $rss = $this->buildRssUseCase->generateRss($config, $state);
 
                 $outputPath = $input->getOption('output');
 
