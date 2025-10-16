@@ -32,11 +32,13 @@ composer phpcbf        # スタイル自動修正
 - PHPStan Level 8維持（`max`は外部APIデータと相性悪い）
 - `$this->assert*()`スタイルのテスト
 - コミット前の品質チェック実行
+- **適切な粒度でコミット**: 機能単位で分割し、1コミット1機能を徹底
 
 ❌ **DON'T**
 - PHPStan Level 9以上設定（外部データ処理困難）
 - 外部APIの完全型定義（現実的でない）
 - readonly classの変更
+- 複数機能を1つのコミットにまとめる
 
 ### ファイル編集優先順位
 1. **Core**: `src/Service/`, `src/Model/`
@@ -94,7 +96,21 @@ CONTENT_SOURCE_URL=https://api.example.com/feed
 - **命名**: `feature/{{ticket-id}}`, `hotfix/{{ticket-id}}`, `docs/{{description}}`
 - **作業前に必ずブランチ作成**: `git checkout -b feature/new-feature`
 - **コミット粒度重視**: diff存在時は未完了でもコミット
+- **適切な粒度**: 機能やレイヤーごとに分割（例: モデル→サービス→コマンド→テスト）
 - **日本語メッセージ**: `feat: 理由` + 詳細リスト
+
+### コミット粒度の例
+```bash
+# 良い例: 機能ごとに分割
+git add composer.json .gitignore && git commit -m "build: プロジェクト基本設定"
+git add src/Model/ && git commit -m "feat: ドメインモデルの追加"
+git add src/Service/ConfigLoader.php && git commit -m "feat: 設定読み込み機能"
+git add src/Service/DocumentFetcher.php && git commit -m "feat: APIフェッチャー実装"
+git add tests/ && git commit -m "test: ユニットテスト追加"
+
+# 悪い例: すべてを1つにまとめる
+git add . && git commit -m "feat: すべての機能を実装"
+```
 
 ### 正しい作業フロー
 ```bash

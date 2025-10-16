@@ -1,0 +1,23 @@
+state_file: var/state/tiktok-shop.json
+save_raw:
+  tree: true
+  detail: true
+sources:
+  - tree_url: "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP"
+    detail_url_template: "https://partner.tiktokshop.com/api/v1/document/detail?document_id={document_path}&workspace_id=3&aid=359713&locale=ja-JP"
+    public_url_template: "https://partner.tiktokshop.com/docv2/page/{document_path}"
+channel:
+  title: TikTok Shop Dev Updates
+  link: https://partner.tiktokshop.com/docv2
+  description: Official updates for TikTok Shop developer docs
+rss:
+  enable_content_encoded: true
+limits:
+  pages: 1
+  items: 1
+concurrency: 10
+retry:
+  attempts: 3
+  backoff_initial_ms: 100
+  backoff_max_ms: 5000
+sleep_between_requests_ms: 100

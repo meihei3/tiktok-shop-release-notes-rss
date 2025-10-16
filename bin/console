@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\HttpClient\HttpClient;
+use TikTokShopRss\Command\BuildRssCommand;
+
+$httpClient = HttpClient::create([
+    'timeout' => 30,
+    'max_redirects' => 5,
+]);
+
+$application = new Application('TikTok Shop RSS Builder', '1.0.0');
+$application->add(new BuildRssCommand($httpClient));
+$application->run();
