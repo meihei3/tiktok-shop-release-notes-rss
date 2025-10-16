@@ -2,12 +2,19 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Service;
+namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
+use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Model\Source;
 
-class DocumentFetcher
+use function array_merge;
+use function is_array;
+use function is_string;
+use function json_decode;
+use function str_replace;
+
+class DocumentFetcher implements DocumentFetcherInterface
 {
     public function __construct(
         private readonly HttpClientInterface $httpClient,

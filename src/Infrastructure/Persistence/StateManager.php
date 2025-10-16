@@ -2,13 +2,31 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Service;
+namespace TikTokShopRss\Infrastructure\Persistence;
 
+use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
 
-class StateManager
+use function array_map;
+use function array_search;
+use function dirname;
+use function fclose;
+use function file_exists;
+use function file_get_contents;
+use function file_put_contents;
+use function flock;
+use function fopen;
+use function is_array;
+use function is_dir;
+use function json_decode;
+use function json_encode;
+use function mkdir;
+use function rename;
+use function unlink;
+
+class StateManager implements StateManagerInterface
 {
     private const VERSION = 2;
 

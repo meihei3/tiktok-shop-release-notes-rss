@@ -8,6 +8,9 @@ use Symfony\Component\Yaml\Yaml;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\Source;
 
+use function file_exists;
+use function is_array;
+
 class ConfigLoader
 {
     public function load(string $configPath): Config

@@ -7,13 +7,22 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use Symfony\Component\HttpClient\HttpClient;
+use TikTokShopRss\Application\UseCase\BuildRssUseCase;
 use TikTokShopRss\Command\BuildRssCommand;
+use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Infrastructure\Persistence\StateManager;
+use TikTokShopRss\Service\RssGenerator;
 
 $httpClient = HttpClient::create([
     'timeout' => 30,
     'max_redirects' => 5,
 ]);
 
+$documentFetcher = new DocumentFetcher($httpClient);
+$stateManager = new StateManager();
+$rssGenerator = new RssGenerator(__DIR__ . '/../templates');
+$buildRssUseCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
+
 $application = new Application('TikTok Shop RSS Builder', '1.0.0');
-$application->add(new BuildRssCommand($httpClient));
+$application->add(new BuildRssCommand($buildRssUseCase));
 $application->run();
