@@ -6,6 +6,7 @@ namespace TikTokShopRss\Service;
 
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
+use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Model\DocumentItem;
 
 use function array_map;
@@ -19,7 +20,7 @@ use function strtotime;
 use function substr;
 use function time;
 
-class RssGenerator
+class RssGenerator implements RssGeneratorInterface
 {
     private Environment $twig;
 

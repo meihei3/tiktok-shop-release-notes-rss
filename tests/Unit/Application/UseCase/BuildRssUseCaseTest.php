@@ -5,22 +5,22 @@ declare(strict_types=1);
 namespace TikTokShopRss\Tests\Unit\Application\UseCase;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\Port\DocumentFetcherInterface;
+use TikTokShopRss\Application\Port\RssGeneratorInterface;
+use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
-use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
-use TikTokShopRss\Infrastructure\Persistence\StateManager;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\Source;
 use TikTokShopRss\Model\State;
-use TikTokShopRss\Service\RssGenerator;
 
 class BuildRssUseCaseTest extends TestCase
 {
     public function testBuildWithNewDocument(): void
     {
-        $documentFetcher = $this->createMock(DocumentFetcher::class);
-        $stateManager = $this->createMock(StateManager::class);
-        $rssGenerator = $this->createMock(RssGenerator::class);
+        $documentFetcher = $this->createMock(DocumentFetcherInterface::class);
+        $stateManager = $this->createMock(StateManagerInterface::class);
+        $rssGenerator = $this->createMock(RssGeneratorInterface::class);
 
         $source = new Source(
             treeUrl: 'https://example.com/tree',
@@ -105,9 +105,9 @@ class BuildRssUseCaseTest extends TestCase
 
     public function testBuildWithNotModifiedTree(): void
     {
-        $documentFetcher = $this->createMock(DocumentFetcher::class);
-        $stateManager = $this->createMock(StateManager::class);
-        $rssGenerator = $this->createMock(RssGenerator::class);
+        $documentFetcher = $this->createMock(DocumentFetcherInterface::class);
+        $stateManager = $this->createMock(StateManagerInterface::class);
+        $rssGenerator = $this->createMock(RssGeneratorInterface::class);
 
         $source = new Source(
             treeUrl: 'https://example.com/tree',
@@ -154,9 +154,9 @@ class BuildRssUseCaseTest extends TestCase
 
     public function testGenerateRss(): void
     {
-        $documentFetcher = $this->createMock(DocumentFetcher::class);
-        $stateManager = $this->createMock(StateManager::class);
-        $rssGenerator = $this->createMock(RssGenerator::class);
+        $documentFetcher = $this->createMock(DocumentFetcherInterface::class);
+        $stateManager = $this->createMock(StateManagerInterface::class);
+        $rssGenerator = $this->createMock(RssGeneratorInterface::class);
 
         $config = new Config(
             stateFile: 'state.json',

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Infrastructure\Persistence;
 
+use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
@@ -25,7 +26,7 @@ use function mkdir;
 use function rename;
 use function unlink;
 
-class StateManager
+class StateManager implements StateManagerInterface
 {
     private const VERSION = 2;
 

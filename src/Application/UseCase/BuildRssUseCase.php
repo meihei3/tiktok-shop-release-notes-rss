@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\UseCase;
 
-use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
-use TikTokShopRss\Infrastructure\Persistence\StateManager;
+use TikTokShopRss\Application\Port\DocumentFetcherInterface;
+use TikTokShopRss\Application\Port\RssGeneratorInterface;
+use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
-use TikTokShopRss\Service\RssGenerator;
 
 use function array_slice;
 use function date;
@@ -27,9 +27,9 @@ use function usleep;
 readonly class BuildRssUseCase
 {
     public function __construct(
-        private DocumentFetcher $documentFetcher,
-        private StateManager $stateManager,
-        private RssGenerator $rssGenerator,
+        private DocumentFetcherInterface $documentFetcher,
+        private StateManagerInterface $stateManager,
+        private RssGeneratorInterface $rssGenerator,
     ) {
     }
 
