@@ -6,6 +6,7 @@ namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
+use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 
 use function array_merge;
@@ -98,7 +99,7 @@ class DocumentFetcher implements DocumentFetcherInterface
 
     /**
      * @param array<int, array<string, mixed>> $treeNodes
-     * @return array<int, array{path: string, update_time: int|null}>
+     * @return list<DocumentPathInfo>
      */
     public function extractDocumentPaths(array $treeNodes): array
     {
@@ -106,10 +107,10 @@ class DocumentFetcher implements DocumentFetcherInterface
 
         foreach ($treeNodes as $node) {
             if (isset($node['document_path']) && is_string($node['document_path']) && $node['document_path'] !== '') {
-                $paths[] = [
-                    'path' => $node['document_path'],
-                    'update_time' => isset($node['update_time']) ? (int) $node['update_time'] : null,
-                ];
+                $paths[] = new DocumentPathInfo(
+                    path: $node['document_path'],
+                    updateTime: isset($node['update_time']) ? (int) $node['update_time'] : null,
+                );
             }
 
             if (isset($node['children']) && is_array($node['children'])) {

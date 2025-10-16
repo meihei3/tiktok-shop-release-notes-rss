@@ -9,8 +9,10 @@ use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
+use TikTokShopRss\Model\BuildResult;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
+use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 use TikTokShopRss\Model\State;
 
@@ -66,7 +68,7 @@ class BuildRssUseCaseTest extends TestCase
             ->expects($this->once())
             ->method('extractDocumentPaths')
             ->willReturn([
-                ['path' => 'test-doc', 'update_time' => 1234567890],
+                new DocumentPathInfo(path: 'test-doc', updateTime: 1234567890),
             ]);
 
         $documentFetcher
@@ -96,11 +98,12 @@ class BuildRssUseCaseTest extends TestCase
         $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
         $result = $useCase->build($config, $state);
 
-        $this->assertSame(1, $result['pages_changed']);
-        $this->assertInstanceOf(State::class, $result['state']);
-        $this->assertCount(1, $result['state']->items);
-        $this->assertSame('test-doc', $result['state']->items[0]->documentPath);
-        $this->assertSame('Test Document', $result['state']->items[0]->title);
+        $this->assertInstanceOf(BuildResult::class, $result);
+        $this->assertSame(1, $result->pagesChanged);
+        $this->assertInstanceOf(State::class, $result->state);
+        $this->assertCount(1, $result->state->items);
+        $this->assertSame('test-doc', $result->state->items[0]->documentPath);
+        $this->assertSame('Test Document', $result->state->items[0]->title);
     }
 
     public function testBuildWithNotModifiedTree(): void
@@ -148,8 +151,9 @@ class BuildRssUseCaseTest extends TestCase
         $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
         $result = $useCase->build($config, $state);
 
-        $this->assertSame(0, $result['pages_changed']);
-        $this->assertInstanceOf(State::class, $result['state']);
+        $this->assertInstanceOf(BuildResult::class, $result);
+        $this->assertSame(0, $result->pagesChanged);
+        $this->assertInstanceOf(State::class, $result->state);
     }
 
     public function testGenerateRss(): void

@@ -7,6 +7,7 @@ namespace TikTokShopRss\Application\UseCase;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
+use TikTokShopRss\Model\BuildResult;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
@@ -33,10 +34,7 @@ readonly class BuildRssUseCase
     ) {
     }
 
-    /**
-     * @return array{pages_changed: int, state: State}
-     */
-    public function build(Config $config, State $state): array
+    public function build(Config $config, State $state): BuildResult
     {
         $newItems = [];
         $pagesChanged = 0;
@@ -62,8 +60,8 @@ readonly class BuildRssUseCase
 
             foreach ($documentPaths as $docInfo) {
                 try {
-                    $documentPath = $docInfo['path'];
-                    $treeUpdateTime = $docInfo['update_time'];
+                    $documentPath = $docInfo->path;
+                    $treeUpdateTime = $docInfo->updateTime;
 
                     $detailData = $this->documentFetcher->fetchDetail($source, $documentPath);
 
@@ -130,10 +128,10 @@ readonly class BuildRssUseCase
             );
         }
 
-        return [
-            'pages_changed' => $pagesChanged,
-            'state' => $state,
-        ];
+        return new BuildResult(
+            pagesChanged: $pagesChanged,
+            state: $state,
+        );
     }
 
     public function generateRss(Config $config, State $state): string

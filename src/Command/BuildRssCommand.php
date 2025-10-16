@@ -84,8 +84,8 @@ class BuildRssCommand extends Command
             $state = $stateManager->load($stateFile);
 
             $buildResult = $this->buildRssUseCase->build($config, $state);
-            $pagesChanged = $buildResult['pages_changed'];
-            $state = $buildResult['state'];
+            $pagesChanged = $buildResult->pagesChanged;
+            $state = $buildResult->state;
 
             if (!$input->getOption('dry-run')) {
                 $stateWriteStart = microtime(true);

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Port;
 
+use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 
 interface DocumentFetcherInterface
@@ -20,7 +21,7 @@ interface DocumentFetcherInterface
 
     /**
      * @param array<int, array<string, mixed>> $treeNodes
-     * @return array<int, array{path: string, update_time: int|null}>
+     * @return list<DocumentPathInfo>
      */
     public function extractDocumentPaths(array $treeNodes): array;
 }

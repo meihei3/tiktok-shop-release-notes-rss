@@ -8,6 +8,7 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 
 class DocumentFetcherTest extends TestCase
@@ -142,7 +143,9 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(7, $paths);
-        $pathStrings = array_column($paths, 'path');
+        $this->assertContainsOnlyInstancesOf(DocumentPathInfo::class, $paths);
+
+        $pathStrings = array_map(fn($info) => $info->path, $paths);
         $this->assertContains('/docs/test1', $pathStrings);
         $this->assertContains('/docs/test2', $pathStrings);
         $this->assertContains('/docs/test2-1', $pathStrings);
@@ -185,7 +188,9 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(2, $paths);
-        $pathStrings = array_column($paths, 'path');
+        $this->assertContainsOnlyInstancesOf(DocumentPathInfo::class, $paths);
+
+        $pathStrings = array_map(fn($info) => $info->path, $paths);
         $this->assertContains('/docs/test1', $pathStrings);
         $this->assertContains('/docs/test2', $pathStrings);
     }
