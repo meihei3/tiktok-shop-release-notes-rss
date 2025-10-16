@@ -9,39 +9,24 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Contracts\HttpClient\HttpClientInterface;
-use TikTokShopRss\Model\DocumentItem;
-use TikTokShopRss\Model\SourceState;
-use TikTokShopRss\Model\State;
 use TikTokShopRss\Service\ConfigLoader;
-use TikTokShopRss\Service\DocumentFetcher;
-use TikTokShopRss\Service\RssGenerator;
+use TikTokShopRss\Service\RssBuildService;
 use TikTokShopRss\Service\StateManager;
 
-use function array_slice;
 use function count;
-use function date;
 use function dirname;
 use function file_exists;
 use function file_put_contents;
 use function filesize;
-use function hash;
 use function is_dir;
 use function json_encode;
-use function mb_strlen;
-use function mb_substr;
 use function microtime;
 use function min;
 use function mkdir;
-use function preg_replace;
 use function round;
 use function rtrim;
-use function str_replace;
-use function strip_tags;
 use function strtotime;
 use function time;
-use function trim;
-use function usleep;
 
 #[AsCommand(
     name: 'tts:rss:build',
@@ -50,7 +35,7 @@ use function usleep;
 class BuildRssCommand extends Command
 {
     public function __construct(
-        private readonly HttpClientInterface $httpClient,
+        private readonly RssBuildService $rssBuildService,
     ) {
         parent::__construct();
     }
@@ -98,111 +83,16 @@ class BuildRssCommand extends Command
             $stateManager = new StateManager();
             $state = $stateManager->load($stateFile);
 
-            $documentFetcher = new DocumentFetcher($this->httpClient);
-            $newItems = [];
-            $pagesChanged = 0;
-
-            foreach ($config->sources as $source) {
-                $existingSourceState = $this->findSourceState($state->sources, $source->treeUrl);
-
-                $treeResult = $documentFetcher->fetchTree(
-                    $source,
-                    $existingSourceState?->etag,
-                    $existingSourceState?->lastModified
-                );
-
-                if ($treeResult['not_modified'] === true) {
-                    continue;
-                }
-
-                $treeData = $treeResult['data'];
-                $documentPaths = $documentFetcher->extractDocumentPaths($treeData['data']['document_tree'] ?? []);
-
-                $pagesLimit = $config->limits['pages'] ?? 300;
-                $documentPaths = array_slice($documentPaths, 0, $pagesLimit);
-
-                foreach ($documentPaths as $docInfo) {
-                    try {
-                        $documentPath = $docInfo['path'];
-                        $treeUpdateTime = $docInfo['update_time'];
-
-                        $detailData = $documentFetcher->fetchDetail($source, $documentPath);
-
-                        $content = $detailData['data']['content'] ?? '';
-                        $description = $detailData['data']['description'] ?? '';
-
-                        if ($description === '') {
-                            $description = $this->generateSummary($content);
-                        }
-
-                        $contentHash = hash('sha256', $content);
-
-                        $existingItem = $stateManager->findItemByDocumentPath($state->items, $documentPath);
-
-                        if ($existingItem !== null && $existingItem->contentHash === $contentHash) {
-                            continue;
-                        }
-
-                        $title = $detailData['data']['title'] ?? 'Untitled';
-                        $link = str_replace('{document_path}', $documentPath, $source->publicUrlTemplate);
-
-                        // Use tree's update_time, fallback to detail's update_time, then current time
-                        $updateTime = $treeUpdateTime ?? ($detailData['data']['update_time'] ?? null);
-                        $pubDate = $updateTime !== null ? date('c', $updateTime) : date('c');
-
-                        $newItems[] = new DocumentItem(
-                            documentPath: $documentPath,
-                            title: $title,
-                            description: $description,
-                            contentHash: $contentHash,
-                            pubDate: $pubDate,
-                            link: $link,
-                        );
-
-                        $pagesChanged++;
-
-                        usleep($config->sleepBetweenRequestsMs * 1000);
-                    } catch (\Exception $e) {
-                        $warning = "<comment>Warning: Failed to fetch detail for {$documentPath}: "
-                            . "{$e->getMessage()}</comment>";
-                        $output->writeln($warning);
-                    }
-                }
-
-                $treeJson = json_encode($treeData);
-                if ($treeJson === false) {
-                    throw new \RuntimeException('Failed to encode tree data to JSON');
-                }
-
-                $state = new State(
-                    version: $state->version,
-                    sources: $this->updateSourceState(
-                        $state->sources,
-                        $source->treeUrl,
-                        $treeResult['etag'] ?? null,
-                        $treeResult['last_modified'] ?? null,
-                        hash('sha256', $treeJson),
-                        date('c')
-                    ),
-                    items: $stateManager->mergeItems($state->items, $newItems),
-                );
-            }
+            $buildResult = $this->rssBuildService->build($config, $state);
+            $pagesChanged = $buildResult['pages_changed'];
+            $state = $buildResult['state'];
 
             if (!$input->getOption('dry-run')) {
                 $stateWriteStart = microtime(true);
                 $stateManager->save($stateFile, $state);
                 $stateWriteMs = (microtime(true) - $stateWriteStart) * 1000;
 
-                $rssGenerator = new RssGenerator(__DIR__ . '/../../templates');
-                $enableContentEncoded = $config->rss['enable_content_encoded'] ?? true;
-                $itemsLimit = $config->limits['items'] ?? 50;
-
-                $rss = $rssGenerator->generate(
-                    $config->channel,
-                    $state->items,
-                    $enableContentEncoded,
-                    $itemsLimit
-                );
+                $rss = $this->rssBuildService->generateRss($config, $state);
 
                 $outputPath = $input->getOption('output');
 
@@ -240,6 +130,7 @@ class BuildRssCommand extends Command
                 $durationMs = (microtime(true) - $startTime) * 1000;
 
                 if ($input->getOption('json')) {
+                    $itemsLimit = $config->limits['items'] ?? 50;
                     $summary = [
                         'crawl.pages_total' => count($state->items),
                         'crawl.pages_changed' => $pagesChanged,
@@ -267,63 +158,5 @@ class BuildRssCommand extends Command
             $output->writeln("<error>Error: {$e->getMessage()}</error>");
             return 5;
         }
-    }
-
-    /**
-     * @param array<int, SourceState> $sources
-     */
-    private function findSourceState(array $sources, string $url): ?SourceState
-    {
-        foreach ($sources as $source) {
-            if ($source->url === $url) {
-                return $source;
-            }
-        }
-
-        return null;
-    }
-
-    /**
-     * @param array<int, SourceState> $sources
-     * @return array<int, SourceState>
-     */
-    private function updateSourceState(
-        array $sources,
-        string $url,
-        ?string $etag,
-        ?string $lastModified,
-        string $contentHash,
-        string $lastSeenAt
-    ): array {
-        $updated = [];
-        $found = false;
-
-        foreach ($sources as $source) {
-            if ($source->url === $url) {
-                $updated[] = new SourceState($url, $etag, $lastModified, $contentHash, $lastSeenAt);
-                $found = true;
-            } else {
-                $updated[] = $source;
-            }
-        }
-
-        if (!$found) {
-            $updated[] = new SourceState($url, $etag, $lastModified, $contentHash, $lastSeenAt);
-        }
-
-        return $updated;
-    }
-
-    private function generateSummary(string $html): string
-    {
-        $text = strip_tags($html);
-        $text = preg_replace('/\s+/', ' ', $text);
-        $text = trim($text ?? '');
-
-        if (mb_strlen($text) > 500) {
-            return mb_substr($text, 0, 500) . '...';
-        }
-
-        return $text;
     }
 }
