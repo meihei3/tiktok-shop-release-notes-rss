@@ -19,9 +19,7 @@ class DocumentFetcher
      */
     public function fetchTree(Source $source, ?string $etag = null, ?string $lastModified = null): array
     {
-        $headers = [
-            'User-Agent' => 'TikTokShopRss/1.0 (+https://github.com/meihei3/tiktok-shop-release-notes-rss)',
-        ];
+        $headers = [];
 
         if ($etag !== null) {
             $headers['If-None-Match'] = $etag;
@@ -31,9 +29,12 @@ class DocumentFetcher
             $headers['If-Modified-Since'] = $lastModified;
         }
 
-        $response = $this->httpClient->request('GET', $source->treeUrl, [
-            'headers' => $headers,
-        ]);
+        $options = [];
+        if (!empty($headers)) {
+            $options['headers'] = $headers;
+        }
+
+        $response = $this->httpClient->request('GET', $source->treeUrl, $options);
 
         $statusCode = $response->getStatusCode();
 
@@ -70,11 +71,7 @@ class DocumentFetcher
     {
         $url = str_replace('{document_path}', $documentPath, $source->detailUrlTemplate);
 
-        $response = $this->httpClient->request('GET', $url, [
-            'headers' => [
-                'User-Agent' => 'TikTokShopRss/1.0 (+https://github.com/meihei3/tiktok-shop-release-notes-rss)',
-            ],
-        ]);
+        $response = $this->httpClient->request('GET', $url);
 
         $statusCode = $response->getStatusCode();
 
