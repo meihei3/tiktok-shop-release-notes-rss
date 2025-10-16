@@ -96,8 +96,11 @@ class BuildRssCommand extends Command
                 $pagesLimit = $config->limits['pages'] ?? 300;
                 $documentPaths = array_slice($documentPaths, 0, $pagesLimit);
 
-                foreach ($documentPaths as $documentPath) {
+                foreach ($documentPaths as $docInfo) {
                     try {
+                        $documentPath = $docInfo['path'];
+                        $treeUpdateTime = $docInfo['update_time'];
+
                         $detailData = $documentFetcher->fetchDetail($source, $documentPath);
 
                         $content = $detailData['data']['content'] ?? '';
@@ -117,8 +120,10 @@ class BuildRssCommand extends Command
 
                         $title = $detailData['data']['title'] ?? 'Untitled';
                         $link = str_replace('{document_path}', $documentPath, $source->publicUrlTemplate);
-                        $updateTime = $detailData['data']['update_time'] ?? null;
-                        $pubDate = $updateTime !== null ? date('c', (int) $updateTime) : date('c');
+
+                        // Use tree's update_time, fallback to detail's update_time, then current time
+                        $updateTime = $treeUpdateTime ?? ($detailData['data']['update_time'] ?? null);
+                        $pubDate = $updateTime !== null ? date('c', $updateTime) : date('c');
 
                         $newItems[] = new DocumentItem(
                             documentPath: $documentPath,

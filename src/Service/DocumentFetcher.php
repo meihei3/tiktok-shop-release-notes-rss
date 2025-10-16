@@ -94,7 +94,7 @@ class DocumentFetcher
 
     /**
      * @param array<int, array<string, mixed>> $treeNodes
-     * @return array<int, string>
+     * @return array<int, array{path: string, update_time: int|null}>
      */
     public function extractDocumentPaths(array $treeNodes): array
     {
@@ -102,7 +102,10 @@ class DocumentFetcher
 
         foreach ($treeNodes as $node) {
             if (isset($node['document_path']) && is_string($node['document_path']) && $node['document_path'] !== '') {
-                $paths[] = $node['document_path'];
+                $paths[] = [
+                    'path' => $node['document_path'],
+                    'update_time' => isset($node['update_time']) ? (int) $node['update_time'] : null,
+                ];
             }
 
             if (isset($node['children']) && is_array($node['children'])) {

@@ -142,13 +142,14 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(7, $paths);
-        $this->assertContains('/docs/test1', $paths);
-        $this->assertContains('/docs/test2', $paths);
-        $this->assertContains('/docs/test2-1', $paths);
-        $this->assertContains('/docs/test2-2', $paths);
-        $this->assertContains('/docs/test3', $paths);
-        $this->assertContains('/docs/test3-1', $paths);
-        $this->assertContains('/docs/test3-1-1', $paths);
+        $pathStrings = array_column($paths, 'path');
+        $this->assertContains('/docs/test1', $pathStrings);
+        $this->assertContains('/docs/test2', $pathStrings);
+        $this->assertContains('/docs/test2-1', $pathStrings);
+        $this->assertContains('/docs/test2-2', $pathStrings);
+        $this->assertContains('/docs/test3', $pathStrings);
+        $this->assertContains('/docs/test3-1', $pathStrings);
+        $this->assertContains('/docs/test3-1-1', $pathStrings);
     }
 
     public function testExtractDocumentPathsWithEmptyArray(): void
@@ -184,7 +185,8 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(2, $paths);
-        $this->assertContains('/docs/test1', $paths);
-        $this->assertContains('/docs/test2', $paths);
+        $pathStrings = array_column($paths, 'path');
+        $this->assertContains('/docs/test1', $pathStrings);
+        $this->assertContains('/docs/test2', $pathStrings);
     }
 }
