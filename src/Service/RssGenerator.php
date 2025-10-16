@@ -8,6 +8,17 @@ use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 use TikTokShopRss\Model\DocumentItem;
 
+use function array_map;
+use function array_slice;
+use function date;
+use function htmlspecialchars;
+use function mb_strlen;
+use function mb_substr;
+use function strip_tags;
+use function strtotime;
+use function substr;
+use function time;
+
 class RssGenerator
 {
     private Environment $twig;

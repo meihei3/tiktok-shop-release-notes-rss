@@ -8,6 +8,23 @@ use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;
 use TikTokShopRss\Model\State;
 
+use function array_map;
+use function array_search;
+use function dirname;
+use function fclose;
+use function file_exists;
+use function file_get_contents;
+use function file_put_contents;
+use function flock;
+use function fopen;
+use function is_array;
+use function is_dir;
+use function json_decode;
+use function json_encode;
+use function mkdir;
+use function rename;
+use function unlink;
+
 class StateManager
 {
     private const VERSION = 2;

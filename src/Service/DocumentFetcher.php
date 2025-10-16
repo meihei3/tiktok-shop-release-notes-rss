@@ -7,6 +7,12 @@ namespace TikTokShopRss\Service;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use TikTokShopRss\Model\Source;
 
+use function array_merge;
+use function is_array;
+use function is_string;
+use function json_decode;
+use function str_replace;
+
 class DocumentFetcher
 {
     public function __construct(

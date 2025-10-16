@@ -18,6 +18,31 @@ use TikTokShopRss\Service\DocumentFetcher;
 use TikTokShopRss\Service\RssGenerator;
 use TikTokShopRss\Service\StateManager;
 
+use function array_slice;
+use function count;
+use function date;
+use function dirname;
+use function file_exists;
+use function file_put_contents;
+use function filesize;
+use function hash;
+use function is_dir;
+use function json_encode;
+use function mb_strlen;
+use function mb_substr;
+use function microtime;
+use function min;
+use function mkdir;
+use function preg_replace;
+use function round;
+use function rtrim;
+use function str_replace;
+use function strip_tags;
+use function strtotime;
+use function time;
+use function trim;
+use function usleep;
+
 #[AsCommand(
     name: 'tts:rss:build',
     description: 'Build RSS feed from TikTok Shop documentation updates'
