@@ -146,7 +146,11 @@ class DocumentFetcher implements DocumentFetcherInterface
                 ? $rawNode['document_path']
                 : null;
 
-            $updateTime = isset($rawNode['update_time']) ? (int) $rawNode['update_time'] : null;
+            $updateTime = null;
+            if (isset($rawNode['update_time'])) {
+                $rawUpdateTime = $rawNode['update_time'];
+                $updateTime = is_int($rawUpdateTime) ? $rawUpdateTime : (int) $rawUpdateTime;
+            }
 
             $children = [];
             if (isset($rawNode['children']) && is_array($rawNode['children'])) {

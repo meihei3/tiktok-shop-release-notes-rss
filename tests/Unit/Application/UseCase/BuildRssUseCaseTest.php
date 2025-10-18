@@ -8,6 +8,10 @@ use PHPUnit\Framework\TestCase;
 use TikTokShopRss\Application\Dto\BuildResult;
 use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Application\Dto\DocumentPathInfo;
+use TikTokShopRss\Application\Dto\LimitsConfig;
+use TikTokShopRss\Application\Dto\RetryConfig;
+use TikTokShopRss\Application\Dto\RssConfig;
+use TikTokShopRss\Application\Dto\SaveRawConfig;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
@@ -38,12 +42,12 @@ class BuildRssUseCaseTest extends TestCase
             stateFile: 'state.json',
             sources: [$source],
             channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
-            rss: [],
-            limits: ['pages' => 10, 'items' => 50],
+            rss: new RssConfig(),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $state = new State(
@@ -124,12 +128,12 @@ class BuildRssUseCaseTest extends TestCase
             stateFile: 'state.json',
             sources: [$source],
             channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
-            rss: [],
-            limits: ['pages' => 10, 'items' => 50],
+            rss: new RssConfig(),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $state = new State(
@@ -170,12 +174,12 @@ class BuildRssUseCaseTest extends TestCase
             stateFile: 'state.json',
             sources: [],
             channel: new ChannelConfig('Test Feed', 'https://example.com', 'Test Feed'),
-            rss: ['enable_content_encoded' => true],
-            limits: ['pages' => 10, 'items' => 50],
+            rss: new RssConfig(enableContentEncoded: true),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $item = new DocumentItem(

@@ -54,8 +54,7 @@ readonly class BuildRssUseCase
 
             $documentPaths = $this->documentFetcher->extractDocumentPaths($treeResult->documentTree);
 
-            $pagesLimit = $config->limits['pages'] ?? 300;
-            $documentPaths = array_slice($documentPaths, 0, $pagesLimit);
+            $documentPaths = array_slice($documentPaths, 0, $config->limits->pages);
 
             foreach ($documentPaths as $docInfo) {
                 try {
@@ -135,14 +134,11 @@ readonly class BuildRssUseCase
 
     public function generateRss(Config $config, State $state): string
     {
-        $enableContentEncoded = $config->rss['enable_content_encoded'] ?? true;
-        $itemsLimit = $config->limits['items'] ?? 50;
-
         return $this->rssGenerator->generate(
             $config->channel,
             $state->items,
-            $enableContentEncoded,
-            $itemsLimit
+            $config->rss->enableContentEncoded,
+            $config->limits->items
         );
     }
 
