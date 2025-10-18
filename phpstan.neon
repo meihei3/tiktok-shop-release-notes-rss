@@ -1,7 +1,23 @@
 parameters:
-    level: 8
+    level: max
     paths:
         - src
         - tests
     excludePaths:
         - vendor
+
+    # CommandはSymfony Consoleのinput/outputでmixed型を扱うため許容
+    ignoreErrors:
+        -
+            message: '#Parameter .* expects .*, mixed given#'
+            path: src/Command/*
+        -
+            message: '#Part .* \(mixed\) of encapsed string cannot be cast to string#'
+            path: src/Command/*
+        -
+            message: '#Cannot access offset .* on .*#'
+            path: src/Command/*
+        # InfrastructureはHTTP/JSONなど外部データを扱うためmixedキャストを許容
+        -
+            message: '#Cannot cast mixed to#'
+            path: src/Infrastructure/*

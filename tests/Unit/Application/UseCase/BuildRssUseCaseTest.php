@@ -5,10 +5,20 @@ declare(strict_types=1);
 namespace TikTokShopRss\Tests\Unit\Application\UseCase;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\Dto\BuildResult;
+use TikTokShopRss\Application\Dto\ChannelConfig;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
+use TikTokShopRss\Application\Dto\LimitsConfig;
+use TikTokShopRss\Application\Dto\RetryConfig;
+use TikTokShopRss\Application\Dto\RssConfig;
+use TikTokShopRss\Application\Dto\SaveRawConfig;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeNode;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\Source;
@@ -31,13 +41,13 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [$source],
-            channel: ['title' => 'Test'],
-            rss: [],
-            limits: ['pages' => 10, 'items' => 50],
+            channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
+            rss: new RssConfig(),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $state = new State(
@@ -49,37 +59,35 @@ class BuildRssUseCaseTest extends TestCase
         $documentFetcher
             ->expects($this->once())
             ->method('fetchTree')
-            ->willReturn([
-                'not_modified' => false,
-                'data' => [
-                    'data' => [
-                        'document_tree' => [
-                            ['document_path' => 'test-doc', 'update_time' => 1234567890],
-                        ],
-                    ],
+            ->willReturn(new TreeResult(
+                notModified: false,
+                documentTree: [
+                    new TreeNode(
+                        documentPath: 'test-doc',
+                        updateTime: 1234567890,
+                        children: []
+                    ),
                 ],
-                'etag' => 'etag123',
-                'last_modified' => 'Mon, 01 Jan 2024 00:00:00 GMT',
-            ]);
+                etag: 'etag123',
+                lastModified: 'Mon, 01 Jan 2024 00:00:00 GMT',
+            ));
 
         $documentFetcher
             ->expects($this->once())
             ->method('extractDocumentPaths')
             ->willReturn([
-                ['path' => 'test-doc', 'update_time' => 1234567890],
+                new DocumentPathInfo(path: 'test-doc', updateTime: 1234567890),
             ]);
 
         $documentFetcher
             ->expects($this->once())
             ->method('fetchDetail')
-            ->willReturn([
-                'data' => [
-                    'title' => 'Test Document',
-                    'content' => 'Test content',
-                    'description' => 'Test description',
-                    'update_time' => 1234567890,
-                ],
-            ]);
+            ->willReturn(new DocumentDetail(
+                title: 'Test Document',
+                content: 'Test content',
+                description: 'Test description',
+                updateTime: 1234567890,
+            ));
 
         $stateManager
             ->expects($this->once())
@@ -96,11 +104,12 @@ class BuildRssUseCaseTest extends TestCase
         $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
         $result = $useCase->build($config, $state);
 
-        $this->assertSame(1, $result['pages_changed']);
-        $this->assertInstanceOf(State::class, $result['state']);
-        $this->assertCount(1, $result['state']->items);
-        $this->assertSame('test-doc', $result['state']->items[0]->documentPath);
-        $this->assertSame('Test Document', $result['state']->items[0]->title);
+        $this->assertInstanceOf(BuildResult::class, $result);
+        $this->assertSame(1, $result->pagesChanged);
+        $this->assertInstanceOf(State::class, $result->state);
+        $this->assertCount(1, $result->state->items);
+        $this->assertSame('test-doc', $result->state->items[0]->documentPath);
+        $this->assertSame('Test Document', $result->state->items[0]->title);
     }
 
     public function testBuildWithNotModifiedTree(): void
@@ -118,13 +127,13 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [$source],
-            channel: ['title' => 'Test'],
-            rss: [],
-            limits: ['pages' => 10, 'items' => 50],
+            channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
+            rss: new RssConfig(),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $state = new State(
@@ -136,10 +145,12 @@ class BuildRssUseCaseTest extends TestCase
         $documentFetcher
             ->expects($this->once())
             ->method('fetchTree')
-            ->willReturn([
-                'not_modified' => true,
-                'data' => null,
-            ]);
+            ->willReturn(new TreeResult(
+                notModified: true,
+                documentTree: [],
+                etag: null,
+                lastModified: null,
+            ));
 
         $documentFetcher
             ->expects($this->never())
@@ -148,8 +159,9 @@ class BuildRssUseCaseTest extends TestCase
         $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
         $result = $useCase->build($config, $state);
 
-        $this->assertSame(0, $result['pages_changed']);
-        $this->assertInstanceOf(State::class, $result['state']);
+        $this->assertInstanceOf(BuildResult::class, $result);
+        $this->assertSame(0, $result->pagesChanged);
+        $this->assertInstanceOf(State::class, $result->state);
     }
 
     public function testGenerateRss(): void
@@ -161,13 +173,13 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [],
-            channel: ['title' => 'Test Feed'],
-            rss: ['enable_content_encoded' => true],
-            limits: ['pages' => 10, 'items' => 50],
+            channel: new ChannelConfig('Test Feed', 'https://example.com', 'Test Feed'),
+            rss: new RssConfig(enableContentEncoded: true),
+            limits: new LimitsConfig(pages: 10, items: 50),
             concurrency: 1,
-            retry: [],
+            retry: new RetryConfig(),
             sleepBetweenRequestsMs: 0,
-            saveRaw: []
+            saveRaw: new SaveRawConfig()
         );
 
         $item = new DocumentItem(
@@ -189,7 +201,7 @@ class BuildRssUseCaseTest extends TestCase
             ->expects($this->once())
             ->method('generate')
             ->with(
-                $this->equalTo(['title' => 'Test Feed']),
+                $this->isInstanceOf(ChannelConfig::class),
                 $this->equalTo([$item]),
                 $this->equalTo(true),
                 $this->equalTo(50)

@@ -14,14 +14,14 @@ interface StateManagerInterface
     public function save(string $filePath, State $state): void;
 
     /**
-     * @param array<int, DocumentItem> $items
+     * @param list<DocumentItem> $items
      */
     public function findItemByDocumentPath(array $items, string $documentPath): ?DocumentItem;
 
     /**
-     * @param array<int, DocumentItem> $existingItems
-     * @param array<int, DocumentItem> $newItems
-     * @return array<int, DocumentItem>
+     * @param list<DocumentItem> $existingItems
+     * @param list<DocumentItem> $newItems
+     * @return list<DocumentItem>
      */
     public function mergeItems(array $existingItems, array $newItems): array;
 }

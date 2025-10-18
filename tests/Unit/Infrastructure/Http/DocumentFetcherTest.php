@@ -7,7 +7,11 @@ namespace TikTokShopRss\Tests\Unit\Infrastructure\Http;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeNode;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
 
 class DocumentFetcherTest extends TestCase
@@ -16,8 +20,10 @@ class DocumentFetcherTest extends TestCase
     {
         $responseBody = json_encode([
             'data' => [
-                ['document_path' => '/docs/test1'],
-                ['document_path' => '/docs/test2'],
+                'document_tree' => [
+                    ['document_path' => '/docs/test1'],
+                    ['document_path' => '/docs/test2'],
+                ],
             ],
         ]);
 
@@ -44,10 +50,11 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchTree($source);
 
-        $this->assertFalse($result['not_modified']);
-        $this->assertIsArray($result['data']);
-        $this->assertSame('etag123', $result['etag']);
-        $this->assertSame('Mon, 01 Jan 2024 00:00:00 GMT', $result['last_modified']);
+        $this->assertInstanceOf(TreeResult::class, $result);
+        $this->assertFalse($result->notModified);
+        $this->assertIsArray($result->documentTree);
+        $this->assertSame('etag123', $result->etag);
+        $this->assertSame('Mon, 01 Jan 2024 00:00:00 GMT', $result->lastModified);
     }
 
     public function testFetchTreeNotModified(): void
@@ -67,8 +74,9 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchTree($source, 'etag123', 'Mon, 01 Jan 2024 00:00:00 GMT');
 
-        $this->assertTrue($result['not_modified']);
-        $this->assertNull($result['data']);
+        $this->assertInstanceOf(TreeResult::class, $result);
+        $this->assertTrue($result->notModified);
+        $this->assertEmpty($result->documentTree);
     }
 
     public function testFetchDetailSuccess(): void
@@ -77,7 +85,8 @@ class DocumentFetcherTest extends TestCase
             'data' => [
                 'title' => 'Test Article',
                 'description' => 'Test description',
-                'content_html' => '<p>Test content</p>',
+                'content' => '<p>Test content</p>',
+                'update_time' => 1234567890,
             ],
         ]);
 
@@ -100,36 +109,42 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchDetail($source, '/docs/test');
 
-        $this->assertIsArray($result);
-        $this->assertArrayHasKey('data', $result);
-        $this->assertSame('Test Article', $result['data']['title']);
-        $this->assertSame('Test description', $result['data']['description']);
+        $this->assertInstanceOf(DocumentDetail::class, $result);
+        $this->assertSame('Test Article', $result->title);
+        $this->assertSame('Test description', $result->description);
+        $this->assertSame('<p>Test content</p>', $result->content);
+        $this->assertSame(1234567890, $result->updateTime);
     }
 
     public function testExtractDocumentPaths(): void
     {
         $treeNodes = [
-            [
-                'document_path' => '/docs/test1',
-            ],
-            [
-                'document_path' => '/docs/test2',
-                'children' => [
-                    ['document_path' => '/docs/test2-1'],
-                    ['document_path' => '/docs/test2-2'],
-                ],
-            ],
-            [
-                'document_path' => '/docs/test3',
-                'children' => [
-                    [
-                        'document_path' => '/docs/test3-1',
-                        'children' => [
-                            ['document_path' => '/docs/test3-1-1'],
-                        ],
-                    ],
-                ],
-            ],
+            new TreeNode(
+                documentPath: '/docs/test1',
+                updateTime: null,
+                children: []
+            ),
+            new TreeNode(
+                documentPath: '/docs/test2',
+                updateTime: null,
+                children: [
+                    new TreeNode('/docs/test2-1', null, []),
+                    new TreeNode('/docs/test2-2', null, []),
+                ]
+            ),
+            new TreeNode(
+                documentPath: '/docs/test3',
+                updateTime: null,
+                children: [
+                    new TreeNode(
+                        documentPath: '/docs/test3-1',
+                        updateTime: null,
+                        children: [
+                            new TreeNode('/docs/test3-1-1', null, []),
+                        ]
+                    ),
+                ]
+            ),
         ];
 
         $mockResponse = new MockResponse('', [
@@ -142,7 +157,9 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(7, $paths);
-        $pathStrings = array_column($paths, 'path');
+        $this->assertContainsOnlyInstancesOf(DocumentPathInfo::class, $paths);
+
+        $pathStrings = array_map(fn($info) => $info->path, $paths);
         $this->assertContains('/docs/test1', $pathStrings);
         $this->assertContains('/docs/test2', $pathStrings);
         $this->assertContains('/docs/test2-1', $pathStrings);
@@ -169,10 +186,10 @@ class DocumentFetcherTest extends TestCase
     public function testExtractDocumentPathsSkipsInvalidNodes(): void
     {
         $treeNodes = [
-            ['document_path' => '/docs/test1'],
-            ['title' => 'No document path'],
-            ['document_path' => 123],
-            ['document_path' => '/docs/test2'],
+            new TreeNode('/docs/test1', null, []),
+            new TreeNode(null, null, []), // No document path
+            new TreeNode('', null, []), // Empty document path
+            new TreeNode('/docs/test2', null, []),
         ];
 
         $mockResponse = new MockResponse('', [
@@ -185,7 +202,9 @@ class DocumentFetcherTest extends TestCase
         $paths = $fetcher->extractDocumentPaths($treeNodes);
 
         $this->assertCount(2, $paths);
-        $pathStrings = array_column($paths, 'path');
+        $this->assertContainsOnlyInstancesOf(DocumentPathInfo::class, $paths);
+
+        $pathStrings = array_map(fn($info) => $info->path, $paths);
         $this->assertContains('/docs/test1', $pathStrings);
         $this->assertContains('/docs/test2', $pathStrings);
     }

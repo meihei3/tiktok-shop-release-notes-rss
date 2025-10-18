@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeNode;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
 
 use function array_merge;
@@ -21,10 +25,7 @@ class DocumentFetcher implements DocumentFetcherInterface
     ) {
     }
 
-    /**
-     * @return array<string, mixed>
-     */
-    public function fetchTree(Source $source, ?string $etag = null, ?string $lastModified = null): array
+    public function fetchTree(Source $source, ?string $etag = null, ?string $lastModified = null): TreeResult
     {
         $headers = [];
 
@@ -46,10 +47,12 @@ class DocumentFetcher implements DocumentFetcherInterface
         $statusCode = $response->getStatusCode();
 
         if ($statusCode === 304) {
-            return [
-                'not_modified' => true,
-                'data' => null,
-            ];
+            return new TreeResult(
+                notModified: true,
+                documentTree: [],
+                etag: null,
+                lastModified: null,
+            );
         }
 
         if ($statusCode !== 200) {
@@ -63,18 +66,18 @@ class DocumentFetcher implements DocumentFetcherInterface
             throw new \RuntimeException("Invalid JSON response from tree API");
         }
 
-        return [
-            'not_modified' => false,
-            'data' => $data,
-            'etag' => $response->getHeaders()['etag'][0] ?? null,
-            'last_modified' => $response->getHeaders()['last-modified'][0] ?? null,
-        ];
+        $rawTree = $data['data']['document_tree'] ?? [];
+        $treeNodes = $this->convertToTreeNodes($rawTree);
+
+        return new TreeResult(
+            notModified: false,
+            documentTree: $treeNodes,
+            etag: $response->getHeaders()['etag'][0] ?? null,
+            lastModified: $response->getHeaders()['last-modified'][0] ?? null,
+        );
     }
 
-    /**
-     * @return array<string, mixed>
-     */
-    public function fetchDetail(Source $source, string $documentPath): array
+    public function fetchDetail(Source $source, string $documentPath): DocumentDetail
     {
         $url = str_replace('{document_path}', $documentPath, $source->detailUrlTemplate);
 
@@ -93,31 +96,74 @@ class DocumentFetcher implements DocumentFetcherInterface
             throw new \RuntimeException("Invalid JSON response from detail API for {$documentPath}");
         }
 
-        return $data;
+        return new DocumentDetail(
+            title: $data['data']['title'] ?? 'Untitled',
+            content: $data['data']['content'] ?? '',
+            description: $data['data']['description'] ?? '',
+            updateTime: isset($data['data']['update_time']) ? (int) $data['data']['update_time'] : null,
+        );
     }
 
     /**
-     * @param array<int, array<string, mixed>> $treeNodes
-     * @return array<int, array{path: string, update_time: int|null}>
+     * @param list<TreeNode> $treeNodes
+     * @return list<DocumentPathInfo>
      */
     public function extractDocumentPaths(array $treeNodes): array
     {
         $paths = [];
 
         foreach ($treeNodes as $node) {
-            if (isset($node['document_path']) && is_string($node['document_path']) && $node['document_path'] !== '') {
-                $paths[] = [
-                    'path' => $node['document_path'],
-                    'update_time' => isset($node['update_time']) ? (int) $node['update_time'] : null,
-                ];
+            if ($node->documentPath !== null && $node->documentPath !== '') {
+                $paths[] = new DocumentPathInfo(
+                    path: $node->documentPath,
+                    updateTime: $node->updateTime,
+                );
             }
 
-            if (isset($node['children']) && is_array($node['children'])) {
-                $childPaths = $this->extractDocumentPaths($node['children']);
+            if (!empty($node->children)) {
+                $childPaths = $this->extractDocumentPaths($node->children);
                 $paths = array_merge($paths, $childPaths);
             }
         }
 
         return $paths;
+    }
+
+    /**
+     * @param array<int, array<string, mixed>> $rawNodes
+     * @return list<TreeNode>
+     */
+    private function convertToTreeNodes(array $rawNodes): array
+    {
+        $nodes = [];
+
+        foreach ($rawNodes as $rawNode) {
+            if (!is_array($rawNode)) {
+                continue;
+            }
+
+            $documentPath = isset($rawNode['document_path']) && is_string($rawNode['document_path'])
+                ? $rawNode['document_path']
+                : null;
+
+            $updateTime = null;
+            if (isset($rawNode['update_time'])) {
+                $rawUpdateTime = $rawNode['update_time'];
+                $updateTime = is_int($rawUpdateTime) ? $rawUpdateTime : (int) $rawUpdateTime;
+            }
+
+            $children = [];
+            if (isset($rawNode['children']) && is_array($rawNode['children'])) {
+                $children = $this->convertToTreeNodes($rawNode['children']);
+            }
+
+            $nodes[] = new TreeNode(
+                documentPath: $documentPath,
+                updateTime: $updateTime,
+                children: $children,
+            );
+        }
+
+        return $nodes;
     }
 }

@@ -5,6 +5,11 @@ declare(strict_types=1);
 namespace TikTokShopRss\Service;
 
 use Symfony\Component\Yaml\Yaml;
+use TikTokShopRss\Application\Dto\ChannelConfig;
+use TikTokShopRss\Application\Dto\LimitsConfig;
+use TikTokShopRss\Application\Dto\RetryConfig;
+use TikTokShopRss\Application\Dto\RssConfig;
+use TikTokShopRss\Application\Dto\SaveRawConfig;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\Source;
 
@@ -34,16 +39,46 @@ class ConfigLoader
             );
         }
 
+        $channelData = $data['channel'] ?? [];
+        $channel = new ChannelConfig(
+            title: $channelData['title'] ?? 'RSS Feed',
+            link: $channelData['link'] ?? '',
+            description: $channelData['description'] ?? '',
+            language: $channelData['language'] ?? 'ja',
+        );
+
+        $rssData = $data['rss'] ?? [];
+        $rss = new RssConfig(
+            enableContentEncoded: (bool) ($rssData['enable_content_encoded'] ?? true),
+        );
+
+        $limitsData = $data['limits'] ?? [];
+        $limits = new LimitsConfig(
+            pages: (int) ($limitsData['pages'] ?? 300),
+            items: (int) ($limitsData['items'] ?? 50),
+        );
+
+        $retryData = $data['retry'] ?? [];
+        $retry = new RetryConfig(
+            maxAttempts: (int) ($retryData['attempts'] ?? 3),
+            delayMs: (int) ($retryData['backoff_initial_ms'] ?? 1000),
+        );
+
+        $saveRawData = $data['save_raw'] ?? [];
+        $saveRaw = new SaveRawConfig(
+            enabled: (bool) ($saveRawData['tree'] ?? false),
+        );
+
         return new Config(
             stateFile: $data['state_file'] ?? 'var/state/tiktok-shop.json',
             sources: $sources,
-            channel: $data['channel'] ?? [],
-            rss: $data['rss'] ?? [],
-            limits: $data['limits'] ?? ['pages' => 300, 'items' => 50],
+            channel: $channel,
+            rss: $rss,
+            limits: $limits,
             concurrency: $data['concurrency'] ?? 10,
-            retry: $data['retry'] ?? ['attempts' => 3, 'backoff_initial_ms' => 100, 'backoff_max_ms' => 5000],
+            retry: $retry,
             sleepBetweenRequestsMs: $data['sleep_between_requests_ms'] ?? 100,
-            saveRaw: $data['save_raw'] ?? ['tree' => false, 'detail' => false],
+            saveRaw: $saveRaw,
         );
     }
 }
