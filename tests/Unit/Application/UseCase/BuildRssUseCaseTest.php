@@ -65,6 +65,7 @@ class BuildRssUseCaseTest extends TestCase
                     new TreeNode(
                         documentPath: 'test-doc',
                         updateTime: 1234567890,
+                        docType: 3,
                         children: []
                     ),
                 ],

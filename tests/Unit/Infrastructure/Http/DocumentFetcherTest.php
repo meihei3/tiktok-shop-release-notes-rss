@@ -122,25 +122,29 @@ class DocumentFetcherTest extends TestCase
             new TreeNode(
                 documentPath: '/docs/test1',
                 updateTime: null,
+                docType: 3,
                 children: []
             ),
             new TreeNode(
                 documentPath: '/docs/test2',
                 updateTime: null,
+                docType: 3,
                 children: [
-                    new TreeNode('/docs/test2-1', null, []),
-                    new TreeNode('/docs/test2-2', null, []),
+                    new TreeNode('/docs/test2-1', null, 3, []),
+                    new TreeNode('/docs/test2-2', null, 3, []),
                 ]
             ),
             new TreeNode(
                 documentPath: '/docs/test3',
                 updateTime: null,
+                docType: 3,
                 children: [
                     new TreeNode(
                         documentPath: '/docs/test3-1',
                         updateTime: null,
+                        docType: 3,
                         children: [
-                            new TreeNode('/docs/test3-1-1', null, []),
+                            new TreeNode('/docs/test3-1-1', null, 3, []),
                         ]
                     ),
                 ]
@@ -186,10 +190,12 @@ class DocumentFetcherTest extends TestCase
     public function testExtractDocumentPathsSkipsInvalidNodes(): void
     {
         $treeNodes = [
-            new TreeNode('/docs/test1', null, []),
-            new TreeNode(null, null, []), // No document path
-            new TreeNode('', null, []), // Empty document path
-            new TreeNode('/docs/test2', null, []),
+            new TreeNode('/docs/test1', null, 3, []),
+            new TreeNode(null, null, 3, []), // No document path
+            new TreeNode('', null, 3, []), // Empty document path
+            new TreeNode('/docs/test2', null, 3, []),
+            new TreeNode('/docs/test3', null, 1, []), // doc_type != 3
+            new TreeNode('/docs/test4', null, null, []), // doc_type is null
         ];
 
         $mockResponse = new MockResponse('', [
@@ -207,5 +213,7 @@ class DocumentFetcherTest extends TestCase
         $pathStrings = array_map(fn($info) => $info->path, $paths);
         $this->assertContains('/docs/test1', $pathStrings);
         $this->assertContains('/docs/test2', $pathStrings);
+        $this->assertNotContains('/docs/test3', $pathStrings);
+        $this->assertNotContains('/docs/test4', $pathStrings);
     }
 }

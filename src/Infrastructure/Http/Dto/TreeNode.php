@@ -12,6 +12,7 @@ final readonly class TreeNode
     public function __construct(
         public ?string $documentPath,
         public ?int $updateTime,
+        public ?int $docType,
         public array $children = [],
     ) {
     }
