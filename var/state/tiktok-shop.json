@@ -6,7 +6,7 @@
             "etag": null,
             "lastModified": null,
             "contentHash": "eda347740c695c4ca2ed68078a374f713a9e8e4e56ddab36b4587b057df68459",
-            "lastSeenAt": "2025-10-18T10:52:57+00:00"
+            "lastSeenAt": "2025-10-18T13:54:40+00:00"
         }
     ],
     "items": [
@@ -409,6 +409,390 @@
             "contentHash": "01e5b73b6939422807e1e060fd24b415a0dd9a3fc3dfab392bac3789138f486d",
             "pubDate": "2025-05-06T08:09:31+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/6797b00f23ae4b030c8df132"
+        },
+        {
+            "document_path": "tts-developer-guide",
+            "title": "TikTok Shop developer guide",
+            "description": "Welcome to the Developer Guide for the TikTok Shop API. The TikTok Shop API provides programmatic access to the TikTok Shop platform for TikTok Shop application and service integrators. If you're just getting started, we recommend you start with the TikTok Shop API [Get started overview](/4n48cxi1/tts-developer-types). You can learn more about [Developer onboarding](/4n48cxi1/developer-onboarding), and how to get access to Seller data in the [Authorization overview (202407)](/4n48cxi1/authorizat...",
+            "contentHash": "b91da3ba648a7868e4dc4115b3010a42249cc64b8b05211b2e991e0df3d800e9",
+            "pubDate": "2025-10-17T08:20:54+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/tts-developer-guide"
+        },
+        {
+            "document_path": "get-order-detail-202507",
+            "title": "Get Order Detail",
+            "description": "# Path: /order/202507/orders # Method: [GET] # Function Description Get the detailed order information of an order, including important attributes such as order status, shipping addresses, payment details, price and tax info, and package information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Proper...",
+            "contentHash": "d509946289836f057b73cb6af13c71cee0890d7e1a80f2dd6736a0f6282eef3c",
+            "pubDate": "2025-10-17T04:07:53+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-order-detail-202507"
+        },
+        {
+            "document_path": "get-order-list-202309",
+            "title": "Get Order List",
+            "description": "# Path: /order/202309/orders/search # Method: [POST] # Function Description Returns a list of orders created or updated during the timeframe indicated by the specified parameters. You can also apply a range of filtering criteria to narrow the list of orders returned, such as order status, delivery option type, and buyer user ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef028185...",
+            "contentHash": "d22b1e0b5e0a6fb782b8ca23d2617659505a4fe22adeba5744158f768dae9237",
+            "pubDate": "2025-10-17T04:07:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-order-list-202309"
+        },
+        {
+            "document_path": "get-warehouse-delivery-options-202309",
+            "title": "Get Warehouse Delivery Options",
+            "description": "# Path: /logistics/202309/warehouses/{warehouse_id}/delivery_options # Method: [GET] # Function Description This API is used to obtain a list of delivery options available through the seller's designated warehouse. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ---...",
+            "contentHash": "3db54362cb381777861070c6b85da36fc5278840b675a9545d382ee0c31d79d9",
+            "pubDate": "2025-10-17T04:07:51+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-warehouse-delivery-options-202309"
+        },
+        {
+            "document_path": "get-package-shipping-document-202309",
+            "title": "Get Package Shipping Document",
+            "description": "# Path: /fulfillment/202309/packages/{package_id}/shipping_documents # Method: [GET] # Function Description For orders shipped by TikTok Shop, this API retrieves the URL of shipping documents (shipping label and packing slip) for a package specified by the package ID. This API is only applicable to \"TikTok Shipping\" orders. To obtain the shipping documents URL via this API, first call \"Ship Package\" to ship the corresponding package. --- # Common Parameters For common parameters, refer to [How t...",
+            "contentHash": "83398adbe6c261e1c6db572a0cf9a0c5e8f680178fcc46c79153e7bfb52e1908",
+            "pubDate": "2025-10-17T04:07:50+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-package-shipping-document-202309"
+        },
+        {
+            "document_path": "batch-ship-packages-202309",
+            "title": "Batch Ship Packages",
+            "description": "# Path: /fulfillment/202309/packages/ship # Method: [POST] # Function Description Use this API to batch ship packages by providing multiple package IDs. This API is available for TikTok shipping orders as well as seller shipping orders. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from the Seller. * `Seller Shipping`: Seller arranges their own shipping, and upload a `tracking_number` and `shipping_provider_id`. Package ID can be obtained ...",
+            "contentHash": "dfcb9c1824fd525887815794afb2537c53e164fbbbe428844ecccf39b8dfa517",
+            "pubDate": "2025-10-17T04:07:48+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/batch-ship-packages-202309"
+        },
+        {
+            "document_path": "update-shipping-info-202309",
+            "title": "Update Shipping Info",
+            "description": "# Path: /fulfillment/202309/orders/{order_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for an order that has already been shipped. * This API is only applicable to orders (or packages) shipped by the seller. * It is only used to update the tracking number and shipping provider for packages that have already been shipped. * For orders that have bee...",
+            "contentHash": "4d6deb43b2298e4881bbbaf289feb4a195654ee78cb42faf21234cdf6a1f56e9",
+            "pubDate": "2025-10-17T04:07:46+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/update-shipping-info-202309"
+        },
+        {
+            "document_path": "ship-package-202309",
+            "title": "Ship Package",
+            "description": "# Path: /fulfillment/202309/packages/{package_id}/ship # Method: [POST] # Function Description Use this API to ship a package. There are two kinds of shipping options available: `TikTok Shipping` or `Seller Shipping`. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from seller. * `Seller Shipping`: Seller arranges their own shipping, and uploads a tracking number and `shipping_provider_id`. Package ID can be obtained from [Get Order Detail](...",
+            "contentHash": "e9ff825111285f78ae5aefbc90337edfaef4d532c16da5df550cde29b862b44b",
+            "pubDate": "2025-10-17T04:07:41+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ship-package-202309"
+        },
+        {
+            "document_path": "mark-package-as-shipped-202309",
+            "title": "Mark Package As Shipped",
+            "description": "# Path: /fulfillment/202309/orders/{order_id}/packages # Method: [POST] # Function Description **This API is currently exclusive to the following markets: US, UK, ES, IE, IT, DE, FR, JP.** This API is for sellers who fulfill orders through their own selected/preferred logistics carrier, and allows sellers to upload valid package information (items in packages, shipping provider information, and tracking number) orders/order line items to TikTok Shop. Use [Get Shipping Providers API](https://part...",
+            "contentHash": "d079396b61492549460e214ce071dce5cf126878adfaa8b829ccc96d3e468793",
+            "pubDate": "2025-10-17T04:07:39+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/mark-package-as-shipped-202309"
+        },
+        {
+            "document_path": "search-combinable-packages-202309",
+            "title": "Search Combinable Packages",
+            "description": "# Path: /fulfillment/202309/combinable_packages/search # Method: [GET] # Function Description Use this API to query orders eligible for combined shipping. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GC...",
+            "contentHash": "f0368bb08d1b9ebd8ee1a4af3144f00b469d9c08f98f140d29309d64e7acc237",
+            "pubDate": "2025-10-17T04:07:34+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/search-combinable-packages-202309"
+        },
+        {
+            "document_path": "split-orders-202309",
+            "title": "Split Orders",
+            "description": "# Path: /fulfillment/202309/orders/{order_id}/split # Method: [POST] # Function Description Use this API to confirm an order split. Note that supported split levels vary by region: * Some regions support item-level splits (splitting individual units of the same SKU). * Others only support all-units splits (splitting different SKUs into separate packages). Here are two examples of supported splits: * **Case 1**: all-units split, applicable for orders in BR, SEA, MX (local sellers) Split a buyer o...",
+            "contentHash": "37727260bfe72e2ade248d2fae68a75fe290cfdf7d418af0eb21cd1876285c2e",
+            "pubDate": "2025-10-17T04:07:32+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/split-orders-202309"
+        },
+        {
+            "document_path": "get-package-detail-202309",
+            "title": "Get Package Detail",
+            "description": "# Path: /fulfillment/202309/packages/{package_id} # Method: [GET] # Function Description Returns information about a package, including handover time slot, tracking number, and shipping provider information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- ...",
+            "contentHash": "5b077712e4e56a51bc190a5045b60966c62c5ec230fc64dc958a47cc9db12191",
+            "pubDate": "2025-10-17T04:07:28+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-package-detail-202309"
+        },
+        {
+            "document_path": "uncombine-packages-202309",
+            "title": "Uncombine Packages",
+            "description": "# Path: /fulfillment/202309/packages/{package_id}/uncombine # Method: [POST] # Function Description Use this API to uncombine one or more orders from an already combined package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher |...",
+            "contentHash": "865b87f433b29174883b5f7e4411b7dcc10b5f55b078d672809beffe9bda1d36",
+            "pubDate": "2025-10-17T04:07:27+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/uncombine-packages-202309"
+        },
+        {
+            "document_path": "get-price-detail-202407",
+            "title": "Get Price Detail",
+            "description": "# Path: /order/202407/orders/{order_id}/price_detail # Method: [GET] # Function Description Get the detailed pricing calculation information of an order or a line item, including vouchers, tax, etc. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | -...",
+            "contentHash": "1b58fbc7684b0204ea9159fe1eac15a16a0fc38f63d0a8ae8a60a7df1652211a",
+            "pubDate": "2025-10-17T04:07:25+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-price-detail-202407"
+        },
+        {
+            "document_path": "get-warehouse-list-202309",
+            "title": "Get Warehouse List",
+            "description": "# Path: /logistics/202309/warehouses # Method: [GET] # Function Description This API retrieves all warehouse information associated with the seller. Warehouse information includes name, status, address, and other details. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...",
+            "contentHash": "89394b9b4d311c9c45d175c07d41b1f72e966f0fea4da4545adb88c4a6d9f5be",
+            "pubDate": "2025-10-17T04:07:24+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-warehouse-list-202309"
+        },
+        {
+            "document_path": "get-package-handover-time-slots-202309",
+            "title": "Get Package Handover Time Slots",
+            "description": "# Path: /fulfillment/202309/packages/{package_id}/handover_time_slots # Method: [GET] # Function Description Use this API to retrieve the time slots available for pickup, drop-off, or van collection for the seller's specified package by using package ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Pr...",
+            "contentHash": "82be64a690f73ce703bb223ddd83f5889b16b13edbc66a8ef86c554ff82663b2",
+            "pubDate": "2025-10-17T04:07:23+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-package-handover-time-slots-202309"
+        },
+        {
+            "document_path": "search-package-202309",
+            "title": "Search Package",
+            "description": "# Path: /fulfillment/202309/packages/search # Method: [POST] # Function Description Retrieve package IDs based on specified conditions. Package creation time and information update time are the common querying conditions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...",
+            "contentHash": "3dbbcd7de54ad4fd7e35dc682dd2680c323d52d06c09127dd4c3605fa5952635",
+            "pubDate": "2025-10-17T04:07:22+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/search-package-202309"
+        },
+        {
+            "document_path": "get-order-split-attributes-202309",
+            "title": "Get Order Split Attributes",
+            "description": "# Path: /fulfillment/202309/orders/split_attributes # Method: [GET] # Function Description Use this API to check whether an order(s) can be split into multiple packages or not. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | q...",
+            "contentHash": "40267dadab6a064578ed840bf198d98e2276f030d79c2168e2ffe8d5d63f9b11",
+            "pubDate": "2025-10-17T04:07:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-order-split-attributes-202309"
+        },
+        {
+            "document_path": "combine-package-202309",
+            "title": "Combine Package",
+            "description": "# Path: /fulfillment/202309/packages/combine # Method: [POST] # Function Description Use this API to combine packages into one fulfillment package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90i...",
+            "contentHash": "2d7fe7b59cb514bbb282f2530fe6d1fd1f6787bebce3c09f3384a520677ff1ed",
+            "pubDate": "2025-10-17T04:07:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/combine-package-202309"
+        },
+        {
+            "document_path": "update-package-delivery-status-202309",
+            "title": "Update Package Delivery Status",
+            "description": "# Path: /fulfillment/202309/packages/deliver # Method: [POST] # Function Description Use this API to update the delivery status of the package from in transit status. Please note that only sellers utilizing the SOF( Seller Own Fleet) capability can use this API to update the package status to 'DELIVERED'. This API is only available for the SEA region. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/pa...",
+            "contentHash": "cba55f83ea77c3951e62524bd157e77e7bbc11d77b0fb56e76d0635e9333ddff",
+            "pubDate": "2025-10-17T04:07:09+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/update-package-delivery-status-202309"
+        },
+        {
+            "document_path": "create-packages-202309",
+            "title": "Create Packages",
+            "description": "# Path: /fulfillment/202309/packages # Method: [POST] # Function Description Use this API to ship orders (purchase labels). This API is region specific to the US. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Based on the package attributes, options listed below may differ from your shipping subscriptions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://part...",
+            "contentHash": "b02bf6e4e491a11169d6d2d10e506c1bd57d99e018ad953e82700a00ad355929",
+            "pubDate": "2025-10-17T04:06:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/create-packages-202309"
+        },
+        {
+            "document_path": "get-eligible-shipping-service-202309",
+            "title": "Get Eligible Shipping Service",
+            "description": "# Path: /fulfillment/202309/orders/{order_id}/shipping_services/query # Method: [POST] # Function Description Use this API ( for US ) to query the list of available shipping services when specifying packages' size or weight. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Options listed may differ if you change the package attributes at the time of shipping. --- # Common Parameters For common parameters, refer to [How to call...",
+            "contentHash": "c7343337ca535e2176157512f7c68d15bd8a0d2c875a863c89c831ed40316276",
+            "pubDate": "2025-10-17T04:06:55+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-eligible-shipping-service-202309"
+        },
+        {
+            "document_path": "update-package-shipping-info-202309",
+            "title": "Update Package Shipping Info",
+            "description": "# Path: /fulfillment/202309/packages/{package_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for a package that has already been shipped. Attention: This API is only applicable to orders (or packages) shipped by the seller. It is only used to update the tracking number and shipping provider for packages that have already been shipped. --- # Common P...",
+            "contentHash": "d4c2d1bc2857071c2147cc9e8f463762a09a606245f3ec5673478978247ff83c",
+            "pubDate": "2025-10-17T04:06:55+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/update-package-shipping-info-202309"
+        },
+        {
+            "document_path": "get-shipping-providers-202309",
+            "title": "Get Shipping Providers",
+            "description": "# Path: /logistics/202309/delivery_options/{delivery_option_id}/shipping_providers # Method: [GET] # Function Description This API is used to obtain the shipping provider corresponding to the specified delivery option --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ...",
+            "contentHash": "ef18754aafc6f617d56d8d79c1e57c1a582c9860a721e1ed24e1517f0c43f872",
+            "pubDate": "2025-10-17T04:06:41+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-shipping-providers-202309"
+        },
+        {
+            "document_path": "listing-quality-diagnosis",
+            "title": "Listing quality diagnosis",
+            "description": "High-quality product listings are essential for improving visibility and building customer trust. TikTok Shop provides APIs that diagnose product content and offer recommendations for optimization, covering areas such as text, image, and search engine optimization (SEO). **For unlisted new products** - [Check Product Listing API (v202309)](https://partner.tiktokshop.com/docv2/page/650a0ee8f1fd3102b91c6493): Use this API to diagnose new products in advance before listing. **For existing products*...",
+            "contentHash": "5d15d0d038618e3829aca85966b79612377df4d75edfd4ca2c865ca9aa234979",
+            "pubDate": "2025-10-16T18:03:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis"
+        },
+        {
+            "document_path": "customer-engagement-api-overview",
+            "title": "Customer engagement API overview",
+            "description": "Customer engagement is crucial for businesses looking to build lasting relationships with their customers and drive conversions. Therefore, we offer a suite of Customer Engagement API endpoints that enable businesses to integrate their CRM platforms with TikTok Shop to capitalize on TikTok's extensive reach. Benefits of integrating with TikTok Shop: **-** **Increased customer engagement** by reaching a vast, active user base on TikTok and engage potential customers in a platform-native way. **-*...",
+            "contentHash": "48d113e3b2b78b43e78980a7d66bdc23ce3bf6feb64cf160ea9d3dfca43549b4",
+            "pubDate": "2025-10-16T00:00:06+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/customer-engagement-api-overview"
+        },
+        {
+            "document_path": "customer-service-api-overview",
+            "title": "Customer Service API overview",
+            "description": "# Context Customer Service refers to the communication channel used by the customer service of the sellers and buyers to communicate information about the whole process of pre-sale, in-sale and after-sale. Once the integration is done using Customer Service API, the messages from your TikTok Shop buyers will be forwarded to third party customer support system. This eliminates the need to log in to Seller Center to manage buyer messages, and allows customer service agents to reply to messages dir...",
+            "contentHash": "9e0581daba164538f4fe46d191a0cfddc8c1c2d65995745aa55a7b157a42df09",
+            "pubDate": "2025-10-15T23:53:00+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/customer-service-api-overview"
+        },
+        {
+            "document_path": "create-target-collaboration-202508",
+            "title": "Create Target Collaboration",
+            "description": "# Path: /affiliate_seller/202508/target_collaborations # Method: [POST] # Function Description This API is used to create a target collaboration. A target collaboration is a collaboration between a seller selected set of products (including a commission payout) and a set of creators the seller has added (invited) to the collaboration. Target collaborations are private and not visible in the Creator Marketplace to all creators; they are only visible to those that have been added to the collaborat...",
+            "contentHash": "18e0e21bb6ea220fc57a603a79213552fd4f4485614870d380db0e93a4a9da7c",
+            "pubDate": "2025-10-15T06:45:08+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/create-target-collaboration-202508"
+        },
+        {
+            "document_path": "seller-search-affiliate-open-collaboration-product-202405",
+            "title": "Seller Search Affiliate Open Collaboration Product",
+            "description": "# Path: /affiliate_seller/202405/open_collaborations/products/search # Method: [POST] # Function Description This API is used to search the information of products with open collaboration by category, commission rate, and keywords. It will return all products on the TikTok Shop Affiliate Product Marketplace that are in an open collaboration. Sellers can only search for open collaboration within the regions they are registered to sell in. --- # Common Parameters For common parameters, refer to [H...",
+            "contentHash": "7f5b386c55f8c61da0277717f572e74ec1dc4eae77cd3cd3f4dfc30edd94d896",
+            "pubDate": "2025-10-15T03:04:17+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/seller-search-affiliate-open-collaboration-product-202405"
+        },
+        {
+            "document_path": "generate-affiliate-product-promotion-link-202405",
+            "title": "Generate Affiliate Product Promotion Link",
+            "description": "# Path: /affiliate_seller/202405/products/{product_id}/promotion_link/generate # Method: [POST] # Function Description The user of this API is a partner developer, on behalf of Sellers. This API is used to generate affiliate exclusive product link based on all open collaboration products available within the TikTok Shop Affiliate Product Marketplace. This API generates a link, at the product ID level (which belongs to a Seller). This link, can be distributed to creators, by the partner developer...",
+            "contentHash": "032f30c37661a9a5a4a4aebe86faabee9ec60dd2fccc5ae1ce6a6d771e84e384",
+            "pubDate": "2025-10-15T02:59:33+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/generate-affiliate-product-promotion-link-202405"
+        },
+        {
+            "document_path": "remove-target-collaboration-202409",
+            "title": "Remove Target Collaboration",
+            "description": "# Path: /affiliate_seller/202409/target_collaborations/{target_collaboration_id} # Method: [DELETE] # Function Description This API is used by Seller to remove affiliate target collaboration. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | ...",
+            "contentHash": "a1c53bc1d64023f43da238c1bb20b25cebdc065e72e5a7bc4072f9c0f47f52d1",
+            "pubDate": "2025-10-15T02:56:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/remove-target-collaboration-202409"
+        },
+        {
+            "document_path": "get-open-collaboration-sample-rules-202410",
+            "title": "Get Open Collaboration Sample Rules",
+            "description": "# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [GET] # Function Description Use this API to get the status and the details of the sample rules for products under an open collaboration. With this API, you can efficiently review the sample distribution criteria for products within the open collaboration context. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f1996794...",
+            "contentHash": "eebdbe21724e3ea8dfe5dc06b2c74e85da932f3312d735839edfe04664ec76eb",
+            "pubDate": "2025-10-15T02:54:18+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-open-collaboration-sample-rules-202410"
+        },
+        {
+            "document_path": "edit-open-collaboration-sample-rule-202410",
+            "title": "Edit Open Collaboration Sample Rule",
+            "description": "# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [POST] # Function Description Use this API to manage sample rules in open collaborations, like valid time periods, or thresholds for creators to request samples. You can create, update, or deactivate rules. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | ...",
+            "contentHash": "a9654e4b3456e1231110f393340bbea00e40040f986812e31defb492d4ada332",
+            "pubDate": "2025-10-15T02:53:19+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/edit-open-collaboration-sample-rule-202410"
+        },
+        {
+            "document_path": "get-conversation-list-202412",
+            "title": "Get Conversation List",
+            "description": "# Path: /affiliate_seller/202412/conversations # Method: [GET] # Function Description Get User's Conversation list. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90igAAAABh00qsWgtvOiGFNqyubMt3 | Us...",
+            "contentHash": "778847ae5c0b8cb165a7239ec361ad32bcc268701293097c8cf206f7c2f299fa",
+            "pubDate": "2025-10-15T02:51:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-conversation-list-202412"
+        },
+        {
+            "document_path": "jsqxpibu",
+            "title": "For SEA market: Configure \"Cancellation status change\" webhook to receive cancellation message",
+            "description": "Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the \"[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)\" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * \"Cancellation status change\" webhook: https://par...",
+            "contentHash": "6d5d2029b9a3fca29e41db453b81324a50e41a1c25b23fd18058b6dc2253a2ac",
+            "pubDate": "2025-10-14T03:31:59+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/jsqxpibu"
+        },
+        {
+            "document_path": "7s72ctzw",
+            "title": "UKEU & JP markets: Product category expansion",
+            "description": "# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...",
+            "contentHash": "27a22d852f8d0b56c76f1589909f2dd193b1930bc382f97c0f56b0c74ca9ed26",
+            "pubDate": "2025-10-13T18:08:08+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/7s72ctzw"
+        },
+        {
+            "document_path": "gvt0yknn",
+            "title": "EU market: Pfand Fees and Packaging Type Data",
+            "description": "# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...",
+            "contentHash": "b9cb8d2b7bd9c7db204461d3fb6aaf5656e0ff5672347b3871457fbc7bfc1fcc",
+            "pubDate": "2025-10-13T17:52:34+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/gvt0yknn"
+        },
+        {
+            "document_path": "get-transactions-by-statement-202501",
+            "title": "Get Transactions by Statement",
+            "description": "# Path: /finance/202501/statements/{statement_id}/statement_transactions # Method: [GET] # Function Description Retrieves the details of a statement, including the transactions, which can be a standard order transaction, an adjustment transaction, or a reserve-related transaction. For the SKU-level details of an order transaction, refer to [Get Transactions by Order](650a6734defece02be67d724). Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US c...",
+            "contentHash": "402dceeff1227dbd1d9af4f26fbda31cf36aadf5bf10d703ed3ad83477c21313",
+            "pubDate": "2025-10-13T07:59:37+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-transactions-by-statement-202501"
+        },
+        {
+            "document_path": "get-transactions-by-order-202501",
+            "title": "Get Transactions by Order",
+            "description": "# Path: /finance/202501/orders/{order_id}/statement_transactions # Method: [GET] # Function Description Retrieves the SKU-level details of an order transaction. This covers transactions related to sales, fees, commissions, shipping, taxes, and refunds. Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US cross-border sellers, data before 2025-04-30 is unavailable). --- # Common Parameters For common parameters, refer to [How to call TikTok Shop AP...",
+            "contentHash": "4d954d32c0132184270f3cbd91ea1d5b27f782a99f667a9f05a37152457f28c4",
+            "pubDate": "2025-10-13T07:59:31+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-transactions-by-order-202501"
+        },
+        {
+            "document_path": "recommend-category-202309",
+            "title": "Recommend Category",
+            "description": "# Path: /product/202309/categories/recommend # Method: [POST] # Function Description Retrieve the recommended category for a candidate product based on its title, description, and images. If you are syncing product catalogs from an external system to TikTok Shop, use this API to facilitate product categorization. **Note**: The language used in text fields such as descriptions and titles must align with the target market's language (e.g. don't use Chinese). --- # Common Parameters For common para...",
+            "contentHash": "e4c5774621d5088acb06500dc5fd1194ac886cf4f2f004ef2f2bf9912ffc4e3f",
+            "pubDate": "2025-10-13T04:19:20+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/recommend-category-202309"
+        },
+        {
+            "document_path": "creator-generate-general-link-202505",
+            "title": "Creator Generate General Link",
+            "description": "# Path: /affiliate_creator/202505/affiliate_sharing_links/general_publishers/generate_batch # Method: [POST] # Function Description You can use this API to generate material sharing links for your publishers. After that, you can encapsulate the sharing link with additional information like publisher ID. Right now, the material type must be `PRODUCT`. Please ensure that the material is included in the campaign by using [Generate Multi Affiliate Partner Campaign Product Links]. --- # Common Parame...",
+            "contentHash": "09c2debd8e548ae485ee225008d1ab5731de59e61ad1bf66cd73e611b319dc3f",
+            "pubDate": "2025-10-13T03:02:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/creator-generate-general-link-202505"
+        },
+        {
+            "document_path": "send-im-message-202412",
+            "title": "Send IM Message",
+            "description": "# Path: /affiliate_seller/202412/conversations/{conversation_id}/messages # Method: [POST] # Function Description The API for sending IM messages. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90ig...",
+            "contentHash": "308eda87dde0f156fd72c4d0ab2f1e34800f19b57c3d2ee45b6159e1f165896f",
+            "pubDate": "2025-10-11T08:28:35+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/send-im-message-202412"
+        },
+        {
+            "document_path": "get-unsettled-transactions-202507",
+            "title": "Get Unsettled Transactions",
+            "description": "# Path: /finance/202507/orders/unsettled # Method: [GET] # Function Description This API allows the partner to retrieve a list of unsettled transactions (incl. Orders & Adjustments) generated by a seller, returning the detailed fee breakdown for a list of order ID and adjustment ID. For now, this API only returns transactions which were created after 2025.01.01. Once one transaction is settled, which won't be returned by this API anymore, please get from Get Statement Transaction API. **Pay atte...",
+            "contentHash": "aee28f593c5ecd6375f35ae8f552335c8aed5b0cf05e2118dd528c8562c2f025",
+            "pubDate": "2025-10-11T08:28:33+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-unsettled-transactions-202507"
+        },
+        {
+            "document_path": "seller-search-sample-applications-202508",
+            "title": "Seller Search Sample Applications",
+            "description": "# Path: /affiliate_seller/202508/sample_applications/search # Method: [POST] # Function Description This API is provided for sellers to query sample applications based on various criteria such as products, creators, or application statuses. By using this API, sellers can retrieve detailed information about sample application records, including the creator's information and the specifics of each application. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - C...",
+            "contentHash": "98075d2e66747ad3832ce811373ad66004e9006f88e4bbf077921de6511f908a",
+            "pubDate": "2025-10-11T08:28:26+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/seller-search-sample-applications-202508"
+        },
+        {
+            "document_path": "get-creator-applicable-sample-label-202412",
+            "title": "Get Creator Applicable Sample Label",
+            "description": "# Path: /affiliate_creator/202412/samples/labels # Method: [GET] # Function Description Check if a creator can apply for a sample of a specific product. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | content-type | header | string | Y | ap...",
+            "contentHash": "b81899467ac24ee6806c7551de1364218b4c8713b68b2f856e51c4a8f3902e9d",
+            "pubDate": "2025-10-11T08:28:18+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-creator-applicable-sample-label-202412"
+        },
+        {
+            "document_path": "get-message-in-the-conversation-202412",
+            "title": "Get Message in the Conversation",
+            "description": "# Path: /affiliate_seller/202412/conversation/{conversation_id}/messages # Method: [GET] # Function Description Get chat history in one conversation. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF9...",
+            "contentHash": "98eb53cbbaf0593883fcf08eed79c3df06e435c3936aa0637544161dfd2dcf86",
+            "pubDate": "2025-10-11T08:28:10+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-message-in-the-conversation-202412"
+        },
+        {
+            "document_path": "get-withdrawals-202309",
+            "title": "Get Withdrawals",
+            "description": "# Path: /finance/202309/withdrawals # Method: [GET] # Function Description Get the list of the withdrawal records (when Seller's withdraw money from TikTokShop) based on the specified date range. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- ...",
+            "contentHash": "a279368bcb509510b5052dd617b6d62f8a025b5b89419dbbbcaa9ca6ef7cfe37",
+            "pubDate": "2025-10-10T16:27:48+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/get-withdrawals-202309"
+        },
+        {
+            "document_path": "seller-search-creator-on-marketplace-202508",
+            "title": "Seller Search Creator on Marketplace",
+            "description": "# Path: /affiliate_seller/202508/marketplace_creators/search # Method: [POST] # Function Description This API is used by Sellers to search for Creators in the Creator Marketplace. Sellers can search based on filters such as GMV, keywords, and Creator follower demographics. All the data returned is for the last 30 days. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%...",
+            "contentHash": "98608838698a56528f2d139abc889fbe162d262b075db5833ee7cb2c74855743",
+            "pubDate": "2025-10-10T15:50:38+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/seller-search-creator-on-marketplace-202508"
         }
     ]
 }

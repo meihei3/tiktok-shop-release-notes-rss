@@ -5,77 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sat, 18 Oct 2025 10:52:57 +0000</lastBuildDate>
-        <item>
-            <title>About the Partner Center Console</title>
-            <link>https://partner.tiktokshop.com/docv2/page/about-partner-center-console</link>
-            <description><![CDATA[Welcome to the TikTok Shop Partner Center Console end user documentation! The [Partner Center Console](https://partner-sso.tiktok.com/account/login) is the web application used by TikTok Shop Partners of all types to create and manage the services they offer to sellers and creators, and streamline daily operations. The TikTok Shop Partner Center Console simplifies collaboration processes and offers valuable insights into your business. If you're just getting started and haven't yet determined wh...]]></description>
-            <guid isPermaLink="false">about-partner-center-console#886fb738</guid>
-            <pubDate>Mon, 23 Jun 2025 07:04:43 +0000</pubDate>
-            <content:encoded><![CDATA[Welcome to the TikTok Shop Partner Center Console end user documentation! The [Partner Center Console](https://partner-sso.tiktok.com/account/login) is the web application used by TikTok Shop Partners of all types to create and manage the services they offer to sellers and creators, and streamline daily operations. The TikTok Shop Partner Center Console simplifies collaboration processes and offers valuable insights into your business. If you're just getting started and haven't yet determined wh...]]></content:encoded>
-        </item>
-        <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/46vu241h</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">46vu241h#e3b0c442</guid>
-            <pubDate>Tue, 06 May 2025 08:15:08 +0000</pubDate>
-        </item>
-        <item>
-            <title>Developer</title>
-            <link>https://partner.tiktokshop.com/docv2/page/developer</link>
-            <description><![CDATA[# What is a Developer? Using the TikTok Shop APIs, developers build applications that offer sellers solutions to automate, manage and grow their businesses on TikTok Shop. Via the TikTok Shop Partner Center, we provide a comprehensive set of technical tools, resources, and APIs that allow developers to integrate directly with TikTok Shop. Our APIs span the entirety of the seller operation process, allowing developers to create integrations that can streamline merchant workflows and improve custo...]]></description>
-            <guid isPermaLink="false">developer#24b150a2</guid>
-            <pubDate>Wed, 07 May 2025 02:56:10 +0000</pubDate>
-            <content:encoded><![CDATA[# What is a Developer? Using the TikTok Shop APIs, developers build applications that offer sellers solutions to automate, manage and grow their businesses on TikTok Shop. Via the TikTok Shop Partner Center, we provide a comprehensive set of technical tools, resources, and APIs that allow developers to integrate directly with TikTok Shop. Our APIs span the entirety of the seller operation process, allowing developers to create integrations that can streamline merchant workflows and improve custo...]]></content:encoded>
-        </item>
-        <item>
-            <title>TikTok Shop Partner (TSP)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/tiktok-shop-partner-tsp</link>
-            <description><![CDATA[# What is TikTok Shop Partner (TSP) ？ TikTok Shop Partners (TSPs) offer a range of services to sellers, including operational mentoring, content creation, and shop management, enabling sellers to scale their businesses on TikTok Shop effectively. Click to learn more about [TSP service categories](64f1989064ed2e0295f3c1b5#TSP) # What are the benefits of becoming a TSP on TikTok Shop？ **New Leads** * Have the opportunity to be recommended to suitable sellers and brands **Service Market Discovery**...]]></description>
-            <guid isPermaLink="false">tiktok-shop-partner-tsp#5c9860d6</guid>
-            <pubDate>Thu, 28 Aug 2025 09:55:09 +0000</pubDate>
-            <content:encoded><![CDATA[# What is TikTok Shop Partner (TSP) ？ TikTok Shop Partners (TSPs) offer a range of services to sellers, including operational mentoring, content creation, and shop management, enabling sellers to scale their businesses on TikTok Shop effectively. Click to learn more about [TSP service categories](64f1989064ed2e0295f3c1b5#TSP) # What are the benefits of becoming a TSP on TikTok Shop？ **New Leads** * Have the opportunity to be recommended to suitable sellers and brands **Service Market Discovery**...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Agency Partner (CAP)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/creator-agency-partner-cap</link>
-            <description><![CDATA[# What is Creator Agency Partner (CAP)? Creator Agency Partner (CAP) incubates and supports creators within the TikTok Shop ecosystem. These agencies either manage, represent, or have access to creator talents in the US and serve TikTok Shop by acquiring, educating, and incubating creators to produce Short Video + LIVE e-co content at scale. # What are the benefits of becoming a CAP on TikTok Shop？ **Collaboration Opportunities** * CAP can gain access to exciting collaboration opportunities with...]]></description>
-            <guid isPermaLink="false">creator-agency-partner-cap#6554aecb</guid>
-            <pubDate>Wed, 07 May 2025 02:57:12 +0000</pubDate>
-            <content:encoded><![CDATA[# What is Creator Agency Partner (CAP)? Creator Agency Partner (CAP) incubates and supports creators within the TikTok Shop ecosystem. These agencies either manage, represent, or have access to creator talents in the US and serve TikTok Shop by acquiring, educating, and incubating creators to produce Short Video + LIVE e-co content at scale. # What are the benefits of becoming a CAP on TikTok Shop？ **Collaboration Opportunities** * CAP can gain access to exciting collaboration opportunities with...]]></content:encoded>
-        </item>
-        <item>
-            <title>Non-US TikTok Shop Affiliate Partner (TAP)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/non-us-tiktok-shop-affiliate-partner-tap</link>
-            <description><![CDATA[The Affiliate Partner program is currently available in **Indonesia, Malaysia, Philippines, Thailand, Vietnam, United Kingdom** ## What is a TikTok Shop Affiliate Partner？ Affiliate partners offer matchmaking services for both sellers and creators and assist sellers in distributing and promoting products through dedicated product campaigns. 📌 Check to add a new service category [here](64f19887dc7f3e028d381064). Please choose" **Seller and Scalable Creator Match-up"** as your service category ## ...]]></description>
-            <guid isPermaLink="false">non-us-tiktok-shop-affiliate-partner-tap#b63a44f6</guid>
-            <pubDate>Wed, 07 May 2025 02:57:36 +0000</pubDate>
-            <content:encoded><![CDATA[The Affiliate Partner program is currently available in **Indonesia, Malaysia, Philippines, Thailand, Vietnam, United Kingdom** ## What is a TikTok Shop Affiliate Partner？ Affiliate partners offer matchmaking services for both sellers and creators and assist sellers in distributing and promoting products through dedicated product campaigns. 📌 Check to add a new service category [here](64f19887dc7f3e028d381064). Please choose" **Seller and Scalable Creator Match-up"** as your service category ## ...]]></content:encoded>
-        </item>
-        <item>
-            <title>US TikTok Shop Affiliate Partner (TAP)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-tiktok-shop-affiliate-partner-tap</link>
-            <description><![CDATA[# Overview This guide covers how agencies can use Partner Campaigns to create campaigns between Sellers and Creators. With this tool, Sellers can register and submit products to an agency's campaign, and determine the commission they would like to offer to the agency. Then the agency chooses the commission they would like to set for the managed or unmanaged Creators they've selected for the campaign. Agencies share product links with the Creators so they can add the products to their showcases a...]]></description>
-            <guid isPermaLink="false">us-tiktok-shop-affiliate-partner-tap#dcbcdeec</guid>
-            <pubDate>Tue, 06 May 2025 08:15:35 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview This guide covers how agencies can use Partner Campaigns to create campaigns between Sellers and Creators. With this tool, Sellers can register and submit products to an agency's campaign, and determine the commission they would like to offer to the agency. Then the agency chooses the commission they would like to set for the managed or unmanaged Creators they've selected for the campaign. Agencies share product links with the Creators so they can add the products to their showcases a...]]></content:encoded>
-        </item>
-        <item>
-            <title>Multi-Channel Network (MCN)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/multi-channel-network-mcn</link>
-            <description><![CDATA[# What is Multi-Channel Network (MCN)? Multi-Channel Network (MCN) incubate and support creators within the TikTok Shop ecosystem. This type of partner supports creators in various aspects, including shoppable video content creation, shoppable livestream operations, and creator-product matchmaking for affiliate programs. # What are the benefits of becoming a MCN on TikTok Shop？ **Collaboration Opportunities** * MCN members gain access to exciting collaboration opportunities with renowned sellers...]]></description>
-            <guid isPermaLink="false">multi-channel-network-mcn#3b7a621a</guid>
-            <pubDate>Wed, 07 May 2025 02:59:20 +0000</pubDate>
-            <content:encoded><![CDATA[# What is Multi-Channel Network (MCN)? Multi-Channel Network (MCN) incubate and support creators within the TikTok Shop ecosystem. This type of partner supports creators in various aspects, including shoppable video content creation, shoppable livestream operations, and creator-product matchmaking for affiliate programs. # What are the benefits of becoming a MCN on TikTok Shop？ **Collaboration Opportunities** * MCN members gain access to exciting collaboration opportunities with renowned sellers...]]></content:encoded>
-        </item>
-        <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/3wjooe58</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">3wjooe58#e3b0c442</guid>
-            <pubDate>Tue, 06 May 2025 08:15:45 +0000</pubDate>
-        </item>
+        <lastBuildDate>Sat, 18 Oct 2025 13:54:40 +0000</lastBuildDate>
         <item>
             <title>Register as a service partner</title>
             <link>https://partner.tiktokshop.com/docv2/page/64f19887dc7f3e028d381064</link>
@@ -85,107 +15,372 @@
             <content:encoded><![CDATA[**Updating Phone**📌 This is a guide to register as a service partner. It's applicable for CAP, MCN, TAP, and TSP. If you are a developer, please [see the developer guide](64f1993d9495ef0281851694). # Getting Started on TikTok Shop Partner Center ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/ab3349b3334b492bb6867a5a4a5476a0~tplv-10qhjjqwgv-image.image) ## Step 1: Create an account Create an account with your email and password. Phone number is optional. 📌 Please keep in...]]></content:encoded>
         </item>
         <item>
-            <title>[US] Agency Partner Onboard Guide </title>
-            <link>https://partner.tiktokshop.com/docv2/page/683f1353f979330480b82080</link>
-            <description><![CDATA[TikTok Shop Partner Center（US Market) : [https://partner.us.tiktokshop.com/](https://partner.us.tiktokshop.com/) # Onboarding Workflow ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/b4a0e2779d4e47b6b301d2561cfb866e~tplv-10qhjjqwgv-image.image) # Step 1: Register an account You can register an account with Email, Phone number (optional), and password. **Please note that* the *email address is* critical *and will be used to receive platform emails. Please make sure this i...]]></description>
-            <guid isPermaLink="false">683f1353f979330480b82080#fefef811</guid>
-            <pubDate>Wed, 10 Sep 2025 06:47:15 +0000</pubDate>
-            <content:encoded><![CDATA[TikTok Shop Partner Center（US Market) : [https://partner.us.tiktokshop.com/](https://partner.us.tiktokshop.com/) # Onboarding Workflow ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/b4a0e2779d4e47b6b301d2561cfb866e~tplv-10qhjjqwgv-image.image) # Step 1: Register an account You can register an account with Email, Phone number (optional), and password. **Please note that* the *email address is* critical *and will be used to receive platform emails. Please make sure this i...]]></content:encoded>
+            <title>TikTok Shop developer guide</title>
+            <link>https://partner.tiktokshop.com/docv2/page/tts-developer-guide</link>
+            <description><![CDATA[Welcome to the Developer Guide for the TikTok Shop API. The TikTok Shop API provides programmatic access to the TikTok Shop platform for TikTok Shop application and service integrators. If you're just getting started, we recommend you start with the TikTok Shop API [Get started overview](/4n48cxi1/tts-developer-types). You can learn more about [Developer onboarding](/4n48cxi1/developer-onboarding), and how to get access to Seller data in the [Authorization overview (202407)](/4n48cxi1/authorizat...]]></description>
+            <guid isPermaLink="false">tts-developer-guide#b91da3ba</guid>
+            <pubDate>Fri, 17 Oct 2025 08:20:54 +0000</pubDate>
+            <content:encoded><![CDATA[Welcome to the Developer Guide for the TikTok Shop API. The TikTok Shop API provides programmatic access to the TikTok Shop platform for TikTok Shop application and service integrators. If you're just getting started, we recommend you start with the TikTok Shop API [Get started overview](/4n48cxi1/tts-developer-types). You can learn more about [Developer onboarding](/4n48cxi1/developer-onboarding), and how to get access to Seller data in the [Authorization overview (202407)](/4n48cxi1/authorizat...]]></content:encoded>
         </item>
         <item>
-            <title>[US] Service Category- Shop Registration</title>
-            <link>https://partner.tiktokshop.com/docv2/page/dvc9si7n</link>
-            <description><![CDATA[# **Introduction** The Shop Registration service category empowers TSPs to streamline the process of referring sellers to TikTok Shop through automated referral link generation and link management. The service category is open to both Local-to-Local (operating locally in the U.S.) and Cross-Border (operating outside the U.S.) partners. # **Step by Step guide** ## U.S. Entity Partners ### **For new partners** New partners can directly follow the instructions in the **U.S. Agency Partner Onboard G...]]></description>
-            <guid isPermaLink="false">dvc9si7n#adcc35df</guid>
-            <pubDate>Thu, 28 Aug 2025 23:51:36 +0000</pubDate>
-            <content:encoded><![CDATA[# **Introduction** The Shop Registration service category empowers TSPs to streamline the process of referring sellers to TikTok Shop through automated referral link generation and link management. The service category is open to both Local-to-Local (operating locally in the U.S.) and Cross-Border (operating outside the U.S.) partners. # **Step by Step guide** ## U.S. Entity Partners ### **For new partners** New partners can directly follow the instructions in the **U.S. Agency Partner Onboard G...]]></content:encoded>
+            <title>Get Order Detail</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-order-detail-202507</link>
+            <description><![CDATA[# Path: /order/202507/orders # Method: [GET] # Function Description Get the detailed order information of an order, including important attributes such as order status, shipping addresses, payment details, price and tax info, and package information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Proper...]]></description>
+            <guid isPermaLink="false">get-order-detail-202507#d5099462</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:53 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /order/202507/orders # Method: [GET] # Function Description Get the detailed order information of an order, including important attributes such as order status, shipping addresses, payment details, price and tax info, and package information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Proper...]]></content:encoded>
         </item>
         <item>
-            <title>Partner service categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/64f1989064ed2e0295f3c1b5</link>
-            <description><![CDATA[Service categories are predefined groupings that help organize and categorize the various services offered by partners on TikTok Shop Partner Center. These categories make it easier for TikTok Shop sellers to find relevant services that align with their needs and goals. Partners can select the appropriate service category when creating a service to ensure it's listed in the relevant section of the App & Service Store, making it more discoverable to potential clients. 📌 The service categories ava...]]></description>
-            <guid isPermaLink="false">64f1989064ed2e0295f3c1b5#ec010ec2</guid>
-            <pubDate>Wed, 13 Aug 2025 06:01:49 +0000</pubDate>
-            <content:encoded><![CDATA[Service categories are predefined groupings that help organize and categorize the various services offered by partners on TikTok Shop Partner Center. These categories make it easier for TikTok Shop sellers to find relevant services that align with their needs and goals. Partners can select the appropriate service category when creating a service to ensure it's listed in the relevant section of the App & Service Store, making it more discoverable to potential clients. 📌 The service categories ava...]]></content:encoded>
+            <title>Get Order List</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-order-list-202309</link>
+            <description><![CDATA[# Path: /order/202309/orders/search # Method: [POST] # Function Description Returns a list of orders created or updated during the timeframe indicated by the specified parameters. You can also apply a range of filtering criteria to narrow the list of orders returned, such as order status, delivery option type, and buyer user ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef028185...]]></description>
+            <guid isPermaLink="false">get-order-list-202309#d22b1e0b</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:52 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /order/202309/orders/search # Method: [POST] # Function Description Returns a list of orders created or updated during the timeframe indicated by the specified parameters. You can also apply a range of filtering criteria to narrow the list of orders returned, such as order status, delivery option type, and buyer user ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef028185...]]></content:encoded>
         </item>
         <item>
-            <title>Partner registration application requirement</title>
-            <link>https://partner.tiktokshop.com/docv2/page/64f19899cb677b0286e75d67</link>
-            <description><![CDATA[# MCN/ CAP IF you are MCN/CAP, Please choose "Creator management" as Business category ### **Common Qualification information** Common qualification information will keep same for different categories . You only need to fill in one time while onboard. If you want to apply for the new category, common qualification information will be automatically reused and you don't need to fill in again. | **Field** | **Format** | **Remarks** | | --- | --- | --- | | Full company name | Text | requires the nam...]]></description>
-            <guid isPermaLink="false">64f19899cb677b0286e75d67#547f6fd5</guid>
-            <pubDate>Tue, 06 May 2025 08:15:59 +0000</pubDate>
-            <content:encoded><![CDATA[# MCN/ CAP IF you are MCN/CAP, Please choose "Creator management" as Business category ### **Common Qualification information** Common qualification information will keep same for different categories . You only need to fill in one time while onboard. If you want to apply for the new category, common qualification information will be automatically reused and you don't need to fill in again. | **Field** | **Format** | **Remarks** | | --- | --- | --- | | Full company name | Text | requires the nam...]]></content:encoded>
+            <title>Get Warehouse Delivery Options</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-warehouse-delivery-options-202309</link>
+            <description><![CDATA[# Path: /logistics/202309/warehouses/{warehouse_id}/delivery_options # Method: [GET] # Function Description This API is used to obtain a list of delivery options available through the seller's designated warehouse. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ---...]]></description>
+            <guid isPermaLink="false">get-warehouse-delivery-options-202309#3db54362</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:51 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /logistics/202309/warehouses/{warehouse_id}/delivery_options # Method: [GET] # Function Description This API is used to obtain a list of delivery options available through the seller's designated warehouse. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ---...]]></content:encoded>
         </item>
         <item>
-            <title>Edit certification details</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65e692774555b202bae5f694</link>
-            <description><![CDATA[## 🔥 **Product Overview** ### **Why do we support partners editing the certification details？** Currently, the partner is required to provide certification details to join TTSPC. Once the platform has reviewed and approved certification details, these certification details cannot be changed. However, there may be instances where a partner needs to update their certification details, such as their name, logo, etc. ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/64d2ad25a8...]]></description>
-            <guid isPermaLink="false">65e692774555b202bae5f694#d96ab673</guid>
-            <pubDate>Tue, 06 May 2025 08:16:05 +0000</pubDate>
-            <content:encoded><![CDATA[## 🔥 **Product Overview** ### **Why do we support partners editing the certification details？** Currently, the partner is required to provide certification details to join TTSPC. Once the platform has reviewed and approved certification details, these certification details cannot be changed. However, there may be instances where a partner needs to update their certification details, such as their name, logo, etc. ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/64d2ad25a8...]]></content:encoded>
+            <title>Get Package Shipping Document</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-package-shipping-document-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/shipping_documents # Method: [GET] # Function Description For orders shipped by TikTok Shop, this API retrieves the URL of shipping documents (shipping label and packing slip) for a package specified by the package ID. This API is only applicable to "TikTok Shipping" orders. To obtain the shipping documents URL via this API, first call "Ship Package" to ship the corresponding package. --- # Common Parameters For common parameters, refer to [How t...]]></description>
+            <guid isPermaLink="false">get-package-shipping-document-202309#83398adb</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:50 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/shipping_documents # Method: [GET] # Function Description For orders shipped by TikTok Shop, this API retrieves the URL of shipping documents (shipping label and packing slip) for a package specified by the package ID. This API is only applicable to "TikTok Shipping" orders. To obtain the shipping documents URL via this API, first call "Ship Package" to ship the corresponding package. --- # Common Parameters For common parameters, refer to [How t...]]></content:encoded>
         </item>
         <item>
-            <title>Managing Main and Member Accounts</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65b3630a36248f02beb2ffd8</link>
-            <description><![CDATA[For localized version, please visit the links below: 🇹🇭 Thailand: [TH_[คู่มือ] การจัดการบัญชีหลักและบัญชีสมาชิก](https://bytedance.sg.larkoffice.com/docx/TctQdJBd3obVedxZlz2lUCN8gob) 🇲🇾 Malaysia: [MY_[User Manual] Mengurus Akaun Utama dan Ahli](https://bytedance.sg.larkoffice.com/docx/QkoYdihRJoR2cNxyrtqllXCTgjh) 🇮🇩 Indonesia: [ID_[User Manual] Mengelola Akun Pengguna dan Akun Anggota](https://bytedance.sg.larkoffice.com/docx/VPjWdFtJHoqICpxd62Il2zPKgSd) 🇻🇳 Vietnam: [VN TSP_Quản Lý Tài Khoản Chí...]]></description>
-            <guid isPermaLink="false">65b3630a36248f02beb2ffd8#88ae5318</guid>
-            <pubDate>Thu, 17 Jul 2025 07:13:54 +0000</pubDate>
-            <content:encoded><![CDATA[For localized version, please visit the links below: 🇹🇭 Thailand: [TH_[คู่มือ] การจัดการบัญชีหลักและบัญชีสมาชิก](https://bytedance.sg.larkoffice.com/docx/TctQdJBd3obVedxZlz2lUCN8gob) 🇲🇾 Malaysia: [MY_[User Manual] Mengurus Akaun Utama dan Ahli](https://bytedance.sg.larkoffice.com/docx/QkoYdihRJoR2cNxyrtqllXCTgjh) 🇮🇩 Indonesia: [ID_[User Manual] Mengelola Akun Pengguna dan Akun Anggota](https://bytedance.sg.larkoffice.com/docx/VPjWdFtJHoqICpxd62Il2zPKgSd) 🇻🇳 Vietnam: [VN TSP_Quản Lý Tài Khoản Chí...]]></content:encoded>
+            <title>Batch Ship Packages</title>
+            <link>https://partner.tiktokshop.com/docv2/page/batch-ship-packages-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/ship # Method: [POST] # Function Description Use this API to batch ship packages by providing multiple package IDs. This API is available for TikTok shipping orders as well as seller shipping orders. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from the Seller. * `Seller Shipping`: Seller arranges their own shipping, and upload a `tracking_number` and `shipping_provider_id`. Package ID can be obtained ...]]></description>
+            <guid isPermaLink="false">batch-ship-packages-202309#dfcb9c18</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:48 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/ship # Method: [POST] # Function Description Use this API to batch ship packages by providing multiple package IDs. This API is available for TikTok shipping orders as well as seller shipping orders. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from the Seller. * `Seller Shipping`: Seller arranges their own shipping, and upload a `tracking_number` and `shipping_provider_id`. Package ID can be obtained ...]]></content:encoded>
         </item>
         <item>
-            <title>[SEA] Creator Level for Partners</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6809c6bb40605c04bbb7f95a</link>
-            <description><![CDATA[In this article, we’ll show teach you how to navigate and use the Creator Level system to support your future partnerships with Affiliate Creators. To get you started, we will go over the following: * What is Creator Level? * Why Do We Show Creator Level to Partners? * Where to find the Creator's Levels in the Partner Center **The tasks and benefits shown in the screenshots may not reflect the current version of Creator Level. Please check your Partner Center for the most up-to-date list.* # Wha...]]></description>
-            <guid isPermaLink="false">6809c6bb40605c04bbb7f95a#7ed7844f</guid>
-            <pubDate>Tue, 06 May 2025 08:16:23 +0000</pubDate>
-            <content:encoded><![CDATA[In this article, we’ll show teach you how to navigate and use the Creator Level system to support your future partnerships with Affiliate Creators. To get you started, we will go over the following: * What is Creator Level? * Why Do We Show Creator Level to Partners? * Where to find the Creator's Levels in the Partner Center **The tasks and benefits shown in the screenshots may not reflect the current version of Creator Level. Please check your Partner Center for the most up-to-date list.* # Wha...]]></content:encoded>
+            <title>Update Shipping Info</title>
+            <link>https://partner.tiktokshop.com/docv2/page/update-shipping-info-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for an order that has already been shipped. * This API is only applicable to orders (or packages) shipped by the seller. * It is only used to update the tracking number and shipping provider for packages that have already been shipped. * For orders that have bee...]]></description>
+            <guid isPermaLink="false">update-shipping-info-202309#4d6deb43</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:46 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for an order that has already been shipped. * This API is only applicable to orders (or packages) shipped by the seller. * It is only used to update the tracking number and shipping provider for packages that have already been shipped. * For orders that have bee...]]></content:encoded>
         </item>
         <item>
-            <title> [US] TikTok Shop Partner Tiering Mechanism</title>
-            <link>https://partner.tiktokshop.com/docv2/page/68411b45314d2504a1a7c407</link>
-            <description><![CDATA[The TikTok Shop Partners('TSP') tiering system is designed to cultivate a robust ecosystem, set service benchmarks, and offer customized resources for TSP at various development stages—thereby guiding their growth path. *This Tiering Mechanism only applies to TikTok Shop Partners certified and operating in the US market.* # **Rules for TSP Tiering** ## **2.1 TSP Tiers** **For regular type TSPs** TSPs will be divided into 6 tiers from V0 to V5, corresponding to the V0 TSP->V1 Certified TSP->V2 Br...]]></description>
-            <guid isPermaLink="false">68411b45314d2504a1a7c407#43a327dc</guid>
-            <pubDate>Mon, 16 Jun 2025 06:21:07 +0000</pubDate>
-            <content:encoded><![CDATA[The TikTok Shop Partners('TSP') tiering system is designed to cultivate a robust ecosystem, set service benchmarks, and offer customized resources for TSP at various development stages—thereby guiding their growth path. *This Tiering Mechanism only applies to TikTok Shop Partners certified and operating in the US market.* # **Rules for TSP Tiering** ## **2.1 TSP Tiers** **For regular type TSPs** TSPs will be divided into 6 tiers from V0 to V5, corresponding to the V0 TSP->V1 Certified TSP->V2 Br...]]></content:encoded>
+            <title>Ship Package</title>
+            <link>https://partner.tiktokshop.com/docv2/page/ship-package-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/ship # Method: [POST] # Function Description Use this API to ship a package. There are two kinds of shipping options available: `TikTok Shipping` or `Seller Shipping`. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from seller. * `Seller Shipping`: Seller arranges their own shipping, and uploads a tracking number and `shipping_provider_id`. Package ID can be obtained from [Get Order Detail](...]]></description>
+            <guid isPermaLink="false">ship-package-202309#e9ff8251</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:41 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/ship # Method: [POST] # Function Description Use this API to ship a package. There are two kinds of shipping options available: `TikTok Shipping` or `Seller Shipping`. * `TikTok Shipping`: Schedule a package handover time for TikTok Shipping carriers to pickup a package from seller. * `Seller Shipping`: Seller arranges their own shipping, and uploads a tracking number and `shipping_provider_id`. Package ID can be obtained from [Get Order Detail](...]]></content:encoded>
         </item>
         <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/3rp2ipqo</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">3rp2ipqo#e3b0c442</guid>
-            <pubDate>Tue, 06 May 2025 08:16:33 +0000</pubDate>
+            <title>Mark Package As Shipped</title>
+            <link>https://partner.tiktokshop.com/docv2/page/mark-package-as-shipped-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/packages # Method: [POST] # Function Description **This API is currently exclusive to the following markets: US, UK, ES, IE, IT, DE, FR, JP.** This API is for sellers who fulfill orders through their own selected/preferred logistics carrier, and allows sellers to upload valid package information (items in packages, shipping provider information, and tracking number) orders/order line items to TikTok Shop. Use [Get Shipping Providers API](https://part...]]></description>
+            <guid isPermaLink="false">mark-package-as-shipped-202309#d079396b</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:39 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/packages # Method: [POST] # Function Description **This API is currently exclusive to the following markets: US, UK, ES, IE, IT, DE, FR, JP.** This API is for sellers who fulfill orders through their own selected/preferred logistics carrier, and allows sellers to upload valid package information (items in packages, shipping provider information, and tracking number) orders/order line items to TikTok Shop. Use [Get Shipping Providers API](https://part...]]></content:encoded>
         </item>
         <item>
-            <title>Create and publish a service</title>
-            <link>https://partner.tiktokshop.com/docv2/page/64f198a193f5dc028e35505f</link>
-            <description><![CDATA[# What is a TikTok Shop Service? A TikTok Shop Service is an offering created by a partner through TikTok Shop Partner Center. It serves as an introduction to the partner's capabilities and acts as an online service invitation extended to TikTok Shop sellers. These services can be made public, available for all sellers to see and authorize (Public Service), or they can be shared privately with specific sellers the partner has already connected with (Custom Service). There are two types of servic...]]></description>
-            <guid isPermaLink="false">64f198a193f5dc028e35505f#701f0000</guid>
-            <pubDate>Thu, 17 Jul 2025 07:11:04 +0000</pubDate>
-            <content:encoded><![CDATA[# What is a TikTok Shop Service? A TikTok Shop Service is an offering created by a partner through TikTok Shop Partner Center. It serves as an introduction to the partner's capabilities and acts as an online service invitation extended to TikTok Shop sellers. These services can be made public, available for all sellers to see and authorize (Public Service), or they can be shared privately with specific sellers the partner has already connected with (Custom Service). There are two types of servic...]]></content:encoded>
+            <title>Search Combinable Packages</title>
+            <link>https://partner.tiktokshop.com/docv2/page/search-combinable-packages-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/combinable_packages/search # Method: [GET] # Function Description Use this API to query orders eligible for combined shipping. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GC...]]></description>
+            <guid isPermaLink="false">search-combinable-packages-202309#f0368bb0</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:34 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/combinable_packages/search # Method: [GET] # Function Description Use this API to query orders eligible for combined shipping. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GC...]]></content:encoded>
         </item>
         <item>
-            <title>Listing your service on the App &amp;amp; Service Store</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650411a75a12ff0294023d30</link>
-            <description><![CDATA[📌 The **App & Service Store** features services and apps tailored to help sellers in efficiently managing and growing their businesses. Thus, only services catering to sellers can be showcased on the App & Service Store. Note that only TSPs (TikTok Shop Partners) can list their services in the app store, given their role in supporting sellers. # Considerations before listing your service ## Service discoverability Discoverability of your service on the **App & Service Store** depends on three ke...]]></description>
-            <guid isPermaLink="false">650411a75a12ff0294023d30#8a2ffbbb</guid>
-            <pubDate>Tue, 06 May 2025 08:16:41 +0000</pubDate>
-            <content:encoded><![CDATA[📌 The **App & Service Store** features services and apps tailored to help sellers in efficiently managing and growing their businesses. Thus, only services catering to sellers can be showcased on the App & Service Store. Note that only TSPs (TikTok Shop Partners) can list their services in the app store, given their role in supporting sellers. # Considerations before listing your service ## Service discoverability Discoverability of your service on the **App & Service Store** depends on three ke...]]></content:encoded>
+            <title>Split Orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/split-orders-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/split # Method: [POST] # Function Description Use this API to confirm an order split. Note that supported split levels vary by region: * Some regions support item-level splits (splitting individual units of the same SKU). * Others only support all-units splits (splitting different SKUs into separate packages). Here are two examples of supported splits: * **Case 1**: all-units split, applicable for orders in BR, SEA, MX (local sellers) Split a buyer o...]]></description>
+            <guid isPermaLink="false">split-orders-202309#37727260</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:32 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/split # Method: [POST] # Function Description Use this API to confirm an order split. Note that supported split levels vary by region: * Some regions support item-level splits (splitting individual units of the same SKU). * Others only support all-units splits (splitting different SKUs into separate packages). Here are two examples of supported splits: * **Case 1**: all-units split, applicable for orders in BR, SEA, MX (local sellers) Split a buyer o...]]></content:encoded>
         </item>
         <item>
-            <title>Edit  your app and service </title>
-            <link>https://partner.tiktokshop.com/docv2/page/65fb2c789980e402be63e05b</link>
-            <description><![CDATA[## **🔥 Optimization Overview** ## Why do we build this feature? For ISV and TSP, they are not able to change product information once the service has been published online. This brings inconvenience for TSP&ISV to build authorization with a new Seller. ## ⭐️ **Key updates** ### Support ISV & Cross border TSP to add new Seller Market If you want to add a new target seller to your public/custom service, you can go to service detail page and click edit seller type You can add a new seller type or d...]]></description>
-            <guid isPermaLink="false">65fb2c789980e402be63e05b#cb9b6327</guid>
-            <pubDate>Tue, 06 May 2025 08:16:45 +0000</pubDate>
-            <content:encoded><![CDATA[## **🔥 Optimization Overview** ## Why do we build this feature? For ISV and TSP, they are not able to change product information once the service has been published online. This brings inconvenience for TSP&ISV to build authorization with a new Seller. ## ⭐️ **Key updates** ### Support ISV & Cross border TSP to add new Seller Market If you want to add a new target seller to your public/custom service, you can go to service detail page and click edit seller type You can add a new seller type or d...]]></content:encoded>
+            <title>Get Package Detail</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-package-detail-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id} # Method: [GET] # Function Description Returns information about a package, including handover time slot, tracking number, and shipping provider information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- ...]]></description>
+            <guid isPermaLink="false">get-package-detail-202309#5b077712</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:28 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id} # Method: [GET] # Function Description Returns information about a package, including handover time slot, tracking number, and shipping provider information. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- ...]]></content:encoded>
         </item>
         <item>
-            <title>Seller Leads Pool</title>
-            <link>https://partner.tiktokshop.com/docv2/page/67162b1c50a484031dd4dadb</link>
-            <description><![CDATA[# What is Seller Leads Pool? The Seller Leads Pool helps TSP receive qualified seller inquiries and choose which businesses to connect with based on detailed information. TSP can see key business details like company size, GMV, and category to help make informed decisions about potential partnerships. **Key Features & Benefits:** * Quality Leads: Service Partners can review seller business profiles and requirements before deciding to connect * Full Control: Service Partners can choose which inqu...]]></description>
-            <guid isPermaLink="false">67162b1c50a484031dd4dadb#ef61d456</guid>
-            <pubDate>Tue, 06 May 2025 08:16:50 +0000</pubDate>
-            <content:encoded><![CDATA[# What is Seller Leads Pool? The Seller Leads Pool helps TSP receive qualified seller inquiries and choose which businesses to connect with based on detailed information. TSP can see key business details like company size, GMV, and category to help make informed decisions about potential partnerships. **Key Features & Benefits:** * Quality Leads: Service Partners can review seller business profiles and requirements before deciding to connect * Full Control: Service Partners can choose which inqu...]]></content:encoded>
+            <title>Uncombine Packages</title>
+            <link>https://partner.tiktokshop.com/docv2/page/uncombine-packages-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/uncombine # Method: [POST] # Function Description Use this API to uncombine one or more orders from an already combined package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher |...]]></description>
+            <guid isPermaLink="false">uncombine-packages-202309#865b87f4</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:27 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/uncombine # Method: [POST] # Function Description Use this API to uncombine one or more orders from an already combined package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher |...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Price Detail</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-price-detail-202407</link>
+            <description><![CDATA[# Path: /order/202407/orders/{order_id}/price_detail # Method: [GET] # Function Description Get the detailed pricing calculation information of an order or a line item, including vouchers, tax, etc. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | -...]]></description>
+            <guid isPermaLink="false">get-price-detail-202407#1b58fbc7</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:25 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /order/202407/orders/{order_id}/price_detail # Method: [GET] # Function Description Get the detailed pricing calculation information of an order or a line item, including vouchers, tax, etc. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | -...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Warehouse List</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-warehouse-list-202309</link>
+            <description><![CDATA[# Path: /logistics/202309/warehouses # Method: [GET] # Function Description This API retrieves all warehouse information associated with the seller. Warehouse information includes name, status, address, and other details. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...]]></description>
+            <guid isPermaLink="false">get-warehouse-list-202309#89394b9b</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:24 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /logistics/202309/warehouses # Method: [GET] # Function Description This API retrieves all warehouse information associated with the seller. Warehouse information includes name, status, address, and other details. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Package Handover Time Slots</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-package-handover-time-slots-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/handover_time_slots # Method: [GET] # Function Description Use this API to retrieve the time slots available for pickup, drop-off, or van collection for the seller's specified package by using package ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Pr...]]></description>
+            <guid isPermaLink="false">get-package-handover-time-slots-202309#82be64a6</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:23 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/handover_time_slots # Method: [GET] # Function Description Use this API to retrieve the time slots available for pickup, drop-off, or van collection for the seller's specified package by using package ID. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Pr...]]></content:encoded>
+        </item>
+        <item>
+            <title>Search Package</title>
+            <link>https://partner.tiktokshop.com/docv2/page/search-package-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/search # Method: [POST] # Function Description Retrieve package IDs based on specified conditions. Package creation time and information update time are the common querying conditions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...]]></description>
+            <guid isPermaLink="false">search-package-202309#3dbbcd7d</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:22 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/search # Method: [POST] # Function Description Retrieve package IDs based on specified conditions. Package creation time and information update time are the common querying conditions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Order Split Attributes</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-order-split-attributes-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/orders/split_attributes # Method: [GET] # Function Description Use this API to check whether an order(s) can be split into multiple packages or not. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | q...]]></description>
+            <guid isPermaLink="false">get-order-split-attributes-202309#40267dad</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:21 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/orders/split_attributes # Method: [GET] # Function Description Use this API to check whether an order(s) can be split into multiple packages or not. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | q...]]></content:encoded>
+        </item>
+        <item>
+            <title>Combine Package</title>
+            <link>https://partner.tiktokshop.com/docv2/page/combine-package-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/combine # Method: [POST] # Function Description Use this API to combine packages into one fulfillment package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90i...]]></description>
+            <guid isPermaLink="false">combine-package-202309#2d7fe7b5</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:21 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/combine # Method: [POST] # Function Description Use this API to combine packages into one fulfillment package. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90i...]]></content:encoded>
+        </item>
+        <item>
+            <title>Update Package Delivery Status</title>
+            <link>https://partner.tiktokshop.com/docv2/page/update-package-delivery-status-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/deliver # Method: [POST] # Function Description Use this API to update the delivery status of the package from in transit status. Please note that only sellers utilizing the SOF( Seller Own Fleet) capability can use this API to update the package status to 'DELIVERED'. This API is only available for the SEA region. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/pa...]]></description>
+            <guid isPermaLink="false">update-package-delivery-status-202309#cba55f83</guid>
+            <pubDate>Fri, 17 Oct 2025 04:07:09 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/deliver # Method: [POST] # Function Description Use this API to update the delivery status of the package from in transit status. Please note that only sellers utilizing the SOF( Seller Own Fleet) capability can use this API to update the package status to 'DELIVERED'. This API is only available for the SEA region. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/pa...]]></content:encoded>
+        </item>
+        <item>
+            <title>Create Packages</title>
+            <link>https://partner.tiktokshop.com/docv2/page/create-packages-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages # Method: [POST] # Function Description Use this API to ship orders (purchase labels). This API is region specific to the US. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Based on the package attributes, options listed below may differ from your shipping subscriptions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://part...]]></description>
+            <guid isPermaLink="false">create-packages-202309#b02bf6e4</guid>
+            <pubDate>Fri, 17 Oct 2025 04:06:58 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages # Method: [POST] # Function Description Use this API to ship orders (purchase labels). This API is region specific to the US. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Based on the package attributes, options listed below may differ from your shipping subscriptions. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://part...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Eligible Shipping Service</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-eligible-shipping-service-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/shipping_services/query # Method: [POST] # Function Description Use this API ( for US ) to query the list of available shipping services when specifying packages' size or weight. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Options listed may differ if you change the package attributes at the time of shipping. --- # Common Parameters For common parameters, refer to [How to call...]]></description>
+            <guid isPermaLink="false">get-eligible-shipping-service-202309#c7343337</guid>
+            <pubDate>Fri, 17 Oct 2025 04:06:55 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/orders/{order_id}/shipping_services/query # Method: [POST] # Function Description Use this API ( for US ) to query the list of available shipping services when specifying packages' size or weight. The shipping fee and delivery time is an estimate only and is based on the package dimensions and weight you provided. Options listed may differ if you change the package attributes at the time of shipping. --- # Common Parameters For common parameters, refer to [How to call...]]></content:encoded>
+        </item>
+        <item>
+            <title>Update Package Shipping Info</title>
+            <link>https://partner.tiktokshop.com/docv2/page/update-package-shipping-info-202309</link>
+            <description><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for a package that has already been shipped. Attention: This API is only applicable to orders (or packages) shipped by the seller. It is only used to update the tracking number and shipping provider for packages that have already been shipped. --- # Common P...]]></description>
+            <guid isPermaLink="false">update-package-shipping-info-202309#d4c2d1bc</guid>
+            <pubDate>Fri, 17 Oct 2025 04:06:55 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /fulfillment/202309/packages/{package_id}/shipping_info/update # Method: [POST] # Function Description If the seller entered an incorrect tracking number, this API allows the seller to update the tracking number and shipping provider for a package that has already been shipped. Attention: This API is only applicable to orders (or packages) shipped by the seller. It is only used to update the tracking number and shipping provider for packages that have already been shipped. --- # Common P...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Shipping Providers</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-shipping-providers-202309</link>
+            <description><![CDATA[# Path: /logistics/202309/delivery_options/{delivery_option_id}/shipping_providers # Method: [GET] # Function Description This API is used to obtain the shipping provider corresponding to the specified delivery option --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ...]]></description>
+            <guid isPermaLink="false">get-shipping-providers-202309#ef18754a</guid>
+            <pubDate>Fri, 17 Oct 2025 04:06:41 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /logistics/202309/delivery_options/{delivery_option_id}/shipping_providers # Method: [GET] # Function Description This API is used to obtain the shipping provider corresponding to the specified delivery option --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | ...]]></content:encoded>
+        </item>
+        <item>
+            <title>Listing quality diagnosis</title>
+            <link>https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis</link>
+            <description><![CDATA[High-quality product listings are essential for improving visibility and building customer trust. TikTok Shop provides APIs that diagnose product content and offer recommendations for optimization, covering areas such as text, image, and search engine optimization (SEO). **For unlisted new products** - [Check Product Listing API (v202309)](https://partner.tiktokshop.com/docv2/page/650a0ee8f1fd3102b91c6493): Use this API to diagnose new products in advance before listing. **For existing products*...]]></description>
+            <guid isPermaLink="false">listing-quality-diagnosis#5d15d0d0</guid>
+            <pubDate>Thu, 16 Oct 2025 18:03:58 +0000</pubDate>
+            <content:encoded><![CDATA[High-quality product listings are essential for improving visibility and building customer trust. TikTok Shop provides APIs that diagnose product content and offer recommendations for optimization, covering areas such as text, image, and search engine optimization (SEO). **For unlisted new products** - [Check Product Listing API (v202309)](https://partner.tiktokshop.com/docv2/page/650a0ee8f1fd3102b91c6493): Use this API to diagnose new products in advance before listing. **For existing products*...]]></content:encoded>
+        </item>
+        <item>
+            <title>Customer engagement API overview</title>
+            <link>https://partner.tiktokshop.com/docv2/page/customer-engagement-api-overview</link>
+            <description><![CDATA[Customer engagement is crucial for businesses looking to build lasting relationships with their customers and drive conversions. Therefore, we offer a suite of Customer Engagement API endpoints that enable businesses to integrate their CRM platforms with TikTok Shop to capitalize on TikTok's extensive reach. Benefits of integrating with TikTok Shop: **-** **Increased customer engagement** by reaching a vast, active user base on TikTok and engage potential customers in a platform-native way. **-*...]]></description>
+            <guid isPermaLink="false">customer-engagement-api-overview#48d113e3</guid>
+            <pubDate>Thu, 16 Oct 2025 00:00:06 +0000</pubDate>
+            <content:encoded><![CDATA[Customer engagement is crucial for businesses looking to build lasting relationships with their customers and drive conversions. Therefore, we offer a suite of Customer Engagement API endpoints that enable businesses to integrate their CRM platforms with TikTok Shop to capitalize on TikTok's extensive reach. Benefits of integrating with TikTok Shop: **-** **Increased customer engagement** by reaching a vast, active user base on TikTok and engage potential customers in a platform-native way. **-*...]]></content:encoded>
+        </item>
+        <item>
+            <title>Customer Service API overview</title>
+            <link>https://partner.tiktokshop.com/docv2/page/customer-service-api-overview</link>
+            <description><![CDATA[# Context Customer Service refers to the communication channel used by the customer service of the sellers and buyers to communicate information about the whole process of pre-sale, in-sale and after-sale. Once the integration is done using Customer Service API, the messages from your TikTok Shop buyers will be forwarded to third party customer support system. This eliminates the need to log in to Seller Center to manage buyer messages, and allows customer service agents to reply to messages dir...]]></description>
+            <guid isPermaLink="false">customer-service-api-overview#9e0581da</guid>
+            <pubDate>Wed, 15 Oct 2025 23:53:00 +0000</pubDate>
+            <content:encoded><![CDATA[# Context Customer Service refers to the communication channel used by the customer service of the sellers and buyers to communicate information about the whole process of pre-sale, in-sale and after-sale. Once the integration is done using Customer Service API, the messages from your TikTok Shop buyers will be forwarded to third party customer support system. This eliminates the need to log in to Seller Center to manage buyer messages, and allows customer service agents to reply to messages dir...]]></content:encoded>
+        </item>
+        <item>
+            <title>Create Target Collaboration</title>
+            <link>https://partner.tiktokshop.com/docv2/page/create-target-collaboration-202508</link>
+            <description><![CDATA[# Path: /affiliate_seller/202508/target_collaborations # Method: [POST] # Function Description This API is used to create a target collaboration. A target collaboration is a collaboration between a seller selected set of products (including a commission payout) and a set of creators the seller has added (invited) to the collaboration. Target collaborations are private and not visible in the Creator Marketplace to all creators; they are only visible to those that have been added to the collaborat...]]></description>
+            <guid isPermaLink="false">create-target-collaboration-202508#18e0e21b</guid>
+            <pubDate>Wed, 15 Oct 2025 06:45:08 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202508/target_collaborations # Method: [POST] # Function Description This API is used to create a target collaboration. A target collaboration is a collaboration between a seller selected set of products (including a commission payout) and a set of creators the seller has added (invited) to the collaboration. Target collaborations are private and not visible in the Creator Marketplace to all creators; they are only visible to those that have been added to the collaborat...]]></content:encoded>
+        </item>
+        <item>
+            <title>Seller Search Affiliate Open Collaboration Product</title>
+            <link>https://partner.tiktokshop.com/docv2/page/seller-search-affiliate-open-collaboration-product-202405</link>
+            <description><![CDATA[# Path: /affiliate_seller/202405/open_collaborations/products/search # Method: [POST] # Function Description This API is used to search the information of products with open collaboration by category, commission rate, and keywords. It will return all products on the TikTok Shop Affiliate Product Marketplace that are in an open collaboration. Sellers can only search for open collaboration within the regions they are registered to sell in. --- # Common Parameters For common parameters, refer to [H...]]></description>
+            <guid isPermaLink="false">seller-search-affiliate-open-collaboration-product-202405#7f5b386c</guid>
+            <pubDate>Wed, 15 Oct 2025 03:04:17 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202405/open_collaborations/products/search # Method: [POST] # Function Description This API is used to search the information of products with open collaboration by category, commission rate, and keywords. It will return all products on the TikTok Shop Affiliate Product Marketplace that are in an open collaboration. Sellers can only search for open collaboration within the regions they are registered to sell in. --- # Common Parameters For common parameters, refer to [H...]]></content:encoded>
+        </item>
+        <item>
+            <title>Generate Affiliate Product Promotion Link</title>
+            <link>https://partner.tiktokshop.com/docv2/page/generate-affiliate-product-promotion-link-202405</link>
+            <description><![CDATA[# Path: /affiliate_seller/202405/products/{product_id}/promotion_link/generate # Method: [POST] # Function Description The user of this API is a partner developer, on behalf of Sellers. This API is used to generate affiliate exclusive product link based on all open collaboration products available within the TikTok Shop Affiliate Product Marketplace. This API generates a link, at the product ID level (which belongs to a Seller). This link, can be distributed to creators, by the partner developer...]]></description>
+            <guid isPermaLink="false">generate-affiliate-product-promotion-link-202405#032f30c3</guid>
+            <pubDate>Wed, 15 Oct 2025 02:59:33 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202405/products/{product_id}/promotion_link/generate # Method: [POST] # Function Description The user of this API is a partner developer, on behalf of Sellers. This API is used to generate affiliate exclusive product link based on all open collaboration products available within the TikTok Shop Affiliate Product Marketplace. This API generates a link, at the product ID level (which belongs to a Seller). This link, can be distributed to creators, by the partner developer...]]></content:encoded>
+        </item>
+        <item>
+            <title>Remove Target Collaboration</title>
+            <link>https://partner.tiktokshop.com/docv2/page/remove-target-collaboration-202409</link>
+            <description><![CDATA[# Path: /affiliate_seller/202409/target_collaborations/{target_collaboration_id} # Method: [DELETE] # Function Description This API is used by Seller to remove affiliate target collaboration. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | ...]]></description>
+            <guid isPermaLink="false">remove-target-collaboration-202409#a1c53bc1</guid>
+            <pubDate>Wed, 15 Oct 2025 02:56:52 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202409/target_collaborations/{target_collaboration_id} # Method: [DELETE] # Function Description This API is used by Seller to remove affiliate target collaboration. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | ...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Open Collaboration Sample Rules</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-open-collaboration-sample-rules-202410</link>
+            <description><![CDATA[# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [GET] # Function Description Use this API to get the status and the details of the sample rules for products under an open collaboration. With this API, you can efficiently review the sample distribution criteria for products within the open collaboration context. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f1996794...]]></description>
+            <guid isPermaLink="false">get-open-collaboration-sample-rules-202410#eebdbe21</guid>
+            <pubDate>Wed, 15 Oct 2025 02:54:18 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [GET] # Function Description Use this API to get the status and the details of the sample rules for products under an open collaboration. With this API, you can efficiently review the sample distribution criteria for products within the open collaboration context. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f1996794...]]></content:encoded>
+        </item>
+        <item>
+            <title>Edit Open Collaboration Sample Rule</title>
+            <link>https://partner.tiktokshop.com/docv2/page/edit-open-collaboration-sample-rule-202410</link>
+            <description><![CDATA[# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [POST] # Function Description Use this API to manage sample rules in open collaborations, like valid time periods, or thresholds for creators to request samples. You can create, update, or deactivate rules. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | ...]]></description>
+            <guid isPermaLink="false">edit-open-collaboration-sample-rule-202410#a9654e4b</guid>
+            <pubDate>Wed, 15 Oct 2025 02:53:19 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202410/open_collaborations/sample_rules # Method: [POST] # Function Description Use this API to manage sample rules in open collaborations, like valid time periods, or thresholds for creators to request samples. You can create, update, or deactivate rules. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | ...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Conversation List</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-conversation-list-202412</link>
+            <description><![CDATA[# Path: /affiliate_seller/202412/conversations # Method: [GET] # Function Description Get User's Conversation list. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90igAAAABh00qsWgtvOiGFNqyubMt3 | Us...]]></description>
+            <guid isPermaLink="false">get-conversation-list-202412#778847ae</guid>
+            <pubDate>Wed, 15 Oct 2025 02:51:58 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202412/conversations # Method: [GET] # Function Description Get User's Conversation list. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90igAAAABh00qsWgtvOiGFNqyubMt3 | Us...]]></content:encoded>
+        </item>
+        <item>
+            <title>For SEA market: Configure &amp;quot;Cancellation status change&amp;quot; webhook to receive cancellation message</title>
+            <link>https://partner.tiktokshop.com/docv2/page/jsqxpibu</link>
+            <description><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></description>
+            <guid isPermaLink="false">jsqxpibu#6d5d2029</guid>
+            <pubDate>Tue, 14 Oct 2025 03:31:59 +0000</pubDate>
+            <content:encoded><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></content:encoded>
+        </item>
+        <item>
+            <title>UKEU &amp;amp; JP markets: Product category expansion</title>
+            <link>https://partner.tiktokshop.com/docv2/page/7s72ctzw</link>
+            <description><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></description>
+            <guid isPermaLink="false">7s72ctzw#27a22d85</guid>
+            <pubDate>Mon, 13 Oct 2025 18:08:08 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></content:encoded>
+        </item>
+        <item>
+            <title>EU market: Pfand Fees and Packaging Type Data</title>
+            <link>https://partner.tiktokshop.com/docv2/page/gvt0yknn</link>
+            <description><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></description>
+            <guid isPermaLink="false">gvt0yknn#b9cb8d2b</guid>
+            <pubDate>Mon, 13 Oct 2025 17:52:34 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Transactions by Statement</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-transactions-by-statement-202501</link>
+            <description><![CDATA[# Path: /finance/202501/statements/{statement_id}/statement_transactions # Method: [GET] # Function Description Retrieves the details of a statement, including the transactions, which can be a standard order transaction, an adjustment transaction, or a reserve-related transaction. For the SKU-level details of an order transaction, refer to [Get Transactions by Order](650a6734defece02be67d724). Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US c...]]></description>
+            <guid isPermaLink="false">get-transactions-by-statement-202501#402dceef</guid>
+            <pubDate>Mon, 13 Oct 2025 07:59:37 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /finance/202501/statements/{statement_id}/statement_transactions # Method: [GET] # Function Description Retrieves the details of a statement, including the transactions, which can be a standard order transaction, an adjustment transaction, or a reserve-related transaction. For the SKU-level details of an order transaction, refer to [Get Transactions by Order](650a6734defece02be67d724). Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US c...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Transactions by Order</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-transactions-by-order-202501</link>
+            <description><![CDATA[# Path: /finance/202501/orders/{order_id}/statement_transactions # Method: [GET] # Function Description Retrieves the SKU-level details of an order transaction. This covers transactions related to sales, fees, commissions, shipping, taxes, and refunds. Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US cross-border sellers, data before 2025-04-30 is unavailable). --- # Common Parameters For common parameters, refer to [How to call TikTok Shop AP...]]></description>
+            <guid isPermaLink="false">get-transactions-by-order-202501#4d954d32</guid>
+            <pubDate>Mon, 13 Oct 2025 07:59:31 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /finance/202501/orders/{order_id}/statement_transactions # Method: [GET] # Function Description Retrieves the SKU-level details of an order transaction. This covers transactions related to sales, fees, commissions, shipping, taxes, and refunds. Applicable for all regions' sellers. Only data after 2023-07-01 is available (Please note that for US cross-border sellers, data before 2025-04-30 is unavailable). --- # Common Parameters For common parameters, refer to [How to call TikTok Shop AP...]]></content:encoded>
+        </item>
+        <item>
+            <title>Recommend Category</title>
+            <link>https://partner.tiktokshop.com/docv2/page/recommend-category-202309</link>
+            <description><![CDATA[# Path: /product/202309/categories/recommend # Method: [POST] # Function Description Retrieve the recommended category for a candidate product based on its title, description, and images. If you are syncing product catalogs from an external system to TikTok Shop, use this API to facilitate product categorization. **Note**: The language used in text fields such as descriptions and titles must align with the target market's language (e.g. don't use Chinese). --- # Common Parameters For common para...]]></description>
+            <guid isPermaLink="false">recommend-category-202309#e4c57746</guid>
+            <pubDate>Mon, 13 Oct 2025 04:19:20 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /product/202309/categories/recommend # Method: [POST] # Function Description Retrieve the recommended category for a candidate product based on its title, description, and images. If you are syncing product catalogs from an external system to TikTok Shop, use this API to facilitate product categorization. **Note**: The language used in text fields such as descriptions and titles must align with the target market's language (e.g. don't use Chinese). --- # Common Parameters For common para...]]></content:encoded>
+        </item>
+        <item>
+            <title>Creator Generate General Link</title>
+            <link>https://partner.tiktokshop.com/docv2/page/creator-generate-general-link-202505</link>
+            <description><![CDATA[# Path: /affiliate_creator/202505/affiliate_sharing_links/general_publishers/generate_batch # Method: [POST] # Function Description You can use this API to generate material sharing links for your publishers. After that, you can encapsulate the sharing link with additional information like publisher ID. Right now, the material type must be `PRODUCT`. Please ensure that the material is included in the campaign by using [Generate Multi Affiliate Partner Campaign Product Links]. --- # Common Parame...]]></description>
+            <guid isPermaLink="false">creator-generate-general-link-202505#09c2debd</guid>
+            <pubDate>Mon, 13 Oct 2025 03:02:58 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_creator/202505/affiliate_sharing_links/general_publishers/generate_batch # Method: [POST] # Function Description You can use this API to generate material sharing links for your publishers. After that, you can encapsulate the sharing link with additional information like publisher ID. Right now, the material type must be `PRODUCT`. Please ensure that the material is included in the campaign by using [Generate Multi Affiliate Partner Campaign Product Links]. --- # Common Parame...]]></content:encoded>
+        </item>
+        <item>
+            <title>Send IM Message</title>
+            <link>https://partner.tiktokshop.com/docv2/page/send-im-message-202412</link>
+            <description><![CDATA[# Path: /affiliate_seller/202412/conversations/{conversation_id}/messages # Method: [POST] # Function Description The API for sending IM messages. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90ig...]]></description>
+            <guid isPermaLink="false">send-im-message-202412#308eda87</guid>
+            <pubDate>Sat, 11 Oct 2025 08:28:35 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202412/conversations/{conversation_id}/messages # Method: [POST] # Function Description The API for sending IM messages. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF90ig...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Unsettled Transactions</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-unsettled-transactions-202507</link>
+            <description><![CDATA[# Path: /finance/202507/orders/unsettled # Method: [GET] # Function Description This API allows the partner to retrieve a list of unsettled transactions (incl. Orders & Adjustments) generated by a seller, returning the detailed fee breakdown for a list of order ID and adjustment ID. For now, this API only returns transactions which were created after 2025.01.01. Once one transaction is settled, which won't be returned by this API anymore, please get from Get Statement Transaction API. **Pay atte...]]></description>
+            <guid isPermaLink="false">get-unsettled-transactions-202507#aee28f59</guid>
+            <pubDate>Sat, 11 Oct 2025 08:28:33 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /finance/202507/orders/unsettled # Method: [GET] # Function Description This API allows the partner to retrieve a list of unsettled transactions (incl. Orders & Adjustments) generated by a seller, returning the detailed fee breakdown for a list of order ID and adjustment ID. For now, this API only returns transactions which were created after 2025.01.01. Once one transaction is settled, which won't be returned by this API anymore, please get from Get Statement Transaction API. **Pay atte...]]></content:encoded>
+        </item>
+        <item>
+            <title>Seller Search Sample Applications</title>
+            <link>https://partner.tiktokshop.com/docv2/page/seller-search-sample-applications-202508</link>
+            <description><![CDATA[# Path: /affiliate_seller/202508/sample_applications/search # Method: [POST] # Function Description This API is provided for sellers to query sample applications based on various criteria such as products, creators, or application statuses. By using this API, sellers can retrieve detailed information about sample application records, including the creator's information and the specifics of each application. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - C...]]></description>
+            <guid isPermaLink="false">seller-search-sample-applications-202508#98075d2e</guid>
+            <pubDate>Sat, 11 Oct 2025 08:28:26 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202508/sample_applications/search # Method: [POST] # Function Description This API is provided for sellers to query sample applications based on various criteria such as products, creators, or application statuses. By using this API, sellers can retrieve detailed information about sample application records, including the creator's information and the specifics of each application. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - C...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Creator Applicable Sample Label</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-creator-applicable-sample-label-202412</link>
+            <description><![CDATA[# Path: /affiliate_creator/202412/samples/labels # Method: [GET] # Function Description Check if a creator can apply for a sample of a specific product. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | content-type | header | string | Y | ap...]]></description>
+            <guid isPermaLink="false">get-creator-applicable-sample-label-202412#b8189946</guid>
+            <pubDate>Sat, 11 Oct 2025 08:28:18 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_creator/202412/samples/labels # Method: [GET] # Function Description Check if a creator can apply for a sample of a specific product. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | content-type | header | string | Y | ap...]]></content:encoded>
+        </item>
+        <item>
+            <title>Get Message in the Conversation</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-message-in-the-conversation-202412</link>
+            <description><![CDATA[# Path: /affiliate_seller/202412/conversation/{conversation_id}/messages # Method: [GET] # Function Description Get chat history in one conversation. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF9...]]></description>
+            <guid isPermaLink="false">get-message-in-the-conversation-202412#98eb53cb</guid>
+            <pubDate>Sat, 11 Oct 2025 08:28:10 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202412/conversation/{conversation_id}/messages # Method: [GET] # Function Description Get chat history in one conversation. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- | | shop_cipher | query | string | Y | GCP_XF9...]]></content:encoded>
         </item>
         <item>
             <title>Steps to Get Service Authorization</title>
@@ -196,210 +391,20 @@
             <content:encoded><![CDATA[# Overview ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/445e9bfad3aa4e67867c3a6c501d46f9~tplv-10qhjjqwgv-image.image) ### Step 1 TSP publishes a public/custom service Please refer to the [user guide](64f198a193f5dc028e35505f) to publish a service before starting authorization ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/c51be7ab1237443799d36c8245c3f92c~tplv-10qhjjqwgv-image.image) ### Step 2 TSP Share the authorization link with Seller Clic...]]></content:encoded>
         </item>
         <item>
-            <title> Management- Manage authorizations</title>
-            <link>https://partner.tiktokshop.com/docv2/page/64f198b5dc7f3e028d381882</link>
-            <description><![CDATA[# Introduction The Shop Management page is where partners can view and manage all their authorizations with sellers. # Guide Once the seller has authorized Apps or Services, DTSP will be able to check and manage authorization on the *Seller Management - Manage* Authorize *page* Tips: Partners can use the filters below to locate specific authorizations. eg authorization ID, service name, shop name/code/id ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/07f8649b1dbb422a926...]]></description>
-            <guid isPermaLink="false">64f198b5dc7f3e028d381882#e185bd1a</guid>
-            <pubDate>Tue, 06 May 2025 08:07:24 +0000</pubDate>
-            <content:encoded><![CDATA[# Introduction The Shop Management page is where partners can view and manage all their authorizations with sellers. # Guide Once the seller has authorized Apps or Services, DTSP will be able to check and manage authorization on the *Seller Management - Manage* Authorize *page* Tips: Partners can use the filters below to locate specific authorizations. eg authorization ID, service name, shop name/code/id ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/07f8649b1dbb422a926...]]></content:encoded>
+            <title>Get Withdrawals</title>
+            <link>https://partner.tiktokshop.com/docv2/page/get-withdrawals-202309</link>
+            <description><![CDATA[# Path: /finance/202309/withdrawals # Method: [GET] # Function Description Get the list of the withdrawal records (when Seller's withdraw money from TikTokShop) based on the specified date range. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- ...]]></description>
+            <guid isPermaLink="false">get-withdrawals-202309#a279368b</guid>
+            <pubDate>Fri, 10 Oct 2025 16:27:48 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /finance/202309/withdrawals # Method: [GET] # Function Description Get the list of the withdrawal records (when Seller's withdraw money from TikTokShop) based on the specified date range. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%20To%20Top) | Properties | Location | Type | Require | Sample | Properties description | | --- | --- | --- | --- | --- | --- ...]]></content:encoded>
         </item>
         <item>
-            <title>TSP Access Feature </title>
-            <link>https://partner.tiktokshop.com/docv2/page/666feffacf2e2202c8d39191</link>
-            <description><![CDATA[## **Background** TikTok Shop Partners (TSPs) are e-commerce service providers focused on Seller Service (Shop Management, LIVE Management, Short Video Management, Seller Affiliate Management). They often need to log into the seller center to assist merchants with their daily activities. However, there are a couple of significant challenges. For example, TSPs face the inconvenience of juggling multiple sub-accounts when performing operations on behalf of sellers. To streamline the way TSPs reque...]]></description>
-            <guid isPermaLink="false">666feffacf2e2202c8d39191#1e8405dc</guid>
-            <pubDate>Thu, 28 Aug 2025 22:47:15 +0000</pubDate>
-            <content:encoded><![CDATA[## **Background** TikTok Shop Partners (TSPs) are e-commerce service providers focused on Seller Service (Shop Management, LIVE Management, Short Video Management, Seller Affiliate Management). They often need to log into the seller center to assist merchants with their daily activities. However, there are a couple of significant challenges. For example, TSPs face the inconvenience of juggling multiple sub-accounts when performing operations on behalf of sellers. To streamline the way TSPs reque...]]></content:encoded>
-        </item>
-        <item>
-            <title>TSP Access Seller-Creator IM</title>
-            <link>https://partner.tiktokshop.com/docv2/page/hdcn0oi7</link>
-            <description><![CDATA[# **Steps to use Seller-Creator IM** TSP can utilize the features of Seller-Creator IM if authorized for Full Access or Affiliation. After logging into the Seller Center via TSP Access, on the “Affiliate” page, click the “Go to Affiliate Center Home” button to enter the Affiliate Center. Once in the Affiliate Center, TSPs can use Creator IM just like sellers do through 5 entrances. Please refer to the [Seller - Creator IM User Guide](https://seller-us.tiktok.com/university/essay?course_type=1&fr...]]></description>
-            <guid isPermaLink="false">hdcn0oi7#5938b8d1</guid>
-            <pubDate>Thu, 28 Aug 2025 22:54:00 +0000</pubDate>
-            <content:encoded><![CDATA[# **Steps to use Seller-Creator IM** TSP can utilize the features of Seller-Creator IM if authorized for Full Access or Affiliation. After logging into the Seller Center via TSP Access, on the “Affiliate” page, click the “Go to Affiliate Center Home” button to enter the Affiliate Center. Once in the Affiliate Center, TSPs can use Creator IM just like sellers do through 5 entrances. Please refer to the [Seller - Creator IM User Guide](https://seller-us.tiktok.com/university/essay?course_type=1&fr...]]></content:encoded>
-        </item>
-        <item>
-            <title>[MY] TSP Service Report</title>
-            <link>https://partner.tiktokshop.com/docv2/page/666ff8ac20c18b02e5f8111e</link>
-            <description><![CDATA[# **Overview** To better measure the actual contribution of TSP to merchants, the platform are now supporting TSP to upload service information to the platform. Your account manager will be able to check your service information and further performance checking. # **Feature introduction** ### Step 1 Click the "service report" after getting authorization After getting authorization from the seller, TSP can start to input their service report details with the seller. | **[Manage Authorization]** *...]]></description>
-            <guid isPermaLink="false">666ff8ac20c18b02e5f8111e#240cdbbb</guid>
-            <pubDate>Tue, 06 May 2025 08:07:34 +0000</pubDate>
-            <content:encoded><![CDATA[# **Overview** To better measure the actual contribution of TSP to merchants, the platform are now supporting TSP to upload service information to the platform. Your account manager will be able to check your service information and further performance checking. # **Feature introduction** ### Step 1 Click the "service report" after getting authorization After getting authorization from the seller, TSP can start to input their service report details with the seller. | **[Manage Authorization]** *...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US] TSP Service Details</title>
-            <link>https://partner.tiktokshop.com/docv2/page/67f631bf30769204a95094cf</link>
-            <description><![CDATA[# **Summary** To better measure the actual contribution of TSP to the Seller, the platform is now supporting TSP to upload Service Details. The platform will be able to check your information to verify your service. **Please note:** You can still work with the seller without service details. However, only authorizations with approved service details will be recognized as valid for GMV performance and will qualify for further platform incentives. # **Feature introduction** ## Step 1: Click the "S...]]></description>
-            <guid isPermaLink="false">67f631bf30769204a95094cf#1e0f09c1</guid>
-            <pubDate>Wed, 02 Jul 2025 00:35:48 +0000</pubDate>
-            <content:encoded><![CDATA[# **Summary** To better measure the actual contribution of TSP to the Seller, the platform is now supporting TSP to upload Service Details. The platform will be able to check your information to verify your service. **Please note:** You can still work with the seller without service details. However, only authorizations with approved service details will be recognized as valid for GMV performance and will qualify for further platform incentives. # **Feature introduction** ## Step 1: Click the "S...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US TSP] TSP Service Offer</title>
-            <link>https://partner.tiktokshop.com/docv2/page/674588096e6be2030f1fda2e</link>
-            <description><![CDATA[# What is the Service Offer？ TSP Service allows TSPs to bundle service lists and offer authorization details for sellers to review and authorize. TSP will have two options to get authorization from the seller. **Option 1: Default authorization application** TSPs can share the “Default authorization application” link with the seller. The seller will need to select authorization details **Option 2: Prefill service offer [NEW]** TSPs can offer authorization details by clicking "pre-fill service off...]]></description>
-            <guid isPermaLink="false">674588096e6be2030f1fda2e#46e5b22e</guid>
-            <pubDate>Tue, 06 May 2025 08:07:43 +0000</pubDate>
-            <content:encoded><![CDATA[# What is the Service Offer？ TSP Service allows TSPs to bundle service lists and offer authorization details for sellers to review and authorize. TSP will have two options to get authorization from the seller. **Option 1: Default authorization application** TSPs can share the “Default authorization application” link with the seller. The seller will need to select authorization details **Option 2: Prefill service offer [NEW]** TSPs can offer authorization details by clicking "pre-fill service off...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US TSP] Manage Company Profile </title>
-            <link>https://partner.tiktokshop.com/docv2/page/6763cbc6e68c03030643b296</link>
-            <description><![CDATA[Please note: This feature is currently in beta testing and is only available to selected TSPs by invitation. If you're interested in using it, please reach out to your account manager. # Introduction: What is the TSP Company Profile? To improve matchmaking efficiency between sellers and TSPs and help merchants to form a comprehensive understanding of TSPs, the TSP profile feature includes the following key functions: 1. Allows TSPs to manage their company profile information on the TikTok Shop P...]]></description>
-            <guid isPermaLink="false">6763cbc6e68c03030643b296#eaaa270a</guid>
-            <pubDate>Tue, 06 May 2025 08:07:48 +0000</pubDate>
-            <content:encoded><![CDATA[Please note: This feature is currently in beta testing and is only available to selected TSPs by invitation. If you're interested in using it, please reach out to your account manager. # Introduction: What is the TSP Company Profile? To improve matchmaking efficiency between sellers and TSPs and help merchants to form a comprehensive understanding of TSPs, the TSP profile feature includes the following key functions: 1. Allows TSPs to manage their company profile information on the TikTok Shop P...]]></content:encoded>
-        </item>
-        <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/q92shqnn</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">q92shqnn#e3b0c442</guid>
-            <pubDate>Tue, 06 May 2025 08:14:25 +0000</pubDate>
-        </item>
-        <item>
-            <title>[TSP US]TTSPC Data Compass Playbook</title>
-            <link>https://partner.tiktokshop.com/docv2/page/658280c3f48fbe02df73ee0a</link>
-            <description><![CDATA[### Update Table | **Date** | **Updates** | | --- | --- | | 2024.6.13 | **Simplified and streamlined Seller Center Access:** TSPs can effortlessly share a request for Seller Center access with sellers and obtain authorization. **** After authorization, TSPs can access Seller Center directly from the Partner Center ++with just one click.++ TSPs are allowed to access up to **six months** of historical data now. | | 2024.05 | Launched **Shop Analytics** to provide shop overall metrics and GMV attri...]]></description>
-            <guid isPermaLink="false">658280c3f48fbe02df73ee0a#d6bf89a1</guid>
-            <pubDate>Thu, 11 Sep 2025 10:11:24 +0000</pubDate>
-            <content:encoded><![CDATA[### Update Table | **Date** | **Updates** | | --- | --- | | 2024.6.13 | **Simplified and streamlined Seller Center Access:** TSPs can effortlessly share a request for Seller Center access with sellers and obtain authorization. **** After authorization, TSPs can access Seller Center directly from the Partner Center ++with just one click.++ TSPs are allowed to access up to **six months** of historical data now. | | 2024.05 | Launched **Shop Analytics** to provide shop overall metrics and GMV attri...]]></content:encoded>
-        </item>
-        <item>
-            <title>[TSP SEA+UK]TTSPC Data Compass Playbook</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65fa1a3b65b2d202dad9d298</link>
-            <description><![CDATA[> More guidance for TSP in TTSPC: [Guide for TSP on TikTok Shop Partner Center](https://bytedance.feishu.cn/docx/Tkjtdv9Hxo3cIuxJHjic3GNQnof) > If you have an MCN Role, Data Authorization process can refer to this Doc: [【MCN SEA+UK】TTSPC Data Compass Playbook](https://bytedance.feishu.cn/docx/PZYFdWlAeoYLtyx1NvgcuHsJnsf) # What ability can be provided by data compass? ## Product Feature ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/f1ec1ee679e84062879b5cac0d2dd51c~tplv...]]></description>
-            <guid isPermaLink="false">65fa1a3b65b2d202dad9d298#eb3f7e32</guid>
-            <pubDate>Tue, 06 May 2025 08:08:04 +0000</pubDate>
-            <content:encoded><![CDATA[> More guidance for TSP in TTSPC: [Guide for TSP on TikTok Shop Partner Center](https://bytedance.feishu.cn/docx/Tkjtdv9Hxo3cIuxJHjic3GNQnof) > If you have an MCN Role, Data Authorization process can refer to this Doc: [【MCN SEA+UK】TTSPC Data Compass Playbook](https://bytedance.feishu.cn/docx/PZYFdWlAeoYLtyx1NvgcuHsJnsf) # What ability can be provided by data compass? ## Product Feature ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/f1ec1ee679e84062879b5cac0d2dd51c~tplv...]]></content:encoded>
-        </item>
-        <item>
-            <title>[TSP]GMV refactoring One Pagers</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65f9d64a8de0b902be263a5c</link>
-            <description><![CDATA[Please refer to these one-pagers to learn more about the changes in Shop GMV logic calculation. [Vietnamese GMV Refactoring.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/36793c371ff3439da68881b7c24c4a35~tplv-10qhjjqwgv-image.image) [Malay GMV Refactoring.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/5d7e5d29970b4e5fa616cf4eaccda373~tplv-10qhjjqwgv-image.image) [English (ID) GMV Refactoring .pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhj...]]></description>
-            <guid isPermaLink="false">65f9d64a8de0b902be263a5c#e1514562</guid>
-            <pubDate>Tue, 06 May 2025 08:08:09 +0000</pubDate>
-            <content:encoded><![CDATA[Please refer to these one-pagers to learn more about the changes in Shop GMV logic calculation. [Vietnamese GMV Refactoring.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/36793c371ff3439da68881b7c24c4a35~tplv-10qhjjqwgv-image.image) [Malay GMV Refactoring.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/5d7e5d29970b4e5fa616cf4eaccda373~tplv-10qhjjqwgv-image.image) [English (ID) GMV Refactoring .pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhj...]]></content:encoded>
-        </item>
-        <item>
-            <title>[TSP &amp;amp; CAP]  Live Analytics</title>
-            <link>https://partner.tiktokshop.com/docv2/page/671754d18559ca030797dea5</link>
-            <description><![CDATA[For other languages, please see below: MY: [[User Manual] Analitik Live TSP & MCN - MY](https://bytedance.sg.larkoffice.com/docx/NgDkdWxrZovLROxeC2Pl4qpVgRh) VN: [[User Manual] Phân Tích LIVE dành cho TSP & MCN](https://bytedance.sg.larkoffice.com/docx/ZJF3dtz6NouEKYxcDeTlMfTcgHb?from=from_copylink) TH: [[User Manual] การวิเคราะห์ไลฟ์สำหรับพาร์ทเนอร์ TikTok Shop (TSP) และเครือข่ายหลายช่องทาง (MCN)](https://bytedance.sg.larkoffice.com/docx/KWqLdbNvcoiqjkxOVOvlN6hlgzf?from=from_copylink) ID: [[Use...]]></description>
-            <guid isPermaLink="false">671754d18559ca030797dea5#82cf40df</guid>
-            <pubDate>Tue, 06 May 2025 08:08:17 +0000</pubDate>
-            <content:encoded><![CDATA[For other languages, please see below: MY: [[User Manual] Analitik Live TSP & MCN - MY](https://bytedance.sg.larkoffice.com/docx/NgDkdWxrZovLROxeC2Pl4qpVgRh) VN: [[User Manual] Phân Tích LIVE dành cho TSP & MCN](https://bytedance.sg.larkoffice.com/docx/ZJF3dtz6NouEKYxcDeTlMfTcgHb?from=from_copylink) TH: [[User Manual] การวิเคราะห์ไลฟ์สำหรับพาร์ทเนอร์ TikTok Shop (TSP) และเครือข่ายหลายช่องทาง (MCN)](https://bytedance.sg.larkoffice.com/docx/KWqLdbNvcoiqjkxOVOvlN6hlgzf?from=from_copylink) ID: [[Use...]]></content:encoded>
-        </item>
-        <item>
-            <title>[TSP] Affiliate Analytics</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6717afe68ea12f030fd9fc98</link>
-            <description><![CDATA[For other languages please see below: MY: [[User Manual] Analisis Affiliate untuk TSP - MY](https://bytedance.sg.larkoffice.com/docx/JmT6dgGeooCoilx81pqlMu7GgBU) VN: [[User Manual] Tiếp Thị Liên Kết Analytics for TSPs - VN](https://bytedance.sg.larkoffice.com/docx/H9Z1dogM7oxQJUxR3CrlB9UHg9f) TH: [[User Manual] การวิเคราะห์แอฟฟิลิเอตสำหรับพาร์ทเนอร์ TikTok Shop (TSP) - TH](https://bytedance.sg.larkoffice.com/docx/Woq4d2CzeoNF8Jxgr8plFokjgij?from=from_copylink) ID: [[User Manual] Affiliate Analyt...]]></description>
-            <guid isPermaLink="false">6717afe68ea12f030fd9fc98#0713b0e6</guid>
-            <pubDate>Tue, 06 May 2025 08:08:21 +0000</pubDate>
-            <content:encoded><![CDATA[For other languages please see below: MY: [[User Manual] Analisis Affiliate untuk TSP - MY](https://bytedance.sg.larkoffice.com/docx/JmT6dgGeooCoilx81pqlMu7GgBU) VN: [[User Manual] Tiếp Thị Liên Kết Analytics for TSPs - VN](https://bytedance.sg.larkoffice.com/docx/H9Z1dogM7oxQJUxR3CrlB9UHg9f) TH: [[User Manual] การวิเคราะห์แอฟฟิลิเอตสำหรับพาร์ทเนอร์ TikTok Shop (TSP) - TH](https://bytedance.sg.larkoffice.com/docx/Woq4d2CzeoNF8Jxgr8plFokjgij?from=from_copylink) ID: [[User Manual] Affiliate Analyt...]]></content:encoded>
-        </item>
-        <item>
-            <title>[TSP] Shop Analytics</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6745b0da357b0c0310dd23ab</link>
-            <description><![CDATA[🌍 For other languages, please see below: [[MY] User Manual - Analitik Kedai TSP.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/a2ca6c6afedc42128fbe4d0b2e2db172~tplv-10qhjjqwgv-image.image) [[TH] User Manual - การวิเคราะห์ร้านค้าของพาร์ทเนอร์ TikTok Shop (TSP).pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/c31d69ad02684da0981f9280935db71a~tplv-10qhjjqwgv-image.image) [[VN] User Manual - Trang Phân tích Cửa hàng cho TSP.pdf](https://p16-arcosite-va....]]></description>
-            <guid isPermaLink="false">6745b0da357b0c0310dd23ab#12c77e80</guid>
-            <pubDate>Tue, 06 May 2025 08:08:26 +0000</pubDate>
-            <content:encoded><![CDATA[🌍 For other languages, please see below: [[MY] User Manual - Analitik Kedai TSP.pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/a2ca6c6afedc42128fbe4d0b2e2db172~tplv-10qhjjqwgv-image.image) [[TH] User Manual - การวิเคราะห์ร้านค้าของพาร์ทเนอร์ TikTok Shop (TSP).pdf](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/c31d69ad02684da0981f9280935db71a~tplv-10qhjjqwgv-image.image) [[VN] User Manual - Trang Phân tích Cửa hàng cho TSP.pdf](https://p16-arcosite-va....]]></content:encoded>
-        </item>
-        <item>
-            <title>Steps to cancel authorization for TSP</title>
-            <link>https://partner.tiktokshop.com/docv2/page/67f342f80e952804ac403aa0</link>
-            <description><![CDATA[# Introduction This tool allows TSPs to request the cancellation of service authorization. If the seller agrees to the cancellation or fails to respond within 72 hours, the authorization will be automatically terminated. # Step 1: TSP raises a cancellation request TSP can navigate to ++TikTok Shop Partner Center-> Seller Management++ and click terminate++ ++to raise a cancel authorization request. ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/6ef558997b7f4b6d95f1e7e55d...]]></description>
-            <guid isPermaLink="false">67f342f80e952804ac403aa0#34a7322f</guid>
-            <pubDate>Tue, 06 May 2025 08:08:31 +0000</pubDate>
-            <content:encoded><![CDATA[# Introduction This tool allows TSPs to request the cancellation of service authorization. If the seller agrees to the cancellation or fails to respond within 72 hours, the authorization will be automatically terminated. # Step 1: TSP raises a cancellation request TSP can navigate to ++TikTok Shop Partner Center-> Seller Management++ and click terminate++ ++to raise a cancel authorization request. ![Image](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/6ef558997b7f4b6d95f1e7e55d...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US] TSP Online Signing Process</title>
-            <link>https://partner.tiktokshop.com/docv2/page/683f1483ffedae049865673e</link>
-            <description><![CDATA[# Introduction: What is TSP Online Signing? TSP Online Signing is a feature that allows TSPs to establish online signing relationships with sellers. # What are the benefits？ * **Smoother Workflow:** TSPs can initiate a service proposal, which the seller can then review and confirm. * **Official Signing:** By detailing service specifics and related information, TSPs can establish official signing relationships with sellers, ensuring clear communication and agreed-upon terms. # What's the workflow...]]></description>
-            <guid isPermaLink="false">683f1483ffedae049865673e#79539cc0</guid>
-            <pubDate>Tue, 10 Jun 2025 09:41:33 +0000</pubDate>
-            <content:encoded><![CDATA[# Introduction: What is TSP Online Signing? TSP Online Signing is a feature that allows TSPs to establish online signing relationships with sellers. # What are the benefits？ * **Smoother Workflow:** TSPs can initiate a service proposal, which the seller can then review and confirm. * **Official Signing:** By detailing service specifics and related information, TSPs can establish official signing relationships with sellers, ensuring clear communication and agreed-upon terms. # What's the workflow...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US]Expand to All 3 Partner Services to Unlock Tier Growth &amp;amp; Benefits</title>
-            <link>https://partner.tiktokshop.com/docv2/page/nkwyi8y4</link>
-            <description><![CDATA[Dear Partner, We encourage you to expand and activate all three partner service categories in Partner Center: **Creator Matchmaking, Seller Service,** and **Creator Service.** Doing so allows you to unlock more collaboration opportunities and can help you grow your business more effectively. By offering more comprehensive services, you not only provide end-to-end support to sellers and creators but also improve the chances of reaching a higher TSP Tier. Partners offering a single service have th...]]></description>
-            <guid isPermaLink="false">nkwyi8y4#2f3045bf</guid>
-            <pubDate>Fri, 18 Jul 2025 01:58:20 +0000</pubDate>
-            <content:encoded><![CDATA[Dear Partner, We encourage you to expand and activate all three partner service categories in Partner Center: **Creator Matchmaking, Seller Service,** and **Creator Service.** Doing so allows you to unlock more collaboration opportunities and can help you grow your business more effectively. By offering more comprehensive services, you not only provide end-to-end support to sellers and creators but also improve the chances of reaching a higher TSP Tier. Partners offering a single service have th...]]></content:encoded>
-        </item>
-        <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/22l540ex</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">22l540ex#e3b0c442</guid>
-            <pubDate>Tue, 06 May 2025 08:14:25 +0000</pubDate>
-        </item>
-        <item>
-            <title>Creator Management - Find Creators</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650a32eec16ffe02b8e4a6b8</link>
-            <description><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: UK,ID,MY,VN,TH,PH,SG ## What is Affiliate Marketplace？ The Creator Marketplace helps MCN/CAP discover and partner with TikTok’s Creator community. ## How It Works？ * The Creator Marketplace is a set of features that enable MCN/CAP to connect and collaborate with Creators. * MCN/CAP can view the contact information of the creator or send an invita...]]></description>
-            <guid isPermaLink="false">650a32eec16ffe02b8e4a6b8#d51c2b8b</guid>
-            <pubDate>Tue, 06 May 2025 08:08:44 +0000</pubDate>
-            <content:encoded><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: UK,ID,MY,VN,TH,PH,SG ## What is Affiliate Marketplace？ The Creator Marketplace helps MCN/CAP discover and partner with TikTok’s Creator community. ## How It Works？ * The Creator Marketplace is a set of features that enable MCN/CAP to connect and collaborate with Creators. * MCN/CAP can view the contact information of the creator or send an invita...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Management - Linked Creators</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650934be0fcef602bf0e5784</link>
-            <description><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: US, UK,ID,MY,VN,TH,PH,SG ## What is linked Creator? Creator Management is a set of features that enable MCN/CAP to check and manage creator partnership/data/fee agreement linking relationships in an official way. ## Feature Introduction To build partnerships with creators, you can go to [creator management]➤ [manage partnerships] page and manage ...]]></description>
-            <guid isPermaLink="false">650934be0fcef602bf0e5784#f728fbfe</guid>
-            <pubDate>Tue, 06 May 2025 08:08:49 +0000</pubDate>
-            <content:encoded><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: US, UK,ID,MY,VN,TH,PH,SG ## What is linked Creator? Creator Management is a set of features that enable MCN/CAP to check and manage creator partnership/data/fee agreement linking relationships in an official way. ## Feature Introduction To build partnerships with creators, you can go to [creator management]➤ [manage partnerships] page and manage ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Management - Find Creators (US)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/663a5ffd26b40c02d9c3db02</link>
-            <description><![CDATA[## **What is Find Creators？** Find creators helps CAPs discover and partner with TikTok’s Creator community. ## **How It Works？** * Find creators is a set of features that enable CAPs to connect and collaborate with Creators. * CAPs can view the contact information of the creator or send an invitation with one click. * CAPs can search for creators by using filters such as Creators, Followers, and Performance. ## **What type of creator can be found on Find Creators？** Creators who have e-commerce...]]></description>
-            <guid isPermaLink="false">663a5ffd26b40c02d9c3db02#271ef5fe</guid>
-            <pubDate>Tue, 06 May 2025 08:08:54 +0000</pubDate>
-            <content:encoded><![CDATA[## **What is Find Creators？** Find creators helps CAPs discover and partner with TikTok’s Creator community. ## **How It Works？** * Find creators is a set of features that enable CAPs to connect and collaborate with Creators. * CAPs can view the contact information of the creator or send an invitation with one click. * CAPs can search for creators by using filters such as Creators, Followers, and Performance. ## **What type of creator can be found on Find Creators？** Creators who have e-commerce...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Management - Fee Agreement/Commission Sharing</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650a34b4f1fd3102b9206dbc</link>
-            <description><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: UK,ID,MY,VN,TH,PH,SG ## What is commission sharing feature？ In short, a partner that opens a MCN-Creator sharing can obtain a certain percentage of the creator's affiliate commission through the fee agreement with the creator, and after the creator earns the commission, the commission will be automatically credited to the partner's bank card (loc...]]></description>
-            <guid isPermaLink="false">650a34b4f1fd3102b9206dbc#8ac3f369</guid>
-            <pubDate>Tue, 06 May 2025 08:09:00 +0000</pubDate>
-            <content:encoded><![CDATA[**This feature is only available for** [MCN/CAP](https://bytedance.feishu.cn/docx/YVSSdFlS4olNfdxSPjecs8kYnOg) **partners on TTSPC**. Available Market: UK,ID,MY,VN,TH,PH,SG ## What is commission sharing feature？ In short, a partner that opens a MCN-Creator sharing can obtain a certain percentage of the creator's affiliate commission through the fee agreement with the creator, and after the creator earns the commission, the commission will be automatically credited to the partner's bank card (loc...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Management - Linking with Creators for Data Authorization &amp;amp; Commission Sharing (US ONLY)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/660357886d72f402e3b598fe</link>
-            <description><![CDATA[# Overview We are making collecting management fees from creators a more seamless experience by including commission sharing as part of our onboarding process in the TikTok Shop Partner Center. You can now link accounts, authorize data sharing, and set up commission sharing in a single request. It's now even easier to start working with your creators and earn revenue sooner. When setting up a creator relationship, you'll establish the fee agreement rate you're taking from the creator's TikTok Sh...]]></description>
-            <guid isPermaLink="false">660357886d72f402e3b598fe#8c393ef3</guid>
-            <pubDate>Tue, 06 May 2025 08:09:05 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview We are making collecting management fees from creators a more seamless experience by including commission sharing as part of our onboarding process in the TikTok Shop Partner Center. You can now link accounts, authorize data sharing, and set up commission sharing in a single request. It's now even easier to start working with your creators and earn revenue sooner. When setting up a creator relationship, you'll establish the fee agreement rate you're taking from the creator's TikTok Sh...]]></content:encoded>
-        </item>
-        <item>
-            <title>Agency - Creator Instant Messaging (IM)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/673f635a9e9ff30309130271</link>
-            <description><![CDATA[**Note:** *Agency-Creator IM is available to* ***Creator Agency Partners (CAP)*** *and/or* ***TikTok Shop Affiliate Partners (TAP)*** *- manage and work directly with creators.* # Overview Connect directly with creators through TikTok Shop's Agency-Creator IM system. Send instant messages within the platform - no external messaging needed. Track creator engagement seamlessly. * **Build Direct Relationships** - Send invites, negotiate, and collaborate in one place for faster results * **Streamlin...]]></description>
-            <guid isPermaLink="false">673f635a9e9ff30309130271#c96eeea9</guid>
-            <pubDate>Tue, 06 May 2025 08:09:19 +0000</pubDate>
-            <content:encoded><![CDATA[**Note:** *Agency-Creator IM is available to* ***Creator Agency Partners (CAP)*** *and/or* ***TikTok Shop Affiliate Partners (TAP)*** *- manage and work directly with creators.* # Overview Connect directly with creators through TikTok Shop's Agency-Creator IM system. Send instant messages within the platform - no external messaging needed. Track creator engagement seamlessly. * **Build Direct Relationships** - Send invites, negotiate, and collaborate in one place for faster results * **Streamlin...]]></content:encoded>
-        </item>
-        <item>
-            <title>Product Management</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650a33b1c16ffe02b8e4bce8</link>
-            <description><![CDATA[📌 **This feature is only available for** MCN, CAP, TAP **partners on TTSPC**. Available Market: US,UK,ID,MY,VN,TH,PH,SG # What is Product Management？ Product management includes **Product Marketplace** and **Product Sets** which allow you to: 1. **Find and select products:** you can view/search/filter products according to your needs in the product marketplace 2. **Create your product set and share with creator:** you can create a product set and share with your creator using one link 📌 **Note**...]]></description>
-            <guid isPermaLink="false">650a33b1c16ffe02b8e4bce8#b96efc99</guid>
-            <pubDate>Tue, 06 May 2025 08:09:26 +0000</pubDate>
-            <content:encoded><![CDATA[📌 **This feature is only available for** MCN, CAP, TAP **partners on TTSPC**. Available Market: US,UK,ID,MY,VN,TH,PH,SG # What is Product Management？ Product management includes **Product Marketplace** and **Product Sets** which allow you to: 1. **Find and select products:** you can view/search/filter products according to your needs in the product marketplace 2. **Create your product set and share with creator:** you can create a product set and share with your creator using one link 📌 **Note**...]]></content:encoded>
-        </item>
-        <item>
-            <title>CAP Agency LIVE Commission (US)</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6797b00f23ae4b030c8df132</link>
-            <description><![CDATA[# Overview This introduction provides an overview of new product features enabling CAP Agencies to establish exclusive LIVE commission-sharing agreements. The new fee agreement for LIVE empowers CAP Agencies to collaborate with their bound Creators, driving LIVE business growth while ensuring a dedicated revenue stream for providing LIVE-focused services. # How to set up LIVE commission sharing? ### Set up LIVE commission with new Creators #### Step I: CAP Agencies set up a fee agreement * Login...]]></description>
-            <guid isPermaLink="false">6797b00f23ae4b030c8df132#01e5b73b</guid>
-            <pubDate>Tue, 06 May 2025 08:09:31 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview This introduction provides an overview of new product features enabling CAP Agencies to establish exclusive LIVE commission-sharing agreements. The new fee agreement for LIVE empowers CAP Agencies to collaborate with their bound Creators, driving LIVE business growth while ensuring a dedicated revenue stream for providing LIVE-focused services. # How to set up LIVE commission sharing? ### Set up LIVE commission with new Creators #### Step I: CAP Agencies set up a fee agreement * Login...]]></content:encoded>
+            <title>Seller Search Creator on Marketplace</title>
+            <link>https://partner.tiktokshop.com/docv2/page/seller-search-creator-on-marketplace-202508</link>
+            <description><![CDATA[# Path: /affiliate_seller/202508/marketplace_creators/search # Method: [POST] # Function Description This API is used by Sellers to search for Creators in the Creator Marketplace. Sellers can search based on filters such as GMV, keywords, and Creator follower demographics. All the data returned is for the last 30 days. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%...]]></description>
+            <guid isPermaLink="false">seller-search-creator-on-marketplace-202508#98608838</guid>
+            <pubDate>Fri, 10 Oct 2025 15:50:38 +0000</pubDate>
+            <content:encoded><![CDATA[# Path: /affiliate_seller/202508/marketplace_creators/search # Method: [POST] # Function Description This API is used by Sellers to search for Creators in the Creator Marketplace. Sellers can search based on filters such as GMV, keywords, and Creator follower demographics. All the data returned is for the last 30 days. --- # Common Parameters For common parameters, refer to [How to call TikTok Shop APIs - Common Parameters](https://partner.tiktokshop.com/docv2/page/64f199679495ef0281851ee5#Back%...]]></content:encoded>
         </item>
     </channel>
 </rss>
