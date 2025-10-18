@@ -64,6 +64,7 @@ class RssGenerator implements RssGeneratorInterface
                 'title' => $this->sanitizeXml($item->title),
                 'link' => $item->link,
                 'description' => $this->sanitizeHtml($item->description, 500),
+                'keywords' => $item->keywords,
                 'guid' => $this->generateGuid($item->documentPath, $item->contentHash),
                 'pubDate' => $this->formatRfc822Date($item->pubDate),
                 'contentHtml' => $item->description !== '' ? $this->sanitizeHtml($item->description) : null,

@@ -5,11 +5,13 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sat, 18 Oct 2025 17:44:03 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 18 Oct 2025 17:53:06 +0000</lastBuildDate>
         <item>
             <title>For SEA market: Configure &amp;quot;Cancellation status change&amp;quot; webhook to receive cancellation message</title>
             <link>https://partner.tiktokshop.com/docv2/page/jsqxpibu</link>
             <description><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">jsqxpibu#6d5d2029</guid>
             <pubDate>Tue, 14 Oct 2025 03:31:59 +0000</pubDate>
             <content:encoded><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></content:encoded>
@@ -18,6 +20,8 @@
             <title>UKEU &amp;amp; JP markets: Product category expansion</title>
             <link>https://partner.tiktokshop.com/docv2/page/7s72ctzw</link>
             <description><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></description>
+            <category>Action Required</category>
+            <category>Updated</category>
             <guid isPermaLink="false">7s72ctzw#27a22d85</guid>
             <pubDate>Mon, 13 Oct 2025 18:08:08 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></content:encoded>
@@ -26,6 +30,8 @@
             <title>EU market: Pfand Fees and Packaging Type Data</title>
             <link>https://partner.tiktokshop.com/docv2/page/gvt0yknn</link>
             <description><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">gvt0yknn#b9cb8d2b</guid>
             <pubDate>Mon, 13 Oct 2025 17:52:34 +0000</pubDate>
             <content:encoded><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></content:encoded>
@@ -34,6 +40,7 @@
             <title>US market: Item protection/insurance</title>
             <link>https://partner.tiktokshop.com/docv2/page/8cpq7zt5</link>
             <description><![CDATA[# Summary We've updated our Order APIs to support the rollout of item protection for TikTok Shop orders. # Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? Since TikTok Shop buyers can now purchase item protection for their order(s), we wanted to ensure our APIs reflected that as well. ## POST Get Order List and GET Order Detail For both [POST Get Order List](https://partner.tiktokshop.c...]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">8cpq7zt5#93203807</guid>
             <pubDate>Wed, 08 Oct 2025 17:45:47 +0000</pubDate>
             <content:encoded><![CDATA[# Summary We've updated our Order APIs to support the rollout of item protection for TikTok Shop orders. # Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? Since TikTok Shop buyers can now purchase item protection for their order(s), we wanted to ensure our APIs reflected that as well. ## POST Get Order List and GET Order Detail For both [POST Get Order List](https://partner.tiktokshop.c...]]></content:encoded>
@@ -42,6 +49,7 @@
             <title>Analytics APIs now available globally</title>
             <link>https://partner.tiktokshop.com/docv2/page/j5k1cmia</link>
             <description><![CDATA[# Summary Today, we've opened up all our analytics APIs to be available globally! Endpoints that were previously exclusive to the US, UK, and SEA can now be used to return performance metrics for any shop, regardless of market. # Impact | | | | --- | --- | | Impacted market(s) | * All markets - Local and cross-border | | Impacted version(s) | * 202405 (and later) | # What's new? All existing Analytics APIs are now available in all markets. These include: – [GET Shop Performance](https://partner....]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">j5k1cmia#f51f1098</guid>
             <pubDate>Fri, 26 Sep 2025 17:44:41 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Today, we've opened up all our analytics APIs to be available globally! Endpoints that were previously exclusive to the US, UK, and SEA can now be used to return performance metrics for any shop, regardless of market. # Impact | | | | --- | --- | | Impacted market(s) | * All markets - Local and cross-border | | Impacted version(s) | * 202405 (and later) | # What's new? All existing Analytics APIs are now available in all markets. These include: – [GET Shop Performance](https://partner....]]></content:encoded>
@@ -50,6 +58,8 @@
             <title>For SEA market: Get Rejection Reasons before Cancellation or Return Rejection</title>
             <link>https://partner.tiktokshop.com/docv2/page/c44syeeb</link>
             <description><![CDATA[Since cancellation or return rejection reasons change sometimes, please call [Get Rejection Reasons](https://partner.tiktokshop.com/docv2/page/get-reject-reasons-202309#Back%20To%20Top) and show seller the usable rejection reason list if seller wants to reject buyer's cancellation or return request. You can get this list from the "reasons" parameter in this API's response payload. It will be effective after Sep. 24, 2025. By the way, you can get the newest [return reasons](https://partner.tiktok...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">c44syeeb#f3527727</guid>
             <pubDate>Fri, 12 Sep 2025 07:23:08 +0000</pubDate>
             <content:encoded><![CDATA[Since cancellation or return rejection reasons change sometimes, please call [Get Rejection Reasons](https://partner.tiktokshop.com/docv2/page/get-reject-reasons-202309#Back%20To%20Top) and show seller the usable rejection reason list if seller wants to reject buyer's cancellation or return request. You can get this list from the "reasons" parameter in this API's response payload. It will be effective after Sep. 24, 2025. By the way, you can get the newest [return reasons](https://partner.tiktok...]]></content:encoded>
@@ -58,6 +68,8 @@
             <title>Creator Open ID for Affiliate APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/3obfokj6</link>
             <description><![CDATA[# Summary This week, we'll be introducing the new **Creator Open ID**, a privacy-preserving identifier used in Affiliate Open APIs. Instead of exposing the plain creator ID (restricted by our privacy policy), we'll instead provide a **pseudonymous, non-reversible** Creator Open ID to external partners. ❗ Important: The Creator Open ID will be implemented with a new version of our Affiliate APIs (202509). For the time being, we will continue to support plain creator IDs simultaneously, but announ...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">3obfokj6#dc3df29b</guid>
             <pubDate>Mon, 08 Sep 2025 22:17:57 +0000</pubDate>
             <content:encoded><![CDATA[# Summary This week, we'll be introducing the new **Creator Open ID**, a privacy-preserving identifier used in Affiliate Open APIs. Instead of exposing the plain creator ID (restricted by our privacy policy), we'll instead provide a **pseudonymous, non-reversible** Creator Open ID to external partners. ❗ Important: The Creator Open ID will be implemented with a new version of our Affiliate APIs (202509). For the time being, we will continue to support plain creator IDs simultaneously, but announ...]]></content:encoded>
@@ -66,6 +78,8 @@
             <title>EU market: New compliance data required - CLP/Biocides </title>
             <link>https://partner.tiktokshop.com/docv2/page/vfskyjvl</link>
             <description><![CDATA[# Summary Starting **September 8th, 2025**, we will be introducing **new attributes in the EU market** to collect required product information from sellers who are listing **home appliance products** that contain biocides. This will ensure the correct label will be displayed to customers in compliance with EU rules. # Impact | | | | --- | --- | | Impacted market(s) | * Europe (EU) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? To support Biocides data col...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">vfskyjvl#16730163</guid>
             <pubDate>Mon, 08 Sep 2025 16:49:55 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Starting **September 8th, 2025**, we will be introducing **new attributes in the EU market** to collect required product information from sellers who are listing **home appliance products** that contain biocides. This will ensure the correct label will be displayed to customers in compliance with EU rules. # Impact | | | | --- | --- | | Impacted market(s) | * Europe (EU) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? To support Biocides data col...]]></content:encoded>
@@ -74,6 +88,7 @@
             <title>UK and EU markets: Introducing On Time Delivery Rate (OTDR) for Shipped by Seller (3PL) Orders </title>
             <link>https://partner.tiktokshop.com/docv2/page/yeklql2a</link>
             <description><![CDATA[# Summary **On Time Delivery Rate** (OTDR) is a measurement used to assess a seller's ability to fulfill customer orders within the promised delivery timeframe. OTDR is defined as the percentage of all packages (delivered over a period of 7 calendar days) that take less than **5 business days** to be delivered. From **August 25th, 2025**, sellers in the UK and EU using the **Shipped by Seller** (3PL) fulfillment method will receive `delivery_sla_time` data with each order, enabling better manage...]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">yeklql2a#9ce5d4ae</guid>
             <pubDate>Wed, 03 Sep 2025 19:40:27 +0000</pubDate>
             <content:encoded><![CDATA[# Summary **On Time Delivery Rate** (OTDR) is a measurement used to assess a seller's ability to fulfill customer orders within the promised delivery timeframe. OTDR is defined as the percentage of all packages (delivered over a period of 7 calendar days) that take less than **5 business days** to be delivered. From **August 25th, 2025**, sellers in the UK and EU using the **Shipped by Seller** (3PL) fulfillment method will receive `delivery_sla_time` data with each order, enabling better manage...]]></content:encoded>
@@ -82,6 +97,7 @@
             <title>New APIs for TikTok LIVE </title>
             <link>https://partner.tiktokshop.com/docv2/page/sv0xa2r6</link>
             <description><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></description>
+            <category>New</category>
             <guid isPermaLink="false">sv0xa2r6#1d6a7717</guid>
             <pubDate>Wed, 27 Aug 2025 20:29:17 +0000</pubDate>
             <content:encoded><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></content:encoded>
@@ -90,6 +106,8 @@
             <title>ID market: Tokopedia Open API Termination - Migrate to TikTok Shop Partner Center by September 30, 2025</title>
             <link>https://partner.tiktokshop.com/docv2/page/k1156vkq</link>
             <description><![CDATA[The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...]]></description>
+            <category>Coming soon</category>
+            <category>Action required</category>
             <guid isPermaLink="false">k1156vkq#33d7d8a5</guid>
             <pubDate>Tue, 26 Aug 2025 09:16:37 +0000</pubDate>
             <content:encoded><![CDATA[The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...]]></content:encoded>
@@ -98,6 +116,8 @@
             <title>SEA market: Product category expansion</title>
             <link>https://partner.tiktokshop.com/docv2/page/npb6fvbh</link>
             <description><![CDATA[# Summary Last year in the US market, TikTok Shop rolled out an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **SEA** market. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to implement the necessary changes, please read** [our L7 category expan...]]></description>
+            <category>Action Required</category>
+            <category>Updated</category>
             <guid isPermaLink="false">npb6fvbh#642b834f</guid>
             <pubDate>Wed, 20 Aug 2025 20:58:48 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Last year in the US market, TikTok Shop rolled out an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **SEA** market. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to implement the necessary changes, please read** [our L7 category expan...]]></content:encoded>
@@ -106,6 +126,8 @@
             <title>GS POP product listing workflow revamp</title>
             <link>https://partner.tiktokshop.com/docv2/page/a5crrkzs</link>
             <description><![CDATA[# Summary On **August 19th, 2025**, we will be launching a revamp of the product listing API workflow for Global Selling Platform Open Plan (**GSPOP**) sellers in order to improve product listing efficiency and overall experience. # Impact | | | | --- | --- | | Impacted market(s) | * Platform Open Plan (POP) - All markets | | Impacted version(s) | * 202309 (and later) | # Changes For a more detailed look at our API changes, please visit our [fields description](https://bytedance.sg.larkoffice.co...]]></description>
+            <category>Breaking Change</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">a5crrkzs#5d8ca787</guid>
             <pubDate>Tue, 12 Aug 2025 21:01:22 +0000</pubDate>
             <content:encoded><![CDATA[# Summary On **August 19th, 2025**, we will be launching a revamp of the product listing API workflow for Global Selling Platform Open Plan (**GSPOP**) sellers in order to improve product listing efficiency and overall experience. # Impact | | | | --- | --- | | Impacted market(s) | * Platform Open Plan (POP) - All markets | | Impacted version(s) | * 202309 (and later) | # Changes For a more detailed look at our API changes, please visit our [fields description](https://bytedance.sg.larkoffice.co...]]></content:encoded>
@@ -114,6 +136,8 @@
             <title>For SEA Market: Recommended Default Order Sorting Logic to Support Fast Delivery Service</title>
             <link>https://partner.tiktokshop.com/docv2/page/t9ucngno</link>
             <description><![CDATA[With the rollout of new fast delivery services across SEA (including Next Day Delivery, Instant, and Same Day), it's important to help merchants prioritize these fast delivery orders effectively. We recommend developers to update your **default sorting logic** to support merchants with better order processing prioritization. The sorting will **require 2 layers**: 1. Shipping SLA (`tts_sla_time`) 2. Logistics Priority (`fulfillment_priority_level`) For comprehensive details about this change and ...]]></description>
+            <category>Action Required</category>
+            <category>Updated</category>
             <guid isPermaLink="false">t9ucngno#d3dbc67c</guid>
             <pubDate>Tue, 05 Aug 2025 03:52:36 +0000</pubDate>
             <content:encoded><![CDATA[With the rollout of new fast delivery services across SEA (including Next Day Delivery, Instant, and Same Day), it's important to help merchants prioritize these fast delivery orders effectively. We recommend developers to update your **default sorting logic** to support merchants with better order processing prioritization. The sorting will **require 2 layers**: 1. Shipping SLA (`tts_sla_time`) 2. Logistics Priority (`fulfillment_priority_level`) For comprehensive details about this change and ...]]></content:encoded>
@@ -122,6 +146,8 @@
             <title>For ID market: One Change for Privacy Improvement of Image Message</title>
             <link>https://partner.tiktokshop.com/docv2/page/hrilusvh</link>
             <description><![CDATA[There is one change for privacy improvement of image message in Indonesian market which will be effective on September 30, 2025. When sellers check image messages (from [Customer Service API](https://partner.tiktokshop.com/docv2/page/customer-service-api-overview)) and download images through HTTP to access the image link, they need to include two parameters * Header：x-tts-access-token * Query：shop_cipher # Which markets are affected? The updates of the requirements apply to the Local to Local s...]]></description>
+            <category>Updated</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">hrilusvh#16da2458</guid>
             <pubDate>Wed, 30 Jul 2025 08:33:11 +0000</pubDate>
             <content:encoded><![CDATA[There is one change for privacy improvement of image message in Indonesian market which will be effective on September 30, 2025. When sellers check image messages (from [Customer Service API](https://partner.tiktokshop.com/docv2/page/customer-service-api-overview)) and download images through HTTP to access the image link, they need to include two parameters * Header：x-tts-access-token * Query：shop_cipher # Which markets are affected? The updates of the requirements apply to the Local to Local s...]]></content:encoded>
@@ -130,6 +156,7 @@
             <title>Draft editing support for published listings</title>
             <link>https://partner.tiktokshop.com/docv2/page/g03iqsx0</link>
             <description><![CDATA[## Summary Previously, the TikTok Shop Seller Center only allowed draft editing prior to publishing a listing. We've recently expanded this feature to additionally enable sellers to edit and save drafts for products that have already been listed, and are now ensuring it is reflected in our APIs. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local * United Kingdom (UK) - Local * Europe (EU) - Local * Southeast Asia (SEA) - Local * Japan (JP) - Local * Platform Open P...]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">g03iqsx0#239e62f1</guid>
             <pubDate>Mon, 28 Jul 2025 15:15:58 +0000</pubDate>
             <content:encoded><![CDATA[## Summary Previously, the TikTok Shop Seller Center only allowed draft editing prior to publishing a listing. We've recently expanded this feature to additionally enable sellers to edit and save drafts for products that have already been listed, and are now ensuring it is reflected in our APIs. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local * United Kingdom (UK) - Local * Europe (EU) - Local * Southeast Asia (SEA) - Local * Japan (JP) - Local * Platform Open P...]]></content:encoded>
@@ -138,6 +165,7 @@
             <title>Updates to product errors</title>
             <link>https://partner.tiktokshop.com/docv2/page/updates-to-product-errors</link>
             <description><![CDATA[# **Summary** To help developers identify and handle errors better, we've refined several ambiguous error codes by either splitting them into more precise error codes, or replacing them with more appropriate error codes. These changes provide clearer context on what went wrong. The error conditions remain the same, only the codes associated with them have changed for clarity. # **Impact** | | | | --- | --- | | Impacted market(s) | All | | Impacted version(s) | 202309 (and later) | # **What is ch...]]></description>
+            <category>Update</category>
             <guid isPermaLink="false">updates-to-product-errors#33542d3f</guid>
             <pubDate>Fri, 18 Jul 2025 03:35:50 +0000</pubDate>
             <content:encoded><![CDATA[# **Summary** To help developers identify and handle errors better, we've refined several ambiguous error codes by either splitting them into more precise error codes, or replacing them with more appropriate error codes. These changes provide clearer context on what went wrong. The error conditions remain the same, only the codes associated with them have changed for clarity. # **Impact** | | | | --- | --- | | Impacted market(s) | All | | Impacted version(s) | 202309 (and later) | # **What is ch...]]></content:encoded>
@@ -146,6 +174,8 @@
             <title>SEA market only:Three Seller Initiates Cancel Reasons will be changed</title>
             <link>https://partner.tiktokshop.com/docv2/page/three-seller-initiates-cancel-reasons-will-be-changed</link>
             <description><![CDATA[# What is changing? From August 31 2025, three seller initiates cancellation reasons will be changed. 1. "seller_cancel_paid_reason_address_not_deliver" will be removed in Indonesia, Philippines, Vietnam, Malaysia and Thailand markets. 2. "seller_cancel_unable_to_deliver_to_buyer_address" will be removed in Singapore market. 3. "seller_cancel_reason_out_of_stock" will be adjusted from "Buyer Fault" to "Seller Fault" in Indonesia market. # Which markets are affected? The updates of the requiremen...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">three-seller-initiates-cancel-reasons-will-be-changed#2ce4269c</guid>
             <pubDate>Tue, 15 Jul 2025 06:22:31 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? From August 31 2025, three seller initiates cancellation reasons will be changed. 1. "seller_cancel_paid_reason_address_not_deliver" will be removed in Indonesia, Philippines, Vietnam, Malaysia and Thailand markets. 2. "seller_cancel_unable_to_deliver_to_buyer_address" will be removed in Singapore market. 3. "seller_cancel_reason_out_of_stock" will be adjusted from "Buyer Fault" to "Seller Fault" in Indonesia market. # Which markets are affected? The updates of the requiremen...]]></content:encoded>
@@ -154,6 +184,7 @@
             <title>Post town added for UK recipient addresses in the Get Order Detail API</title>
             <link>https://partner.tiktokshop.com/docv2/page/order_orders_post_town</link>
             <description><![CDATA[# Summary Addresses in the United Kingdom (UK) require a [Post Town](https://en.wikipedia.org/wiki/Post_town), so we've added a data field for UK buyers to include their Post Town information. ## What's changed? To support this, we've added a new property `post_town` to the `recipient_addresses` object in the [Get Order Detail API](get-order-detail). ## Which markets are affected? This change affects the UK market only. ## Who is affected? Developers with applications that use the Get Order Deta...]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">order_orders_post_town#c783f8fb</guid>
             <pubDate>Thu, 10 Jul 2025 23:28:15 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Addresses in the United Kingdom (UK) require a [Post Town](https://en.wikipedia.org/wiki/Post_town), so we've added a data field for UK buyers to include their Post Town information. ## What's changed? To support this, we've added a new property `post_town` to the `recipient_addresses` object in the [Get Order Detail API](get-order-detail). ## Which markets are affected? This change affects the UK market only. ## Who is affected? Developers with applications that use the Get Order Deta...]]></content:encoded>
@@ -162,6 +193,7 @@
             <title>Introducing new product image text translation APIs and webhook</title>
             <link>https://partner.tiktokshop.com/docv2/page/new-image-translation-apis</link>
             <description><![CDATA[# Summary In the EU marketplace, TikTok Sellers are required to translate all text information associated with a product, including image text. We've made this easier for our Sellers with a new a set of APIs to programmatically translate product image text to German, Irish English, Spanish, French, and Italian. ## What is changing? We've released a new asynchronous API to [create a translation task](create-image-translation-tasks) for product image translations, a new [translation status API](ge...]]></description>
+            <category>New</category>
             <guid isPermaLink="false">new-image-translation-apis#38bbd0d9</guid>
             <pubDate>Tue, 08 Jul 2025 00:31:53 +0000</pubDate>
             <content:encoded><![CDATA[# Summary In the EU marketplace, TikTok Sellers are required to translate all text information associated with a product, including image text. We've made this easier for our Sellers with a new a set of APIs to programmatically translate product image text to German, Irish English, Spanish, French, and Italian. ## What is changing? We've released a new asynchronous API to [create a translation task](create-image-translation-tasks) for product image translations, a new [translation status API](ge...]]></content:encoded>
@@ -170,6 +202,8 @@
             <title>MX market: GS POP API Updates</title>
             <link>https://partner.tiktokshop.com/docv2/page/mx-market-gs-pop-api-updates</link>
             <description><![CDATA[## Summary We're rolling out some updates to our Product, Fulfillment, and Return and Refund APIs in order to better support our Global Selling Platform Open Plan (GS POP) in the Mexico (MX) market. ## Impact | | | | --- | --- | | Impacted market(s) | * Mexico (MX-CB) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Product APIs #### Product listing rules To list GS POP products for MX, call [POST Create Global Product](https://partner.tiktokshop.com/docv2/page/create-global-produ...]]></description>
+            <category>Update</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">mx-market-gs-pop-api-updates#647e3e75</guid>
             <pubDate>Wed, 02 Jul 2025 09:24:33 +0000</pubDate>
             <content:encoded><![CDATA[## Summary We're rolling out some updates to our Product, Fulfillment, and Return and Refund APIs in order to better support our Global Selling Platform Open Plan (GS POP) in the Mexico (MX) market. ## Impact | | | | --- | --- | | Impacted market(s) | * Mexico (MX-CB) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Product APIs #### Product listing rules To list GS POP products for MX, call [POST Create Global Product](https://partner.tiktokshop.com/docv2/page/create-global-produ...]]></content:encoded>
@@ -178,6 +212,7 @@
             <title>Supplementary Notice on API Deprecation: Finance APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/supplementary-notice-on-api-deprecation-finance-apis</link>
             <description><![CDATA[Following the announcement of **V1 API deprecation** by the TikTok Shop Open Platform, we are issuing an additional clarification regarding the deprecation plan for the following two Finance category APIs: * [Get Transactions by Order](get-transactions-by-order); * [Get Transactions by Statement](get-transactions-by-statement). ## Action Required In addition to the deprecation of all V1 APIs (version number < 202309), the **202309 versions** of the above two APIs will also be included in the dep...]]></description>
+            <category>Action Required</category>
             <guid isPermaLink="false">supplementary-notice-on-api-deprecation-finance-apis#af84c494</guid>
             <pubDate>Mon, 23 Jun 2025 09:31:25 +0000</pubDate>
             <content:encoded><![CDATA[Following the announcement of **V1 API deprecation** by the TikTok Shop Open Platform, we are issuing an additional clarification regarding the deprecation plan for the following two Finance category APIs: * [Get Transactions by Order](get-transactions-by-order); * [Get Transactions by Statement](get-transactions-by-statement). ## Action Required In addition to the deprecation of all V1 APIs (version number < 202309), the **202309 versions** of the above two APIs will also be included in the dep...]]></content:encoded>
@@ -186,6 +221,7 @@
             <title>Deprecating TikTok Shop API V1</title>
             <link>https://partner.tiktokshop.com/docv2/page/deprecating-tts-api-v1</link>
             <description><![CDATA[To better serve our global developer community, **TikTok Shop Open Platform** is committed to building a high-performance, stable, and industry-compliant API system. Currently, we offer two main versions of our Open API: * **V1 (Legacy version)**: version numbers below 202309; * **V2 (Standard version)**: version numbers 202309 and above. The V1 API was introduced in the early stages of our platform. To enhance the developer experience and improve integration compatibility, we launched the V2 ve...]]></description>
+            <category>Action Required</category>
             <guid isPermaLink="false">deprecating-tts-api-v1#e9164be3</guid>
             <pubDate>Thu, 05 Jun 2025 11:08:24 +0000</pubDate>
             <content:encoded><![CDATA[To better serve our global developer community, **TikTok Shop Open Platform** is committed to building a high-performance, stable, and industry-compliant API system. Currently, we offer two main versions of our Open API: * **V1 (Legacy version)**: version numbers below 202309; * **V2 (Standard version)**: version numbers 202309 and above. The V1 API was introduced in the early stages of our platform. To enhance the developer experience and improve integration compatibility, we launched the V2 ve...]]></content:encoded>
@@ -194,6 +230,7 @@
             <title>BR and MX markets: Changes to name logic</title>
             <link>https://partner.tiktokshop.com/docv2/page/br-and-mx-markets-changes-to-name-logic</link>
             <description><![CDATA[## Summary We're making some changes to the API logic in [Get Order Detail](get-order-detail) to address common issues around the different `name`-related parameters. ## Impact | | | | --- | --- | | Impacted market(s) | * Brazil (BR) * Mexico (MX) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Get Order Detail Currently, when buyers place an order, they provide a `first_name` and `last_name` that are returned in the `recipient_address` response for Get Order Detail. The two para...]]></description>
+            <category>Update</category>
             <guid isPermaLink="false">br-and-mx-markets-changes-to-name-logic#187ddd56</guid>
             <pubDate>Thu, 29 May 2025 21:27:13 +0000</pubDate>
             <content:encoded><![CDATA[## Summary We're making some changes to the API logic in [Get Order Detail](get-order-detail) to address common issues around the different `name`-related parameters. ## Impact | | | | --- | --- | | Impacted market(s) | * Brazil (BR) * Mexico (MX) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Get Order Detail Currently, when buyers place an order, they provide a `first_name` and `last_name` that are returned in the `recipient_address` response for Get Order Detail. The two para...]]></content:encoded>
@@ -202,6 +239,8 @@
             <title>US market: Updates to mandatory attributes</title>
             <link>https://partner.tiktokshop.com/docv2/page/us-market-updates-to-mandatory-attributes</link>
             <description><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2025-08-30**, the Products API will require these compliance-related attributes to be provided. ## Impact | | | | --- | --- | | Impacted market(s) | United States (US) - **Local sellers** | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenar...]]></description>
+            <category>Update</category>
+            <category>Action Required</category>
             <guid isPermaLink="false">us-market-updates-to-mandatory-attributes#82d82dd6</guid>
             <pubDate>Thu, 29 May 2025 10:23:17 +0000</pubDate>
             <content:encoded><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2025-08-30**, the Products API will require these compliance-related attributes to be provided. ## Impact | | | | --- | --- | | Impacted market(s) | United States (US) - **Local sellers** | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenar...]]></content:encoded>
@@ -210,6 +249,8 @@
             <title>JP market: Updated APIs for Products, Orders, Logistics, and Customer service</title>
             <link>https://partner.tiktokshop.com/docv2/page/jp-market-updated-apis-for-products-orders-logistics-and-customer-service</link>
             <description><![CDATA[## Summary As of today, developers can start using TikTok Shop APIs to build apps for the Japan market. The APIs and workflows are generally consistent with other regions/markets, but there are a few JP-specific updates worth calling out. **Note**: Before building order management modules, developers should familiarize themselves with our [Orders API overview](order-api-overview) and our [Fulfillment API overview](fulfillment-api-overview). ## Affected markets and versions This change applies to...]]></description>
+            <category>Updated</category>
+            <category>New</category>
             <guid isPermaLink="false">jp-market-updated-apis-for-products-orders-logistics-and-customer-service#3dd29aa1</guid>
             <pubDate>Wed, 28 May 2025 20:55:33 +0000</pubDate>
             <content:encoded><![CDATA[## Summary As of today, developers can start using TikTok Shop APIs to build apps for the Japan market. The APIs and workflows are generally consistent with other regions/markets, but there are a few JP-specific updates worth calling out. **Note**: Before building order management modules, developers should familiarize themselves with our [Orders API overview](order-api-overview) and our [Fulfillment API overview](fulfillment-api-overview). ## Affected markets and versions This change applies to...]]></content:encoded>
@@ -218,6 +259,8 @@
             <title>Streamlining of invite-only product categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/streamlining-of-invite-only-product-categories</link>
             <description><![CDATA[## What is changing? Previously, TikTok Shop sellers had to apply for the necessary permission(s) in Seller Center to list products under invite-only categories. We've updated this workflow to allow sellers to first list such products, then apply for permission(s). Now, when a seller lists a product under an invite-only category they do not have permission for, the product will be in the `PENDING` status and unavailable to buyers. Similarly, the product audit status will be `PRE_APPROVED` if it ...]]></description>
+            <category>Updated</category>
+            <category>New</category>
             <guid isPermaLink="false">streamlining-of-invite-only-product-categories#2e251e45</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## What is changing? Previously, TikTok Shop sellers had to apply for the necessary permission(s) in Seller Center to list products under invite-only categories. We've updated this workflow to allow sellers to first list such products, then apply for permission(s). Now, when a seller lists a product under an invite-only category they do not have permission for, the product will be in the `PENDING` status and unavailable to buyers. Similarly, the product audit status will be `PRE_APPROVED` if it ...]]></content:encoded>
@@ -226,6 +269,7 @@
             <title>US market: Supplementary SKU images</title>
             <link>https://partner.tiktokshop.com/docv2/page/us-market-supplementary-sku-images</link>
             <description><![CDATA[## Summary Previously, L2L sellers could only list a single image per product variant. We've introduced the ability to add multiple product variant images to better support our sellers. ## Affected markets and versions This change applies to the following market(s): * United States (US) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Product APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Create Product * Edit Product * Partial Edit Product...]]></description>
+            <category>Updated</category>
             <guid isPermaLink="false">us-market-supplementary-sku-images#414eed4f</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## Summary Previously, L2L sellers could only list a single image per product variant. We've introduced the ability to add multiple product variant images to better support our sellers. ## Affected markets and versions This change applies to the following market(s): * United States (US) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Product APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Create Product * Edit Product * Partial Edit Product...]]></content:encoded>
@@ -234,6 +278,7 @@
             <title>US, UK, and SEA markets: Pre-order and made-to-order product types</title>
             <link>https://partner.tiktokshop.com/docv2/page/us-uk-and-sea-markets-pre-order-and-made-to-order-product-types</link>
             <description><![CDATA[## Summary We're introducing a couple of new `pre_sale` product types to better support TikTok Shop seller needs. There are a couple key business logic distinctions based on the market, as follows: For the **US** market, this includes pre-order and made-to-order products: * **Pre-order**: The buyer can place an order for a product before a **fixed** release date set by the seller. * **Made-to-order**: The buyer can place an order for a customized product that is made-to-order. The shipping lead ...]]></description>
+            <category>New</category>
             <guid isPermaLink="false">us-uk-and-sea-markets-pre-order-and-made-to-order-product-types#a0db6039</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## Summary We're introducing a couple of new `pre_sale` product types to better support TikTok Shop seller needs. There are a couple key business logic distinctions based on the market, as follows: For the **US** market, this includes pre-order and made-to-order products: * **Pre-order**: The buyer can place an order for a product before a **fixed** release date set by the seller. * **Made-to-order**: The buyer can place an order for a customized product that is made-to-order. The shipping lead ...]]></content:encoded>
@@ -242,6 +287,8 @@
             <title>US market: Pre-order, made-to-order, back-order functionality; delivery SLA</title>
             <link>https://partner.tiktokshop.com/docv2/page/us-market-pre-order-made-to-order-back-order-functionality-delivery-sla</link>
             <description><![CDATA[## Summary In the US market, we're adding the capability to specify new order types in our Order APIs, namely pre-order, made-to-order, and back-order. Compared to normal orders, these orders will sit longer in the **Ship To** tab of Order Management. Sellers now have the ability to filter for these new order types quickly to assess the necessary next steps in fulfillment. Specifically for back-orders, Order Management has enabled tracking and visibility against incoming inventory. Back-orders h...]]></description>
+            <category>Updated</category>
+            <category>New</category>
             <guid isPermaLink="false">us-market-pre-order-made-to-order-back-order-functionality-delivery-sla#a38946a3</guid>
             <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
             <content:encoded><![CDATA[## Summary In the US market, we're adding the capability to specify new order types in our Order APIs, namely pre-order, made-to-order, and back-order. Compared to normal orders, these orders will sit longer in the **Ship To** tab of Order Management. Sellers now have the ability to filter for these new order types quickly to assess the necessary next steps in fulfillment. Specifically for back-orders, Order Management has enabled tracking and visibility against incoming inventory. Back-orders h...]]></content:encoded>

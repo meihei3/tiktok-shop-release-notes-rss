@@ -96,11 +96,21 @@ class DocumentFetcher implements DocumentFetcherInterface
             throw new \RuntimeException("Invalid JSON response from detail API for {$documentPath}");
         }
 
+        $keywords = [];
+        if (isset($data['data']['keywords']) && is_array($data['data']['keywords'])) {
+            foreach ($data['data']['keywords'] as $keywordItem) {
+                if (is_array($keywordItem) && isset($keywordItem['keyword']) && is_string($keywordItem['keyword'])) {
+                    $keywords[] = $keywordItem['keyword'];
+                }
+            }
+        }
+
         return new DocumentDetail(
             title: $data['data']['title'] ?? 'Untitled',
             content: $data['data']['content'] ?? '',
             description: $data['data']['description'] ?? '',
             updateTime: isset($data['data']['update_time']) ? (int) $data['data']['update_time'] : null,
+            keywords: $keywords,
         );
     }
 

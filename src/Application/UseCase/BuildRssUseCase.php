@@ -106,6 +106,7 @@ readonly class BuildRssUseCase
                         contentHash: $contentHash,
                         pubDate: $pubDate,
                         link: $link,
+                        keywords: $detail->keywords,
                     );
 
                     $pagesChanged++;

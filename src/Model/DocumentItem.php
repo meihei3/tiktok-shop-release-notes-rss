@@ -6,6 +6,9 @@ namespace TikTokShopRss\Model;
 
 final readonly class DocumentItem
 {
+    /**
+     * @param list<string> $keywords
+     */
     public function __construct(
         public string $documentPath,
         public string $title,
@@ -13,6 +16,7 @@ final readonly class DocumentItem
         public string $contentHash,
         public string $pubDate,
         public string $link,
+        public array $keywords = [],
     ) {
     }
 }
