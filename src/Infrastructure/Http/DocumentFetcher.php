@@ -113,7 +113,8 @@ class DocumentFetcher implements DocumentFetcherInterface
         $paths = [];
 
         foreach ($treeNodes as $node) {
-            if ($node->documentPath !== null && $node->documentPath !== '') {
+            // Only include nodes with doc_type = 3
+            if ($node->documentPath !== null && $node->documentPath !== '' && $node->docType === 3) {
                 $paths[] = new DocumentPathInfo(
                     path: $node->documentPath,
                     updateTime: $node->updateTime,
@@ -152,6 +153,12 @@ class DocumentFetcher implements DocumentFetcherInterface
                 $updateTime = is_int($rawUpdateTime) ? $rawUpdateTime : (int) $rawUpdateTime;
             }
 
+            $docType = null;
+            if (isset($rawNode['doc_type'])) {
+                $rawDocType = $rawNode['doc_type'];
+                $docType = is_int($rawDocType) ? $rawDocType : (int) $rawDocType;
+            }
+
             $children = [];
             if (isset($rawNode['children']) && is_array($rawNode['children'])) {
                 $children = $this->convertToTreeNodes($rawNode['children']);
@@ -160,6 +167,7 @@ class DocumentFetcher implements DocumentFetcherInterface
             $nodes[] = new TreeNode(
                 documentPath: $documentPath,
                 updateTime: $updateTime,
+                docType: $docType,
                 children: $children,
             );
         }
