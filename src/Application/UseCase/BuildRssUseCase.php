@@ -48,12 +48,11 @@ readonly class BuildRssUseCase
                 $existingSourceState?->lastModified
             );
 
-            if ($treeResult['not_modified'] === true) {
+            if ($treeResult->notModified === true) {
                 continue;
             }
 
-            $treeData = $treeResult['data'];
-            $documentPaths = $this->documentFetcher->extractDocumentPaths($treeData['data']['document_tree'] ?? []);
+            $documentPaths = $this->documentFetcher->extractDocumentPaths($treeResult->documentTree);
 
             $pagesLimit = $config->limits['pages'] ?? 300;
             $documentPaths = array_slice($documentPaths, 0, $pagesLimit);
@@ -63,10 +62,10 @@ readonly class BuildRssUseCase
                     $documentPath = $docInfo->path;
                     $treeUpdateTime = $docInfo->updateTime;
 
-                    $detailData = $this->documentFetcher->fetchDetail($source, $documentPath);
+                    $detail = $this->documentFetcher->fetchDetail($source, $documentPath);
 
-                    $content = $detailData['data']['content'] ?? '';
-                    $description = $detailData['data']['description'] ?? '';
+                    $content = $detail->content;
+                    $description = $detail->description;
 
                     if ($description === '') {
                         $description = $this->generateSummary($content);
@@ -80,11 +79,11 @@ readonly class BuildRssUseCase
                         continue;
                     }
 
-                    $title = $detailData['data']['title'] ?? 'Untitled';
+                    $title = $detail->title;
                     $link = str_replace('{document_path}', $documentPath, $source->publicUrlTemplate);
 
                     // Use tree's update_time, fallback to detail's update_time, then current time
-                    $updateTime = $treeUpdateTime ?? ($detailData['data']['update_time'] ?? null);
+                    $updateTime = $treeUpdateTime ?? $detail->updateTime;
                     $pubDate = $updateTime !== null ? date('c', $updateTime) : date('c');
 
                     $newItems[] = new DocumentItem(
@@ -109,7 +108,7 @@ readonly class BuildRssUseCase
                 }
             }
 
-            $treeJson = json_encode($treeData);
+            $treeJson = json_encode($treeResult->documentTree);
             if ($treeJson === false) {
                 throw new \RuntimeException('Failed to encode tree data to JSON');
             }
@@ -119,8 +118,8 @@ readonly class BuildRssUseCase
                 sources: $this->updateSourceState(
                     $state->sources,
                     $source->treeUrl,
-                    $treeResult['etag'] ?? null,
-                    $treeResult['last_modified'] ?? null,
+                    $treeResult->etag,
+                    $treeResult->lastModified,
                     hash('sha256', $treeJson),
                     date('c')
                 ),
