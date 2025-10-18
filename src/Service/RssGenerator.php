@@ -20,6 +20,7 @@ use function strip_tags;
 use function strtotime;
 use function substr;
 use function time;
+use function usort;
 
 class RssGenerator implements RssGeneratorInterface
 {
@@ -40,7 +41,23 @@ class RssGenerator implements RssGeneratorInterface
         bool $enableContentEncoded = true,
         int $limit = 50
     ): string {
-        $limitedItems = array_slice($items, 0, $limit);
+        // Sort by pubDate descending (newest first)
+        $sortedItems = $items;
+        usort($sortedItems, function (DocumentItem $a, DocumentItem $b): int {
+            $timeA = strtotime($a->pubDate);
+            $timeB = strtotime($b->pubDate);
+
+            if ($timeA === false) {
+                $timeA = 0;
+            }
+            if ($timeB === false) {
+                $timeB = 0;
+            }
+
+            return $timeB <=> $timeA; // Descending order
+        });
+
+        $limitedItems = array_slice($sortedItems, 0, $limit);
 
         $rssItems = array_map(function (DocumentItem $item) {
             return [

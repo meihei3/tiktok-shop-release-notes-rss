@@ -22,8 +22,10 @@ use function mb_substr;
 use function preg_replace;
 use function str_replace;
 use function strip_tags;
+use function strtotime;
 use function trim;
 use function usleep;
+use function usort;
 
 readonly class BuildRssUseCase
 {
@@ -53,6 +55,13 @@ readonly class BuildRssUseCase
             }
 
             $documentPaths = $this->documentFetcher->extractDocumentPaths($treeResult->documentTree);
+
+            // Sort by update_time descending (newest first)
+            usort($documentPaths, function ($a, $b): int {
+                $timeA = $a->updateTime ?? 0;
+                $timeB = $b->updateTime ?? 0;
+                return $timeB <=> $timeA;
+            });
 
             $documentPaths = array_slice($documentPaths, 0, $config->limits->pages);
 
