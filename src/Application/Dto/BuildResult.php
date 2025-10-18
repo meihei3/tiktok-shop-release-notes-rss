@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Model;
+namespace TikTokShopRss\Application\Dto;
+
+use TikTokShopRss\Model\State;
 
 readonly class BuildResult
 {

@@ -7,11 +7,11 @@ namespace TikTokShopRss\Tests\Unit\Infrastructure\Http;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
-use TikTokShopRss\Model\DocumentDetail;
-use TikTokShopRss\Model\DocumentPathInfo;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
-use TikTokShopRss\Model\TreeResult;
 
 class DocumentFetcherTest extends TestCase
 {

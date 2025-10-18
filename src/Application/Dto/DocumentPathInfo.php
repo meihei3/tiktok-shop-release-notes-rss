@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TikTokShopRss\Model;
+namespace TikTokShopRss\Application\Dto;
 
 readonly class DocumentPathInfo
 {

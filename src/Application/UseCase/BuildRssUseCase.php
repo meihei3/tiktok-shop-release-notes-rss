@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\UseCase;
 
+use TikTokShopRss\Application\Dto\BuildResult;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
-use TikTokShopRss\Model\BuildResult;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\SourceState;

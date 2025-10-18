@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Port;
 
-use TikTokShopRss\Model\DocumentDetail;
-use TikTokShopRss\Model\DocumentPathInfo;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
-use TikTokShopRss\Model\TreeResult;
 
 interface DocumentFetcherInterface
 {

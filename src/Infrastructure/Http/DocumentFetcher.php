@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
-use TikTokShopRss\Model\DocumentDetail;
-use TikTokShopRss\Model\DocumentPathInfo;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
-use TikTokShopRss\Model\TreeResult;
 
 use function array_merge;
 use function is_array;

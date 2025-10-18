@@ -5,18 +5,18 @@ declare(strict_types=1);
 namespace TikTokShopRss\Tests\Unit\Application\UseCase;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\Dto\BuildResult;
+use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
-use TikTokShopRss\Model\BuildResult;
+use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Config;
-use TikTokShopRss\Model\DocumentDetail;
 use TikTokShopRss\Model\DocumentItem;
-use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 use TikTokShopRss\Model\State;
-use TikTokShopRss\Model\TreeResult;
 
 class BuildRssUseCaseTest extends TestCase
 {
