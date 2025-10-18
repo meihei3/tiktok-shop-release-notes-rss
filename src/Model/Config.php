@@ -10,7 +10,7 @@ use TikTokShopRss\Application\Dto\RetryConfig;
 use TikTokShopRss\Application\Dto\RssConfig;
 use TikTokShopRss\Application\Dto\SaveRawConfig;
 
-readonly class Config
+final readonly class Config
 {
     /**
      * @param array<int, Source> $sources

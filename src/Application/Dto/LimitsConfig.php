@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Dto;
 
-readonly class LimitsConfig
+final readonly class LimitsConfig
 {
     public function __construct(
         public int $pages = 300,

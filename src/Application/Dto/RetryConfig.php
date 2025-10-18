@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Dto;
 
-readonly class RetryConfig
+final readonly class RetryConfig
 {
     public function __construct(
         public int $maxAttempts = 3,

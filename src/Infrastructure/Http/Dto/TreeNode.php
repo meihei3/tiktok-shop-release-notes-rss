@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Infrastructure\Http\Dto;
 
-readonly class TreeNode
+final readonly class TreeNode
 {
     /**
      * @param list<TreeNode> $children

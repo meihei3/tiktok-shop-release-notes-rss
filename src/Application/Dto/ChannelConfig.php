@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Dto;
 
-readonly class ChannelConfig
+final readonly class ChannelConfig
 {
     public function __construct(
         public string $title,

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Infrastructure\Http\Dto;
 
-readonly class TreeResult
+final readonly class TreeResult
 {
     /**
      * @param list<TreeNode> $documentTree

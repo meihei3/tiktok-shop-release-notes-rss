@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Model;
 
-readonly class Source
+final readonly class Source
 {
     public function __construct(
         public string $treeUrl,
