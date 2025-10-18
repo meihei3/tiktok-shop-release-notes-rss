@@ -130,7 +130,7 @@ class BuildRssCommand extends Command
                 $durationMs = (microtime(true) - $startTime) * 1000;
 
                 if ($input->getOption('json')) {
-                    $itemsLimit = $config->limits['items'] ?? 50;
+                    $itemsLimit = $config->limits->items;
                     $summary = [
                         'crawl.pages_total' => count($state->items),
                         'crawl.pages_changed' => $pagesChanged,
