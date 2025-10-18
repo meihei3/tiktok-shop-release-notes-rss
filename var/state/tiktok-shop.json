@@ -6,7 +6,7 @@
             "etag": null,
             "lastModified": null,
             "contentHash": "61dc021f3872ac63db14da3527387727860da60b809aef39d56aedd7ae315f33",
-            "lastSeenAt": "2025-10-18T17:26:38+00:00"
+            "lastSeenAt": "2025-10-18T17:42:40+00:00"
         }
     ],
     "items": [
@@ -91,14 +91,6 @@
             "link": "https://partner.tiktokshop.com/docv2/page/sv0xa2r6"
         },
         {
-            "document_path": "kjodelbz",
-            "title": "Untitled",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-08-27T20:15:39+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/kjodelbz"
-        },
-        {
             "document_path": "k1156vkq",
             "title": "ID market: Tokopedia Open API Termination - Migrate to TikTok Shop Partner Center by September 30, 2025",
             "description": "The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...",
@@ -145,78 +137,6 @@
             "contentHash": "239e62f1f28db32a017e7d8fe908c28ee2126e551e21de853476ce33220b27fd",
             "pubDate": "2025-07-28T15:15:58+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/g03iqsx0"
-        },
-        {
-            "document_path": "669a0589a6a5e002e6da8824",
-            "title": "Affiliate",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:01+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/669a0589a6a5e002e6da8824"
-        },
-        {
-            "document_path": "65f22d549659ee02e10f0479",
-            "title": "Authorization",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:01+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/65f22d549659ee02e10f0479"
-        },
-        {
-            "document_path": "65852b5495f20302daf6858e",
-            "title": "Order cancellation",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:01+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/65852b5495f20302daf6858e"
-        },
-        {
-            "document_path": "6740642d13bf500306d859a3",
-            "title": "Promotion",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:01+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/6740642d13bf500306d859a3"
-        },
-        {
-            "document_path": "677ccdc3c9ca87030979443f",
-            "title": "Finance",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:01+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/677ccdc3c9ca87030979443f"
-        },
-        {
-            "document_path": "654dc3f79b8d1c02d8697a23",
-            "title": "Fulfillment",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:00+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/654dc3f79b8d1c02d8697a23"
-        },
-        {
-            "document_path": "653779d3932caf02c122361c",
-            "title": "Orders",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:00+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/653779d3932caf02c122361c"
-        },
-        {
-            "document_path": "654b22360fe8ca02c079012f",
-            "title": "Products",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:00+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/654b22360fe8ca02c079012f"
-        },
-        {
-            "document_path": "650aa55bf1fd3102b92c77c3",
-            "title": "Other",
-            "description": "",
-            "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "pubDate": "2025-07-18T03:36:00+00:00",
-            "link": "https://partner.tiktokshop.com/docv2/page/650aa55bf1fd3102b92c77c3"
         },
         {
             "document_path": "updates-to-product-errors",

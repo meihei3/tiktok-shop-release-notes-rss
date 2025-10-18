@@ -75,6 +75,11 @@ readonly class BuildRssUseCase
                     $content = $detail->content;
                     $description = $detail->description;
 
+                    // Skip items with empty content and description (structural parent nodes)
+                    if ($content === '' && $description === '') {
+                        continue;
+                    }
+
                     if ($description === '') {
                         $description = $this->generateSummary($content);
                     }
