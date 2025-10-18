@@ -14,9 +14,6 @@ parameters:
         -
             message: '#Part .* \(mixed\) of encapsed string cannot be cast to string#'
             path: src/Command/*
-        -
-            message: '#Cannot access offset .* on .*#'
-            path: src/Command/*
         # InfrastructureはHTTP/JSONなど外部データを扱うためmixedキャストを許容
         -
             message: '#Cannot cast mixed to#'
