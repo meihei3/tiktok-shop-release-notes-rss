@@ -8,8 +8,10 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
+use TikTokShopRss\Model\DocumentDetail;
 use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
+use TikTokShopRss\Model\TreeResult;
 
 class DocumentFetcherTest extends TestCase
 {
@@ -17,8 +19,10 @@ class DocumentFetcherTest extends TestCase
     {
         $responseBody = json_encode([
             'data' => [
-                ['document_path' => '/docs/test1'],
-                ['document_path' => '/docs/test2'],
+                'document_tree' => [
+                    ['document_path' => '/docs/test1'],
+                    ['document_path' => '/docs/test2'],
+                ],
             ],
         ]);
 
@@ -45,10 +49,11 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchTree($source);
 
-        $this->assertFalse($result['not_modified']);
-        $this->assertIsArray($result['data']);
-        $this->assertSame('etag123', $result['etag']);
-        $this->assertSame('Mon, 01 Jan 2024 00:00:00 GMT', $result['last_modified']);
+        $this->assertInstanceOf(TreeResult::class, $result);
+        $this->assertFalse($result->notModified);
+        $this->assertIsArray($result->documentTree);
+        $this->assertSame('etag123', $result->etag);
+        $this->assertSame('Mon, 01 Jan 2024 00:00:00 GMT', $result->lastModified);
     }
 
     public function testFetchTreeNotModified(): void
@@ -68,8 +73,9 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchTree($source, 'etag123', 'Mon, 01 Jan 2024 00:00:00 GMT');
 
-        $this->assertTrue($result['not_modified']);
-        $this->assertNull($result['data']);
+        $this->assertInstanceOf(TreeResult::class, $result);
+        $this->assertTrue($result->notModified);
+        $this->assertEmpty($result->documentTree);
     }
 
     public function testFetchDetailSuccess(): void
@@ -78,7 +84,8 @@ class DocumentFetcherTest extends TestCase
             'data' => [
                 'title' => 'Test Article',
                 'description' => 'Test description',
-                'content_html' => '<p>Test content</p>',
+                'content' => '<p>Test content</p>',
+                'update_time' => 1234567890,
             ],
         ]);
 
@@ -101,10 +108,11 @@ class DocumentFetcherTest extends TestCase
 
         $result = $fetcher->fetchDetail($source, '/docs/test');
 
-        $this->assertIsArray($result);
-        $this->assertArrayHasKey('data', $result);
-        $this->assertSame('Test Article', $result['data']['title']);
-        $this->assertSame('Test description', $result['data']['description']);
+        $this->assertInstanceOf(DocumentDetail::class, $result);
+        $this->assertSame('Test Article', $result->title);
+        $this->assertSame('Test description', $result->description);
+        $this->assertSame('<p>Test content</p>', $result->content);
+        $this->assertSame(1234567890, $result->updateTime);
     }
 
     public function testExtractDocumentPaths(): void

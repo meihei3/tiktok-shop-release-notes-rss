@@ -11,10 +11,12 @@ use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
 use TikTokShopRss\Model\BuildResult;
 use TikTokShopRss\Model\Config;
+use TikTokShopRss\Model\DocumentDetail;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
 use TikTokShopRss\Model\State;
+use TikTokShopRss\Model\TreeResult;
 
 class BuildRssUseCaseTest extends TestCase
 {
@@ -51,18 +53,14 @@ class BuildRssUseCaseTest extends TestCase
         $documentFetcher
             ->expects($this->once())
             ->method('fetchTree')
-            ->willReturn([
-                'not_modified' => false,
-                'data' => [
-                    'data' => [
-                        'document_tree' => [
-                            ['document_path' => 'test-doc', 'update_time' => 1234567890],
-                        ],
-                    ],
+            ->willReturn(new TreeResult(
+                notModified: false,
+                documentTree: [
+                    ['document_path' => 'test-doc', 'update_time' => 1234567890],
                 ],
-                'etag' => 'etag123',
-                'last_modified' => 'Mon, 01 Jan 2024 00:00:00 GMT',
-            ]);
+                etag: 'etag123',
+                lastModified: 'Mon, 01 Jan 2024 00:00:00 GMT',
+            ));
 
         $documentFetcher
             ->expects($this->once())
@@ -74,14 +72,12 @@ class BuildRssUseCaseTest extends TestCase
         $documentFetcher
             ->expects($this->once())
             ->method('fetchDetail')
-            ->willReturn([
-                'data' => [
-                    'title' => 'Test Document',
-                    'content' => 'Test content',
-                    'description' => 'Test description',
-                    'update_time' => 1234567890,
-                ],
-            ]);
+            ->willReturn(new DocumentDetail(
+                title: 'Test Document',
+                content: 'Test content',
+                description: 'Test description',
+                updateTime: 1234567890,
+            ));
 
         $stateManager
             ->expects($this->once())
@@ -139,10 +135,12 @@ class BuildRssUseCaseTest extends TestCase
         $documentFetcher
             ->expects($this->once())
             ->method('fetchTree')
-            ->willReturn([
-                'not_modified' => true,
-                'data' => null,
-            ]);
+            ->willReturn(new TreeResult(
+                notModified: true,
+                documentTree: [],
+                etag: null,
+                lastModified: null,
+            ));
 
         $documentFetcher
             ->expects($this->never())
