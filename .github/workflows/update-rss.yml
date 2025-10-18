@@ -1,0 +1,45 @@
+name: Update RSS Feed
+
+on:
+  schedule:
+    # 毎日 UTC 0:00 (JST 9:00) に実行
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: json, mbstring, xml
+          tools: composer:v2
+
+      - name: Install dependencies
+        run: composer install --no-dev --prefer-dist --no-progress --no-interaction
+
+      - name: Generate RSS feed
+        run: php bin/console tts:rss:build --docs-dir=docs/rss --output-basename=index.xml
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code docs/rss/index.xml var/state/tiktok-shop.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/rss/index.xml var/state/tiktok-shop.json
+          git commit -m "chore: update RSS feed and state [skip ci]"
+          git push
