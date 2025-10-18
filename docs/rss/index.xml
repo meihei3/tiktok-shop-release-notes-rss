@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sat, 18 Oct 2025 17:26:38 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 18 Oct 2025 17:44:03 +0000</lastBuildDate>
         <item>
             <title>For SEA market: Configure &amp;quot;Cancellation status change&amp;quot; webhook to receive cancellation message</title>
             <link>https://partner.tiktokshop.com/docv2/page/jsqxpibu</link>
@@ -87,13 +87,6 @@
             <content:encoded><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></content:encoded>
         </item>
         <item>
-            <title>Untitled</title>
-            <link>https://partner.tiktokshop.com/docv2/page/kjodelbz</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">kjodelbz#e3b0c442</guid>
-            <pubDate>Wed, 27 Aug 2025 20:15:39 +0000</pubDate>
-        </item>
-        <item>
             <title>ID market: Tokopedia Open API Termination - Migrate to TikTok Shop Partner Center by September 30, 2025</title>
             <link>https://partner.tiktokshop.com/docv2/page/k1156vkq</link>
             <description><![CDATA[The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...]]></description>
@@ -140,69 +133,6 @@
             <guid isPermaLink="false">g03iqsx0#239e62f1</guid>
             <pubDate>Mon, 28 Jul 2025 15:15:58 +0000</pubDate>
             <content:encoded><![CDATA[## Summary Previously, the TikTok Shop Seller Center only allowed draft editing prior to publishing a listing. We've recently expanded this feature to additionally enable sellers to edit and save drafts for products that have already been listed, and are now ensuring it is reflected in our APIs. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local * United Kingdom (UK) - Local * Europe (EU) - Local * Southeast Asia (SEA) - Local * Japan (JP) - Local * Platform Open P...]]></content:encoded>
-        </item>
-        <item>
-            <title>Affiliate</title>
-            <link>https://partner.tiktokshop.com/docv2/page/669a0589a6a5e002e6da8824</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">669a0589a6a5e002e6da8824#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:01 +0000</pubDate>
-        </item>
-        <item>
-            <title>Authorization</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65f22d549659ee02e10f0479</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">65f22d549659ee02e10f0479#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:01 +0000</pubDate>
-        </item>
-        <item>
-            <title>Order cancellation</title>
-            <link>https://partner.tiktokshop.com/docv2/page/65852b5495f20302daf6858e</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">65852b5495f20302daf6858e#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:01 +0000</pubDate>
-        </item>
-        <item>
-            <title>Promotion</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6740642d13bf500306d859a3</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">6740642d13bf500306d859a3#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:01 +0000</pubDate>
-        </item>
-        <item>
-            <title>Finance</title>
-            <link>https://partner.tiktokshop.com/docv2/page/677ccdc3c9ca87030979443f</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">677ccdc3c9ca87030979443f#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:01 +0000</pubDate>
-        </item>
-        <item>
-            <title>Fulfillment</title>
-            <link>https://partner.tiktokshop.com/docv2/page/654dc3f79b8d1c02d8697a23</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">654dc3f79b8d1c02d8697a23#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:00 +0000</pubDate>
-        </item>
-        <item>
-            <title>Orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/653779d3932caf02c122361c</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">653779d3932caf02c122361c#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:00 +0000</pubDate>
-        </item>
-        <item>
-            <title>Products</title>
-            <link>https://partner.tiktokshop.com/docv2/page/654b22360fe8ca02c079012f</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">654b22360fe8ca02c079012f#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:00 +0000</pubDate>
-        </item>
-        <item>
-            <title>Other</title>
-            <link>https://partner.tiktokshop.com/docv2/page/650aa55bf1fd3102b92c77c3</link>
-            <description><![CDATA[]]></description>
-            <guid isPermaLink="false">650aa55bf1fd3102b92c77c3#e3b0c442</guid>
-            <pubDate>Fri, 18 Jul 2025 03:36:00 +0000</pubDate>
         </item>
         <item>
             <title>Updates to product errors</title>
@@ -315,86 +245,6 @@
             <guid isPermaLink="false">us-market-pre-order-made-to-order-back-order-functionality-delivery-sla#a38946a3</guid>
             <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
             <content:encoded><![CDATA[## Summary In the US market, we're adding the capability to specify new order types in our Order APIs, namely pre-order, made-to-order, and back-order. Compared to normal orders, these orders will sit longer in the **Ship To** tab of Order Management. Sellers now have the ability to filter for these new order types quickly to assess the necessary next steps in fulfillment. Specifically for back-orders, Order Management has enabled tracking and visibility against incoming inventory. Back-orders h...]]></content:encoded>
-        </item>
-        <item>
-            <title>US and UK markets: Exchange orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-and-uk-markets-exchange-orders</link>
-            <description><![CDATA[## Summary To provide a smoother after-sales experience, we've added a couple of response parameters that should help sellers keep track of their exchange orders. ## Affected markets and versions This change applies to the following market(s): * United States (US) * United Kingdom (UK) This change applies to the following API version(s): * 202309 (and later) ## What's changing? ### Order APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * [Get Order List](get-order-list) * [Get Order Deta...]]></description>
-            <guid isPermaLink="false">us-and-uk-markets-exchange-orders#45338628</guid>
-            <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary To provide a smoother after-sales experience, we've added a couple of response parameters that should help sellers keep track of their exchange orders. ## Affected markets and versions This change applies to the following market(s): * United States (US) * United Kingdom (UK) This change applies to the following API version(s): * 202309 (and later) ## What's changing? ### Order APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * [Get Order List](get-order-list) * [Get Order Deta...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Fast delivery program</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-market-fast-delivery-program</link>
-            <description><![CDATA[## Summary To better support our 2024 Q4 rollout of *3 Day Delivery* through Fulfilled-by-TikTok (FBT), we're adding a merchant badge in Seller Center that more clearly indicates if a seller is offering *3 Day Delivery* for a specific order. We've updated some of our order management APIs to reflect this badge. ## Impact | | | | --- | --- | | Impacted market(s) | United States (US) | | Impacted version(s) | 202309 (and later) | ## Changes ### Order APIs | **Endpoint(s)** | **Change(s)** | | --- ...]]></description>
-            <guid isPermaLink="false">us-market-fast-delivery-program#db825edc</guid>
-            <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary To better support our 2024 Q4 rollout of *3 Day Delivery* through Fulfilled-by-TikTok (FBT), we're adding a merchant badge in Seller Center that more clearly indicates if a seller is offering *3 Day Delivery* for a specific order. We've updated some of our order management APIs to reflect this badge. ## Impact | | | | --- | --- | | Impacted market(s) | United States (US) | | Impacted version(s) | 202309 (and later) | ## Changes ### Order APIs | **Endpoint(s)** | **Change(s)** | | --- ...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Changes to recipient_address masking</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-market-changes-to-recipient-address-masking</link>
-            <description><![CDATA[## Summary We'll be making some upcoming customer data desensitization changes, specifically which `recipient_address`-related parameters are masked in the API response for our [Get Order List](get-order-list) and [Get Order Detail](get-order-detail) endpoints. For some additional context, our current address masking protocol is as follows: * Seller Shipping (**3PL**, `shipping_type=SELLER`) orders return an unmasked `recipient_address`. * TikTok Shipping (**4PL**, `shipping_type=TIKTOK`) orders...]]></description>
-            <guid isPermaLink="false">us-market-changes-to-recipient-address-masking#ff35fd81</guid>
-            <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary We'll be making some upcoming customer data desensitization changes, specifically which `recipient_address`-related parameters are masked in the API response for our [Get Order List](get-order-list) and [Get Order Detail](get-order-detail) endpoints. For some additional context, our current address masking protocol is as follows: * Seller Shipping (**3PL**, `shipping_type=SELLER`) orders return an unmasked `recipient_address`. * TikTok Shipping (**4PL**, `shipping_type=TIKTOK`) orders...]]></content:encoded>
-        </item>
-        <item>
-            <title>For the SEA Market Partner &amp;amp; Developer: Add Expire Date on Product Certifications</title>
-            <link>https://partner.tiktokshop.com/docv2/page/for-sea-market-partner-developer-add-expire-date-on-product-certifications</link>
-            <description><![CDATA[# What is changing? A new attribute expiration_date was added under product certifications in APIs Check Product Listing, Create Product, Partial Edit Products and Edit Product. Before creating, publishing or editing products, please call Get Category Rules to make sure whether expiration_date is mandatory after 2025-6-28. There would be an expiration_date field under product certifications in the response body when getting category rules or getting product. The APIs include Get Category Rules a...]]></description>
-            <guid isPermaLink="false">for-sea-market-partner-developer-add-expire-date-on-product-certifications#d95e8c0b</guid>
-            <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? A new attribute expiration_date was added under product certifications in APIs Check Product Listing, Create Product, Partial Edit Products and Edit Product. Before creating, publishing or editing products, please call Get Category Rules to make sure whether expiration_date is mandatory after 2025-6-28. There would be an expiration_date field under product certifications in the response body when getting category rules or getting product. The APIs include Get Category Rules a...]]></content:encoded>
-        </item>
-        <item>
-            <title>BR market: ZPL format support for shipping documents</title>
-            <link>https://partner.tiktokshop.com/docv2/page/br-market-zpl-format-support-for-shipping-documents</link>
-            <description><![CDATA[## Summary To better support our fulfillment APIs in the BR market, we've added the Zebra Programming Language (ZPL) format to our [Get Package Shipping Document](get-package-shipping-document) endpoint. ## Affected markets and versions This change applies to the following market(s): * Brazil (BR) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Fulfillment APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Get Package Shipping Document | * Add...]]></description>
-            <guid isPermaLink="false">br-market-zpl-format-support-for-shipping-documents#25b37d99</guid>
-            <pubDate>Wed, 28 May 2025 20:55:28 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary To better support our fulfillment APIs in the BR market, we've added the Zebra Programming Language (ZPL) format to our [Get Package Shipping Document](get-package-shipping-document) endpoint. ## Affected markets and versions This change applies to the following market(s): * Brazil (BR) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Fulfillment APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Get Package Shipping Document | * Add...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: TikTok Shipping label allocation</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-market-tiktok-shipping-label-allocation</link>
-            <description><![CDATA[## Summary When buying a shipping label through TikTok Shop, TikTok Shipping (4PL) will be updated to automatically allocate the best logistics service for each package. This label allocation feature will initially rollout to selected sellers, and will require apps to support some minor changes in fulfillment logic. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) | | Impacted version(s) | * 202309 (or later) | ## Changes For selected sellers with orders where `shipping_...]]></description>
-            <guid isPermaLink="false">us-market-tiktok-shipping-label-allocation#faee12f7</guid>
-            <pubDate>Wed, 28 May 2025 20:55:28 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary When buying a shipping label through TikTok Shop, TikTok Shipping (4PL) will be updated to automatically allocate the best logistics service for each package. This label allocation feature will initially rollout to selected sellers, and will require apps to support some minor changes in fulfillment logic. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) | | Impacted version(s) | * 202309 (or later) | ## Changes For selected sellers with orders where `shipping_...]]></content:encoded>
-        </item>
-        <item>
-            <title>BR market: Updated API workflow to support Order, Invoice and Warehouse</title>
-            <link>https://partner.tiktokshop.com/docv2/page/br-market-updated-api-workflow-to-support-order-invoice-and-warehouse</link>
-            <description><![CDATA[## Summary In the Brazil market, marketplace sellers are required to upload invoices to marketplace before they can fulfill the order. So the API workflow has been adjusted and new fields added to fit into the invoicing process. ## Affected Markets and Versions This change applies to the BR market and v202309 of the API. ## API Changes Please refer to the [developer guide](https://bytedance.sg.larkoffice.com/docx/YOIKdbMUtotNTFxNjx2chiitnOd) on how to manage BR market by effectively using the in...]]></description>
-            <guid isPermaLink="false">br-market-updated-api-workflow-to-support-order-invoice-and-warehouse#634fa670</guid>
-            <pubDate>Fri, 07 Mar 2025 02:36:07 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary In the Brazil market, marketplace sellers are required to upload invoices to marketplace before they can fulfill the order. So the API workflow has been adjusted and new fields added to fit into the invoicing process. ## Affected Markets and Versions This change applies to the BR market and v202309 of the API. ## API Changes Please refer to the [developer guide](https://bytedance.sg.larkoffice.com/docx/YOIKdbMUtotNTFxNjx2chiitnOd) on how to manage BR market by effectively using the in...]]></content:encoded>
-        </item>
-        <item>
-            <title>Mandatory certifications for certain categories added</title>
-            <link>https://partner.tiktokshop.com/docv2/page/mandatory-certifications-for-certain-categories-added</link>
-            <description><![CDATA[## Summary TikTok Shop is implementing new Mandatory Certifications for categories in Beauty & Personal Care and Health. Starting from 2025-04-19, Products API will be updated to require 510(k) PreMarket Notification for Class 2 Consumer Medical Products and Establishment Registration & Device Listing Account (FURLS) for Class 1, 2, and 3 Consumer Medical Products. ## Which markets and versions are affected? This change applies to all versions and local sellers in the US market. ## API Changes D...]]></description>
-            <guid isPermaLink="false">mandatory-certifications-for-certain-categories-added#0ee9c931</guid>
-            <pubDate>Fri, 07 Mar 2025 02:36:05 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary TikTok Shop is implementing new Mandatory Certifications for categories in Beauty & Personal Care and Health. Starting from 2025-04-19, Products API will be updated to require 510(k) PreMarket Notification for Class 2 Consumer Medical Products and Establishment Registration & Device Listing Account (FURLS) for Class 1, 2, and 3 Consumer Medical Products. ## Which markets and versions are affected? This change applies to all versions and local sellers in the US market. ## API Changes D...]]></content:encoded>
-        </item>
-        <item>
-            <title>Upload Product Image and Upload Product File support more file formats</title>
-            <link>https://partner.tiktokshop.com/docv2/page/upload-product-image-and-upload-product-file-support-more-file-formats</link>
-            <description><![CDATA[## Summary File formats supported by Upload Product Image and Upload Product File have been expanded. ## Which markets and versions are affected? This change applies to **v202309** and affects all markets and sellers. ## API Changes ### Upload Product Image We now support WEBP, HEIC, and BMP in addition to the previously supported JPG, JPEG, and PNG formats. ### Upload Product File For video formats, we support MP4, MOV, MKV, WMV, WEBM, AVI, 3GP, FLV, and MPEG, in addition to the previously supp...]]></description>
-            <guid isPermaLink="false">upload-product-image-and-upload-product-file-support-more-file-formats#3d2685a3</guid>
-            <pubDate>Fri, 07 Mar 2025 02:36:05 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary File formats supported by Upload Product Image and Upload Product File have been expanded. ## Which markets and versions are affected? This change applies to **v202309** and affects all markets and sellers. ## API Changes ### Upload Product Image We now support WEBP, HEIC, and BMP in addition to the previously supported JPG, JPEG, and PNG formats. ### Upload Product File For video formats, we support MP4, MOV, MKV, WMV, WEBM, AVI, 3GP, FLV, and MPEG, in addition to the previously supp...]]></content:encoded>
-        </item>
-        <item>
-            <title>Adding co-founded shipping discount fields</title>
-            <link>https://partner.tiktokshop.com/docv2/page/adding-co-founded-shipping-discount-fields</link>
-            <description><![CDATA[## What is changing? You can improve your order details page to better display Co-Funded Free Shipping (CFFS) in select US and UK markets. These updates will clarify how much sellers will be reimbursed when CFFS applies, enhancing their understanding of the program compared to previous Free Shipping initiatives. The changes are expected to improve the seller experience while reducing confusion and support inquiries. ## Which markets and versions are affected? This change applies to local sellers...]]></description>
-            <guid isPermaLink="false">adding-co-founded-shipping-discount-fields#10ea44c7</guid>
-            <pubDate>Fri, 07 Mar 2025 02:36:01 +0000</pubDate>
-            <content:encoded><![CDATA[## What is changing? You can improve your order details page to better display Co-Funded Free Shipping (CFFS) in select US and UK markets. These updates will clarify how much sellers will be reimbursed when CFFS applies, enhancing their understanding of the program compared to previous Free Shipping initiatives. The changes are expected to improve the seller experience while reducing confusion and support inquiries. ## Which markets and versions are affected? This change applies to local sellers...]]></content:encoded>
         </item>
     </channel>
 </rss>

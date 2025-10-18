@@ -14,7 +14,7 @@ rss:
   enable_content_encoded: true
 limits:
   pages: 50
-  items: 50
+  items: 30
 concurrency: 10
 retry:
   attempts: 3

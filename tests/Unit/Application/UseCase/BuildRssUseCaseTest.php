@@ -165,6 +165,90 @@ class BuildRssUseCaseTest extends TestCase
         $this->assertInstanceOf(State::class, $result->state);
     }
 
+    public function testBuildSkipsEmptyContentAndDescription(): void
+    {
+        $documentFetcher = $this->createMock(DocumentFetcherInterface::class);
+        $stateManager = $this->createMock(StateManagerInterface::class);
+        $rssGenerator = $this->createMock(RssGeneratorInterface::class);
+
+        $source = new Source(
+            treeUrl: 'https://example.com/tree',
+            detailUrlTemplate: 'https://example.com/detail/{document_path}',
+            publicUrlTemplate: 'https://example.com/doc/{document_path}'
+        );
+
+        $config = new Config(
+            stateFile: 'state.json',
+            sources: [$source],
+            channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
+            rss: new RssConfig(),
+            limits: new LimitsConfig(pages: 10, items: 50),
+            concurrency: 1,
+            retry: new RetryConfig(),
+            sleepBetweenRequestsMs: 0,
+            saveRaw: new SaveRawConfig()
+        );
+
+        $state = new State(
+            version: 2,
+            sources: [],
+            items: []
+        );
+
+        $documentFetcher
+            ->expects($this->once())
+            ->method('fetchTree')
+            ->willReturn(new TreeResult(
+                notModified: false,
+                documentTree: [
+                    new TreeNode(
+                        documentPath: 'empty-doc',
+                        updateTime: 1234567890,
+                        docType: 3,
+                        children: []
+                    ),
+                ],
+                etag: 'etag123',
+                lastModified: 'Mon, 01 Jan 2024 00:00:00 GMT',
+            ));
+
+        $documentFetcher
+            ->expects($this->once())
+            ->method('extractDocumentPaths')
+            ->willReturn([
+                new DocumentPathInfo(path: 'empty-doc', updateTime: 1234567890),
+            ]);
+
+        $documentFetcher
+            ->expects($this->once())
+            ->method('fetchDetail')
+            ->willReturn(new DocumentDetail(
+                title: 'Empty Parent Node',
+                content: '',
+                description: '',
+                updateTime: 1234567890,
+            ));
+
+        $stateManager
+            ->expects($this->never())
+            ->method('findItemByDocumentPath');
+
+        $stateManager
+            ->expects($this->once())
+            ->method('mergeItems')
+            ->willReturnCallback(function ($existing, $new) {
+                return array_merge($existing, $new);
+            });
+
+        $useCase = new BuildRssUseCase($documentFetcher, $stateManager, $rssGenerator);
+        $result = $useCase->build($config, $state);
+
+        $this->assertInstanceOf(BuildResult::class, $result);
+        $this->assertSame(0, $result->pagesChanged);
+        $this->assertInstanceOf(State::class, $result->state);
+        $this->assertCount(0, $result->state->items);
+    }
+
     public function testGenerateRss(): void
     {
         $documentFetcher = $this->createMock(DocumentFetcherInterface::class);
