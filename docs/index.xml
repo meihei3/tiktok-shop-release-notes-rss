@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>TikTok Shop Dev Updates</title>
+        <link>https://partner.tiktokshop.com/docv2</link>
+        <description>Official updates for TikTok Shop developer docs</description>
+        <language>ja</language>
+        <lastBuildDate>Sat, 18 Oct 2025 07:17:12 +0000</lastBuildDate>
+        <item>
+            <title>About the Partner Center Console</title>
+            <link>https://partner.tiktokshop.com/docv2/page/about-partner-center-console</link>
+            <description><![CDATA[Welcome to the TikTok Shop Partner Center Console end user documentation! The [Partner Center Console](https://partner-sso.tiktok.com/account/login) is the web application used by TikTok Shop Partners of all types to create and manage the services they offer to sellers and creators, and streamline daily operations. The TikTok Shop Partner Center Console simplifies collaboration processes and offers valuable insights into your business. If you're just getting started and haven't yet determined wh...]]></description>
+            <guid isPermaLink="false">about-partner-center-console#886fb738</guid>
+            <pubDate>Mon, 23 Jun 2025 07:04:43 +0000</pubDate>
+            <content:encoded><![CDATA[Welcome to the TikTok Shop Partner Center Console end user documentation! The [Partner Center Console](https://partner-sso.tiktok.com/account/login) is the web application used by TikTok Shop Partners of all types to create and manage the services they offer to sellers and creators, and streamline daily operations. The TikTok Shop Partner Center Console simplifies collaboration processes and offers valuable insights into your business. If you're just getting started and haven't yet determined wh...]]></content:encoded>
+        </item>
+    </channel>
+</rss>
