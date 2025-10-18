@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Model;
 
-readonly class SourceState
+final readonly class SourceState
 {
     public function __construct(
         public string $url,

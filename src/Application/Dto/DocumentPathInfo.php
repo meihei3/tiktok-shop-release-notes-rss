@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Dto;
 
-readonly class DocumentPathInfo
+final readonly class DocumentPathInfo
 {
     public function __construct(
         public string $path,

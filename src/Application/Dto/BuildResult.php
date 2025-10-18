@@ -6,7 +6,7 @@ namespace TikTokShopRss\Application\Dto;
 
 use TikTokShopRss\Model\State;
 
-readonly class BuildResult
+final readonly class BuildResult
 {
     public function __construct(
         public int $pagesChanged,

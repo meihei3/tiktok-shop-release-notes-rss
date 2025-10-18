@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Model;
 
-readonly class State
+final readonly class State
 {
     /**
      * @param array<int, SourceState> $sources
