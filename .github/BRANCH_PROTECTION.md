@@ -25,6 +25,8 @@
 
 ## CIで実行されるチェック
 
+**実行環境**: PHP 8.4
+
 ### 1. PHPUnit (テスト)
 ```bash
 composer test
