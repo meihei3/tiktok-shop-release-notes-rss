@@ -6,8 +6,10 @@ namespace TikTokShopRss\Infrastructure\Http;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
+use TikTokShopRss\Model\DocumentDetail;
 use TikTokShopRss\Model\DocumentPathInfo;
 use TikTokShopRss\Model\Source;
+use TikTokShopRss\Model\TreeResult;
 
 use function array_merge;
 use function is_array;
@@ -22,10 +24,7 @@ class DocumentFetcher implements DocumentFetcherInterface
     ) {
     }
 
-    /**
-     * @return array<string, mixed>
-     */
-    public function fetchTree(Source $source, ?string $etag = null, ?string $lastModified = null): array
+    public function fetchTree(Source $source, ?string $etag = null, ?string $lastModified = null): TreeResult
     {
         $headers = [];
 
@@ -47,10 +46,12 @@ class DocumentFetcher implements DocumentFetcherInterface
         $statusCode = $response->getStatusCode();
 
         if ($statusCode === 304) {
-            return [
-                'not_modified' => true,
-                'data' => null,
-            ];
+            return new TreeResult(
+                notModified: true,
+                documentTree: [],
+                etag: null,
+                lastModified: null,
+            );
         }
 
         if ($statusCode !== 200) {
@@ -64,18 +65,15 @@ class DocumentFetcher implements DocumentFetcherInterface
             throw new \RuntimeException("Invalid JSON response from tree API");
         }
 
-        return [
-            'not_modified' => false,
-            'data' => $data,
-            'etag' => $response->getHeaders()['etag'][0] ?? null,
-            'last_modified' => $response->getHeaders()['last-modified'][0] ?? null,
-        ];
+        return new TreeResult(
+            notModified: false,
+            documentTree: $data['data']['document_tree'] ?? [],
+            etag: $response->getHeaders()['etag'][0] ?? null,
+            lastModified: $response->getHeaders()['last-modified'][0] ?? null,
+        );
     }
 
-    /**
-     * @return array<string, mixed>
-     */
-    public function fetchDetail(Source $source, string $documentPath): array
+    public function fetchDetail(Source $source, string $documentPath): DocumentDetail
     {
         $url = str_replace('{document_path}', $documentPath, $source->detailUrlTemplate);
 
@@ -94,7 +92,12 @@ class DocumentFetcher implements DocumentFetcherInterface
             throw new \RuntimeException("Invalid JSON response from detail API for {$documentPath}");
         }
 
-        return $data;
+        return new DocumentDetail(
+            title: $data['data']['title'] ?? 'Untitled',
+            content: $data['data']['content'] ?? '',
+            description: $data['data']['description'] ?? '',
+            updateTime: isset($data['data']['update_time']) ? (int) $data['data']['update_time'] : null,
+        );
     }
 
     /**
