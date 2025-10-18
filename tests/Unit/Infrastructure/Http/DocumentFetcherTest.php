@@ -10,6 +10,7 @@ use Symfony\Component\HttpClient\Response\MockResponse;
 use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Infrastructure\Http\DocumentFetcher;
 use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeNode;
 use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Source;
 
@@ -118,27 +119,32 @@ class DocumentFetcherTest extends TestCase
     public function testExtractDocumentPaths(): void
     {
         $treeNodes = [
-            [
-                'document_path' => '/docs/test1',
-            ],
-            [
-                'document_path' => '/docs/test2',
-                'children' => [
-                    ['document_path' => '/docs/test2-1'],
-                    ['document_path' => '/docs/test2-2'],
-                ],
-            ],
-            [
-                'document_path' => '/docs/test3',
-                'children' => [
-                    [
-                        'document_path' => '/docs/test3-1',
-                        'children' => [
-                            ['document_path' => '/docs/test3-1-1'],
-                        ],
-                    ],
-                ],
-            ],
+            new TreeNode(
+                documentPath: '/docs/test1',
+                updateTime: null,
+                children: []
+            ),
+            new TreeNode(
+                documentPath: '/docs/test2',
+                updateTime: null,
+                children: [
+                    new TreeNode('/docs/test2-1', null, []),
+                    new TreeNode('/docs/test2-2', null, []),
+                ]
+            ),
+            new TreeNode(
+                documentPath: '/docs/test3',
+                updateTime: null,
+                children: [
+                    new TreeNode(
+                        documentPath: '/docs/test3-1',
+                        updateTime: null,
+                        children: [
+                            new TreeNode('/docs/test3-1-1', null, []),
+                        ]
+                    ),
+                ]
+            ),
         ];
 
         $mockResponse = new MockResponse('', [
@@ -180,10 +186,10 @@ class DocumentFetcherTest extends TestCase
     public function testExtractDocumentPathsSkipsInvalidNodes(): void
     {
         $treeNodes = [
-            ['document_path' => '/docs/test1'],
-            ['title' => 'No document path'],
-            ['document_path' => 123],
-            ['document_path' => '/docs/test2'],
+            new TreeNode('/docs/test1', null, []),
+            new TreeNode(null, null, []), // No document path
+            new TreeNode('', null, []), // Empty document path
+            new TreeNode('/docs/test2', null, []),
         ];
 
         $mockResponse = new MockResponse('', [

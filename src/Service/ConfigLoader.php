@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace TikTokShopRss\Service;
 
 use Symfony\Component\Yaml\Yaml;
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\Source;
 
@@ -34,10 +35,18 @@ class ConfigLoader
             );
         }
 
+        $channelData = $data['channel'] ?? [];
+        $channel = new ChannelConfig(
+            title: $channelData['title'] ?? 'RSS Feed',
+            link: $channelData['link'] ?? '',
+            description: $channelData['description'] ?? '',
+            language: $channelData['language'] ?? 'ja',
+        );
+
         return new Config(
             stateFile: $data['state_file'] ?? 'var/state/tiktok-shop.json',
             sources: $sources,
-            channel: $data['channel'] ?? [],
+            channel: $channel,
             rss: $data['rss'] ?? [],
             limits: $data['limits'] ?? ['pages' => 300, 'items' => 50],
             concurrency: $data['concurrency'] ?? 10,

@@ -6,12 +6,14 @@ namespace TikTokShopRss\Tests\Unit\Application\UseCase;
 
 use PHPUnit\Framework\TestCase;
 use TikTokShopRss\Application\Dto\BuildResult;
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Application\Dto\DocumentPathInfo;
 use TikTokShopRss\Application\Port\DocumentFetcherInterface;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Application\Port\StateManagerInterface;
 use TikTokShopRss\Application\UseCase\BuildRssUseCase;
 use TikTokShopRss\Infrastructure\Http\Dto\DocumentDetail;
+use TikTokShopRss\Infrastructure\Http\Dto\TreeNode;
 use TikTokShopRss\Infrastructure\Http\Dto\TreeResult;
 use TikTokShopRss\Model\Config;
 use TikTokShopRss\Model\DocumentItem;
@@ -35,7 +37,7 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [$source],
-            channel: ['title' => 'Test'],
+            channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
             rss: [],
             limits: ['pages' => 10, 'items' => 50],
             concurrency: 1,
@@ -56,7 +58,11 @@ class BuildRssUseCaseTest extends TestCase
             ->willReturn(new TreeResult(
                 notModified: false,
                 documentTree: [
-                    ['document_path' => 'test-doc', 'update_time' => 1234567890],
+                    new TreeNode(
+                        documentPath: 'test-doc',
+                        updateTime: 1234567890,
+                        children: []
+                    ),
                 ],
                 etag: 'etag123',
                 lastModified: 'Mon, 01 Jan 2024 00:00:00 GMT',
@@ -117,7 +123,7 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [$source],
-            channel: ['title' => 'Test'],
+            channel: new ChannelConfig('Test', 'https://example.com', 'Test Feed'),
             rss: [],
             limits: ['pages' => 10, 'items' => 50],
             concurrency: 1,
@@ -163,7 +169,7 @@ class BuildRssUseCaseTest extends TestCase
         $config = new Config(
             stateFile: 'state.json',
             sources: [],
-            channel: ['title' => 'Test Feed'],
+            channel: new ChannelConfig('Test Feed', 'https://example.com', 'Test Feed'),
             rss: ['enable_content_encoded' => true],
             limits: ['pages' => 10, 'items' => 50],
             concurrency: 1,
@@ -191,7 +197,7 @@ class BuildRssUseCaseTest extends TestCase
             ->expects($this->once())
             ->method('generate')
             ->with(
-                $this->equalTo(['title' => 'Test Feed']),
+                $this->isInstanceOf(ChannelConfig::class),
                 $this->equalTo([$item]),
                 $this->equalTo(true),
                 $this->equalTo(50)

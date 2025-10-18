@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Application\Port;
 
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Model\DocumentItem;
 
 interface RssGeneratorInterface
 {
     /**
-     * @param array<string, mixed> $channel
-     * @param array<int, DocumentItem> $items
+     * @param list<DocumentItem> $items
      */
     public function generate(
-        array $channel,
+        ChannelConfig $channel,
         array $items,
         bool $enableContentEncoded = true,
         int $limit = 50

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace TikTokShopRss\Tests\Unit\Service;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Model\DocumentItem;
 use TikTokShopRss\Service\RssGenerator;
 
@@ -20,11 +21,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateBasicRss(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(
@@ -48,11 +49,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithContentEncoded(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(
@@ -73,11 +74,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithoutContentEncoded(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(
@@ -97,11 +98,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithItemLimit(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [];
         for ($i = 1; $i <= 100; $i++) {
@@ -123,11 +124,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithSpecialCharacters(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(
@@ -148,11 +149,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithGuid(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(
@@ -172,11 +173,11 @@ class RssGeneratorTest extends TestCase
 
     public function testGenerateWithValidRfc822Date(): void
     {
-        $channel = [
-            'title' => 'Test Feed',
-            'link' => 'https://example.com',
-            'description' => 'Test Description',
-        ];
+        $channel = new ChannelConfig(
+            title: 'Test Feed',
+            link: 'https://example.com',
+            description: 'Test Description'
+        );
 
         $items = [
             new DocumentItem(

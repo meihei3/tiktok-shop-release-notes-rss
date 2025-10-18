@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace TikTokShopRss\Tests\Unit\Service;
 
 use PHPUnit\Framework\TestCase;
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Service\ConfigLoader;
 
 class ConfigLoaderTest extends TestCase
@@ -46,7 +47,10 @@ YAML
             $this->assertSame('var/state/test.json', $config->stateFile);
             $this->assertCount(1, $config->sources);
             $this->assertSame('https://example.com/tree', $config->sources[0]->treeUrl);
-            $this->assertSame('Test Channel', $config->channel['title']);
+            $this->assertInstanceOf(ChannelConfig::class, $config->channel);
+            $this->assertSame('Test Channel', $config->channel->title);
+            $this->assertSame('https://example.com', $config->channel->link);
+            $this->assertSame('Test Description', $config->channel->description);
             $this->assertSame(100, $config->limits['pages']);
             $this->assertSame(5, $config->concurrency);
         } finally {

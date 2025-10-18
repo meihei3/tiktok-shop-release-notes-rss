@@ -7,7 +7,7 @@ namespace TikTokShopRss\Infrastructure\Http\Dto;
 readonly class TreeResult
 {
     /**
-     * @param array<int, array<string, mixed>> $documentTree
+     * @param list<TreeNode> $documentTree
      */
     public function __construct(
         public bool $notModified,

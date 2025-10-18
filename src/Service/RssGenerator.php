@@ -6,6 +6,7 @@ namespace TikTokShopRss\Service;
 
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
+use TikTokShopRss\Application\Dto\ChannelConfig;
 use TikTokShopRss\Application\Port\RssGeneratorInterface;
 use TikTokShopRss\Model\DocumentItem;
 
@@ -31,11 +32,10 @@ class RssGenerator implements RssGeneratorInterface
     }
 
     /**
-     * @param array<string, mixed> $channel
-     * @param array<int, DocumentItem> $items
+     * @param list<DocumentItem> $items
      */
     public function generate(
-        array $channel,
+        ChannelConfig $channel,
         array $items,
         bool $enableContentEncoded = true,
         int $limit = 50
@@ -54,7 +54,12 @@ class RssGenerator implements RssGeneratorInterface
         }, $limitedItems);
 
         return $this->twig->render('rss.xml.twig', [
-            'channel' => $channel,
+            'channel' => [
+                'title' => $channel->title,
+                'link' => $channel->link,
+                'description' => $channel->description,
+                'language' => $channel->language,
+            ],
             'items' => $rssItems,
             'lastBuildDate' => $this->formatRfc822Date(date('c')),
             'enableContentEncoded' => $enableContentEncoded,

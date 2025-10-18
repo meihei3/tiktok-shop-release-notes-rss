@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace TikTokShopRss\Model;
 
+use TikTokShopRss\Application\Dto\ChannelConfig;
+
 readonly class Config
 {
     /**
      * @param array<int, Source> $sources
-     * @param array<string, mixed> $channel
      * @param array<string, mixed> $rss
      * @param array<string, int> $limits
      * @param array<string, int> $retry
@@ -17,7 +18,7 @@ readonly class Config
     public function __construct(
         public string $stateFile,
         public array $sources,
-        public array $channel,
+        public ChannelConfig $channel,
         public array $rss,
         public array $limits,
         public int $concurrency,

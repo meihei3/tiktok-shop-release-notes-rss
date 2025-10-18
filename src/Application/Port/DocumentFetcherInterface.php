@@ -16,7 +16,7 @@ interface DocumentFetcherInterface
     public function fetchDetail(Source $source, string $documentPath): DocumentDetail;
 
     /**
-     * @param array<int, array<string, mixed>> $treeNodes
+     * @param list<\TikTokShopRss\Infrastructure\Http\Dto\TreeNode> $treeNodes
      * @return list<DocumentPathInfo>
      */
     public function extractDocumentPaths(array $treeNodes): array;
