@@ -72,7 +72,7 @@ jobs:
         id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "chore: update RSS feed and state [automated]"
+          commit-message: "chore: update RSS feed and state [skip ci]"
           title: "chore: update RSS feed and state"
           body: |
             Automated RSS feed update from scheduled workflow.
@@ -88,9 +88,10 @@ jobs:
           committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
-      - name: Enable auto-merge
+      - name: Merge Pull Request
         if: steps.check-changes.outputs.has_changes == 'true' && steps.create-pr.outputs.pull-request-number != ''
         run: |
-          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --auto
+          # [skip ci]でCIをスキップしているため、直接マージ
+          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash
         env:
           GH_TOKEN: ${{ github.token }}
