@@ -31,7 +31,19 @@ jobs:
       - name: Generate RSS feed
         run: php bin/console tts:rss:build --docs-dir=docs/rss --output-basename=index.xml
 
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet docs/rss/index.xml var/state/tiktok-shop.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+
       - name: Create Pull Request
+        if: steps.check-changes.outputs.has_changes == 'true'
         id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
@@ -52,7 +64,7 @@ jobs:
           author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
       - name: Enable auto-merge
-        if: steps.create-pr.outputs.pull-request-number != ''
+        if: steps.check-changes.outputs.has_changes == 'true' && steps.create-pr.outputs.pull-request-number != ''
         run: |
           gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --auto
         env:
