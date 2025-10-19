@@ -29,14 +29,14 @@ jobs:
         run: composer install --no-dev --prefer-dist --no-progress --no-interaction
 
       - name: Generate RSS feed
-        run: php bin/console tts:rss:build --docs-dir=docs/rss --output-basename=index.xml
+        run: php bin/console tts:rss:build --docs-dir=docs/rss --output-basename=changelog.xml
 
       - name: Check for changes
         id: check-changes
         run: |
           # Check RSS feed changes
           RSS_CHANGED=false
-          if ! git diff --quiet docs/rss/index.xml; then
+          if ! git diff --quiet docs/rss/changelog.xml; then
             RSS_CHANGED=true
           fi
 
@@ -75,7 +75,7 @@ jobs:
 
             ### 📝 Changes
 
-            - ✅ Updated RSS feed (`docs/rss/index.xml`)
+            - ✅ Updated RSS feed (`docs/rss/changelog.xml`)
             - ✅ Updated state file (`var/state/tiktok-shop.json`)
 
             ### 🔄 Auto-merge
