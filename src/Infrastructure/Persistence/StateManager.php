@@ -72,6 +72,7 @@ class StateManager implements StateManagerInterface
                 contentHash: $itemData['contentHash'] ?? '',
                 pubDate: $itemData['pubDate'] ?? '',
                 link: $itemData['link'] ?? '',
+                keywords: $itemData['keywords'] ?? [],
             );
         }
 
@@ -106,6 +107,7 @@ class StateManager implements StateManagerInterface
                 'contentHash' => $item->contentHash,
                 'pubDate' => $item->pubDate,
                 'link' => $item->link,
+                'keywords' => $item->keywords,
             ], $state->items),
         ];
 
