@@ -85,6 +85,7 @@ jobs:
           branch: automated/update-rss-${{ github.run_id }}
           delete-branch: true
           labels: automated
+          sign-commits: true
           committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
