@@ -6,7 +6,7 @@ An automated RSS feed for TikTok Shop Developer Documentation updates, helping d
 
 ## Live Feed
 
-**Feed URL**: [`https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/index.xml`](https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/index.xml)
+**Feed URL**: [`https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/changelog.xml`](https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/changelog.xml)
 
 **Website**: [https://meihei3.github.io/tiktok-shop-release-notes-rss/](https://meihei3.github.io/tiktok-shop-release-notes-rss/)
 
@@ -19,7 +19,7 @@ An automated RSS feed for TikTok Shop Developer Documentation updates, helping d
 
 ## Quick Start
 
-1. Copy the feed URL: `https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/index.xml`
+1. Copy the feed URL: `https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/changelog.xml`
 2. Add it to your RSS reader (Feedly, Inoreader, NetNewsWire, etc.)
 3. Stay updated automatically
 
@@ -81,7 +81,7 @@ For official TikTok Shop resources:
 
 ## Related Links
 
-- [Live RSS Feed](https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/index.xml)
+- [Live RSS Feed](https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/changelog.xml)
 - [GitHub Repository](https://github.com/meihei3/tiktok-shop-release-notes-rss)
 - [Issues](https://github.com/meihei3/tiktok-shop-release-notes-rss/issues)
 - [TikTok Shop Official Docs](https://partner.tiktokshop.com/docv2/docs)
