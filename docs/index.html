@@ -3,190 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unofficial RSS feed for TikTok Shop Developer Documentation updates">
-    <title>TikTok Shop Developer Documentation RSS Feed (Unofficial)</title>
+    <title>Index of /tiktok-shop-release-notes-rss</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
+            font-family: monospace;
+            margin: 20px;
         }
         h1 {
-            color: #000;
-            margin-bottom: 10px;
+            font-size: 1.5em;
+            margin-bottom: 20px;
         }
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            text-align: left;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        td {
+            padding: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #0000EE;
+        }
+        a:visited {
+            color: #551A8B;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         .disclaimer {
+            margin-top: 30px;
+            padding: 10px;
             background-color: #fef3c7;
             border-left: 4px solid #f59e0b;
-            padding: 15px;
-            margin: 30px 0;
-            border-radius: 4px;
-        }
-        .disclaimer strong {
-            color: #92400e;
-        }
-        .rss-link {
-            background-color: #f97316;
-            color: white;
-            padding: 14px 28px;
-            text-decoration: none;
-            border-radius: 6px;
-            display: inline-block;
-            margin: 20px 0;
-            font-weight: bold;
-            font-size: 1.1em;
-            transition: background-color 0.2s;
-        }
-        .rss-link:hover {
-            background-color: #ea580c;
-        }
-        code {
-            background-color: #f5f5f5;
-            padding: 3px 8px;
-            border-radius: 3px;
+            font-family: sans-serif;
             font-size: 0.9em;
-            font-family: 'Monaco', 'Courier New', monospace;
-        }
-        .info-box {
-            background-color: #f0f9ff;
-            border-left: 4px solid #0284c7;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-        .section {
-            margin: 40px 0;
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-        .feature {
-            background: #f9fafb;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid #e5e7eb;
-        }
-        .feature h3 {
-            margin-top: 0;
-            color: #111827;
-        }
-        footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #e5e7eb;
-            color: #666;
-            font-size: 0.9em;
-            text-align: center;
-        }
-        .links {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 15px;
-        }
-        .links a {
-            color: #0284c7;
-            text-decoration: none;
-        }
-        .links a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>📡 TikTok Shop Developer Documentation RSS Feed</h1>
-        <p class="subtitle">Stay updated with the latest TikTok Shop API changes and announcements</p>
-    </div>
+    <h1>Index of /tiktok-shop-release-notes-rss</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="rss/">rss/</a></td>
+                <td>RSS Feed Directory</td>
+            </tr>
+            <tr>
+                <td><a href="rss/index.xml">rss/index.xml</a></td>
+                <td>TikTok Shop Developer Documentation RSS Feed</td>
+            </tr>
+        </tbody>
+    </table>
 
     <div class="disclaimer">
-        <strong>⚠️ Unofficial Project:</strong> This is an <strong>unofficial</strong>, community-maintained RSS feed.
-        It is <strong>not affiliated with, endorsed by, or officially connected to TikTok or ByteDance</strong>.
-        For official documentation, please visit
-        <a href="https://partner.tiktokshop.com/docv2/docs" target="_blank">TikTok Shop Partner Portal</a>.
+        <strong>Unofficial Project:</strong> This is an unofficial, community-maintained RSS feed.
+        Not affiliated with, endorsed by, or officially connected to TikTok or ByteDance.
+        For official documentation, visit <a href="https://partner.tiktokshop.com/docv2/docs">TikTok Shop Partner Portal</a>.
     </div>
-
-    <div style="text-align: center;">
-        <a href="rss/index.xml" class="rss-link">📰 Subscribe to RSS Feed</a>
-    </div>
-
-    <div class="info-box">
-        <strong>Feed URL:</strong><br>
-        <code>https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/index.xml</code>
-    </div>
-
-    <div class="section">
-        <h2>✨ Features</h2>
-        <div class="features">
-            <div class="feature">
-                <h3>🔄 Auto-updated</h3>
-                <p>Automatically fetches and publishes updates daily at 9:00 AM JST</p>
-            </div>
-            <div class="feature">
-                <h3>🏷️ Categorized</h3>
-                <p>Each item includes keywords like "Coming Soon", "Action Required", "Breaking Change"</p>
-            </div>
-            <div class="feature">
-                <h3>📝 Rich Content</h3>
-                <p>Full article descriptions and direct links to official documentation</p>
-            </div>
-            <div class="feature">
-                <h3>🔍 Smart Detection</h3>
-                <p>Only publishes when actual content changes are detected</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>📖 How to Use</h2>
-        <ol>
-            <li>Copy the feed URL above</li>
-            <li>Add it to your favorite RSS reader (Feedly, Inoreader, NetNewsWire, etc.)</li>
-            <li>Get notified automatically when TikTok Shop releases new documentation</li>
-        </ol>
-    </div>
-
-    <div class="section">
-        <h2>🛠️ Technical Details</h2>
-        <p>This RSS feed is generated from the official TikTok Shop Developer Documentation using:</p>
-        <ul>
-            <li><strong>Source:</strong> TikTok Shop Partner API</li>
-            <li><strong>Update Frequency:</strong> Daily (9:00 AM JST / 00:00 UTC)</li>
-            <li><strong>Format:</strong> RSS 2.0 with content:encoded extension</li>
-            <li><strong>Automation:</strong> GitHub Actions with automatic PR creation and CI verification</li>
-        </ul>
-    </div>
-
-    <footer>
-        <p><strong>Maintained by:</strong> Community Contributors</p>
-        <div class="links">
-            <a href="https://github.com/meihei3/tiktok-shop-release-notes-rss" target="_blank">
-                📦 GitHub Repository
-            </a>
-            <a href="https://github.com/meihei3/tiktok-shop-release-notes-rss/issues" target="_blank">
-                🐛 Report Issues
-            </a>
-            <a href="https://partner.tiktokshop.com/docv2/docs" target="_blank">
-                🔗 Official Documentation
-            </a>
-        </div>
-        <p style="margin-top: 20px; font-size: 0.85em;">
-            This is an <strong>unofficial</strong> project and is not affiliated with TikTok or ByteDance.
-        </p>
-    </footer>
 </body>
 </html>
