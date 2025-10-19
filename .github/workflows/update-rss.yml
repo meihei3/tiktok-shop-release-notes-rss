@@ -34,12 +34,29 @@ jobs:
       - name: Check for changes
         id: check-changes
         run: |
-          if git diff --quiet docs/rss/index.xml var/state/tiktok-shop.json; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected"
-          else
+          # Check RSS feed changes
+          RSS_CHANGED=false
+          if ! git diff --quiet docs/rss/index.xml; then
+            RSS_CHANGED=true
+          fi
+
+          # Check state items changes (excluding sources.lastSeenAt)
+          STATE_ITEMS_CHANGED=false
+          if [ -f var/state/tiktok-shop.json ]; then
+            # Extract items array and compare
+            git show HEAD:var/state/tiktok-shop.json 2>/dev/null | jq -S '.items' > /tmp/old_items.json || echo "[]" > /tmp/old_items.json
+            jq -S '.items' var/state/tiktok-shop.json > /tmp/new_items.json
+            if ! diff -q /tmp/old_items.json /tmp/new_items.json > /dev/null 2>&1; then
+              STATE_ITEMS_CHANGED=true
+            fi
+          fi
+
+          if [ "$RSS_CHANGED" = true ] || [ "$STATE_ITEMS_CHANGED" = true ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected"
+            echo "Changes detected (RSS: $RSS_CHANGED, Items: $STATE_ITEMS_CHANGED)"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No significant changes detected"
           fi
 
       - name: Create Pull Request
