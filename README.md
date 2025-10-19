@@ -42,7 +42,45 @@ composer phpcs
 
 ## Configuration
 
-Environment variables (optional, defaults provided):
+Configuration can be done through either a YAML file or environment variables.
+
+### Using YAML Config File (Recommended)
+
+Create or edit `.ttsrss.yaml`:
+
+```yaml
+state_file: var/state/tiktok-shop.json
+
+sources:
+  - tree_url: "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP"
+    detail_url_template: "https://partner.tiktokshop.com/api/v1/document/detail?document_id={document_path}&workspace_id=3&aid=359713&locale=ja-JP"
+    public_url_template: "https://partner.tiktokshop.com/docv2/page/{document_path}"
+
+channel:
+  title: TikTok Shop Dev Updates
+  link: https://partner.tiktokshop.com/docv2
+  description: Official updates for TikTok Shop developer docs
+
+rss:
+  enable_content_encoded: true
+
+limits:
+  pages: 50
+  items: 30
+
+concurrency: 10
+
+retry:
+  attempts: 3
+  backoff_initial_ms: 100
+  backoff_max_ms: 5000
+
+sleep_between_requests_ms: 100
+```
+
+### Using Environment Variables
+
+Alternatively, set environment variables in `.env`:
 
 ```env
 # TikTok Shop API
@@ -78,10 +116,3 @@ This is an **unofficial** project created and maintained by the community:
 For official TikTok Shop resources:
 - [Official Documentation](https://partner.tiktokshop.com/docv2/docs)
 - [Partner Portal](https://partner.tiktokshop.com/)
-
-## Related Links
-
-- [Live RSS Feed](https://meihei3.github.io/tiktok-shop-release-notes-rss/rss/changelog.xml)
-- [GitHub Repository](https://github.com/meihei3/tiktok-shop-release-notes-rss)
-- [Issues](https://github.com/meihei3/tiktok-shop-release-notes-rss/issues)
-- [TikTok Shop Official Docs](https://partner.tiktokshop.com/docv2/docs)
