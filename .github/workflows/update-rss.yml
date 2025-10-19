@@ -72,7 +72,7 @@ jobs:
         id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "chore(rss): update TikTok Shop release notes - ${{ github.run_id }}"
+          commit-message: "Update TikTok Shop release notes (${{ github.run_id }})"
           title: "📰 Update TikTok Shop Release Notes RSS Feed"
           body: |
             ## 🤖 Automated RSS Feed Update
