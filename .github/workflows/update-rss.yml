@@ -40,23 +40,24 @@ jobs:
             RSS_CHANGED=true
           fi
 
-          # Check state items changes (excluding sources.lastSeenAt)
-          STATE_ITEMS_CHANGED=false
+          # Check state content changes using contentHash
+          STATE_CHANGED=false
           if [ -f var/state/tiktok-shop.json ]; then
-            # Extract items array and compare
-            git show HEAD:var/state/tiktok-shop.json 2>/dev/null | jq -S '.items' > /tmp/old_items.json || echo "[]" > /tmp/old_items.json
-            jq -S '.items' var/state/tiktok-shop.json > /tmp/new_items.json
-            if ! diff -q /tmp/old_items.json /tmp/new_items.json > /dev/null 2>&1; then
-              STATE_ITEMS_CHANGED=true
+            # Extract sources.contentHash and items array (excluding lastSeenAt)
+            OLD_STATE=$(git show HEAD:var/state/tiktok-shop.json 2>/dev/null | jq -S '{sources: [.sources[]? | {url, contentHash}], items}' || echo '{"sources":[],"items":[]}')
+            NEW_STATE=$(jq -S '{sources: [.sources[]? | {url, contentHash}], items}' var/state/tiktok-shop.json)
+
+            if [ "$OLD_STATE" != "$NEW_STATE" ]; then
+              STATE_CHANGED=true
             fi
           fi
 
-          if [ "$RSS_CHANGED" = true ] || [ "$STATE_ITEMS_CHANGED" = true ]; then
+          if [ "$RSS_CHANGED" = true ] || [ "$STATE_CHANGED" = true ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected (RSS: $RSS_CHANGED, Items: $STATE_ITEMS_CHANGED)"
+            echo "Changes detected (RSS: $RSS_CHANGED, State: $STATE_CHANGED)"
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No significant changes detected"
+            echo "No content changes detected"
           fi
 
       - name: Create Pull Request
