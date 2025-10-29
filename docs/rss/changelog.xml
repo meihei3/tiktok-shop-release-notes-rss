@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 28 Oct 2025 01:53:35 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 29 Oct 2025 02:00:21 +0000</lastBuildDate>
+        <item>
+            <title>US market: POP USPS label restriction</title>
+            <link>https://partner.tiktokshop.com/docv2/page/gt8qv13g</link>
+            <description><![CDATA[# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...]]></description>
+            <category>Breaking Change</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">gt8qv13g#781322a7</guid>
+            <pubDate>Wed, 29 Oct 2025 00:37:36 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...]]></content:encoded>
+        </item>
         <item>
             <title>For SEA market: Configure &amp;quot;Cancellation status change&amp;quot; webhook to receive cancellation message</title>
             <link>https://partner.tiktokshop.com/docv2/page/jsqxpibu</link>
@@ -282,16 +292,6 @@
             <guid isPermaLink="false">us-uk-and-sea-markets-pre-order-and-made-to-order-product-types#a0db6039</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## Summary We're introducing a couple of new `pre_sale` product types to better support TikTok Shop seller needs. There are a couple key business logic distinctions based on the market, as follows: For the **US** market, this includes pre-order and made-to-order products: * **Pre-order**: The buyer can place an order for a product before a **fixed** release date set by the seller. * **Made-to-order**: The buyer can place an order for a customized product that is made-to-order. The shipping lead ...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Pre-order, made-to-order, back-order functionality; delivery SLA</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-market-pre-order-made-to-order-back-order-functionality-delivery-sla</link>
-            <description><![CDATA[## Summary In the US market, we're adding the capability to specify new order types in our Order APIs, namely pre-order, made-to-order, and back-order. Compared to normal orders, these orders will sit longer in the **Ship To** tab of Order Management. Sellers now have the ability to filter for these new order types quickly to assess the necessary next steps in fulfillment. Specifically for back-orders, Order Management has enabled tracking and visibility against incoming inventory. Back-orders h...]]></description>
-            <category>Updated</category>
-            <category>New</category>
-            <guid isPermaLink="false">us-market-pre-order-made-to-order-back-order-functionality-delivery-sla#a38946a3</guid>
-            <pubDate>Wed, 28 May 2025 20:55:30 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary In the US market, we're adding the capability to specify new order types in our Order APIs, namely pre-order, made-to-order, and back-order. Compared to normal orders, these orders will sit longer in the **Ship To** tab of Order Management. Sellers now have the ability to filter for these new order types quickly to assess the necessary next steps in fulfillment. Specifically for back-orders, Order Management has enabled tracking and visibility against incoming inventory. Back-orders h...]]></content:encoded>
         </item>
     </channel>
 </rss>

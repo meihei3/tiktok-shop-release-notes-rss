@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "cd58bb067df4de0ff6f0b7ae275d63268a34b400248719b65403eea6542ca487",
-            "lastSeenAt": "2025-10-28T01:53:35+00:00"
+            "contentHash": "a95c47c0e701361214345997643aa6c605452ff2c6f5253724556215bcf7106e",
+            "lastSeenAt": "2025-10-29T02:00:21+00:00"
         }
     ],
     "items": [
@@ -468,6 +468,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/adding-co-founded-shipping-discount-fields",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "gt8qv13g",
+            "title": "US market: POP USPS label restriction",
+            "description": "# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...",
+            "contentHash": "781322a77fb3e93feda4cf3d758025988f999046085e5773930e06620c1a957a",
+            "pubDate": "2025-10-29T00:37:36+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/gt8qv13g",
+            "keywords": [
+                "Breaking Change",
+                "Action Required"
             ]
         }
     ]
