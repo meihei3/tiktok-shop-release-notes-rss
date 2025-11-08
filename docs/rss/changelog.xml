@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 07 Nov 2025 01:57:04 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 01:51:04 +0000</lastBuildDate>
+        <item>
+            <title>US market: Existing SKU standardization</title>
+            <link>https://partner.tiktokshop.com/docv2/page/sj5neagj</link>
+            <description><![CDATA[# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...]]></description>
+            <category>Coming Soon</category>
+            <guid isPermaLink="false">sj5neagj#dc84f447</guid>
+            <pubDate>Fri, 07 Nov 2025 19:45:25 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...]]></content:encoded>
+        </item>
         <item>
             <title>US market: POP USPS label restriction</title>
             <link>https://partner.tiktokshop.com/docv2/page/gt8qv13g</link>
@@ -283,15 +292,6 @@
             <guid isPermaLink="false">us-market-supplementary-sku-images#414eed4f</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## Summary Previously, L2L sellers could only list a single image per product variant. We've introduced the ability to add multiple product variant images to better support our sellers. ## Affected markets and versions This change applies to the following market(s): * United States (US) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Product APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Create Product * Edit Product * Partial Edit Product...]]></content:encoded>
-        </item>
-        <item>
-            <title>US, UK, and SEA markets: Pre-order and made-to-order product types</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-uk-and-sea-markets-pre-order-and-made-to-order-product-types</link>
-            <description><![CDATA[## Summary We're introducing a couple of new `pre_sale` product types to better support TikTok Shop seller needs. There are a couple key business logic distinctions based on the market, as follows: For the **US** market, this includes pre-order and made-to-order products: * **Pre-order**: The buyer can place an order for a product before a **fixed** release date set by the seller. * **Made-to-order**: The buyer can place an order for a customized product that is made-to-order. The shipping lead ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">us-uk-and-sea-markets-pre-order-and-made-to-order-product-types#a0db6039</guid>
-            <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary We're introducing a couple of new `pre_sale` product types to better support TikTok Shop seller needs. There are a couple key business logic distinctions based on the market, as follows: For the **US** market, this includes pre-order and made-to-order products: * **Pre-order**: The buyer can place an order for a product before a **fixed** release date set by the seller. * **Made-to-order**: The buyer can place an order for a customized product that is made-to-order. The shipping lead ...]]></content:encoded>
         </item>
     </channel>
 </rss>
