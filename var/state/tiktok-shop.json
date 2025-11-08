@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b66b56b78b6cc619d500bcb07b16d110549490b209946f3e1304c9c396ca25a5",
-            "lastSeenAt": "2025-11-07T01:57:04+00:00"
+            "contentHash": "d484045fbfa0a5f701072b775e9a0896ac4d398bf4a996cd0914eb4b8bfaa5df",
+            "lastSeenAt": "2025-11-08T01:51:04+00:00"
         }
     ],
     "items": [
@@ -480,6 +480,17 @@
             "keywords": [
                 "Breaking Change",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "sj5neagj",
+            "title": "US market: Existing SKU standardization",
+            "description": "# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...",
+            "contentHash": "dc84f4477b95affb86d5be23bd7d3978518dd3d1d7f0cc1437ffda4e149b3296",
+            "pubDate": "2025-11-07T19:45:25+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/sj5neagj",
+            "keywords": [
+                "Coming Soon"
             ]
         }
     ]
