@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 07 Dec 2025 02:11:31 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 08 Dec 2025 02:04:11 +0000</lastBuildDate>
+        <item>
+            <title>US market: Backorder Quantity Thresholds</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xmc35tyc</link>
+            <description><![CDATA[## Summary We've introduced inventory `backorder_quantity` functionality, which allows sellers to define a backorder quantity **threshold** to continue to capture sales, in the event the physical inventory is temporarily out-of-stock. There also needs to be a `handling_time` defined, which dictates how many days the seller needs to process the backorder and sets the SLA for sending a fulfillment event update to TikTok Shop. [Backorder(BO) Seller Academy article](https://seller-us.tiktok.com/univ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xmc35tyc#e1975593</guid>
+            <pubDate>Sun, 07 Dec 2025 21:50:50 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary We've introduced inventory `backorder_quantity` functionality, which allows sellers to define a backorder quantity **threshold** to continue to capture sales, in the event the physical inventory is temporarily out-of-stock. There also needs to be a `handling_time` defined, which dictates how many days the seller needs to process the backorder and sets the SLA for sending a fulfillment event update to TikTok Shop. [Backorder(BO) Seller Academy article](https://seller-us.tiktok.com/univ...]]></content:encoded>
+        </item>
         <item>
             <title>US market: Existing SKU standardization</title>
             <link>https://partner.tiktokshop.com/docv2/page/sj5neagj</link>
@@ -283,15 +292,6 @@
             <guid isPermaLink="false">streamlining-of-invite-only-product-categories#2e251e45</guid>
             <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
             <content:encoded><![CDATA[## What is changing? Previously, TikTok Shop sellers had to apply for the necessary permission(s) in Seller Center to list products under invite-only categories. We've updated this workflow to allow sellers to first list such products, then apply for permission(s). Now, when a seller lists a product under an invite-only category they do not have permission for, the product will be in the `PENDING` status and unavailable to buyers. Similarly, the product audit status will be `PRE_APPROVED` if it ...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Supplementary SKU images</title>
-            <link>https://partner.tiktokshop.com/docv2/page/us-market-supplementary-sku-images</link>
-            <description><![CDATA[## Summary Previously, L2L sellers could only list a single image per product variant. We've introduced the ability to add multiple product variant images to better support our sellers. ## Affected markets and versions This change applies to the following market(s): * United States (US) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Product APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Create Product * Edit Product * Partial Edit Product...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">us-market-supplementary-sku-images#414eed4f</guid>
-            <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Previously, L2L sellers could only list a single image per product variant. We've introduced the ability to add multiple product variant images to better support our sellers. ## Affected markets and versions This change applies to the following market(s): * United States (US) This change applies to the following API version(s): * 202309 (and later) ## API changes ### Product APIs | **Endpoint(s)** | **Change(s)** | | --- | --- | | * Create Product * Edit Product * Partial Edit Product...]]></content:encoded>
         </item>
     </channel>
 </rss>

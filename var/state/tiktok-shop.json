@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c87544bc1a1ab23ee4250a4f1700d0142bcf851d37227e2ba4f1d75e34c75b97",
-            "lastSeenAt": "2025-12-07T02:11:31+00:00"
+            "contentHash": "7a968090008aaa6079dd68a3b9fb0af4919ed4cec97e71dc2a2a66269fa92002",
+            "lastSeenAt": "2025-12-08T02:04:11+00:00"
         }
     ],
     "items": [
@@ -491,6 +491,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/sj5neagj",
             "keywords": [
                 "Coming Soon"
+            ]
+        },
+        {
+            "document_path": "xmc35tyc",
+            "title": "US market: Backorder Quantity Thresholds",
+            "description": "## Summary We've introduced inventory `backorder_quantity` functionality, which allows sellers to define a backorder quantity **threshold** to continue to capture sales, in the event the physical inventory is temporarily out-of-stock. There also needs to be a `handling_time` defined, which dictates how many days the seller needs to process the backorder and sets the SLA for sending a fulfillment event update to TikTok Shop. [Backorder(BO) Seller Academy article](https://seller-us.tiktok.com/univ...",
+            "contentHash": "e1975593b6c1c4ad2a23194cd882d606d90396df182907f82c98b58df5c07b88",
+            "pubDate": "2025-12-07T21:50:50+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xmc35tyc",
+            "keywords": [
+                "New"
             ]
         }
     ]
