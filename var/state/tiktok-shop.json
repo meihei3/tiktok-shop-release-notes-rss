@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "ac30e51cf19e81db8db1f2afe33195a1839594fde2ae95ea80ee7cdf60448893",
-            "lastSeenAt": "2025-12-17T02:01:20+00:00"
+            "contentHash": "66534ed4cc4c71855ff307057ea40da4ac819761b10c17e4a333f9a8d2b329e5",
+            "lastSeenAt": "2025-12-19T02:05:12+00:00"
         }
     ],
     "items": [
@@ -502,6 +502,30 @@
             "link": "https://partner.tiktokshop.com/docv2/page/xmc35tyc",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "ezoyrtmn",
+            "title": "For SEA market: Product category expansion cutoff date is January 12, 2026",
+            "description": "# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...",
+            "contentHash": "8fa9f11d7ebfa8ebac00001fdef2312e526fb43fcb158cb2917b904eeae43bd3",
+            "pubDate": "2025-12-17T08:13:17+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ezoyrtmn",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "fapus8ql",
+            "title": "[Important] Legacy Global Product Management Flow Decommission Notice ",
+            "description": "## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...",
+            "contentHash": "b4e3419fa2e240bb85fd0f0dd182d2c76f66039dbb7b452fe36afa321c43dfed",
+            "pubDate": "2025-12-17T06:12:17+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/fapus8ql",
+            "keywords": [
+                "Action Required",
+                "Breaking Change"
             ]
         }
     ]
