@@ -5,7 +5,27 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 17 Dec 2025 02:01:20 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 02:05:12 +0000</lastBuildDate>
+        <item>
+            <title>For SEA market: Product category expansion cutoff date is January 12, 2026</title>
+            <link>https://partner.tiktokshop.com/docv2/page/ezoyrtmn</link>
+            <description><![CDATA[# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">ezoyrtmn#8fa9f11d</guid>
+            <pubDate>Wed, 17 Dec 2025 08:13:17 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...]]></content:encoded>
+        </item>
+        <item>
+            <title>[Important] Legacy Global Product Management Flow Decommission Notice </title>
+            <link>https://partner.tiktokshop.com/docv2/page/fapus8ql</link>
+            <description><![CDATA[## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...]]></description>
+            <category>Action Required</category>
+            <category>Breaking Change</category>
+            <guid isPermaLink="false">fapus8ql#b4e3419f</guid>
+            <pubDate>Wed, 17 Dec 2025 06:12:17 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...]]></content:encoded>
+        </item>
         <item>
             <title>US market: Backorder Quantity Thresholds</title>
             <link>https://partner.tiktokshop.com/docv2/page/xmc35tyc</link>
@@ -272,26 +292,6 @@
             <guid isPermaLink="false">us-market-updates-to-mandatory-attributes#82d82dd6</guid>
             <pubDate>Thu, 29 May 2025 10:23:17 +0000</pubDate>
             <content:encoded><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2025-08-30**, the Products API will require these compliance-related attributes to be provided. ## Impact | | | | --- | --- | | Impacted market(s) | United States (US) - **Local sellers** | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenar...]]></content:encoded>
-        </item>
-        <item>
-            <title>JP market: Updated APIs for Products, Orders, Logistics, and Customer service</title>
-            <link>https://partner.tiktokshop.com/docv2/page/jp-market-updated-apis-for-products-orders-logistics-and-customer-service</link>
-            <description><![CDATA[## Summary As of today, developers can start using TikTok Shop APIs to build apps for the Japan market. The APIs and workflows are generally consistent with other regions/markets, but there are a few JP-specific updates worth calling out. **Note**: Before building order management modules, developers should familiarize themselves with our [Orders API overview](order-api-overview) and our [Fulfillment API overview](fulfillment-api-overview). ## Affected markets and versions This change applies to...]]></description>
-            <category>Updated</category>
-            <category>New</category>
-            <guid isPermaLink="false">jp-market-updated-apis-for-products-orders-logistics-and-customer-service#3dd29aa1</guid>
-            <pubDate>Wed, 28 May 2025 20:55:33 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary As of today, developers can start using TikTok Shop APIs to build apps for the Japan market. The APIs and workflows are generally consistent with other regions/markets, but there are a few JP-specific updates worth calling out. **Note**: Before building order management modules, developers should familiarize themselves with our [Orders API overview](order-api-overview) and our [Fulfillment API overview](fulfillment-api-overview). ## Affected markets and versions This change applies to...]]></content:encoded>
-        </item>
-        <item>
-            <title>Streamlining of invite-only product categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/streamlining-of-invite-only-product-categories</link>
-            <description><![CDATA[## What is changing? Previously, TikTok Shop sellers had to apply for the necessary permission(s) in Seller Center to list products under invite-only categories. We've updated this workflow to allow sellers to first list such products, then apply for permission(s). Now, when a seller lists a product under an invite-only category they do not have permission for, the product will be in the `PENDING` status and unavailable to buyers. Similarly, the product audit status will be `PRE_APPROVED` if it ...]]></description>
-            <category>Updated</category>
-            <category>New</category>
-            <guid isPermaLink="false">streamlining-of-invite-only-product-categories#2e251e45</guid>
-            <pubDate>Wed, 28 May 2025 20:55:32 +0000</pubDate>
-            <content:encoded><![CDATA[## What is changing? Previously, TikTok Shop sellers had to apply for the necessary permission(s) in Seller Center to list products under invite-only categories. We've updated this workflow to allow sellers to first list such products, then apply for permission(s). Now, when a seller lists a product under an invite-only category they do not have permission for, the product will be in the `PENDING` status and unavailable to buyers. Similarly, the product audit status will be `PRE_APPROVED` if it ...]]></content:encoded>
         </item>
     </channel>
 </rss>
