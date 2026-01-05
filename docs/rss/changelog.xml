@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 04 Jan 2026 02:25:47 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2026 02:25:07 +0000</lastBuildDate>
+        <item>
+            <title>For Indonesian market: Changes in Order and Finance APIs for Distant Fee</title>
+            <link>https://partner.tiktokshop.com/docv2/page/u62dh98s</link>
+            <description><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">u62dh98s#13e525c7</guid>
+            <pubDate>Sun, 04 Jan 2026 09:10:01 +0000</pubDate>
+            <content:encoded><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...]]></content:encoded>
+        </item>
         <item>
             <title>New Capability  for Affiliate Sample Applications </title>
             <link>https://partner.tiktokshop.com/docv2/page/x0ebukvz</link>
@@ -284,15 +294,6 @@
             <guid isPermaLink="false">supplementary-notice-on-api-deprecation-finance-apis#af84c494</guid>
             <pubDate>Mon, 23 Jun 2025 09:31:25 +0000</pubDate>
             <content:encoded><![CDATA[Following the announcement of **V1 API deprecation** by the TikTok Shop Open Platform, we are issuing an additional clarification regarding the deprecation plan for the following two Finance category APIs: * [Get Transactions by Order](get-transactions-by-order); * [Get Transactions by Statement](get-transactions-by-statement). ## Action Required In addition to the deprecation of all V1 APIs (version number < 202309), the **202309 versions** of the above two APIs will also be included in the dep...]]></content:encoded>
-        </item>
-        <item>
-            <title>Deprecating TikTok Shop API V1</title>
-            <link>https://partner.tiktokshop.com/docv2/page/deprecating-tts-api-v1</link>
-            <description><![CDATA[To better serve our global developer community, **TikTok Shop Open Platform** is committed to building a high-performance, stable, and industry-compliant API system. Currently, we offer two main versions of our Open API: * **V1 (Legacy version)**: version numbers below 202309; * **V2 (Standard version)**: version numbers 202309 and above. The V1 API was introduced in the early stages of our platform. To enhance the developer experience and improve integration compatibility, we launched the V2 ve...]]></description>
-            <category>Action Required</category>
-            <guid isPermaLink="false">deprecating-tts-api-v1#e9164be3</guid>
-            <pubDate>Thu, 05 Jun 2025 11:08:24 +0000</pubDate>
-            <content:encoded><![CDATA[To better serve our global developer community, **TikTok Shop Open Platform** is committed to building a high-performance, stable, and industry-compliant API system. Currently, we offer two main versions of our Open API: * **V1 (Legacy version)**: version numbers below 202309; * **V2 (Standard version)**: version numbers 202309 and above. The V1 API was introduced in the early stages of our platform. To enhance the developer experience and improve integration compatibility, we launched the V2 ve...]]></content:encoded>
         </item>
     </channel>
 </rss>

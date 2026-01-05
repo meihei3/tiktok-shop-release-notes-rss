@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "977178cb9e7a2ffc203810e0913ab6a55dec1658f809bd7ebf4e992b5ab26a6d",
-            "lastSeenAt": "2026-01-04T02:25:47+00:00"
+            "contentHash": "8d5782e3da08be9bb56d3147fbc4b63a207a57b93fdad700e8d7a8a69dabd844",
+            "lastSeenAt": "2026-01-05T02:25:07+00:00"
         }
     ],
     "items": [
@@ -549,6 +549,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/x0ebukvz",
             "keywords": [
                 "New",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "u62dh98s",
+            "title": "For Indonesian market: Changes in Order and Finance APIs for Distant Fee",
+            "description": "There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...",
+            "contentHash": "13e525c704960dfe10db3c97f6a40c33b0aaea7769d6320c66deb377bf5cf948",
+            "pubDate": "2026-01-04T09:10:01+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/u62dh98s",
+            "keywords": [
+                "Coming Soon",
                 "Action Required"
             ]
         }
