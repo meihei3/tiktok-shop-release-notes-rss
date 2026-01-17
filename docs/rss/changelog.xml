@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 16 Jan 2026 02:10:21 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2026 02:04:26 +0000</lastBuildDate>
+        <item>
+            <title>【Important Notice】Enable Support for the New “On Hold” Order Status</title>
+            <link>https://partner.tiktokshop.com/docv2/page/yb76cyzi</link>
+            <description><![CDATA[# **Mandatory Activation for All Apps in All Global Markets, Q1 2026** To enhance buyer experience and improve overall order processing stability, TikTok Shop introduced a new order status — **“On Hold”** — effective **December 13, 2023**. To ensure ecosystem-wide consistency, **TikTok Shop will automatically activate “On Hold” orders for all apps that have not yet enabled support starting in Q1 2026**. This means: **All apps that have not completed integration will begin receiving On Hold order...]]></description>
+            <category>Action Required</category>
+            <category>Breaking Change</category>
+            <guid isPermaLink="false">yb76cyzi#ceeaf07a</guid>
+            <pubDate>Fri, 16 Jan 2026 04:25:35 +0000</pubDate>
+            <content:encoded><![CDATA[# **Mandatory Activation for All Apps in All Global Markets, Q1 2026** To enhance buyer experience and improve overall order processing stability, TikTok Shop introduced a new order status — **“On Hold”** — effective **December 13, 2023**. To ensure ecosystem-wide consistency, **TikTok Shop will automatically activate “On Hold” orders for all apps that have not yet enabled support starting in Q1 2026**. This means: **All apps that have not completed integration will begin receiving On Hold order...]]></content:encoded>
+        </item>
         <item>
             <title>For Indonesian market: Changes in Order and Finance APIs for Distant Fee</title>
             <link>https://partner.tiktokshop.com/docv2/page/u62dh98s</link>
@@ -285,15 +295,6 @@
             <guid isPermaLink="false">mx-market-gs-pop-api-updates#647e3e75</guid>
             <pubDate>Wed, 02 Jul 2025 09:24:33 +0000</pubDate>
             <content:encoded><![CDATA[## Summary We're rolling out some updates to our Product, Fulfillment, and Return and Refund APIs in order to better support our Global Selling Platform Open Plan (GS POP) in the Mexico (MX) market. ## Impact | | | | --- | --- | | Impacted market(s) | * Mexico (MX-CB) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Product APIs #### Product listing rules To list GS POP products for MX, call [POST Create Global Product](https://partner.tiktokshop.com/docv2/page/create-global-produ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Supplementary Notice on API Deprecation: Finance APIs</title>
-            <link>https://partner.tiktokshop.com/docv2/page/supplementary-notice-on-api-deprecation-finance-apis</link>
-            <description><![CDATA[Following the announcement of **V1 API deprecation** by the TikTok Shop Open Platform, we are issuing an additional clarification regarding the deprecation plan for the following two Finance category APIs: * [Get Transactions by Order](get-transactions-by-order); * [Get Transactions by Statement](get-transactions-by-statement). ## Action Required In addition to the deprecation of all V1 APIs (version number < 202309), the **202309 versions** of the above two APIs will also be included in the dep...]]></description>
-            <category>Action Required</category>
-            <guid isPermaLink="false">supplementary-notice-on-api-deprecation-finance-apis#af84c494</guid>
-            <pubDate>Mon, 23 Jun 2025 09:31:25 +0000</pubDate>
-            <content:encoded><![CDATA[Following the announcement of **V1 API deprecation** by the TikTok Shop Open Platform, we are issuing an additional clarification regarding the deprecation plan for the following two Finance category APIs: * [Get Transactions by Order](get-transactions-by-order); * [Get Transactions by Statement](get-transactions-by-statement). ## Action Required In addition to the deprecation of all V1 APIs (version number < 202309), the **202309 versions** of the above two APIs will also be included in the dep...]]></content:encoded>
         </item>
     </channel>
 </rss>
