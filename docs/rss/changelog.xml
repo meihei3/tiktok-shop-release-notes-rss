@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 19 Jan 2026 02:21:47 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 02:10:18 +0000</lastBuildDate>
         <item>
             <title>【Important Notice】Enable Support for the New “On Hold” Order Status</title>
             <link>https://partner.tiktokshop.com/docv2/page/yb76cyzi</link>
@@ -19,12 +19,12 @@
         <item>
             <title>For Indonesian market: Changes in Order and Finance APIs for Distant Fee</title>
             <link>https://partner.tiktokshop.com/docv2/page/u62dh98s</link>
-            <description><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...]]></description>
+            <description><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New fields in bond l...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">u62dh98s#13e525c7</guid>
+            <guid isPermaLink="false">u62dh98s#b8f082df</guid>
             <pubDate>Sun, 04 Jan 2026 09:10:01 +0000</pubDate>
-            <content:encoded><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...]]></content:encoded>
+            <content:encoded><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New fields in bond l...]]></content:encoded>
         </item>
         <item>
             <title>New Capability  for Affiliate Sample Applications </title>

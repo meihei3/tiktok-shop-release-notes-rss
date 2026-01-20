@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c4d7bf4a5964b907fc0faffcc67bdca4ded74b0682cb06ae8d2b8fefcc375fb5",
-            "lastSeenAt": "2026-01-19T02:21:47+00:00"
+            "contentHash": "4bb15fd348a6db3aded642f9c0c48f35b51e08425fc69ca322d4b51a42526dd0",
+            "lastSeenAt": "2026-01-20T02:10:18+00:00"
         }
     ],
     "items": [
@@ -555,8 +555,8 @@
         {
             "document_path": "u62dh98s",
             "title": "For Indonesian market: Changes in Order and Finance APIs for Distant Fee",
-            "description": "There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New field in bond li...",
-            "contentHash": "13e525c704960dfe10db3c97f6a40c33b0aaea7769d6320c66deb377bf5cf948",
+            "description": "There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New fields in bond l...",
+            "contentHash": "b8f082df6384467fdb354867cb8e5971449ea6f28f6fcf3fc7db7fd727194934",
             "pubDate": "2026-01-04T09:10:01+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/u62dh98s",
             "keywords": [
