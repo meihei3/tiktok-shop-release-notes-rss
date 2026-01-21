@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 20 Jan 2026 02:10:18 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 02:13:24 +0000</lastBuildDate>
         <item>
             <title>【Important Notice】Enable Support for the New “On Hold” Order Status</title>
             <link>https://partner.tiktokshop.com/docv2/page/yb76cyzi</link>
@@ -17,14 +17,14 @@
             <content:encoded><![CDATA[# **Mandatory Activation for All Apps in All Global Markets, Q1 2026** To enhance buyer experience and improve overall order processing stability, TikTok Shop introduced a new order status — **“On Hold”** — effective **December 13, 2023**. To ensure ecosystem-wide consistency, **TikTok Shop will automatically activate “On Hold” orders for all apps that have not yet enabled support starting in Q1 2026**. This means: **All apps that have not completed integration will begin receiving On Hold order...]]></content:encoded>
         </item>
         <item>
-            <title>For Indonesian market: Changes in Order and Finance APIs for Distant Fee</title>
+            <title>For Indonesian market: Changes in Order and Finance APIs for Horizon+ Orders</title>
             <link>https://partner.tiktokshop.com/docv2/page/u62dh98s</link>
-            <description><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New fields in bond l...]]></description>
+            <description><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">u62dh98s#b8f082df</guid>
+            <guid isPermaLink="false">u62dh98s#945e24a3</guid>
             <pubDate>Sun, 04 Jan 2026 09:10:01 +0000</pubDate>
-            <content:encoded><![CDATA[There are changes in order and finance APIs for distant fee which are estimated to be effective on January 21, 2026. Here is the list of changes: 1. [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) (https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) (https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API Response Parameters (New fields in bond l...]]></content:encoded>
+            <content:encoded><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></content:encoded>
         </item>
         <item>
             <title>New Capability  for Affiliate Sample Applications </title>
