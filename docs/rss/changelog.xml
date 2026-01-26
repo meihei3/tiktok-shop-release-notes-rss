@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 25 Jan 2026 02:27:34 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 02:26:38 +0000</lastBuildDate>
+        <item>
+            <title>[Important] New Analytics API Supports Data Drill Down &amp;amp; Deprecation of Old Versions</title>
+            <link>https://partner.tiktokshop.com/docv2/page/ukjcmkq5</link>
+            <description><![CDATA[# Summary The existing **Analytics APIs** have a **new** version for `202509`, with the primary objective of aligning the data caliber with Seller Center Data Compass. Additionally, 3 new APIs have been added to provide data granularity to help merchants and influencers review, consolidate, and iterate content (video + live) production processes. Details of the new API endpoints and functions are listed below. --- # Impact | Impacted market(s) | * All markets - local and cross-border | | --- | -...]]></description>
+            <category>Action Required</category>
+            <category>New</category>
+            <guid isPermaLink="false">ukjcmkq5#82401603</guid>
+            <pubDate>Sun, 25 Jan 2026 21:21:20 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary The existing **Analytics APIs** have a **new** version for `202509`, with the primary objective of aligning the data caliber with Seller Center Data Compass. Additionally, 3 new APIs have been added to provide data granularity to help merchants and influencers review, consolidate, and iterate content (video + live) production processes. Details of the new API endpoints and functions are listed below. --- # Impact | Impacted market(s) | * All markets - local and cross-border | | --- | -...]]></content:encoded>
+        </item>
         <item>
             <title>【Important Notice】Enable Support for the New “On Hold” Order Status</title>
             <link>https://partner.tiktokshop.com/docv2/page/yb76cyzi</link>
@@ -285,16 +295,6 @@
             <guid isPermaLink="false">new-image-translation-apis#38bbd0d9</guid>
             <pubDate>Tue, 08 Jul 2025 00:31:53 +0000</pubDate>
             <content:encoded><![CDATA[# Summary In the EU marketplace, TikTok Sellers are required to translate all text information associated with a product, including image text. We've made this easier for our Sellers with a new a set of APIs to programmatically translate product image text to German, Irish English, Spanish, French, and Italian. ## What is changing? We've released a new asynchronous API to [create a translation task](create-image-translation-tasks) for product image translations, a new [translation status API](ge...]]></content:encoded>
-        </item>
-        <item>
-            <title>MX market: GS POP API Updates</title>
-            <link>https://partner.tiktokshop.com/docv2/page/mx-market-gs-pop-api-updates</link>
-            <description><![CDATA[## Summary We're rolling out some updates to our Product, Fulfillment, and Return and Refund APIs in order to better support our Global Selling Platform Open Plan (GS POP) in the Mexico (MX) market. ## Impact | | | | --- | --- | | Impacted market(s) | * Mexico (MX-CB) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Product APIs #### Product listing rules To list GS POP products for MX, call [POST Create Global Product](https://partner.tiktokshop.com/docv2/page/create-global-produ...]]></description>
-            <category>Update</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">mx-market-gs-pop-api-updates#647e3e75</guid>
-            <pubDate>Wed, 02 Jul 2025 09:24:33 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary We're rolling out some updates to our Product, Fulfillment, and Return and Refund APIs in order to better support our Global Selling Platform Open Plan (GS POP) in the Mexico (MX) market. ## Impact | | | | --- | --- | | Impacted market(s) | * Mexico (MX-CB) | | Impacted version(s) | * 202309 (and later) | ## Changes ### Product APIs #### Product listing rules To list GS POP products for MX, call [POST Create Global Product](https://partner.tiktokshop.com/docv2/page/create-global-produ...]]></content:encoded>
         </item>
     </channel>
 </rss>
