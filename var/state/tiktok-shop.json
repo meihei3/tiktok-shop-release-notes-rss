@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b986ea407b10864afed5684b803589a3b0119ae4d1929faf0189a1d5f0bb278b",
-            "lastSeenAt": "2026-01-25T02:27:34+00:00"
+            "contentHash": "cff65d518ee162d8cd2bc804d532cfb05724a139e726872945b780135649200b",
+            "lastSeenAt": "2026-01-26T02:26:38+00:00"
         }
     ],
     "items": [
@@ -574,6 +574,18 @@
             "keywords": [
                 "Action Required",
                 "Breaking Change"
+            ]
+        },
+        {
+            "document_path": "ukjcmkq5",
+            "title": "[Important] New Analytics API Supports Data Drill Down & Deprecation of Old Versions",
+            "description": "# Summary The existing **Analytics APIs** have a **new** version for `202509`, with the primary objective of aligning the data caliber with Seller Center Data Compass. Additionally, 3 new APIs have been added to provide data granularity to help merchants and influencers review, consolidate, and iterate content (video + live) production processes. Details of the new API endpoints and functions are listed below. --- # Impact | Impacted market(s) | * All markets - local and cross-border | | --- | -...",
+            "contentHash": "824016036cd3fcb346525be2a64db4cd72e52a2a7793114754166ea84e448d33",
+            "pubDate": "2026-01-25T21:21:20+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ukjcmkq5",
+            "keywords": [
+                "Action Required",
+                "New"
             ]
         }
     ]
