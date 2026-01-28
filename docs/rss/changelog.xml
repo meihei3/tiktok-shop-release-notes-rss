@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 27 Jan 2026 02:23:04 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2026 02:12:58 +0000</lastBuildDate>
+        <item>
+            <title>For SEA Market: Recommended Improvement to Support Fast Delivery Service</title>
+            <link>https://partner.tiktokshop.com/docv2/page/m5p1u1fo</link>
+            <description><![CDATA[# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">m5p1u1fo#33bebee8</guid>
+            <pubDate>Tue, 27 Jan 2026 04:07:53 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...]]></content:encoded>
+        </item>
         <item>
             <title>[Important] New Analytics API Supports Data Drill Down &amp;amp; Deprecation of Old Versions</title>
             <link>https://partner.tiktokshop.com/docv2/page/ukjcmkq5</link>
@@ -286,15 +295,6 @@
             <guid isPermaLink="false">order_orders_post_town#c783f8fb</guid>
             <pubDate>Thu, 10 Jul 2025 23:28:15 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Addresses in the United Kingdom (UK) require a [Post Town](https://en.wikipedia.org/wiki/Post_town), so we've added a data field for UK buyers to include their Post Town information. ## What's changed? To support this, we've added a new property `post_town` to the `recipient_addresses` object in the [Get Order Detail API](get-order-detail). ## Which markets are affected? This change affects the UK market only. ## Who is affected? Developers with applications that use the Get Order Deta...]]></content:encoded>
-        </item>
-        <item>
-            <title>Introducing new product image text translation APIs and webhook</title>
-            <link>https://partner.tiktokshop.com/docv2/page/new-image-translation-apis</link>
-            <description><![CDATA[# Summary In the EU marketplace, TikTok Sellers are required to translate all text information associated with a product, including image text. We've made this easier for our Sellers with a new a set of APIs to programmatically translate product image text to German, Irish English, Spanish, French, and Italian. ## What is changing? We've released a new asynchronous API to [create a translation task](create-image-translation-tasks) for product image translations, a new [translation status API](ge...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">new-image-translation-apis#38bbd0d9</guid>
-            <pubDate>Tue, 08 Jul 2025 00:31:53 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary In the EU marketplace, TikTok Sellers are required to translate all text information associated with a product, including image text. We've made this easier for our Sellers with a new a set of APIs to programmatically translate product image text to German, Irish English, Spanish, French, and Italian. ## What is changing? We've released a new asynchronous API to [create a translation task](create-image-translation-tasks) for product image translations, a new [translation status API](ge...]]></content:encoded>
         </item>
     </channel>
 </rss>
