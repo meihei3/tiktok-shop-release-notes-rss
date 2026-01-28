@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "dc4bdcd4c30b7b39aeb9c8dcaab21f544d0a1829cd9522b03585d69dc7ae8862",
-            "lastSeenAt": "2026-01-27T02:23:04+00:00"
+            "contentHash": "44f2f5e8421b42e6e89251f9cc3f04a0c92853d861a6c8ca86d39e6bf4afbbe0",
+            "lastSeenAt": "2026-01-28T02:12:58+00:00"
         }
     ],
     "items": [
@@ -586,6 +586,17 @@
             "keywords": [
                 "Action Required",
                 "New"
+            ]
+        },
+        {
+            "document_path": "m5p1u1fo",
+            "title": "For SEA Market: Recommended Improvement to Support Fast Delivery Service",
+            "description": "# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...",
+            "contentHash": "33bebee823619a7318b5ab1e8275623deaf8f5de1f3be00c3af27453e97c4d81",
+            "pubDate": "2026-01-27T04:07:53+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/m5p1u1fo",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
