@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 11 Feb 2026 02:52:37 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 02:48:26 +0000</lastBuildDate>
+        <item>
+            <title>EU Markets: Category Rules Update – Responsible Person Attribute Now Mandatory </title>
+            <link>https://partner.tiktokshop.com/docv2/page/r1wchdjn</link>
+            <description><![CDATA[# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">r1wchdjn#0cd20235</guid>
+            <pubDate>Wed, 11 Feb 2026 03:33:25 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...]]></content:encoded>
+        </item>
         <item>
             <title>For SEA Market: Recommended Improvement to Support Fast Delivery Service</title>
             <link>https://partner.tiktokshop.com/docv2/page/m5p1u1fo</link>
@@ -286,15 +296,6 @@
             <guid isPermaLink="false">three-seller-initiates-cancel-reasons-will-be-changed#2ce4269c</guid>
             <pubDate>Tue, 15 Jul 2025 06:22:31 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? From August 31 2025, three seller initiates cancellation reasons will be changed. 1. "seller_cancel_paid_reason_address_not_deliver" will be removed in Indonesia, Philippines, Vietnam, Malaysia and Thailand markets. 2. "seller_cancel_unable_to_deliver_to_buyer_address" will be removed in Singapore market. 3. "seller_cancel_reason_out_of_stock" will be adjusted from "Buyer Fault" to "Seller Fault" in Indonesia market. # Which markets are affected? The updates of the requiremen...]]></content:encoded>
-        </item>
-        <item>
-            <title>Post town added for UK recipient addresses in the Get Order Detail API</title>
-            <link>https://partner.tiktokshop.com/docv2/page/order_orders_post_town</link>
-            <description><![CDATA[# Summary Addresses in the United Kingdom (UK) require a [Post Town](https://en.wikipedia.org/wiki/Post_town), so we've added a data field for UK buyers to include their Post Town information. ## What's changed? To support this, we've added a new property `post_town` to the `recipient_addresses` object in the [Get Order Detail API](get-order-detail). ## Which markets are affected? This change affects the UK market only. ## Who is affected? Developers with applications that use the Get Order Deta...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">order_orders_post_town#c783f8fb</guid>
-            <pubDate>Thu, 10 Jul 2025 23:28:15 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Addresses in the United Kingdom (UK) require a [Post Town](https://en.wikipedia.org/wiki/Post_town), so we've added a data field for UK buyers to include their Post Town information. ## What's changed? To support this, we've added a new property `post_town` to the `recipient_addresses` object in the [Get Order Detail API](get-order-detail). ## Which markets are affected? This change affects the UK market only. ## Who is affected? Developers with applications that use the Get Order Deta...]]></content:encoded>
         </item>
     </channel>
 </rss>
