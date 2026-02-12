@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1200aa843245e390961bdf00eefcb7f9d45beb500498312ab7e782ef40557a1c",
-            "lastSeenAt": "2026-02-11T02:52:37+00:00"
+            "contentHash": "74a4bc3d9fbf3b0732021b614d274009c5f4de04390e9418fc2a3803b7fb8edb",
+            "lastSeenAt": "2026-02-12T02:48:26+00:00"
         }
     ],
     "items": [
@@ -597,6 +597,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/m5p1u1fo",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "r1wchdjn",
+            "title": "EU Markets: Category Rules Update – Responsible Person Attribute Now Mandatory ",
+            "description": "# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...",
+            "contentHash": "0cd2023580c2ca0281b23ee1b1005871b783c8fafd564a2c57bf10e2efbad2bf",
+            "pubDate": "2026-02-11T03:33:25+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/r1wchdjn",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
