@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 12 Feb 2026 02:48:26 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 13 Feb 2026 02:48:57 +0000</lastBuildDate>
+        <item>
+            <title>Analytics Open API Metric Consistency Adjustment Announcement</title>
+            <link>https://partner.tiktokshop.com/docv2/page/joyljtav</link>
+            <description><![CDATA[### 1. Overview & Background To provide developers and merchants with a more consistent and accurate data experience, we will soon be adjusting the metric attribution for select Analytics Open APIs. This upgrade is designed to harmonize data definitions across different analytics products and help our partners more accurately measure business performance. ### 2. Summary of Changes To ensure a smooth transition, we will be introducing a **new API version** while making backward-compatible adjustm...]]></description>
+            <category>Updated</category>
+            <category>2026-02-12</category>
+            <guid isPermaLink="false">joyljtav#7f921342</guid>
+            <pubDate>Thu, 12 Feb 2026 06:38:08 +0000</pubDate>
+            <content:encoded><![CDATA[### 1. Overview & Background To provide developers and merchants with a more consistent and accurate data experience, we will soon be adjusting the metric attribution for select Analytics Open APIs. This upgrade is designed to harmonize data definitions across different analytics products and help our partners more accurately measure business performance. ### 2. Summary of Changes To ensure a smooth transition, we will be introducing a **new API version** while making backward-compatible adjustm...]]></content:encoded>
+        </item>
         <item>
             <title>EU Markets: Category Rules Update – Responsible Person Attribute Now Mandatory </title>
             <link>https://partner.tiktokshop.com/docv2/page/r1wchdjn</link>
@@ -286,16 +296,6 @@
             <guid isPermaLink="false">updates-to-product-errors#33542d3f</guid>
             <pubDate>Fri, 18 Jul 2025 03:35:50 +0000</pubDate>
             <content:encoded><![CDATA[# **Summary** To help developers identify and handle errors better, we've refined several ambiguous error codes by either splitting them into more precise error codes, or replacing them with more appropriate error codes. These changes provide clearer context on what went wrong. The error conditions remain the same, only the codes associated with them have changed for clarity. # **Impact** | | | | --- | --- | | Impacted market(s) | All | | Impacted version(s) | 202309 (and later) | # **What is ch...]]></content:encoded>
-        </item>
-        <item>
-            <title>SEA market only:Three Seller Initiates Cancel Reasons will be changed</title>
-            <link>https://partner.tiktokshop.com/docv2/page/three-seller-initiates-cancel-reasons-will-be-changed</link>
-            <description><![CDATA[# What is changing? From August 31 2025, three seller initiates cancellation reasons will be changed. 1. "seller_cancel_paid_reason_address_not_deliver" will be removed in Indonesia, Philippines, Vietnam, Malaysia and Thailand markets. 2. "seller_cancel_unable_to_deliver_to_buyer_address" will be removed in Singapore market. 3. "seller_cancel_reason_out_of_stock" will be adjusted from "Buyer Fault" to "Seller Fault" in Indonesia market. # Which markets are affected? The updates of the requiremen...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">three-seller-initiates-cancel-reasons-will-be-changed#2ce4269c</guid>
-            <pubDate>Tue, 15 Jul 2025 06:22:31 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? From August 31 2025, three seller initiates cancellation reasons will be changed. 1. "seller_cancel_paid_reason_address_not_deliver" will be removed in Indonesia, Philippines, Vietnam, Malaysia and Thailand markets. 2. "seller_cancel_unable_to_deliver_to_buyer_address" will be removed in Singapore market. 3. "seller_cancel_reason_out_of_stock" will be adjusted from "Buyer Fault" to "Seller Fault" in Indonesia market. # Which markets are affected? The updates of the requiremen...]]></content:encoded>
         </item>
     </channel>
 </rss>

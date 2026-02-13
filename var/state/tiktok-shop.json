@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "74a4bc3d9fbf3b0732021b614d274009c5f4de04390e9418fc2a3803b7fb8edb",
-            "lastSeenAt": "2026-02-12T02:48:26+00:00"
+            "contentHash": "f41f9e4df921b18d32306b2b116748f1be9ce05f469298a99a846ab62d2107ab",
+            "lastSeenAt": "2026-02-13T02:48:57+00:00"
         }
     ],
     "items": [
@@ -609,6 +609,18 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "joyljtav",
+            "title": "Analytics Open API Metric Consistency Adjustment Announcement",
+            "description": "### 1. Overview & Background To provide developers and merchants with a more consistent and accurate data experience, we will soon be adjusting the metric attribution for select Analytics Open APIs. This upgrade is designed to harmonize data definitions across different analytics products and help our partners more accurately measure business performance. ### 2. Summary of Changes To ensure a smooth transition, we will be introducing a **new API version** while making backward-compatible adjustm...",
+            "contentHash": "7f921342d364e6ad866810f15863e237863b8689bb2c0ba3ea61fcd4526badf5",
+            "pubDate": "2026-02-12T06:38:08+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/joyljtav",
+            "keywords": [
+                "Updated",
+                "2026-02-12"
             ]
         }
     ]
