@@ -5,7 +5,18 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 04 Mar 2026 02:34:51 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 02:37:59 +0000</lastBuildDate>
+        <item>
+            <title>For all EU markets (EU5) Get Shipping Providers API </title>
+            <link>https://partner.tiktokshop.com/docv2/page/7z0wsn3s</link>
+            <description><![CDATA[# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...]]></description>
+            <category>Updated</category>
+            <category>Action Required</category>
+            <category>Coming Soon</category>
+            <guid isPermaLink="false">7z0wsn3s#bf4ce5d1</guid>
+            <pubDate>Wed, 04 Mar 2026 10:10:39 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...]]></content:encoded>
+        </item>
         <item>
             <title>Analytics Open API Metric Consistency Adjustment Announcement</title>
             <link>https://partner.tiktokshop.com/docv2/page/joyljtav</link>
@@ -287,15 +298,6 @@
             <guid isPermaLink="false">g03iqsx0#239e62f1</guid>
             <pubDate>Mon, 28 Jul 2025 15:15:58 +0000</pubDate>
             <content:encoded><![CDATA[## Summary Previously, the TikTok Shop Seller Center only allowed draft editing prior to publishing a listing. We've recently expanded this feature to additionally enable sellers to edit and save drafts for products that have already been listed, and are now ensuring it is reflected in our APIs. ## Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local * United Kingdom (UK) - Local * Europe (EU) - Local * Southeast Asia (SEA) - Local * Japan (JP) - Local * Platform Open P...]]></content:encoded>
-        </item>
-        <item>
-            <title>Updates to product errors</title>
-            <link>https://partner.tiktokshop.com/docv2/page/updates-to-product-errors</link>
-            <description><![CDATA[# **Summary** To help developers identify and handle errors better, we've refined several ambiguous error codes by either splitting them into more precise error codes, or replacing them with more appropriate error codes. These changes provide clearer context on what went wrong. The error conditions remain the same, only the codes associated with them have changed for clarity. # **Impact** | | | | --- | --- | | Impacted market(s) | All | | Impacted version(s) | 202309 (and later) | # **What is ch...]]></description>
-            <category>Update</category>
-            <guid isPermaLink="false">updates-to-product-errors#33542d3f</guid>
-            <pubDate>Fri, 18 Jul 2025 03:35:50 +0000</pubDate>
-            <content:encoded><![CDATA[# **Summary** To help developers identify and handle errors better, we've refined several ambiguous error codes by either splitting them into more precise error codes, or replacing them with more appropriate error codes. These changes provide clearer context on what went wrong. The error conditions remain the same, only the codes associated with them have changed for clarity. # **Impact** | | | | --- | --- | | Impacted market(s) | All | | Impacted version(s) | 202309 (and later) | # **What is ch...]]></content:encoded>
         </item>
     </channel>
 </rss>
