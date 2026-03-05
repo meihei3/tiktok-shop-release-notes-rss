@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e814aa16e3d7324b7e14a2feb7a4f4997b9e5798b014f530c7915cb11fca70f7",
-            "lastSeenAt": "2026-03-04T02:34:51+00:00"
+            "contentHash": "ca468df0b813032b1b4571c1725ae3228749d24910f97a883da0ee3ec1ef301e",
+            "lastSeenAt": "2026-03-05T02:37:59+00:00"
         }
     ],
     "items": [
@@ -621,6 +621,19 @@
             "keywords": [
                 "Updated",
                 "2026-02-12"
+            ]
+        },
+        {
+            "document_path": "7z0wsn3s",
+            "title": "For all EU markets (EU5) Get Shipping Providers API ",
+            "description": "# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...",
+            "contentHash": "bf4ce5d1bc1c8dea5584a45d0c3612bcaccb174b9254f899bca5301220072209",
+            "pubDate": "2026-03-04T10:10:39+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/7z0wsn3s",
+            "keywords": [
+                "Updated",
+                "Action Required",
+                "Coming Soon"
             ]
         }
     ]
