@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "ca468df0b813032b1b4571c1725ae3228749d24910f97a883da0ee3ec1ef301e",
-            "lastSeenAt": "2026-03-06T02:35:45+00:00"
+            "contentHash": "41e7d72943914806e4a5871c0f8c905ef674e7268bf485fa38282365db97271c",
+            "lastSeenAt": "2026-03-07T02:29:15+00:00"
         }
     ],
     "items": [
@@ -634,6 +634,17 @@
                 "Updated",
                 "Action Required",
                 "Coming Soon"
+            ]
+        },
+        {
+            "document_path": "um8sunwp",
+            "title": "US market: Updates to mandatory attributes ",
+            "description": "## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2026-04-06**, the Products API will require these compliance-related attributes to be provided. ## Impact | Impacted market(s) | United States (US) | | --- | --- | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenario** | **Attributes affect...",
+            "contentHash": "ba7fcc8326851509dc0736397a6acd8d8c03e2f7283ac78be3e7049c7b5c8fe8",
+            "pubDate": "2026-03-06T03:01:34+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/um8sunwp",
+            "keywords": [
+                ""
             ]
         }
     ]
