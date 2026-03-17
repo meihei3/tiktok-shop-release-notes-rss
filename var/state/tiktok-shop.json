@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "dfd99a4637ff66fe91c2f2cc6f07413d13822665620ca5c555b7cee17bd386c8",
-            "lastSeenAt": "2026-03-15T02:56:51+00:00"
+            "contentHash": "1a8c09bbf9e8438bba76ca1ee6f65d1243f70e066f80dc2a4158d76b00515256",
+            "lastSeenAt": "2026-03-17T02:40:06+00:00"
         }
     ],
     "items": [
@@ -556,7 +556,7 @@
             "document_path": "u62dh98s",
             "title": "For Indonesian market: Changes in Order and Finance APIs for Horizon+ Orders",
             "description": "The orders with tag \"Horizon+\" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...",
-            "contentHash": "945e24a3f8efd8eb14bf6b47076c7eecf40791ed767cc584ffcd7eb82500d5ac",
+            "contentHash": "b9db25420cfeee36f7f55623564dd97d1a451961f2cbb3d090fc3a9b30007323",
             "pubDate": "2026-01-04T09:10:01+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/u62dh98s",
             "keywords": [
