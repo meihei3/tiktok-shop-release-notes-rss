@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 15 Mar 2026 02:56:51 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 02:40:06 +0000</lastBuildDate>
         <item>
             <title>US market: Updates to mandatory attributes </title>
             <link>https://partner.tiktokshop.com/docv2/page/um8sunwp</link>
@@ -81,7 +81,7 @@
             <description><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">u62dh98s#945e24a3</guid>
+            <guid isPermaLink="false">u62dh98s#b9db2542</guid>
             <pubDate>Sun, 04 Jan 2026 09:10:01 +0000</pubDate>
             <content:encoded><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></content:encoded>
         </item>
