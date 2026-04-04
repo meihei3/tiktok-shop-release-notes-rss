@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e1f41bf338c6e9f062476864278255c817b84a2250f9d06f60a48660f2c03397",
-            "lastSeenAt": "2026-04-03T02:52:35+00:00"
+            "contentHash": "923a7186fc6b1fc1b4cdb5d1240dbfc712f968887b7937dd48a38d4d2955bde5",
+            "lastSeenAt": "2026-04-04T02:43:00+00:00"
         }
     ],
     "items": [
@@ -645,6 +645,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/um8sunwp",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "l8xklei9",
+            "title": "US market: Mandatory compliance attributes added for Paper Money and Coins Categories",
+            "description": "# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...",
+            "contentHash": "8833d9ceb2ecf9c103f30ebf05feb590f7a407c35f746fdbef1d2b28f056c210",
+            "pubDate": "2026-04-03T10:07:31+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/l8xklei9",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]

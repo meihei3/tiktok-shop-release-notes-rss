@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 03 Apr 2026 02:52:35 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 04 Apr 2026 02:43:00 +0000</lastBuildDate>
+        <item>
+            <title>US market: Mandatory compliance attributes added for Paper Money and Coins Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/l8xklei9</link>
+            <description><![CDATA[# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">l8xklei9#8833d9ce</guid>
+            <pubDate>Fri, 03 Apr 2026 10:07:31 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...]]></content:encoded>
+        </item>
         <item>
             <title>US market: Updates to mandatory attributes </title>
             <link>https://partner.tiktokshop.com/docv2/page/um8sunwp</link>
@@ -288,16 +298,6 @@
             <guid isPermaLink="false">t9ucngno#d3dbc67c</guid>
             <pubDate>Tue, 05 Aug 2025 03:52:36 +0000</pubDate>
             <content:encoded><![CDATA[With the rollout of new fast delivery services across SEA (including Next Day Delivery, Instant, and Same Day), it's important to help merchants prioritize these fast delivery orders effectively. We recommend developers to update your **default sorting logic** to support merchants with better order processing prioritization. The sorting will **require 2 layers**: 1. Shipping SLA (`tts_sla_time`) 2. Logistics Priority (`fulfillment_priority_level`) For comprehensive details about this change and ...]]></content:encoded>
-        </item>
-        <item>
-            <title>For ID market: One Change for Privacy Improvement of Image Message</title>
-            <link>https://partner.tiktokshop.com/docv2/page/hrilusvh</link>
-            <description><![CDATA[There is one change for privacy improvement of image message in Indonesian market which will be effective on September 30, 2025. When sellers check image messages (from [Customer Service API](https://partner.tiktokshop.com/docv2/page/customer-service-api-overview)) and download images through HTTP to access the image link, they need to include two parameters * Header：x-tts-access-token * Query：shop_cipher # Which markets are affected? The updates of the requirements apply to the Local to Local s...]]></description>
-            <category>Updated</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">hrilusvh#16da2458</guid>
-            <pubDate>Wed, 30 Jul 2025 08:33:11 +0000</pubDate>
-            <content:encoded><![CDATA[There is one change for privacy improvement of image message in Indonesian market which will be effective on September 30, 2025. When sellers check image messages (from [Customer Service API](https://partner.tiktokshop.com/docv2/page/customer-service-api-overview)) and download images through HTTP to access the image link, they need to include two parameters * Header：x-tts-access-token * Query：shop_cipher # Which markets are affected? The updates of the requirements apply to the Local to Local s...]]></content:encoded>
         </item>
     </channel>
 </rss>
