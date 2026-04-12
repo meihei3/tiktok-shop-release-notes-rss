@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 09 Apr 2026 02:50:55 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 12 Apr 2026 03:26:34 +0000</lastBuildDate>
+        <item>
+            <title>New Capability  for Affiliate  Data Compass Offline Data Export</title>
+            <link>https://partner.tiktokshop.com/docv2/page/4brha1mn</link>
+            <description><![CDATA[# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">4brha1mn#3e49304b</guid>
+            <pubDate>Fri, 10 Apr 2026 09:43:21 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...]]></content:encoded>
+        </item>
         <item>
             <title>US market: Mandatory compliance attributes added for Paper Money and Coins Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/l8xklei9</link>
@@ -288,16 +297,6 @@
             <guid isPermaLink="false">a5crrkzs#5d8ca787</guid>
             <pubDate>Tue, 12 Aug 2025 21:01:22 +0000</pubDate>
             <content:encoded><![CDATA[# Summary On **August 19th, 2025**, we will be launching a revamp of the product listing API workflow for Global Selling Platform Open Plan (**GSPOP**) sellers in order to improve product listing efficiency and overall experience. # Impact | | | | --- | --- | | Impacted market(s) | * Platform Open Plan (POP) - All markets | | Impacted version(s) | * 202309 (and later) | # Changes For a more detailed look at our API changes, please visit our [fields description](https://bytedance.sg.larkoffice.co...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA Market: Recommended Default Order Sorting Logic to Support Fast Delivery Service</title>
-            <link>https://partner.tiktokshop.com/docv2/page/t9ucngno</link>
-            <description><![CDATA[With the rollout of new fast delivery services across SEA (including Next Day Delivery, Instant, and Same Day), it's important to help merchants prioritize these fast delivery orders effectively. We recommend developers to update your **default sorting logic** to support merchants with better order processing prioritization. The sorting will **require 2 layers**: 1. Shipping SLA (`tts_sla_time`) 2. Logistics Priority (`fulfillment_priority_level`) For comprehensive details about this change and ...]]></description>
-            <category>Action Required</category>
-            <category>Updated</category>
-            <guid isPermaLink="false">t9ucngno#d3dbc67c</guid>
-            <pubDate>Tue, 05 Aug 2025 03:52:36 +0000</pubDate>
-            <content:encoded><![CDATA[With the rollout of new fast delivery services across SEA (including Next Day Delivery, Instant, and Same Day), it's important to help merchants prioritize these fast delivery orders effectively. We recommend developers to update your **default sorting logic** to support merchants with better order processing prioritization. The sorting will **require 2 layers**: 1. Shipping SLA (`tts_sla_time`) 2. Logistics Priority (`fulfillment_priority_level`) For comprehensive details about this change and ...]]></content:encoded>
         </item>
     </channel>
 </rss>
