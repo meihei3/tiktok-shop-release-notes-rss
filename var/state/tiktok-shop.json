@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "9804d1d08adf8a19181454ba19211f71866bd1506aadf573442fbdd8098e0f9a",
-            "lastSeenAt": "2026-04-09T02:50:55+00:00"
+            "contentHash": "84a13c91bc321e230247f5cb52f51972dbcb65aed8e503100de6f70b2900d4b5",
+            "lastSeenAt": "2026-04-13T03:32:59+00:00"
         }
     ],
     "items": [
@@ -657,6 +657,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "4brha1mn",
+            "title": "New Capability  for Affiliate  Data Compass Offline Data Export",
+            "description": "# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...",
+            "contentHash": "3e49304b40b2bdc83377a94f6c65e91ea730e79d25b19530bffd8f0e66cb431c",
+            "pubDate": "2026-04-10T09:43:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/4brha1mn",
+            "keywords": [
+                "New"
             ]
         }
     ]
