@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "84a13c91bc321e230247f5cb52f51972dbcb65aed8e503100de6f70b2900d4b5",
-            "lastSeenAt": "2026-04-13T03:32:59+00:00"
+            "contentHash": "0e2149a220e7b8109d7d8a49d2bfcf884d65d1881f3f8eed6a7b772d6b5a9427",
+            "lastSeenAt": "2026-04-15T03:20:47+00:00"
         }
     ],
     "items": [
@@ -668,6 +668,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/4brha1mn",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "3dk9557y",
+            "title": "Bestsellers Analytics Open API Launch",
+            "description": "## Overview This release introduces the **Bestsellers Analytics OpenAPI**, a set of four new APIs that provide programmatic access to TikTok Shop's Bestsellers rankings from Data Compass. Developers can now retrieve the top 100 products, creators, videos, and LIVE sessions by GMV in the seller's authorized market. Previously, Bestsellers data was only available through the Seller Center web portal with no API access. Third-party data service providers — one of the most influential app categories...",
+            "contentHash": "2aafbf435d0b7a881194e84eb8cde2bc2ef2705971e626e4111bce07193308ec",
+            "pubDate": "2026-04-14T09:09:56+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/3dk9557y",
+            "keywords": [
+                "New",
+                "Action Required"
             ]
         }
     ]
