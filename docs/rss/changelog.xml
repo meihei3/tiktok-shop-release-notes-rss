@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 13 Apr 2026 03:32:59 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 03:20:47 +0000</lastBuildDate>
+        <item>
+            <title>Bestsellers Analytics Open API Launch</title>
+            <link>https://partner.tiktokshop.com/docv2/page/3dk9557y</link>
+            <description><![CDATA[## Overview This release introduces the **Bestsellers Analytics OpenAPI**, a set of four new APIs that provide programmatic access to TikTok Shop's Bestsellers rankings from Data Compass. Developers can now retrieve the top 100 products, creators, videos, and LIVE sessions by GMV in the seller's authorized market. Previously, Bestsellers data was only available through the Seller Center web portal with no API access. Third-party data service providers — one of the most influential app categories...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">3dk9557y#2aafbf43</guid>
+            <pubDate>Tue, 14 Apr 2026 09:09:56 +0000</pubDate>
+            <content:encoded><![CDATA[## Overview This release introduces the **Bestsellers Analytics OpenAPI**, a set of four new APIs that provide programmatic access to TikTok Shop's Bestsellers rankings from Data Compass. Developers can now retrieve the top 100 products, creators, videos, and LIVE sessions by GMV in the seller's authorized market. Previously, Bestsellers data was only available through the Seller Center web portal with no API access. Third-party data service providers — one of the most influential app categories...]]></content:encoded>
+        </item>
         <item>
             <title>New Capability  for Affiliate  Data Compass Offline Data Export</title>
             <link>https://partner.tiktokshop.com/docv2/page/4brha1mn</link>
@@ -287,16 +297,6 @@
             <guid isPermaLink="false">npb6fvbh#642b834f</guid>
             <pubDate>Wed, 20 Aug 2025 20:58:48 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Last year in the US market, TikTok Shop rolled out an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **SEA** market. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to implement the necessary changes, please read** [our L7 category expan...]]></content:encoded>
-        </item>
-        <item>
-            <title>GS POP product listing workflow revamp</title>
-            <link>https://partner.tiktokshop.com/docv2/page/a5crrkzs</link>
-            <description><![CDATA[# Summary On **August 19th, 2025**, we will be launching a revamp of the product listing API workflow for Global Selling Platform Open Plan (**GSPOP**) sellers in order to improve product listing efficiency and overall experience. # Impact | | | | --- | --- | | Impacted market(s) | * Platform Open Plan (POP) - All markets | | Impacted version(s) | * 202309 (and later) | # Changes For a more detailed look at our API changes, please visit our [fields description](https://bytedance.sg.larkoffice.co...]]></description>
-            <category>Breaking Change</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">a5crrkzs#5d8ca787</guid>
-            <pubDate>Tue, 12 Aug 2025 21:01:22 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary On **August 19th, 2025**, we will be launching a revamp of the product listing API workflow for Global Selling Platform Open Plan (**GSPOP**) sellers in order to improve product listing efficiency and overall experience. # Impact | | | | --- | --- | | Impacted market(s) | * Platform Open Plan (POP) - All markets | | Impacted version(s) | * 202309 (and later) | # Changes For a more detailed look at our API changes, please visit our [fields description](https://bytedance.sg.larkoffice.co...]]></content:encoded>
         </item>
     </channel>
 </rss>
