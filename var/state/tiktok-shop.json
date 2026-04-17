@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "dbbfd03d16cb8953b6b615f16bc686e78601a1c8538cd49901149f2a6b5b6a77",
-            "lastSeenAt": "2026-04-16T03:29:12+00:00"
+            "contentHash": "98a3bbdcb78437a1fd74fcae2e00ddc1b0d01ed3f4657d945e5ea01165611d84",
+            "lastSeenAt": "2026-04-17T03:24:03+00:00"
         }
     ],
     "items": [
@@ -679,6 +679,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/3dk9557y",
             "keywords": [
                 "New",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "nvx9wggt",
+            "title": "US market: New GTM for OTC Mandatory Attributes",
+            "description": "# Summary ### What are we launching To meet legal requirements for over-the-counter (OTC) medicines, new mandatory compliance attributes will be introduced for 31 OTC medicine categories. Sellers will be required to complete these new attributes for all new and existing product listings in the affected categories. ### When are we launching it The enforcement date is 4/17 and will be communicated in a follow-up notice. ### Impact All new and existing listings in the affected categories must inclu...",
+            "contentHash": "183cbf3effe400bb9fe57a3760af999045626f9a7a3f8172bf62ade280c9203c",
+            "pubDate": "2026-04-16T18:29:12+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/nvx9wggt",
+            "keywords": [
+                "Coming Soon",
                 "Action Required"
             ]
         }
