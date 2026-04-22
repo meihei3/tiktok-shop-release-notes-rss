@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 21 Apr 2026 03:25:04 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 03:23:01 +0000</lastBuildDate>
+        <item>
+            <title>For US Market: Add subscription order tag to Order APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/uc1ds0td</link>
+            <description><![CDATA[## Summary To help developers and sellers better manage inventory and fulfillment for subscription-based orders, we are introducing a new field, `is_subscription_order`, to our Order APIs. This allows for easy identification of orders generated from a customer's subscription. This change brings our Open API capabilities to parity with the functionality available in the TikTok Shop Seller Center, where subscription orders are already tagged. **What's a subscription order?** Subscription orders ar...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">uc1ds0td#267a1df0</guid>
+            <pubDate>Tue, 21 Apr 2026 06:20:32 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary To help developers and sellers better manage inventory and fulfillment for subscription-based orders, we are introducing a new field, `is_subscription_order`, to our Order APIs. This allows for easy identification of orders generated from a customer's subscription. This change brings our Open API capabilities to parity with the functionality available in the TikTok Shop Seller Center, where subscription orders are already tagged. **What's a subscription order?** Subscription orders ar...]]></content:encoded>
+        </item>
         <item>
             <title>US market: New GTM for OTC Mandatory Attributes</title>
             <link>https://partner.tiktokshop.com/docv2/page/nvx9wggt</link>
@@ -287,16 +296,6 @@
             <guid isPermaLink="false">sv0xa2r6#1d6a7717</guid>
             <pubDate>Wed, 27 Aug 2025 20:29:17 +0000</pubDate>
             <content:encoded><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></content:encoded>
-        </item>
-        <item>
-            <title>ID market: Tokopedia Open API Termination - Migrate to TikTok Shop Partner Center by September 30, 2025</title>
-            <link>https://partner.tiktokshop.com/docv2/page/k1156vkq</link>
-            <description><![CDATA[The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...]]></description>
-            <category>Coming soon</category>
-            <category>Action required</category>
-            <guid isPermaLink="false">k1156vkq#33d7d8a5</guid>
-            <pubDate>Tue, 26 Aug 2025 09:16:37 +0000</pubDate>
-            <content:encoded><![CDATA[The **complete termination of** [Tokopedia Open API](https://developer.tokopedia.com/) **services** will be effective on **September 30, 2025**. As part of our strategic integration with the broader TikTok Shop ecosystem, we are transitioning all partner integrations to [TikTok Shop Partner Center by Tokopedia](https://partner.tiktokshop.com/) We strongly encourage all partners to immediately migrate to TTS Partner Center, where you can manage both Tokopedia and TikTok Shop operations seamlessly...]]></content:encoded>
         </item>
     </channel>
 </rss>
