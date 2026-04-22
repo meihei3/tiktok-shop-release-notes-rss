@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "6c5217ebcae1ebae5b4a2a54d3d0419fa70830842cb52e36dce7e2492ce831c9",
-            "lastSeenAt": "2026-04-21T03:25:04+00:00"
+            "contentHash": "b97368aa4bf17dfeef8967ff8943209a4e850ed7d45123edb33183071d691d4d",
+            "lastSeenAt": "2026-04-22T03:23:01+00:00"
         }
     ],
     "items": [
@@ -692,6 +692,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "uc1ds0td",
+            "title": "For US Market: Add subscription order tag to Order APIs",
+            "description": "## Summary To help developers and sellers better manage inventory and fulfillment for subscription-based orders, we are introducing a new field, `is_subscription_order`, to our Order APIs. This allows for easy identification of orders generated from a customer's subscription. This change brings our Open API capabilities to parity with the functionality available in the TikTok Shop Seller Center, where subscription orders are already tagged. **What's a subscription order?** Subscription orders ar...",
+            "contentHash": "267a1df09e4665b5ae715145dccc958b205b410ac8557be70e549d1aa72b5041",
+            "pubDate": "2026-04-21T06:20:32+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/uc1ds0td",
+            "keywords": [
+                "New"
             ]
         }
     ]
