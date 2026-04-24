@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 22 Apr 2026 03:23:01 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 03:29:33 +0000</lastBuildDate>
+        <item>
+            <title>New Feature: Inventory Update Webhook</title>
+            <link>https://partner.tiktokshop.com/docv2/page/9q4we8qr</link>
+            <description><![CDATA[# New Feature: Inventory Update Webhook ### What is changing? TikTok Shop is launching a new `inventory_update` webhook to push real-time events for SKU inventory quantity changes. Previously, developers had to indirectly infer inventory changes by subscribing to multiple webhook messages (e.g., order creation, marketing campaigns), which was complex and error-prone. The new `inventory_update` webhook standardizes inventory change notifications. Whether caused by new order creation, order cancel...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">9q4we8qr#510843a3</guid>
+            <pubDate>Thu, 23 Apr 2026 07:39:17 +0000</pubDate>
+            <content:encoded><![CDATA[# New Feature: Inventory Update Webhook ### What is changing? TikTok Shop is launching a new `inventory_update` webhook to push real-time events for SKU inventory quantity changes. Previously, developers had to indirectly infer inventory changes by subscribing to multiple webhook messages (e.g., order creation, marketing campaigns), which was complex and error-prone. The new `inventory_update` webhook standardizes inventory change notifications. Whether caused by new order creation, order cancel...]]></content:encoded>
+        </item>
         <item>
             <title>For US Market: Add subscription order tag to Order APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/uc1ds0td</link>
@@ -287,15 +297,6 @@
             <guid isPermaLink="false">yeklql2a#9ce5d4ae</guid>
             <pubDate>Wed, 03 Sep 2025 19:40:27 +0000</pubDate>
             <content:encoded><![CDATA[# Summary **On Time Delivery Rate** (OTDR) is a measurement used to assess a seller's ability to fulfill customer orders within the promised delivery timeframe. OTDR is defined as the percentage of all packages (delivered over a period of 7 calendar days) that take less than **5 business days** to be delivered. From **August 25th, 2025**, sellers in the UK and EU using the **Shipped by Seller** (3PL) fulfillment method will receive `delivery_sla_time` data with each order, enabling better manage...]]></content:encoded>
-        </item>
-        <item>
-            <title>New APIs for TikTok LIVE </title>
-            <link>https://partner.tiktokshop.com/docv2/page/sv0xa2r6</link>
-            <description><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">sv0xa2r6#1d6a7717</guid>
-            <pubDate>Wed, 27 Aug 2025 20:29:17 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary We've received a lot of requests to add TikTok LIVE analytics to our ever-growing TikTok Shop analytics APIs. We're happy to announce that we've recently just launched two new endpoints to address this demand! # Impact | | | | --- | --- | | Impacted market(s) | * All markets - local and cross-border | | Impacted version(s) | * 202309 (and later) | # Changes ## New analytics APIs The following endpoints and have been newly launched: | **Endpoint** | **Description** | | --- | --- | | [GE...]]></content:encoded>
         </item>
     </channel>
 </rss>

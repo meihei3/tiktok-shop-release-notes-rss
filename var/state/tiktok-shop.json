@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b97368aa4bf17dfeef8967ff8943209a4e850ed7d45123edb33183071d691d4d",
-            "lastSeenAt": "2026-04-22T03:23:01+00:00"
+            "contentHash": "dab2834bbe387d584ee2569733c8dc87b9bbecd50245f77c055f7e42554b15ed",
+            "lastSeenAt": "2026-04-24T03:29:33+00:00"
         }
     ],
     "items": [
@@ -703,6 +703,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/uc1ds0td",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "9q4we8qr",
+            "title": "New Feature: Inventory Update Webhook",
+            "description": "# New Feature: Inventory Update Webhook ### What is changing? TikTok Shop is launching a new `inventory_update` webhook to push real-time events for SKU inventory quantity changes. Previously, developers had to indirectly infer inventory changes by subscribing to multiple webhook messages (e.g., order creation, marketing campaigns), which was complex and error-prone. The new `inventory_update` webhook standardizes inventory change notifications. Whether caused by new order creation, order cancel...",
+            "contentHash": "510843a303c0d25786e4014b51b2f17b0a4a27b80aa25970b0ed1a87ea77a1d2",
+            "pubDate": "2026-04-23T07:39:17+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/9q4we8qr",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
