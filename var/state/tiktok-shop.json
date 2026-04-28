@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "af145b5308337629e8cef2f221c39ec1209f3e5c537cefe74d37eed1cd530895",
-            "lastSeenAt": "2026-04-26T03:36:18+00:00"
+            "contentHash": "9172cc6fa701ab2f026f7c24befc4a4e7817fc770e6202a6a4b7c725cd18a74d",
+            "lastSeenAt": "2026-04-28T03:45:40+00:00"
         }
     ],
     "items": [
@@ -712,6 +712,18 @@
             "contentHash": "510843a303c0d25786e4014b51b2f17b0a4a27b80aa25970b0ed1a87ea77a1d2",
             "pubDate": "2026-04-23T07:39:17+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/9q4we8qr",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "qc6yk2e0",
+            "title": "For Vietnam market: Updates to Mandatory attributes on Beauty & Personal Care, Health, Baby & Maternity, and Food & Beverages related categories",
+            "description": "# What is changing? Starting from 26 May 2026, partners will be required to provide additional mandatory product attributes when listing or editing products by using API for products under the following categories: Beauty & Personal Care, Health, Baby & Maternity, and Food & Beverages. The mandatory product attributes will include : * product license details * Product License Type * Product License Number * Date of Issuance * Place of Issuance They will be added into \"product_attributes\" paramet...",
+            "contentHash": "ac9987e1a7aa5b72d096d039e3d7a0e00d93d9333221d2919a41534f2f4d31e0",
+            "pubDate": "2026-04-26T12:19:40+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/qc6yk2e0",
             "keywords": [
                 "Coming Soon",
                 "Action Required"
