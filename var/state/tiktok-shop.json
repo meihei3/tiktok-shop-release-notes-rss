@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e326fc173ff539da206c24d0fee867029ca363be858e6357f4f466dc661ab458",
-            "lastSeenAt": "2026-05-07T03:42:59+00:00"
+            "contentHash": "ed5a6915c1ebdc040046e50516cbb3929a2c4962535132ae9deffcef0520cb2f",
+            "lastSeenAt": "2026-05-08T03:36:28+00:00"
         }
     ],
     "items": [
@@ -738,6 +738,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/lm9400zu",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "digvqy0x",
+            "title": "For US market: Mandatory Size Chart Quality Validation",
+            "description": "# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...",
+            "contentHash": "e6be761f04ea4669c00271b1e60cd5e8ec5075e4b09afe0eeff2634b60c8547e",
+            "pubDate": "2026-05-07T06:13:06+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/digvqy0x",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]

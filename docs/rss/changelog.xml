@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 07 May 2026 03:42:59 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 08 May 2026 03:36:28 +0000</lastBuildDate>
+        <item>
+            <title>For US market: Mandatory Size Chart Quality Validation</title>
+            <link>https://partner.tiktokshop.com/docv2/page/digvqy0x</link>
+            <description><![CDATA[# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">digvqy0x#e6be761f</guid>
+            <pubDate>Thu, 07 May 2026 06:13:06 +0000</pubDate>
+            <content:encoded><![CDATA[# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...]]></content:encoded>
+        </item>
         <item>
             <title>Automated Order Combination — ISV Integration Guide</title>
             <link>https://partner.tiktokshop.com/docv2/page/lm9400zu</link>
@@ -287,16 +297,6 @@
             <guid isPermaLink="false">c44syeeb#f3527727</guid>
             <pubDate>Fri, 12 Sep 2025 07:23:08 +0000</pubDate>
             <content:encoded><![CDATA[Since cancellation or return rejection reasons change sometimes, please call [Get Rejection Reasons](https://partner.tiktokshop.com/docv2/page/get-reject-reasons-202309#Back%20To%20Top) and show seller the usable rejection reason list if seller wants to reject buyer's cancellation or return request. You can get this list from the "reasons" parameter in this API's response payload. It will be effective after Sep. 24, 2025. By the way, you can get the newest [return reasons](https://partner.tiktok...]]></content:encoded>
-        </item>
-        <item>
-            <title>Creator Open ID for Affiliate APIs</title>
-            <link>https://partner.tiktokshop.com/docv2/page/3obfokj6</link>
-            <description><![CDATA[# Summary This week, we'll be introducing the new **Creator Open ID**, a privacy-preserving identifier used in Affiliate Open APIs. Instead of exposing the plain creator ID (restricted by our privacy policy), we'll instead provide a **pseudonymous, non-reversible** Creator Open ID to external partners. ❗ Important: The Creator Open ID will be implemented with a new version of our Affiliate APIs (202509). For the time being, we will continue to support plain creator IDs simultaneously, but announ...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">3obfokj6#dc3df29b</guid>
-            <pubDate>Mon, 08 Sep 2025 22:17:57 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary This week, we'll be introducing the new **Creator Open ID**, a privacy-preserving identifier used in Affiliate Open APIs. Instead of exposing the plain creator ID (restricted by our privacy policy), we'll instead provide a **pseudonymous, non-reversible** Creator Open ID to external partners. ❗ Important: The Creator Open ID will be implemented with a new version of our Affiliate APIs (202509). For the time being, we will continue to support plain creator IDs simultaneously, but announ...]]></content:encoded>
         </item>
     </channel>
 </rss>
