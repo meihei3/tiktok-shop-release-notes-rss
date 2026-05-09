@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "ed5a6915c1ebdc040046e50516cbb3929a2c4962535132ae9deffcef0520cb2f",
-            "lastSeenAt": "2026-05-08T03:36:28+00:00"
+            "contentHash": "51b74bc7874f44a4bbfc6fbbb0ab249d335b65defbef0444eec75edebf70774a",
+            "lastSeenAt": "2026-05-09T03:36:51+00:00"
         }
     ],
     "items": [
@@ -750,6 +750,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "pnlwkbnq",
+            "title": "EU Markets: Introducing VAT Calculation Service (VCS) — New Product and Order API Fields",
+            "description": "# What is changing? TikTok Shop has introduced the VAT Calculation Service (VCS), a feature that automatically calculates the correct VAT on every sale made to customers in the European Union. When a seller enables VCS, two areas of the API are affected: 1. **Product listing — Product Tax Code (PTC)** A new product attribute has been added to support PTC. Use the [Get Attributes](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) endpoint to retrieve the available `Product Tax Code...",
+            "contentHash": "ba1c076eb0cef6a182d9910db3b8227bbb273a85cb3c084c5defcebd4cbc9149",
+            "pubDate": "2026-05-08T09:14:47+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/pnlwkbnq",
+            "keywords": [
+                "New"
             ]
         }
     ]
