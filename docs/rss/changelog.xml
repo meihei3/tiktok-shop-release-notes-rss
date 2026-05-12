@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 11 May 2026 04:03:47 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 03:47:42 +0000</lastBuildDate>
         <item>
             <title>EU Markets: Introducing VAT Calculation Service (VCS) — New Product and Order API Fields</title>
             <link>https://partner.tiktokshop.com/docv2/page/pnlwkbnq</link>
@@ -21,7 +21,7 @@
             <description><![CDATA[# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">digvqy0x#e6be761f</guid>
+            <guid isPermaLink="false">digvqy0x#d0fe514a</guid>
             <pubDate>Thu, 07 May 2026 06:13:06 +0000</pubDate>
             <content:encoded><![CDATA[# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...]]></content:encoded>
         </item>
