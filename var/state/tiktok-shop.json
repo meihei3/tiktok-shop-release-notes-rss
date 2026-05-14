@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "7ea061ec4744ef40042486d89b18add1d544623e00543402a59cbf673ba81347",
-            "lastSeenAt": "2026-05-13T03:56:17+00:00"
+            "contentHash": "afe9857a3363ba2cc35713ea6eb3e54158f66b7b7018a7ce929492d1ce095a69",
+            "lastSeenAt": "2026-05-14T03:55:39+00:00"
         }
     ],
     "items": [
@@ -759,6 +759,17 @@
             "contentHash": "ba1c076eb0cef6a182d9910db3b8227bbb273a85cb3c084c5defcebd4cbc9149",
             "pubDate": "2026-05-08T09:14:47+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/pnlwkbnq",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "8syhoy40",
+            "title": "Enhanced Get Tracking API for CBT First-Mile Pickup Visibility",
+            "description": "**Effective date:** June 30, 2026 (target — final date confirmed at general availability) **API version:** `v202604` or later **Audience:** Apps that integrate with TikTok Shop logistics APIs for CBT orders ## Overview TikTok Shop is releasing an enhanced **Get Tracking API** that exposes the full end-to-end tracking history of CBT parcels — including the **first-mile pickup leg** that is currently missing from most App systems. Starting in late June 2026, your app can call a single endpoint to ...",
+            "contentHash": "e2974a371a79ccd1e90f506c0b9fd78a91599dcf02a5563c48f5ce761fd7d301",
+            "pubDate": "2026-05-13T06:08:50+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/8syhoy40",
             "keywords": [
                 "New"
             ]
