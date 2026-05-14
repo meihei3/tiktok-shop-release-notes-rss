@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 13 May 2026 03:56:17 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 03:55:39 +0000</lastBuildDate>
+        <item>
+            <title>Enhanced Get Tracking API for CBT First-Mile Pickup Visibility</title>
+            <link>https://partner.tiktokshop.com/docv2/page/8syhoy40</link>
+            <description><![CDATA[**Effective date:** June 30, 2026 (target — final date confirmed at general availability) **API version:** `v202604` or later **Audience:** Apps that integrate with TikTok Shop logistics APIs for CBT orders ## Overview TikTok Shop is releasing an enhanced **Get Tracking API** that exposes the full end-to-end tracking history of CBT parcels — including the **first-mile pickup leg** that is currently missing from most App systems. Starting in late June 2026, your app can call a single endpoint to ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">8syhoy40#e2974a37</guid>
+            <pubDate>Wed, 13 May 2026 06:08:50 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** June 30, 2026 (target — final date confirmed at general availability) **API version:** `v202604` or later **Audience:** Apps that integrate with TikTok Shop logistics APIs for CBT orders ## Overview TikTok Shop is releasing an enhanced **Get Tracking API** that exposes the full end-to-end tracking history of CBT parcels — including the **first-mile pickup leg** that is currently missing from most App systems. Starting in late June 2026, your app can call a single endpoint to ...]]></content:encoded>
+        </item>
         <item>
             <title>EU Markets: Introducing VAT Calculation Service (VCS) — New Product and Order API Fields</title>
             <link>https://partner.tiktokshop.com/docv2/page/pnlwkbnq</link>
@@ -287,15 +296,6 @@
             <guid isPermaLink="false">8cpq7zt5#93203807</guid>
             <pubDate>Wed, 08 Oct 2025 17:45:47 +0000</pubDate>
             <content:encoded><![CDATA[# Summary We've updated our Order APIs to support the rollout of item protection for TikTok Shop orders. # Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? Since TikTok Shop buyers can now purchase item protection for their order(s), we wanted to ensure our APIs reflected that as well. ## POST Get Order List and GET Order Detail For both [POST Get Order List](https://partner.tiktokshop.c...]]></content:encoded>
-        </item>
-        <item>
-            <title>Analytics APIs now available globally</title>
-            <link>https://partner.tiktokshop.com/docv2/page/j5k1cmia</link>
-            <description><![CDATA[# Summary Today, we've opened up all our analytics APIs to be available globally! Endpoints that were previously exclusive to the US, UK, and SEA can now be used to return performance metrics for any shop, regardless of market. # Impact | | | | --- | --- | | Impacted market(s) | * All markets - Local and cross-border | | Impacted version(s) | * 202405 (and later) | # What's new? All existing Analytics APIs are now available in all markets. These include: – [GET Shop Performance](https://partner....]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">j5k1cmia#f51f1098</guid>
-            <pubDate>Fri, 26 Sep 2025 17:44:41 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Today, we've opened up all our analytics APIs to be available globally! Endpoints that were previously exclusive to the US, UK, and SEA can now be used to return performance metrics for any shop, regardless of market. # Impact | | | | --- | --- | | Impacted market(s) | * All markets - Local and cross-border | | Impacted version(s) | * 202405 (and later) | # What's new? All existing Analytics APIs are now available in all markets. These include: – [GET Shop Performance](https://partner....]]></content:encoded>
         </item>
     </channel>
 </rss>
