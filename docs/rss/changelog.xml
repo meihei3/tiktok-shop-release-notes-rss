@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 19 May 2026 04:06:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 04:07:22 +0000</lastBuildDate>
+        <item>
+            <title>US/SEA（POP）Market：Support product weight and dimensions at the SKU level</title>
+            <link>https://partner.tiktokshop.com/docv2/page/07q2huia</link>
+            <description><![CDATA[# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">07q2huia#9821c9b5</guid>
+            <pubDate>Tue, 19 May 2026 06:15:53 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...]]></content:encoded>
+        </item>
         <item>
             <title>Enhanced Get Tracking API for CBT First-Mile Pickup Visibility</title>
             <link>https://partner.tiktokshop.com/docv2/page/8syhoy40</link>
@@ -287,15 +296,6 @@
             <guid isPermaLink="false">gvt0yknn#b9cb8d2b</guid>
             <pubDate>Mon, 13 Oct 2025 17:52:34 +0000</pubDate>
             <content:encoded><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Item protection/insurance</title>
-            <link>https://partner.tiktokshop.com/docv2/page/8cpq7zt5</link>
-            <description><![CDATA[# Summary We've updated our Order APIs to support the rollout of item protection for TikTok Shop orders. # Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? Since TikTok Shop buyers can now purchase item protection for their order(s), we wanted to ensure our APIs reflected that as well. ## POST Get Order List and GET Order Detail For both [POST Get Order List](https://partner.tiktokshop.c...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">8cpq7zt5#93203807</guid>
-            <pubDate>Wed, 08 Oct 2025 17:45:47 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary We've updated our Order APIs to support the rollout of item protection for TikTok Shop orders. # Impact | | | | --- | --- | | Impacted market(s) | * United States (US) - Local and cross-border | | Impacted version(s) | * 202309 (and later) | # What's new? Since TikTok Shop buyers can now purchase item protection for their order(s), we wanted to ensure our APIs reflected that as well. ## POST Get Order List and GET Order Detail For both [POST Get Order List](https://partner.tiktokshop.c...]]></content:encoded>
         </item>
     </channel>
 </rss>
