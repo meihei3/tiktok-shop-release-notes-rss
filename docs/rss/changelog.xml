@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 21 May 2026 04:16:48 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 04:11:36 +0000</lastBuildDate>
+        <item>
+            <title>Analytics API Response Data Optimization</title>
+            <link>https://partner.tiktokshop.com/docv2/page/kpkfccsa</link>
+            <description><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">kpkfccsa#d30f4b48</guid>
+            <pubDate>Thu, 21 May 2026 09:48:26 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></content:encoded>
+        </item>
         <item>
             <title>US/SEA（POP）Market：Support product weight and dimensions at the SKU level</title>
             <link>https://partner.tiktokshop.com/docv2/page/07q2huia</link>
@@ -286,16 +296,6 @@
             <guid isPermaLink="false">7s72ctzw#27a22d85</guid>
             <pubDate>Mon, 13 Oct 2025 18:08:08 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></content:encoded>
-        </item>
-        <item>
-            <title>EU market: Pfand Fees and Packaging Type Data</title>
-            <link>https://partner.tiktokshop.com/docv2/page/gvt0yknn</link>
-            <description><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">gvt0yknn#b9cb8d2b</guid>
-            <pubDate>Mon, 13 Oct 2025 17:52:34 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary A Pfand is a refundable deposit applied to certain products, typically beverage containers (e.g., bottles or cans), in countries with a deposit return system like Germany. The customer pays the deposit when purchasing the product and can reclaim it by returning the empty container to a designated return point. This system incentivizes recycling and proper disposal of packaging. Packaging type refers to the specific kind of container material and reusability (e.g., single-use vs. multi-...]]></content:encoded>
         </item>
     </channel>
 </rss>
