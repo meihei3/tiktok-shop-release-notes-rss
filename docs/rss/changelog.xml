@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 22 May 2026 04:11:36 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 03:50:36 +0000</lastBuildDate>
+        <item>
+            <title>Seller Access &amp;amp; Sandbox Rate Limit Updates</title>
+            <link>https://partner.tiktokshop.com/docv2/page/eibloj08</link>
+            <description><![CDATA[## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...]]></description>
+            <category></category>
+            <guid isPermaLink="false">eibloj08#227a4e66</guid>
+            <pubDate>Fri, 22 May 2026 07:11:24 +0000</pubDate>
+            <content:encoded><![CDATA[## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...]]></content:encoded>
+        </item>
         <item>
             <title>Analytics API Response Data Optimization</title>
             <link>https://partner.tiktokshop.com/docv2/page/kpkfccsa</link>
@@ -286,16 +295,6 @@
             <guid isPermaLink="false">jsqxpibu#6d5d2029</guid>
             <pubDate>Tue, 14 Oct 2025 03:31:59 +0000</pubDate>
             <content:encoded><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></content:encoded>
-        </item>
-        <item>
-            <title>UKEU &amp;amp; JP markets: Product category expansion</title>
-            <link>https://partner.tiktokshop.com/docv2/page/7s72ctzw</link>
-            <description><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></description>
-            <category>Action Required</category>
-            <category>Updated</category>
-            <guid isPermaLink="false">7s72ctzw#27a22d85</guid>
-            <pubDate>Mon, 13 Oct 2025 18:08:08 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Recently in the SEA market, following last year's rollout in the US market, TikTok Shop introduced an increase to the levels in the category tree, from **three** to at-most **seven**, with the aim of improving product information quality. Beginning this week, we will be introducing this product category expansion in the **UK**, **EU**, and **JP** markets. This changelog will provide a quick overview of API changes you may need to implement. **For a more detailed walkthrough on how to i...]]></content:encoded>
         </item>
     </channel>
 </rss>

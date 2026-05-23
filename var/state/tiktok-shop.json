@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "ee883daa5c8012b30852230d67e3854703a84b0c310e30611f0bc2970f7537f2",
-            "lastSeenAt": "2026-05-22T04:11:36+00:00"
+            "contentHash": "3f30a3d1ecd40ab5d897a08e5681617c221b2bf78c7e0aafe51a00d968887c30",
+            "lastSeenAt": "2026-05-23T03:50:36+00:00"
         }
     ],
     "items": [
@@ -795,6 +795,17 @@
             "keywords": [
                 "New",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "eibloj08",
+            "title": "Seller Access & Sandbox Rate Limit Updates",
+            "description": "## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...",
+            "contentHash": "227a4e660134139ade1433ec9870662ad26820e48ff58553c6012d9430e6f45e",
+            "pubDate": "2026-05-22T07:11:24+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/eibloj08",
+            "keywords": [
+                ""
             ]
         }
     ]
