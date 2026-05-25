@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 24 May 2026 04:10:34 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 04:21:51 +0000</lastBuildDate>
         <item>
             <title>Seller Access &amp;amp; Sandbox Rate Limit Updates</title>
             <link>https://partner.tiktokshop.com/docv2/page/eibloj08</link>
@@ -26,11 +26,11 @@
             <content:encoded><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></content:encoded>
         </item>
         <item>
-            <title>US/SEA（POP）Market：Support product weight and dimensions at the SKU level</title>
+            <title>US/MX/SEA Market：Support product weight and dimensions at the SKU level</title>
             <link>https://partner.tiktokshop.com/docv2/page/07q2huia</link>
             <description><![CDATA[# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...]]></description>
             <category>New</category>
-            <guid isPermaLink="false">07q2huia#9821c9b5</guid>
+            <guid isPermaLink="false">07q2huia#99749cba</guid>
             <pubDate>Tue, 19 May 2026 06:15:53 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...]]></content:encoded>
         </item>

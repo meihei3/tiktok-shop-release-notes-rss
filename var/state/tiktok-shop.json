@@ -6,7 +6,7 @@
             "etag": null,
             "lastModified": null,
             "contentHash": "3f30a3d1ecd40ab5d897a08e5681617c221b2bf78c7e0aafe51a00d968887c30",
-            "lastSeenAt": "2026-05-24T04:10:34+00:00"
+            "lastSeenAt": "2026-05-25T04:21:51+00:00"
         }
     ],
     "items": [
@@ -776,9 +776,9 @@
         },
         {
             "document_path": "07q2huia",
-            "title": "US/SEA（POP）Market：Support product weight and dimensions at the SKU level",
+            "title": "US/MX/SEA Market：Support product weight and dimensions at the SKU level",
             "description": "# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...",
-            "contentHash": "9821c9b55fd0ed2bc28c5bba70f46f4da6909e24c2509895d738f202afdeb384",
+            "contentHash": "99749cbafa2b9e06cb42b1c66d09210231c85dc32a8b5f7bac210dc11ae35afa",
             "pubDate": "2026-05-19T06:15:53+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/07q2huia",
             "keywords": [
