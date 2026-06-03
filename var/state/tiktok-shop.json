@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "3a260a44f03639ae3c201f34e83507ee5abd8359f95c037baaad3f1e04a9e808",
-            "lastSeenAt": "2026-06-02T04:41:30+00:00"
+            "contentHash": "b3aec3a5d44fa01dffdf9dc1486cb6d6da733c2004de1e46c996d511b5c83147",
+            "lastSeenAt": "2026-06-03T04:50:01+00:00"
         }
     ],
     "items": [
@@ -806,6 +806,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/eibloj08",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "e8ut2woi",
+            "title": "Full Account Development Shop supports manual order status updates",
+            "description": "**Summary** The Full Function Account Development Shop now supports manual order status updates for test orders placed in the TikTok App. This helps merchants and developers validate end-to-end forward and reverse order flows in the sandbox without relying on real fulfillment. [Development Shop Manual Order Status Update Guide](https://partner.tiktokshop.com/docv2/page/ar5ppjvv) # Highlights The Development Shop capability has been expanded so that test orders created from the TikTok App can now...",
+            "contentHash": "60b4cb744fb86ac9e3abd09a0a6a177051033e2176927344f325999709793166",
+            "pubDate": "2026-06-02T06:58:05+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/e8ut2woi",
+            "keywords": [
+                "New"
             ]
         }
     ]
