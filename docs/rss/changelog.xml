@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 02 Jun 2026 04:41:30 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 04:50:01 +0000</lastBuildDate>
+        <item>
+            <title>Full Account Development Shop supports manual order status updates</title>
+            <link>https://partner.tiktokshop.com/docv2/page/e8ut2woi</link>
+            <description><![CDATA[**Summary** The Full Function Account Development Shop now supports manual order status updates for test orders placed in the TikTok App. This helps merchants and developers validate end-to-end forward and reverse order flows in the sandbox without relying on real fulfillment. [Development Shop Manual Order Status Update Guide](https://partner.tiktokshop.com/docv2/page/ar5ppjvv) # Highlights The Development Shop capability has been expanded so that test orders created from the TikTok App can now...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">e8ut2woi#60b4cb74</guid>
+            <pubDate>Tue, 02 Jun 2026 06:58:05 +0000</pubDate>
+            <content:encoded><![CDATA[**Summary** The Full Function Account Development Shop now supports manual order status updates for test orders placed in the TikTok App. This helps merchants and developers validate end-to-end forward and reverse order flows in the sandbox without relying on real fulfillment. [Development Shop Manual Order Status Update Guide](https://partner.tiktokshop.com/docv2/page/ar5ppjvv) # Highlights The Development Shop capability has been expanded so that test orders created from the TikTok App can now...]]></content:encoded>
+        </item>
         <item>
             <title>Seller Access &amp;amp; Sandbox Rate Limit Updates</title>
             <link>https://partner.tiktokshop.com/docv2/page/eibloj08</link>
@@ -285,16 +294,6 @@
             <guid isPermaLink="false">gt8qv13g#781322a7</guid>
             <pubDate>Wed, 29 Oct 2025 00:37:36 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA market: Configure &amp;quot;Cancellation status change&amp;quot; webhook to receive cancellation message</title>
-            <link>https://partner.tiktokshop.com/docv2/page/jsqxpibu</link>
-            <description><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">jsqxpibu#6d5d2029</guid>
-            <pubDate>Tue, 14 Oct 2025 03:31:59 +0000</pubDate>
-            <content:encoded><![CDATA[Since TikTok Shop is proposing to allow buyers to cancel eligible orders between the status Ready To Ship (RTS) and Transit To Ship (TTS), please configure the "[Cancellation status change](https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change)" webhook to receive cancellation messages. If sellers receive such a cancellation message, they need to takeout the parcel and do not ship it. This webhook's related links are as below: * "Cancellation status change" webhook: https://par...]]></content:encoded>
         </item>
     </channel>
 </rss>
