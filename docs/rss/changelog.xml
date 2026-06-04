@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 03 Jun 2026 04:50:01 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jun 2026 04:44:18 +0000</lastBuildDate>
+        <item>
+            <title>Product APIs support regular Auction Product CRUD</title>
+            <link>https://partner.tiktokshop.com/docv2/page/itmwgzg3</link>
+            <description><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">itmwgzg3#2d2bb4d5</guid>
+            <pubDate>Thu, 04 Jun 2026 03:16:58 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></content:encoded>
+        </item>
         <item>
             <title>Full Account Development Shop supports manual order status updates</title>
             <link>https://partner.tiktokshop.com/docv2/page/e8ut2woi</link>
@@ -284,16 +293,6 @@
             <guid isPermaLink="false">sj5neagj#dc84f447</guid>
             <pubDate>Fri, 07 Nov 2025 19:45:25 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: POP USPS label restriction</title>
-            <link>https://partner.tiktokshop.com/docv2/page/gt8qv13g</link>
-            <description><![CDATA[# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...]]></description>
-            <category>Breaking Change</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">gt8qv13g#781322a7</guid>
-            <pubDate>Wed, 29 Oct 2025 00:37:36 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Beginning **October 27th, 2025**, 3PL USPS labels will be restricted under our new shipping policy for POP sellers. If sellers want to use USPS labels, they will have to purchase them through TikTok Shipping, which will require all apps used by POP sellers to integrate with TikTok Shipping. | | | | --- | --- | | Impacted market(s) | * United States (US) - Cross-border and ACCU | | Impacted version(s) | * 202309 (and later) | # What's new? US cross-border merchants and ACCU merchants wi...]]></content:encoded>
         </item>
     </channel>
 </rss>
