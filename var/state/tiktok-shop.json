@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c14eafbb1e9a3d3aaaeb7b5a7086aa86dbde506bf846c52192fdcda54d27ef72",
-            "lastSeenAt": "2026-06-07T04:27:52+00:00"
+            "contentHash": "e4026f6e71fd408118265537f205b139711c6234e492051c38bb4cfe09334b0b",
+            "lastSeenAt": "2026-06-08T04:43:36+00:00"
         }
     ],
     "items": [
@@ -828,6 +828,30 @@
             "link": "https://partner.tiktokshop.com/docv2/page/itmwgzg3",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "mm5jh8jj",
+            "title": "For Philippine market: Updates to Mandatory Attributes on Chair Categories",
+            "description": "# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If \"Material = Plastic\"\", \"PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...",
+            "contentHash": "789b594ed8ca5518f6ec0f3c2663df87ab85a17087f20688169bb982bc3c5269",
+            "pubDate": "2026-06-07T14:09:49+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/mm5jh8jj",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "6hdaqven",
+            "title": "For Malaysia market: Updates to Mandatory Attributes on Beauty & Wellness Supplement Related Categories",
+            "description": "# What is changing? Starting from 9 July 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Beauty Supplement 700648, Fitness Supplements 700649, Vitamins, Minerals & Wellness Supplements 700650 and Herbal Supplements 2160400. The mandatory product attributes will include : * NPRA Registered * If \"NPRA Registered = Yes\", \"MAL No. / 101088” is mandatory. # Which markets are affected? The updates of ...",
+            "contentHash": "33eb17399ca60714b0521bd9d4ea001b7713c649f00e822c8758e01ac5f380c8",
+            "pubDate": "2026-06-07T13:28:04+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/6hdaqven",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]

@@ -5,7 +5,27 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 07 Jun 2026 04:27:52 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 04:43:36 +0000</lastBuildDate>
+        <item>
+            <title>For Philippine market: Updates to Mandatory Attributes on Chair Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/mm5jh8jj</link>
+            <description><![CDATA[# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If "Material = Plastic"", "PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">mm5jh8jj#789b594e</guid>
+            <pubDate>Sun, 07 Jun 2026 14:09:49 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If "Material = Plastic"", "PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...]]></content:encoded>
+        </item>
+        <item>
+            <title>For Malaysia market: Updates to Mandatory Attributes on Beauty &amp;amp; Wellness Supplement Related Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/6hdaqven</link>
+            <description><![CDATA[# What is changing? Starting from 9 July 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Beauty Supplement 700648, Fitness Supplements 700649, Vitamins, Minerals & Wellness Supplements 700650 and Herbal Supplements 2160400. The mandatory product attributes will include : * NPRA Registered * If "NPRA Registered = Yes", "MAL No. / 101088” is mandatory. # Which markets are affected? The updates of ...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">6hdaqven#33eb1739</guid>
+            <pubDate>Sun, 07 Jun 2026 13:28:04 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 9 July 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Beauty Supplement 700648, Fitness Supplements 700649, Vitamins, Minerals & Wellness Supplements 700650 and Herbal Supplements 2160400. The mandatory product attributes will include : * NPRA Registered * If "NPRA Registered = Yes", "MAL No. / 101088” is mandatory. # Which markets are affected? The updates of ...]]></content:encoded>
+        </item>
         <item>
             <title>Product APIs support regular Auction Product CRUD</title>
             <link>https://partner.tiktokshop.com/docv2/page/itmwgzg3</link>
@@ -275,24 +295,6 @@
             <guid isPermaLink="false">fapus8ql#b4e3419f</guid>
             <pubDate>Wed, 17 Dec 2025 06:12:17 +0000</pubDate>
             <content:encoded><![CDATA[## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Backorder Quantity Thresholds</title>
-            <link>https://partner.tiktokshop.com/docv2/page/xmc35tyc</link>
-            <description><![CDATA[## Summary We've introduced inventory `backorder_quantity` functionality, which allows sellers to define a backorder quantity **threshold** to continue to capture sales, in the event the physical inventory is temporarily out-of-stock. There also needs to be a `handling_time` defined, which dictates how many days the seller needs to process the backorder and sets the SLA for sending a fulfillment event update to TikTok Shop. [Backorder(BO) Seller Academy article](https://seller-us.tiktok.com/univ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">xmc35tyc#e1975593</guid>
-            <pubDate>Sun, 07 Dec 2025 21:50:50 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary We've introduced inventory `backorder_quantity` functionality, which allows sellers to define a backorder quantity **threshold** to continue to capture sales, in the event the physical inventory is temporarily out-of-stock. There also needs to be a `handling_time` defined, which dictates how many days the seller needs to process the backorder and sets the SLA for sending a fulfillment event update to TikTok Shop. [Backorder(BO) Seller Academy article](https://seller-us.tiktok.com/univ...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Existing SKU standardization</title>
-            <link>https://partner.tiktokshop.com/docv2/page/sj5neagj</link>
-            <description><![CDATA[# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...]]></description>
-            <category>Coming Soon</category>
-            <guid isPermaLink="false">sj5neagj#dc84f447</guid>
-            <pubDate>Fri, 07 Nov 2025 19:45:25 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Currently, there are some data inconsistencies as a result of custom SKU properties. We'd like to address this by introducing a way to standardize new SKU property values, as well as migrate existing custom ones. These custom attributes—previously used when creating products—will be processed through an algorithm, and the system will replace eligible custom attributes with the platform’s standardized attributes. As a result, both the attribute ID and attribute name will change. # Impac...]]></content:encoded>
         </item>
     </channel>
 </rss>
