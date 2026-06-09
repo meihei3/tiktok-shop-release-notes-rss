@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 08 Jun 2026 04:43:36 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 04:04:38 +0000</lastBuildDate>
+        <item>
+            <title>Gateway HTTP Access to Be Discontinued</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xyegis5x</link>
+            <description><![CDATA[**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...]]></description>
+            <category>Action Required</category>
+            <guid isPermaLink="false">xyegis5x#ace23647</guid>
+            <pubDate>Mon, 08 Jun 2026 07:20:25 +0000</pubDate>
+            <content:encoded><![CDATA[**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...]]></content:encoded>
+        </item>
         <item>
             <title>For Philippine market: Updates to Mandatory Attributes on Chair Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/mm5jh8jj</link>
@@ -59,7 +68,7 @@
             <description><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></description>
             <category>New</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">kpkfccsa#d30f4b48</guid>
+            <guid isPermaLink="false">kpkfccsa#51017b6f</guid>
             <pubDate>Thu, 21 May 2026 09:48:26 +0000</pubDate>
             <content:encoded><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></content:encoded>
         </item>
@@ -285,16 +294,6 @@
             <guid isPermaLink="false">ezoyrtmn#8fa9f11d</guid>
             <pubDate>Wed, 17 Dec 2025 08:13:17 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...]]></content:encoded>
-        </item>
-        <item>
-            <title>[Important] Legacy Global Product Management Flow Decommission Notice </title>
-            <link>https://partner.tiktokshop.com/docv2/page/fapus8ql</link>
-            <description><![CDATA[## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...]]></description>
-            <category>Action Required</category>
-            <category>Breaking Change</category>
-            <guid isPermaLink="false">fapus8ql#b4e3419f</guid>
-            <pubDate>Wed, 17 Dec 2025 06:12:17 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary The platform has introduced a **new product management workflow** (see *“https://partner.tiktokshop.com/docv2/page/a5crrkzs”* for details). All cross-border merchants are now supported and can use this new workflow to complete product management–related operations. To reduce overall maintenance costs for both developers and the platform, and to unify product management capabilities, the platform will deprecate the legacy global product management flow. ## **Changes** * Starting **Janu...]]></content:encoded>
         </item>
     </channel>
 </rss>

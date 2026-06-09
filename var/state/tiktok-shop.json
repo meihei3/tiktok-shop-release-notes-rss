@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e4026f6e71fd408118265537f205b139711c6234e492051c38bb4cfe09334b0b",
-            "lastSeenAt": "2026-06-08T04:43:36+00:00"
+            "contentHash": "aea00138ab1114245d7a3122db6d65ac531db17ea8471df4ff16b18fe7b57517",
+            "lastSeenAt": "2026-06-09T04:04:38+00:00"
         }
     ],
     "items": [
@@ -789,7 +789,7 @@
             "document_path": "kpkfccsa",
             "title": "Analytics API Response Data Optimization",
             "description": "# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...",
-            "contentHash": "d30f4b484b5a39140969c1744d7a94f5ae8b6c2bc5231a45d3f5ea66cb977851",
+            "contentHash": "51017b6f07dc165d6fd9f39ca6a65ccc64063a1bf70d0ececbcdf1ec4d3feec0",
             "pubDate": "2026-05-21T09:48:26+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/kpkfccsa",
             "keywords": [
@@ -851,6 +851,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/6hdaqven",
             "keywords": [
                 "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "xyegis5x",
+            "title": "Gateway HTTP Access to Be Discontinued",
+            "description": "**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...",
+            "contentHash": "ace236478fad611ce3a22c4941bddfc4db120f0a5f2278f7f4ae30f8ffa490bb",
+            "pubDate": "2026-06-08T07:20:25+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xyegis5x",
+            "keywords": [
                 "Action Required"
             ]
         }
