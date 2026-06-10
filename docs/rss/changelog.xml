@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 09 Jun 2026 04:04:38 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 04:16:14 +0000</lastBuildDate>
+        <item>
+            <title>All Market：Adjust product dimensions and weight to two decimal places</title>
+            <link>https://partner.tiktokshop.com/docv2/page/c00mfi6i</link>
+            <description><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">c00mfi6i#a7f4b237</guid>
+            <pubDate>Tue, 09 Jun 2026 10:21:01 +0000</pubDate>
+            <content:encoded><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...]]></content:encoded>
+        </item>
         <item>
             <title>Gateway HTTP Access to Be Discontinued</title>
             <link>https://partner.tiktokshop.com/docv2/page/xyegis5x</link>
@@ -40,7 +50,7 @@
             <link>https://partner.tiktokshop.com/docv2/page/itmwgzg3</link>
             <description><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></description>
             <category>New</category>
-            <guid isPermaLink="false">itmwgzg3#2d2bb4d5</guid>
+            <guid isPermaLink="false">itmwgzg3#3b18da1c</guid>
             <pubDate>Thu, 04 Jun 2026 03:16:58 +0000</pubDate>
             <content:encoded><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></content:encoded>
         </item>
@@ -284,16 +294,6 @@
             <guid isPermaLink="false">4260w8mg#c55c457e</guid>
             <pubDate>Tue, 23 Dec 2025 11:12:06 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? From June 17, 2024, Platform updated the collection method to support sellers to choose different collection methods for different warehouse content. The parameter "handover_method" in API [Ship Package](https://partner.tiktokshop.com/docv2/page/650aa4f1defece02be6e7cb1?external_id=650aa4f1defece02be6e7cb1#Back%20To%20Top) and [Batch Ship Package](https://partner.tiktokshop.com/docv2/page/650aa3ebbace3e02b75d8bd4?external_id=650aa3ebbace3e02b75d8bd4#Back%20To%20Top) will be u...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA market: Product category expansion cutoff date is January 12, 2026</title>
-            <link>https://partner.tiktokshop.com/docv2/page/ezoyrtmn</link>
-            <description><![CDATA[# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">ezoyrtmn#8fa9f11d</guid>
-            <pubDate>Wed, 17 Dec 2025 08:13:17 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? On August 21, 2025, we introduced the product category expansion in SEA market. Please check this link: https://partner.tiktokshop.com/docv2/page/npb6fvbh Now we announce that the cutoff date for this product category expansion is January 12, 2026. After this date, use **`category_version=V2`** parameter for all category trees when listing new products or editing products. This applies to the following Product APIs: – [POST Create Product](https://partner.tiktokshop.com/docv2...]]></content:encoded>
         </item>
     </channel>
 </rss>
