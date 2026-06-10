@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "aea00138ab1114245d7a3122db6d65ac531db17ea8471df4ff16b18fe7b57517",
-            "lastSeenAt": "2026-06-09T04:04:38+00:00"
+            "contentHash": "036406b2799a8429221bfdb7f790bea0449abb989841fb5f731c69fbde2d3f25",
+            "lastSeenAt": "2026-06-10T04:16:14+00:00"
         }
     ],
     "items": [
@@ -823,7 +823,7 @@
             "document_path": "itmwgzg3",
             "title": "Product APIs support regular Auction Product CRUD",
             "description": "# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...",
-            "contentHash": "2d2bb4d5cf6ccb6fa34d94105f9aa7d0dd4b8b79e37d94326f883abccb92e58d",
+            "contentHash": "3b18da1cc28727c5c6324b41b9d8d10fc880a47f43f6ce962b7bd1f8649be06e",
             "pubDate": "2026-06-04T03:16:58+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/itmwgzg3",
             "keywords": [
@@ -862,6 +862,18 @@
             "pubDate": "2026-06-08T07:20:25+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/xyegis5x",
             "keywords": [
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "c00mfi6i",
+            "title": "All Market：Adjust product dimensions and weight to two decimal places",
+            "description": "# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...",
+            "contentHash": "a7f4b237eb1fcc6f74125091fa694bf496a8361cbd1c6f348f65c5efaf0b11f0",
+            "pubDate": "2026-06-09T10:21:01+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/c00mfi6i",
+            "keywords": [
+                "Coming Soon",
                 "Action Required"
             ]
         }
