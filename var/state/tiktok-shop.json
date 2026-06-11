@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "036406b2799a8429221bfdb7f790bea0449abb989841fb5f731c69fbde2d3f25",
-            "lastSeenAt": "2026-06-10T04:16:14+00:00"
+            "contentHash": "4cc3f8385e84f75c965e292bb26c90fb451b645b6080c2058750a62642a14ea6",
+            "lastSeenAt": "2026-06-11T04:39:20+00:00"
         }
     ],
     "items": [
@@ -875,6 +875,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "27kia292",
+            "title": "Meet Partner Assistant — Your AI Q&A Copilot in Partner Center",
+            "description": "## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...",
+            "contentHash": "3ec709938a91361f2a5dc6cc6002cf4430d6f788d4d0da629f3345360fac3222",
+            "pubDate": "2026-06-10T09:49:28+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/27kia292",
+            "keywords": [
+                "New"
             ]
         }
     ]
