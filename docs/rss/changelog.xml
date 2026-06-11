@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 10 Jun 2026 04:16:14 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 04:39:20 +0000</lastBuildDate>
+        <item>
+            <title>Meet Partner Assistant — Your AI Q&amp;amp;A Copilot in Partner Center</title>
+            <link>https://partner.tiktokshop.com/docv2/page/27kia292</link>
+            <description><![CDATA[## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">27kia292#3ec70993</guid>
+            <pubDate>Wed, 10 Jun 2026 09:49:28 +0000</pubDate>
+            <content:encoded><![CDATA[## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...]]></content:encoded>
+        </item>
         <item>
             <title>All Market：Adjust product dimensions and weight to two decimal places</title>
             <link>https://partner.tiktokshop.com/docv2/page/c00mfi6i</link>
@@ -284,16 +293,6 @@
             <guid isPermaLink="false">x0ebukvz#79fd609d</guid>
             <pubDate>Tue, 30 Dec 2025 05:43:19 +0000</pubDate>
             <content:encoded><![CDATA[# Overview This release introduces several new affiliate sample-related capabilities to improve the compliance and automation of the sample application workflow. Additionally, the platform now supports sub-account authorization for affiliate-category apps, allowing merchants to grant permissions to eligible sub-accounts for increased operational flexibility. ## What’s New * **New API:**[ Seller Get Sample Request Deeplink ](https://partner.tiktokshop.com/docv2/page/seller-get-sample-request-deep...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA market: The parameter &amp;quot;handover_method&amp;quot; in API Ship Package and Batch Ship Package will be useless for cross-border overseas sellers</title>
-            <link>https://partner.tiktokshop.com/docv2/page/4260w8mg</link>
-            <description><![CDATA[# What is changing? From June 17, 2024, Platform updated the collection method to support sellers to choose different collection methods for different warehouse content. The parameter "handover_method" in API [Ship Package](https://partner.tiktokshop.com/docv2/page/650aa4f1defece02be6e7cb1?external_id=650aa4f1defece02be6e7cb1#Back%20To%20Top) and [Batch Ship Package](https://partner.tiktokshop.com/docv2/page/650aa3ebbace3e02b75d8bd4?external_id=650aa3ebbace3e02b75d8bd4#Back%20To%20Top) will be u...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">4260w8mg#c55c457e</guid>
-            <pubDate>Tue, 23 Dec 2025 11:12:06 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? From June 17, 2024, Platform updated the collection method to support sellers to choose different collection methods for different warehouse content. The parameter "handover_method" in API [Ship Package](https://partner.tiktokshop.com/docv2/page/650aa4f1defece02be6e7cb1?external_id=650aa4f1defece02be6e7cb1#Back%20To%20Top) and [Batch Ship Package](https://partner.tiktokshop.com/docv2/page/650aa3ebbace3e02b75d8bd4?external_id=650aa3ebbace3e02b75d8bd4#Back%20To%20Top) will be u...]]></content:encoded>
         </item>
     </channel>
 </rss>
