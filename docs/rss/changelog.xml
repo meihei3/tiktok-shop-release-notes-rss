@@ -5,7 +5,37 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 15 Jun 2026 05:02:58 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 05:06:03 +0000</lastBuildDate>
+        <item>
+            <title>For All Markets: Sandbox Shops Rate Limiting &amp;amp; Inactive Seller Access Control</title>
+            <link>https://partner.tiktokshop.com/docv2/page/p9x5je85</link>
+            <description><![CDATA[# 1. Overview To improve platform data security and ensure fair use of the Open API, the API Gateway will introduce two new control policies: 1. **Sandbox shop rate limiting** — all sandbox shops will be subject to a unified **QPH limit of 1000**. 2. **Inactive seller/shop access control** — Open API requests from shops or sellers in inactive states will be rejected. Both changes apply at the API Gateway layer and affect how ISV integrations behave under the listed conditions. # 2. What Is Chang...]]></description>
+            <category>Action Required</category>
+            <category>Breaking Change</category>
+            <guid isPermaLink="false">p9x5je85#e6da651a</guid>
+            <pubDate>Mon, 15 Jun 2026 10:15:55 +0000</pubDate>
+            <content:encoded><![CDATA[# 1. Overview To improve platform data security and ensure fair use of the Open API, the API Gateway will introduce two new control policies: 1. **Sandbox shop rate limiting** — all sandbox shops will be subject to a unified **QPH limit of 1000**. 2. **Inactive seller/shop access control** — Open API requests from shops or sellers in inactive states will be rejected. Both changes apply at the API Gateway layer and affect how ISV integrations behave under the listed conditions. # 2. What Is Chang...]]></content:encoded>
+        </item>
+        <item>
+            <title>For All Markets :  Target Collaboration Conflict Pre-Check &amp;amp; Resolution Feature</title>
+            <link>https://partner.tiktokshop.com/docv2/page/75s7dxwb</link>
+            <description><![CDATA[# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">75s7dxwb#57dfa2fe</guid>
+            <pubDate>Mon, 15 Jun 2026 06:30:41 +0000</pubDate>
+            <content:encoded><![CDATA[# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...]]></content:encoded>
+        </item>
+        <item>
+            <title>For All Markets : Get Payments API — Migrate from 202309 to 202605</title>
+            <link>https://partner.tiktokshop.com/docv2/page/p48h74af</link>
+            <description><![CDATA[## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...]]></description>
+            <category>Breaking Change</category>
+            <category> Action Required</category>
+            <category>Updated</category>
+            <guid isPermaLink="false">p48h74af#4cde072d</guid>
+            <pubDate>Mon, 15 Jun 2026 06:02:03 +0000</pubDate>
+            <content:encoded><![CDATA[## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...]]></content:encoded>
+        </item>
         <item>
             <title>For All Markets : Deprecating the Creator Search Affiliate Trace Orders API</title>
             <link>https://partner.tiktokshop.com/docv2/page/si5r1bv3</link>
@@ -263,36 +293,6 @@
             <guid isPermaLink="false">m5p1u1fo#33bebee8</guid>
             <pubDate>Tue, 27 Jan 2026 04:07:53 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...]]></content:encoded>
-        </item>
-        <item>
-            <title>[Important] New Analytics API Supports Data Drill Down &amp;amp; Deprecation of Old Versions</title>
-            <link>https://partner.tiktokshop.com/docv2/page/ukjcmkq5</link>
-            <description><![CDATA[# Summary The existing **Analytics APIs** have a **new** version for `202509`, with the primary objective of aligning the data caliber with Seller Center Data Compass. Additionally, 3 new APIs have been added to provide data granularity to help merchants and influencers review, consolidate, and iterate content (video + live) production processes. Details of the new API endpoints and functions are listed below. --- # Impact | Impacted market(s) | * All markets - local and cross-border | | --- | -...]]></description>
-            <category>Action Required</category>
-            <category>New</category>
-            <guid isPermaLink="false">ukjcmkq5#82401603</guid>
-            <pubDate>Sun, 25 Jan 2026 21:21:20 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary The existing **Analytics APIs** have a **new** version for `202509`, with the primary objective of aligning the data caliber with Seller Center Data Compass. Additionally, 3 new APIs have been added to provide data granularity to help merchants and influencers review, consolidate, and iterate content (video + live) production processes. Details of the new API endpoints and functions are listed below. --- # Impact | Impacted market(s) | * All markets - local and cross-border | | --- | -...]]></content:encoded>
-        </item>
-        <item>
-            <title>【Important Notice】Enable Support for the New “On Hold” Order Status</title>
-            <link>https://partner.tiktokshop.com/docv2/page/yb76cyzi</link>
-            <description><![CDATA[# **Mandatory Activation for All Apps in All Global Markets, Q1 2026** To enhance buyer experience and improve overall order processing stability, TikTok Shop introduced a new order status — **“On Hold”** — effective **December 13, 2023**. To ensure ecosystem-wide consistency, **TikTok Shop will automatically activate “On Hold” orders for all apps that have not yet enabled support starting in Q1 2026**. This means: **All apps that have not completed integration will begin receiving On Hold order...]]></description>
-            <category>Action Required</category>
-            <category>Breaking Change</category>
-            <guid isPermaLink="false">yb76cyzi#ceeaf07a</guid>
-            <pubDate>Fri, 16 Jan 2026 04:25:35 +0000</pubDate>
-            <content:encoded><![CDATA[# **Mandatory Activation for All Apps in All Global Markets, Q1 2026** To enhance buyer experience and improve overall order processing stability, TikTok Shop introduced a new order status — **“On Hold”** — effective **December 13, 2023**. To ensure ecosystem-wide consistency, **TikTok Shop will automatically activate “On Hold” orders for all apps that have not yet enabled support starting in Q1 2026**. This means: **All apps that have not completed integration will begin receiving On Hold order...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Indonesian market: Changes in Order and Finance APIs for Horizon+ Orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/u62dh98s</link>
-            <description><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">u62dh98s#b9db2542</guid>
-            <pubDate>Sun, 04 Jan 2026 09:10:01 +0000</pubDate>
-            <content:encoded><![CDATA[The orders with tag "Horizon+" will hide shipping fees at sku prices, so the sku prices will be increased and the shipping fee will be reduced. There are changes in order and finance APIs for this type of order which are estimated to be effective on January 22, 2026. By using these API, the sellers can get the original sku prices and shipping fees. These original sku prices and shipping fees can also be checked at the seller center. Here is the list of changes: 1. [Get Order Detail](https://part...]]></content:encoded>
         </item>
     </channel>
 </rss>

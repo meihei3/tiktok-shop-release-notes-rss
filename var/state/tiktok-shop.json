@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "a28fd3a47be4b0911a61bab5d4aa68f4779141583a2423977884a41716801223",
-            "lastSeenAt": "2026-06-15T05:02:58+00:00"
+            "contentHash": "c172376f4f35801d392d66f4223106d0628ce24af5b0b855344710d3230d5b0e",
+            "lastSeenAt": "2026-06-16T05:06:03+00:00"
         }
     ],
     "items": [
@@ -898,6 +898,42 @@
             "keywords": [
                 "Breaking Change",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "p9x5je85",
+            "title": "For All Markets: Sandbox Shops Rate Limiting & Inactive Seller Access Control",
+            "description": "# 1. Overview To improve platform data security and ensure fair use of the Open API, the API Gateway will introduce two new control policies: 1. **Sandbox shop rate limiting** — all sandbox shops will be subject to a unified **QPH limit of 1000**. 2. **Inactive seller/shop access control** — Open API requests from shops or sellers in inactive states will be rejected. Both changes apply at the API Gateway layer and affect how ISV integrations behave under the listed conditions. # 2. What Is Chang...",
+            "contentHash": "e6da651aaa76b5fe2e504d5b372045ab67f70cd341bcf6c27e93cd8e50ec3904",
+            "pubDate": "2026-06-15T10:15:55+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/p9x5je85",
+            "keywords": [
+                "Action Required",
+                "Breaking Change"
+            ]
+        },
+        {
+            "document_path": "75s7dxwb",
+            "title": "For All Markets :  Target Collaboration Conflict Pre-Check & Resolution Feature",
+            "description": "# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...",
+            "contentHash": "57dfa2fe663aeb0fa7cb27945a3b89261cd3141f9c743aa6da635ddcada7b683",
+            "pubDate": "2026-06-15T06:30:41+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/75s7dxwb",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "p48h74af",
+            "title": "For All Markets : Get Payments API — Migrate from 202309 to 202605",
+            "description": "## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...",
+            "contentHash": "4cde072d7afe835cab6c7baabe6d1f1f167af2b873a3c59e2cd46ab89eadcf6a",
+            "pubDate": "2026-06-15T06:02:03+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/p48h74af",
+            "keywords": [
+                "Breaking Change",
+                " Action Required",
+                "Updated"
             ]
         }
     ]
