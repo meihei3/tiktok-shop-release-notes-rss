@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c172376f4f35801d392d66f4223106d0628ce24af5b0b855344710d3230d5b0e",
-            "lastSeenAt": "2026-06-16T05:06:03+00:00"
+            "contentHash": "bd1c901285ec3b73905ea234b223595569a8687c2e21edd6033e6b8cf5843eac",
+            "lastSeenAt": "2026-06-17T04:47:51+00:00"
         }
     ],
     "items": [
@@ -867,9 +867,9 @@
         },
         {
             "document_path": "c00mfi6i",
-            "title": "All Market：Adjust product dimensions and weight to two decimal places",
-            "description": "# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...",
-            "contentHash": "a7f4b237eb1fcc6f74125091fa694bf496a8361cbd1c6f348f65c5efaf0b11f0",
+            "title": "All Market：Adjust product dimensions  to two decimal places",
+            "description": "# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places. This update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields. According to the current Product API design, the affected dimension fields are already defined as string values. Thi...",
+            "contentHash": "8f157c42fff4a76b189b6c41e95900797a4260d90d020a15b3b9d88e6bd4f3f5",
             "pubDate": "2026-06-09T10:21:01+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/c00mfi6i",
             "keywords": [
