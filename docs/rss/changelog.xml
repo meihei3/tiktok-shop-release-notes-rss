@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 16 Jun 2026 05:06:03 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 04:47:51 +0000</lastBuildDate>
         <item>
             <title>For All Markets: Sandbox Shops Rate Limiting &amp;amp; Inactive Seller Access Control</title>
             <link>https://partner.tiktokshop.com/docv2/page/p9x5je85</link>
@@ -56,14 +56,14 @@
             <content:encoded><![CDATA[## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...]]></content:encoded>
         </item>
         <item>
-            <title>All Market：Adjust product dimensions and weight to two decimal places</title>
+            <title>All Market：Adjust product dimensions  to two decimal places</title>
             <link>https://partner.tiktokshop.com/docv2/page/c00mfi6i</link>
-            <description><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...]]></description>
+            <description><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places. This update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields. According to the current Product API design, the affected dimension fields are already defined as string values. Thi...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">c00mfi6i#a7f4b237</guid>
+            <guid isPermaLink="false">c00mfi6i#8f157c42</guid>
             <pubDate>Tue, 09 Jun 2026 10:21:01 +0000</pubDate>
-            <content:encoded><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product **dimension** and **weight** values to **two decimal places**. This update is a data-format standardization. It does **not** introduce a new business rule, and it does **not** change the data type of the related Product API fields. According to the current Product API design, the affected dimension and weight fields are already defined as **string** values. This means ...]]></content:encoded>
+            <content:encoded><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places. This update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields. According to the current Product API design, the affected dimension fields are already defined as string values. Thi...]]></content:encoded>
         </item>
         <item>
             <title>Gateway HTTP Access to Be Discontinued</title>
