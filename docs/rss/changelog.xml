@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 28 Jun 2026 04:21:36 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 04:40:57 +0000</lastBuildDate>
+        <item>
+            <title>For Thailand market: Set Fda Food Registration Number On Product Label as a Mandatory Qualification for Rice Category</title>
+            <link>https://partner.tiktokshop.com/docv2/page/5pylr6nx</link>
+            <description><![CDATA[# What is changing? Starting from 31 July 2026, partners will be required to set Fda Food Registration Number On Product Label as a mandatory qualification when listing or editing products by using API for Rice Category (Category ID: 917896). “Product Label” information will be put into "certifications" parameter and its image URI will be put to the place "certifications->images->uri". # Which markets are affected? The updates of the requirements apply to local to local sellers in the Thailand m...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">5pylr6nx#aa71145d</guid>
+            <pubDate>Sun, 28 Jun 2026 14:15:59 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 31 July 2026, partners will be required to set Fda Food Registration Number On Product Label as a mandatory qualification when listing or editing products by using API for Rice Category (Category ID: 917896). “Product Label” information will be put into "certifications" parameter and its image URI will be put to the place "certifications->images->uri". # Which markets are affected? The updates of the requirements apply to local to local sellers in the Thailand m...]]></content:encoded>
+        </item>
         <item>
             <title>For All Markets: Sandbox Shops Rate Limiting &amp;amp; Inactive Seller Access Control</title>
             <link>https://partner.tiktokshop.com/docv2/page/p9x5je85</link>
@@ -284,15 +294,6 @@
             <guid isPermaLink="false">r1wchdjn#0cd20235</guid>
             <pubDate>Wed, 11 Feb 2026 03:33:25 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA Market: Recommended Improvement to Support Fast Delivery Service</title>
-            <link>https://partner.tiktokshop.com/docv2/page/m5p1u1fo</link>
-            <description><![CDATA[# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">m5p1u1fo#33bebee8</guid>
-            <pubDate>Tue, 27 Jan 2026 04:07:53 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? When sellers choose **++Instant or Sameday shipping option++** to facilitate faster delivery to customers, TikTok Shop will aggressively evaluate the shipping and collection time of the orders to provide a satisfactory user experience. In Seller Center, there are several functions to support sellers for better managing these fast delivery orders. We recommend adopting the following changes 1. Allow sellers to print shipping labels before schedule shipping 2. Understand new SL...]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e52bb7d2fdb5464cc345c951bd2762dc8272c0b1b5d07f0f4e28496f20e6c87c",
-            "lastSeenAt": "2026-06-28T04:21:36+00:00"
+            "contentHash": "ecdb7146f7486281af87a8a20ca46f57ac862627834a01ef224d2a989d5d875e",
+            "lastSeenAt": "2026-06-29T04:40:57+00:00"
         }
     ],
     "items": [
@@ -934,6 +934,18 @@
                 "Breaking Change",
                 " Action Required",
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "5pylr6nx",
+            "title": "For Thailand market: Set Fda Food Registration Number On Product Label as a Mandatory Qualification for Rice Category",
+            "description": "# What is changing? Starting from 31 July 2026, partners will be required to set Fda Food Registration Number On Product Label as a mandatory qualification when listing or editing products by using API for Rice Category (Category ID: 917896). “Product Label” information will be put into \"certifications\" parameter and its image URI will be put to the place \"certifications->images->uri\". # Which markets are affected? The updates of the requirements apply to local to local sellers in the Thailand m...",
+            "contentHash": "aa71145d153a7b40aa7ec64616d4d419f4f3c79773343f4224fe7fde30686704",
+            "pubDate": "2026-06-28T14:15:59+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/5pylr6nx",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
