@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b0cc9cba97b9b5bcf66af0a7ec1338448ff0164565c60e3f866ea26753e1c970",
-            "lastSeenAt": "2026-07-02T04:03:17+00:00"
+            "contentHash": "c9ea7c2fa11e14fe413724461f7816bec4e91d55d6dfb94ddf68717cd76b3518",
+            "lastSeenAt": "2026-07-03T03:49:41+00:00"
         }
     ],
     "items": [
@@ -946,6 +946,29 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "wqmuutis",
+            "title": "For Thailand Market: Add TIS Mandatory Attributes to Several Categories",
+            "description": "# What is changing? Starting from 5 August 2026, partners will be required to provide TIS(Thai Industrial Standard) mandatory product attributes when listing or editing products by using API under the following categories in the list: | Category Name | Category Id | Mandatory Attribute Name | Attribute Id | | --- | --- | --- | --- | | Hair Dryers | 874376 | TIS License No. | 103637 | | | | TIS License URL | 103636 | | Power Banks | 910728 | TIS License No. | 103637 | | | | TIS License URL | 1036...",
+            "contentHash": "6206d15c24ec7a19dd6f9f6a8fe7fc1c2084ef9a62cf430b6aced586d61cffac",
+            "pubDate": "2026-07-02T14:58:43+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/wqmuutis",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "cobygjha",
+            "title": "For the US Market: Masking Recipient Phone Number and Address for 4PL Orders",
+            "description": "**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...",
+            "contentHash": "8e33707e933d106448c4f1abbf5c7aae674933ec98ac3c3f0798e615222f7e5e",
+            "pubDate": "2026-07-02T04:03:00+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/cobygjha",
+            "keywords": [
+                "New"
             ]
         }
     ]

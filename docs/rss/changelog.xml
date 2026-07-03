@@ -5,7 +5,26 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 02 Jul 2026 04:03:17 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 03:49:41 +0000</lastBuildDate>
+        <item>
+            <title>For Thailand Market: Add TIS Mandatory Attributes to Several Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/wqmuutis</link>
+            <description><![CDATA[# What is changing? Starting from 5 August 2026, partners will be required to provide TIS(Thai Industrial Standard) mandatory product attributes when listing or editing products by using API under the following categories in the list: | Category Name | Category Id | Mandatory Attribute Name | Attribute Id | | --- | --- | --- | --- | | Hair Dryers | 874376 | TIS License No. | 103637 | | | | TIS License URL | 103636 | | Power Banks | 910728 | TIS License No. | 103637 | | | | TIS License URL | 1036...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">wqmuutis#6206d15c</guid>
+            <pubDate>Thu, 02 Jul 2026 14:58:43 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 5 August 2026, partners will be required to provide TIS(Thai Industrial Standard) mandatory product attributes when listing or editing products by using API under the following categories in the list: | Category Name | Category Id | Mandatory Attribute Name | Attribute Id | | --- | --- | --- | --- | | Hair Dryers | 874376 | TIS License No. | 103637 | | | | TIS License URL | 103636 | | Power Banks | 910728 | TIS License No. | 103637 | | | | TIS License URL | 1036...]]></content:encoded>
+        </item>
+        <item>
+            <title>For the US Market: Masking Recipient Phone Number and Address for 4PL Orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/cobygjha</link>
+            <description><![CDATA[**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">cobygjha#8e33707e</guid>
+            <pubDate>Thu, 02 Jul 2026 04:03:00 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...]]></content:encoded>
+        </item>
         <item>
             <title>For Thailand market: Set Fda Food Registration Number On Product Label as a Mandatory Qualification for Rice Category</title>
             <link>https://partner.tiktokshop.com/docv2/page/5pylr6nx</link>
@@ -274,26 +293,6 @@
             <guid isPermaLink="false">7z0wsn3s#bf4ce5d1</guid>
             <pubDate>Wed, 04 Mar 2026 10:10:39 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Analytics Open API Metric Consistency Adjustment Announcement</title>
-            <link>https://partner.tiktokshop.com/docv2/page/joyljtav</link>
-            <description><![CDATA[### 1. Overview & Background To provide developers and merchants with a more consistent and accurate data experience, we will soon be adjusting the metric attribution for select Analytics Open APIs. This upgrade is designed to harmonize data definitions across different analytics products and help our partners more accurately measure business performance. ### 2. Summary of Changes To ensure a smooth transition, we will be introducing a **new API version** while making backward-compatible adjustm...]]></description>
-            <category>Updated</category>
-            <category>2026-02-12</category>
-            <guid isPermaLink="false">joyljtav#7f921342</guid>
-            <pubDate>Thu, 12 Feb 2026 06:38:08 +0000</pubDate>
-            <content:encoded><![CDATA[### 1. Overview & Background To provide developers and merchants with a more consistent and accurate data experience, we will soon be adjusting the metric attribution for select Analytics Open APIs. This upgrade is designed to harmonize data definitions across different analytics products and help our partners more accurately measure business performance. ### 2. Summary of Changes To ensure a smooth transition, we will be introducing a **new API version** while making backward-compatible adjustm...]]></content:encoded>
-        </item>
-        <item>
-            <title>EU Markets: Category Rules Update – Responsible Person Attribute Now Mandatory </title>
-            <link>https://partner.tiktokshop.com/docv2/page/r1wchdjn</link>
-            <description><![CDATA[# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">r1wchdjn#0cd20235</guid>
-            <pubDate>Wed, 11 Feb 2026 03:33:25 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting **February 28, 2026**, the **Responsible Person (RP)** attribute will change from **optional to mandatory** in **selected existing product categories** where it was previously optional. Sellers must update existing listings to include the Responsible Person attribute by **March 28, 2026**. Listings that are not updated by this date may be **deactivated by the platform**. Updated API Endpoint(s): * [Get Category Rules ](https://partner.tiktokshop.com/docv2/page/get-ca...]]></content:encoded>
         </item>
     </channel>
 </rss>
