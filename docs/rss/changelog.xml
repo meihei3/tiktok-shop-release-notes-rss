@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sat, 04 Jul 2026 03:40:53 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jul 2026 04:00:00 +0000</lastBuildDate>
+        <item>
+            <title>For Thailand Market: Add TIS Certificate Mark on the Product Label as a Mandatory Qualification for 13 Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/pxkua3s7</link>
+            <description><![CDATA[# What is changing? Starting from 5 August 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for 13 categories. This information will be put into the "certifications" parameter in the API. Here is the category list: | **First_category_name** | **Second_category_name** | **Leaf_category_name** | **Leaf_category_id** | | --- | --- | --- | --- | | Household Appliances ...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">pxkua3s7#21ac427c</guid>
+            <pubDate>Sat, 04 Jul 2026 15:42:35 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 5 August 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for 13 categories. This information will be put into the "certifications" parameter in the API. Here is the category list: | **First_category_name** | **Second_category_name** | **Leaf_category_name** | **Leaf_category_id** | | --- | --- | --- | --- | | Household Appliances ...]]></content:encoded>
+        </item>
         <item>
             <title>For Thailand Market: Add TIS Mandatory Attributes to Several Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/wqmuutis</link>
@@ -282,17 +292,6 @@
             <guid isPermaLink="false">um8sunwp#ba7fcc83</guid>
             <pubDate>Fri, 06 Mar 2026 03:01:34 +0000</pubDate>
             <content:encoded><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2026-04-06**, the Products API will require these compliance-related attributes to be provided. ## Impact | Impacted market(s) | United States (US) | | --- | --- | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenario** | **Attributes affect...]]></content:encoded>
-        </item>
-        <item>
-            <title>For all EU markets (EU5) Get Shipping Providers API </title>
-            <link>https://partner.tiktokshop.com/docv2/page/7z0wsn3s</link>
-            <description><![CDATA[# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...]]></description>
-            <category>Updated</category>
-            <category>Action Required</category>
-            <category>Coming Soon</category>
-            <guid isPermaLink="false">7z0wsn3s#bf4ce5d1</guid>
-            <pubDate>Wed, 04 Mar 2026 10:10:39 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting **March 26, 2026**, the **Get Shipping Providers API** has been enhanced to support accurate **EU shipping provider resolution**. Due to interconnected logistics services within the EU, a single delivery option can correspond to **multiple cross-border shipping routes**. To return the correct shipping provider for a specific route, ISVs are now required to specify both: * the **shipping origin country** (warehouse), and * the **destination country** (buyer). Two new ...]]></content:encoded>
         </item>
     </channel>
 </rss>

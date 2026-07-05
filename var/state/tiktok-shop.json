@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "9962fe400414158d396bde04d5cefecc4751eb0dd9209708a0feab9c7057a701",
-            "lastSeenAt": "2026-07-04T03:40:53+00:00"
+            "contentHash": "2d48f6ac457b2c10d850a0b5298e098775d36a9be0d6f0788511d6878230bc53",
+            "lastSeenAt": "2026-07-05T04:00:00+00:00"
         }
     ],
     "items": [
@@ -969,6 +969,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/cobygjha",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "pxkua3s7",
+            "title": "For Thailand Market: Add TIS Certificate Mark on the Product Label as a Mandatory Qualification for 13 Categories",
+            "description": "# What is changing? Starting from 5 August 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for 13 categories. This information will be put into the \"certifications\" parameter in the API. Here is the category list: | **First_category_name** | **Second_category_name** | **Leaf_category_name** | **Leaf_category_id** | | --- | --- | --- | --- | | Household Appliances ...",
+            "contentHash": "21ac427cc818a11c5f582ae612fc882577ea1b8e7b68236b601cbd1306eda2bf",
+            "pubDate": "2026-07-04T15:42:35+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/pxkua3s7",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
