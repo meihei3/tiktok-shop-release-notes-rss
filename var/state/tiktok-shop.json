@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "2d48f6ac457b2c10d850a0b5298e098775d36a9be0d6f0788511d6878230bc53",
-            "lastSeenAt": "2026-07-06T04:06:24+00:00"
+            "contentHash": "c4610357078b33ab64a734431bae08e433ff0ee2ffb37ec0a6f44fb068b596db",
+            "lastSeenAt": "2026-07-07T03:57:18+00:00"
         }
     ],
     "items": [
@@ -981,6 +981,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "07r6ldtn",
+            "title": "For US Markets: Introducing room_id in Order APIs",
+            "description": "**Effective date:** July 8, 2026 ## Overview Starting July 8, 2026, TikTok Shop will add `room_id` to selected Order API responses so your app can identify the LIVE session where an order line item was created. This change applies to apps that integrate with Order APIs for US market, especially apps that help LIVE sellers sort, reconcile, and fulfill orders by LIVE session. This is a non-breaking enhancement. Existing integrations will continue to work if they do not read the new field. ## What ...",
+            "contentHash": "f004e7e8cf135c82475bdda10778786275c83944fba108265ebe96349eea7687",
+            "pubDate": "2026-07-07T02:05:40+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/07r6ldtn",
+            "keywords": [
+                "New"
             ]
         }
     ]

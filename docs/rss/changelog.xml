@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 06 Jul 2026 04:06:24 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 03:57:18 +0000</lastBuildDate>
+        <item>
+            <title>For US Markets: Introducing room_id in Order APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/07r6ldtn</link>
+            <description><![CDATA[**Effective date:** July 8, 2026 ## Overview Starting July 8, 2026, TikTok Shop will add `room_id` to selected Order API responses so your app can identify the LIVE session where an order line item was created. This change applies to apps that integrate with Order APIs for US market, especially apps that help LIVE sellers sort, reconcile, and fulfill orders by LIVE session. This is a non-breaking enhancement. Existing integrations will continue to work if they do not read the new field. ## What ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">07r6ldtn#f004e7e8</guid>
+            <pubDate>Tue, 07 Jul 2026 02:05:40 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## Overview Starting July 8, 2026, TikTok Shop will add `room_id` to selected Order API responses so your app can identify the LIVE session where an order line item was created. This change applies to apps that integrate with Order APIs for US market, especially apps that help LIVE sellers sort, reconcile, and fulfill orders by LIVE session. This is a non-breaking enhancement. Existing integrations will continue to work if they do not read the new field. ## What ...]]></content:encoded>
+        </item>
         <item>
             <title>For Thailand Market: Add TIS Certificate Mark on the Product Label as a Mandatory Qualification for 13 Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/pxkua3s7</link>
@@ -283,15 +292,6 @@
             <guid isPermaLink="false">l8xklei9#8833d9ce</guid>
             <pubDate>Fri, 03 Apr 2026 10:07:31 +0000</pubDate>
             <content:encoded><![CDATA[# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Updates to mandatory attributes </title>
-            <link>https://partner.tiktokshop.com/docv2/page/um8sunwp</link>
-            <description><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2026-04-06**, the Products API will require these compliance-related attributes to be provided. ## Impact | Impacted market(s) | United States (US) | | --- | --- | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenario** | **Attributes affect...]]></description>
-            <category></category>
-            <guid isPermaLink="false">um8sunwp#ba7fcc83</guid>
-            <pubDate>Fri, 06 Mar 2026 03:01:34 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary To meet compliance requirements, TikTok Shop is making compliance-related attributes mandatory across various product categories. Starting from **2026-04-06**, the Products API will require these compliance-related attributes to be provided. ## Impact | Impacted market(s) | United States (US) | | --- | --- | | Impacted version(s) | 202309 (and later) | ## Changes The following attributes in the specified categories will become mandatory. | **Compliance scenario** | **Attributes affect...]]></content:encoded>
         </item>
     </channel>
 </rss>
