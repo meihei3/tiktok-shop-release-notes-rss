@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c4610357078b33ab64a734431bae08e433ff0ee2ffb37ec0a6f44fb068b596db",
-            "lastSeenAt": "2026-07-07T03:57:18+00:00"
+            "contentHash": "94b2a487b3328e9f40a141b420f453a5a93236996ed40531239a7e331dd01870",
+            "lastSeenAt": "2026-07-08T03:23:31+00:00"
         }
     ],
     "items": [
@@ -992,6 +992,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/07r6ldtn",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "jvo7fzwt",
+            "title": "For SEA Market: Add  Mandatory Attributes to Baby&Maternity and Automotive&Motorcycle Categories",
+            "description": "# What is changing? Starting from 1 August 2026, partners will be required to provide two mandatory product attributes \"Recommended Age\" and \"Baby Life Stage\" to Baby & Maternity category, another two mandatory product attributes \"Applicable Brand\" and \"Model\" to Automotive & Motorcycle category. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in SEA market. # Who is affected? Developers with applications that use [Create Product](ht...",
+            "contentHash": "f0cd4bed00ebadd78ad73ac07835614a5da717a8a5c8067696ba2e856d506df6",
+            "pubDate": "2026-07-07T14:55:32+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/jvo7fzwt",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]

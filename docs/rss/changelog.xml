@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 07 Jul 2026 03:57:18 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 03:23:31 +0000</lastBuildDate>
+        <item>
+            <title>For SEA Market: Add  Mandatory Attributes to Baby&amp;amp;Maternity and Automotive&amp;amp;Motorcycle Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/jvo7fzwt</link>
+            <description><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide two mandatory product attributes "Recommended Age" and "Baby Life Stage" to Baby & Maternity category, another two mandatory product attributes "Applicable Brand" and "Model" to Automotive & Motorcycle category. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in SEA market. # Who is affected? Developers with applications that use [Create Product](ht...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">jvo7fzwt#f0cd4bed</guid>
+            <pubDate>Tue, 07 Jul 2026 14:55:32 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide two mandatory product attributes "Recommended Age" and "Baby Life Stage" to Baby & Maternity category, another two mandatory product attributes "Applicable Brand" and "Model" to Automotive & Motorcycle category. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in SEA market. # Who is affected? Developers with applications that use [Create Product](ht...]]></content:encoded>
+        </item>
         <item>
             <title>For US Markets: Introducing room_id in Order APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/07r6ldtn</link>
@@ -282,16 +292,6 @@
             <guid isPermaLink="false">4brha1mn#3e49304b</guid>
             <pubDate>Fri, 10 Apr 2026 09:43:21 +0000</pubDate>
             <content:encoded><![CDATA[# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: Mandatory compliance attributes added for Paper Money and Coins Categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/l8xklei9</link>
-            <description><![CDATA[# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">l8xklei9#8833d9ce</guid>
-            <pubDate>Fri, 03 Apr 2026 10:07:31 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary ### What are we launching In the event that non-circulating currencies are sold as commodities, to ensure full regulatory compliance, we will introduce new mandatory attributes to the Get Attributes API. Sellers are required to fully complete all such attributes as a precondition for listing products in the affected product categories. ### When are we launching it API enforcement for product listings (**Create and Edit Product APIs**) with these compliance attributes will begin after *...]]></content:encoded>
         </item>
     </channel>
 </rss>
