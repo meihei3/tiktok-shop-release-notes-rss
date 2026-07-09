@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "94b2a487b3328e9f40a141b420f453a5a93236996ed40531239a7e331dd01870",
-            "lastSeenAt": "2026-07-08T03:23:31+00:00"
+            "contentHash": "6d77d807d61d989547923ed7e8346964a6fe938d63bba262aaede5d5089a31cc",
+            "lastSeenAt": "2026-07-09T03:56:00+00:00"
         }
     ],
     "items": [
@@ -1001,6 +1001,73 @@
             "contentHash": "f0cd4bed00ebadd78ad73ac07835614a5da717a8a5c8067696ba2e856d506df6",
             "pubDate": "2026-07-07T14:55:32+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/jvo7fzwt",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "dinqyhzz",
+            "title": "For All Markets: Create FBT MCF Order Request Parameter district_or_county now optional",
+            "description": "# 1. Overview This release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**. Previously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side. # 2. Change Details | **A...",
+            "contentHash": "281b314693925a5dcfcc2fc6385fcc90dc6ebe06b5349916833b4ac4b19d168d",
+            "pubDate": "2026-07-08T09:12:11+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/dinqyhzz",
+            "keywords": [
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "xbd5dfga",
+            "title": "For Indonesia Market:  Get Toko Product Mappers API Release ",
+            "description": "# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...",
+            "contentHash": "8cd50f693ef4976ef1cd9c84730321dacd971f22e7d1916eb994e7fe71e7f12c",
+            "pubDate": "2026-07-08T08:55:46+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xbd5dfga",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "jli5x787",
+            "title": "For All Markets : New properties added to Finance transaction APIs",
+            "description": "## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...",
+            "contentHash": "7f795add1a8812726685043488de10ca5bb4665a9bcaaa2b6f7f5e17afa3080b",
+            "pubDate": "2026-07-08T08:18:12+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/jli5x787",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "document_path": "tm34wba8",
+            "title": "US & UK Markets: Replacement Orders",
+            "description": "**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...",
+            "contentHash": "126ea9215d3af4b9a1e8e28e5bd759365fb8c9af9d3130f27363966b1738afc3",
+            "pubDate": "2026-07-08T04:12:07+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/tm34wba8",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "lpel3k3x",
+            "title": "US & UK Markets: Exchange Orders",
+            "description": "**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...",
+            "contentHash": "bc587d17dc32eccf1693a9f91a091500f7a9a85a23a619ff6724b7469e833a3c",
+            "pubDate": "2026-07-08T04:03:40+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/lpel3k3x",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "l013m4r4",
+            "title": "For Malaysia Market: Add Mandatory Attributes to Household Appliances Category",
+            "description": "# What is changing? Starting from 1 August 2026, partners will be required to provide several mandatory product attributes when listing or editing products by using API under Household Appliances category in the list: | **Leaf Category Name** | **Leaf Category Id** | **Attribute Name** | **Attribute Id** | | --- | --- | --- | --- | | Cleaning Equipment | 851080 | Corded/Cordless | 100292 | | Electric Mops | 934152 | Corded/Cordless | 100292 | | Electric Window Cleaners | 601116 | Corded/Cordless...",
+            "contentHash": "36065d1b45e3eb3dcf076d056fd2bda105a19f39d39a6e08c106ca20ccb1de40",
+            "pubDate": "2026-07-08T03:51:41+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/l013m4r4",
             "keywords": [
                 "Coming Soon",
                 "Action Required"
