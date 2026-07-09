@@ -5,7 +5,62 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 08 Jul 2026 03:23:31 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 03:56:00 +0000</lastBuildDate>
+        <item>
+            <title>For All Markets: Create FBT MCF Order Request Parameter district_or_county now optional</title>
+            <link>https://partner.tiktokshop.com/docv2/page/dinqyhzz</link>
+            <description><![CDATA[# 1. Overview This release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**. Previously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side. # 2. Change Details | **A...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">dinqyhzz#281b3146</guid>
+            <pubDate>Wed, 08 Jul 2026 09:12:11 +0000</pubDate>
+            <content:encoded><![CDATA[# 1. Overview This release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**. Previously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side. # 2. Change Details | **A...]]></content:encoded>
+        </item>
+        <item>
+            <title>For Indonesia Market:  Get Toko Product Mappers API Release </title>
+            <link>https://partner.tiktokshop.com/docv2/page/xbd5dfga</link>
+            <description><![CDATA[# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xbd5dfga#8cd50f69</guid>
+            <pubDate>Wed, 08 Jul 2026 08:55:46 +0000</pubDate>
+            <content:encoded><![CDATA[# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...]]></content:encoded>
+        </item>
+        <item>
+            <title>For All Markets : New properties added to Finance transaction APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/jli5x787</link>
+            <description><![CDATA[## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...]]></description>
+            <category></category>
+            <guid isPermaLink="false">jli5x787#7f795add</guid>
+            <pubDate>Wed, 08 Jul 2026 08:18:12 +0000</pubDate>
+            <content:encoded><![CDATA[## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...]]></content:encoded>
+        </item>
+        <item>
+            <title>US &amp;amp; UK Markets: Replacement Orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/tm34wba8</link>
+            <description><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">tm34wba8#126ea921</guid>
+            <pubDate>Wed, 08 Jul 2026 04:12:07 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...]]></content:encoded>
+        </item>
+        <item>
+            <title>US &amp;amp; UK Markets: Exchange Orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/lpel3k3x</link>
+            <description><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">lpel3k3x#bc587d17</guid>
+            <pubDate>Wed, 08 Jul 2026 04:03:40 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...]]></content:encoded>
+        </item>
+        <item>
+            <title>For Malaysia Market: Add Mandatory Attributes to Household Appliances Category</title>
+            <link>https://partner.tiktokshop.com/docv2/page/l013m4r4</link>
+            <description><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide several mandatory product attributes when listing or editing products by using API under Household Appliances category in the list: | **Leaf Category Name** | **Leaf Category Id** | **Attribute Name** | **Attribute Id** | | --- | --- | --- | --- | | Cleaning Equipment | 851080 | Corded/Cordless | 100292 | | Electric Mops | 934152 | Corded/Cordless | 100292 | | Electric Window Cleaners | 601116 | Corded/Cordless...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">l013m4r4#36065d1b</guid>
+            <pubDate>Wed, 08 Jul 2026 03:51:41 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide several mandatory product attributes when listing or editing products by using API under Household Appliances category in the list: | **Leaf Category Name** | **Leaf Category Id** | **Attribute Name** | **Attribute Id** | | --- | --- | --- | --- | | Cleaning Equipment | 851080 | Corded/Cordless | 100292 | | Electric Mops | 934152 | Corded/Cordless | 100292 | | Electric Window Cleaners | 601116 | Corded/Cordless...]]></content:encoded>
+        </item>
         <item>
             <title>For SEA Market: Add  Mandatory Attributes to Baby&amp;amp;Maternity and Automotive&amp;amp;Motorcycle Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/jvo7fzwt</link>
@@ -234,64 +289,6 @@
             <guid isPermaLink="false">lm9400zu#4c7a66c6</guid>
             <pubDate>Wed, 06 May 2026 02:16:16 +0000</pubDate>
             <content:encoded><![CDATA[## Overview > Introduction in Academy：https://seller-us.tiktok.com/university/essay?knowledge_id=5369161871132458 TikTok Shop currently supports **Automated Order Combination** across all shopping channels in the US market. If the merchant has enabled this feature in the seller center，Eligible shopper orders placed with the same seller across Shop Tab, Video, and Livestream channels are auto-combined within a pre-defined time window when the buyer, buyer address, seller, and seller warehouse are...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Vietnam market: Updates to Mandatory attributes on Beauty &amp;amp; Personal Care, Health, Baby &amp;amp; Maternity, and Food &amp;amp; Beverages related categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/qc6yk2e0</link>
-            <description><![CDATA[# What is changing? Starting from 26 May 2026, partners will be required to provide additional mandatory product attributes when listing or editing products by using API for products under the following categories: Beauty & Personal Care, Health, Baby & Maternity, and Food & Beverages. The mandatory product attributes will include : * product license details * Product License Type * Product License Number * Date of Issuance * Place of Issuance They will be added into "product_attributes" paramet...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">qc6yk2e0#ac9987e1</guid>
-            <pubDate>Sun, 26 Apr 2026 12:19:40 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 26 May 2026, partners will be required to provide additional mandatory product attributes when listing or editing products by using API for products under the following categories: Beauty & Personal Care, Health, Baby & Maternity, and Food & Beverages. The mandatory product attributes will include : * product license details * Product License Type * Product License Number * Date of Issuance * Place of Issuance They will be added into "product_attributes" paramet...]]></content:encoded>
-        </item>
-        <item>
-            <title>New Feature: Inventory Update Webhook</title>
-            <link>https://partner.tiktokshop.com/docv2/page/9q4we8qr</link>
-            <description><![CDATA[# New Feature: Inventory Update Webhook ### What is changing? TikTok Shop is launching a new `inventory_update` webhook to push real-time events for SKU inventory quantity changes. Previously, developers had to indirectly infer inventory changes by subscribing to multiple webhook messages (e.g., order creation, marketing campaigns), which was complex and error-prone. The new `inventory_update` webhook standardizes inventory change notifications. Whether caused by new order creation, order cancel...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">9q4we8qr#510843a3</guid>
-            <pubDate>Thu, 23 Apr 2026 07:39:17 +0000</pubDate>
-            <content:encoded><![CDATA[# New Feature: Inventory Update Webhook ### What is changing? TikTok Shop is launching a new `inventory_update` webhook to push real-time events for SKU inventory quantity changes. Previously, developers had to indirectly infer inventory changes by subscribing to multiple webhook messages (e.g., order creation, marketing campaigns), which was complex and error-prone. The new `inventory_update` webhook standardizes inventory change notifications. Whether caused by new order creation, order cancel...]]></content:encoded>
-        </item>
-        <item>
-            <title>For US Market: Add subscription order tag to Order APIs</title>
-            <link>https://partner.tiktokshop.com/docv2/page/uc1ds0td</link>
-            <description><![CDATA[## Summary To help developers and sellers better manage inventory and fulfillment for subscription-based orders, we are introducing a new field, `is_subscription_order`, to our Order APIs. This allows for easy identification of orders generated from a customer's subscription. This change brings our Open API capabilities to parity with the functionality available in the TikTok Shop Seller Center, where subscription orders are already tagged. **What's a subscription order?** Subscription orders ar...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">uc1ds0td#267a1df0</guid>
-            <pubDate>Tue, 21 Apr 2026 06:20:32 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary To help developers and sellers better manage inventory and fulfillment for subscription-based orders, we are introducing a new field, `is_subscription_order`, to our Order APIs. This allows for easy identification of orders generated from a customer's subscription. This change brings our Open API capabilities to parity with the functionality available in the TikTok Shop Seller Center, where subscription orders are already tagged. **What's a subscription order?** Subscription orders ar...]]></content:encoded>
-        </item>
-        <item>
-            <title>US market: New GTM for OTC Mandatory Attributes</title>
-            <link>https://partner.tiktokshop.com/docv2/page/nvx9wggt</link>
-            <description><![CDATA[# Summary ### What are we launching To meet legal requirements for over-the-counter (OTC) medicines, new mandatory compliance attributes will be introduced for 31 OTC medicine categories. Sellers will be required to complete these new attributes for all new and existing product listings in the affected categories. ### When are we launching it The enforcement date is 4/17 and will be communicated in a follow-up notice. ### Impact All new and existing listings in the affected categories must inclu...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">nvx9wggt#183cbf3e</guid>
-            <pubDate>Thu, 16 Apr 2026 18:29:12 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary ### What are we launching To meet legal requirements for over-the-counter (OTC) medicines, new mandatory compliance attributes will be introduced for 31 OTC medicine categories. Sellers will be required to complete these new attributes for all new and existing product listings in the affected categories. ### When are we launching it The enforcement date is 4/17 and will be communicated in a follow-up notice. ### Impact All new and existing listings in the affected categories must inclu...]]></content:encoded>
-        </item>
-        <item>
-            <title>Bestsellers Analytics Open API Launch</title>
-            <link>https://partner.tiktokshop.com/docv2/page/3dk9557y</link>
-            <description><![CDATA[## Overview This release introduces the **Bestsellers Analytics OpenAPI**, a set of four new APIs that provide programmatic access to TikTok Shop's Bestsellers rankings from Data Compass. Developers can now retrieve the top 100 products, creators, videos, and LIVE sessions by GMV in the seller's authorized market. Previously, Bestsellers data was only available through the Seller Center web portal with no API access. Third-party data service providers — one of the most influential app categories...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">3dk9557y#2aafbf43</guid>
-            <pubDate>Tue, 14 Apr 2026 09:09:56 +0000</pubDate>
-            <content:encoded><![CDATA[## Overview This release introduces the **Bestsellers Analytics OpenAPI**, a set of four new APIs that provide programmatic access to TikTok Shop's Bestsellers rankings from Data Compass. Developers can now retrieve the top 100 products, creators, videos, and LIVE sessions by GMV in the seller's authorized market. Previously, Bestsellers data was only available through the Seller Center web portal with no API access. Third-party data service providers — one of the most influential app categories...]]></content:encoded>
-        </item>
-        <item>
-            <title>New Capability  for Affiliate  Data Compass Offline Data Export</title>
-            <link>https://partner.tiktokshop.com/docv2/page/4brha1mn</link>
-            <description><![CDATA[# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">4brha1mn#3e49304b</guid>
-            <pubDate>Fri, 10 Apr 2026 09:43:21 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview TikTok Shop is launching a new set of Affiliate Seller Compass Offline Data Export APIs under the `affiliate_seller` domain. These APIs enable developers (ISVs and in-house seller teams) to programmatically create, query, and download large-scale, asynchronous data reports from the Affiliate Seller Compass — including video performance, creator analytics, and other key business metrics. Previously, partners and sellers lacked an efficient, automated way to export large volumes of affi...]]></content:encoded>
         </item>
     </channel>
 </rss>
