@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 09 Jul 2026 03:56:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 03:52:25 +0000</lastBuildDate>
+        <item>
+            <title>Product APIs Support Customer Purchase Limits Configuration</title>
+            <link>https://partner.tiktokshop.com/docv2/page/mdpqmff0</link>
+            <description><![CDATA[# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...]]></description>
+            <category>Coming Soon</category>
+            <guid isPermaLink="false">mdpqmff0#806fbca5</guid>
+            <pubDate>Thu, 09 Jul 2026 12:52:25 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...]]></content:encoded>
+        </item>
         <item>
             <title>For All Markets: Create FBT MCF Order Request Parameter district_or_county now optional</title>
             <link>https://partner.tiktokshop.com/docv2/page/dinqyhzz</link>
@@ -280,15 +289,6 @@
             <guid isPermaLink="false">digvqy0x#d0fe514a</guid>
             <pubDate>Thu, 07 May 2026 06:13:06 +0000</pubDate>
             <content:encoded><![CDATA[# Updates to Product API For Size Chart Quality Validation **Effective Date:** * **Grace Period Start:** 2026-05-07 * **Full Enforcement Start:** 2026-07-07 ### What is changing? To improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API. This change will be rolled out in two phases for existing products: 1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **w...]]></content:encoded>
-        </item>
-        <item>
-            <title>Automated Order Combination — ISV Integration Guide</title>
-            <link>https://partner.tiktokshop.com/docv2/page/lm9400zu</link>
-            <description><![CDATA[## Overview > Introduction in Academy：https://seller-us.tiktok.com/university/essay?knowledge_id=5369161871132458 TikTok Shop currently supports **Automated Order Combination** across all shopping channels in the US market. If the merchant has enabled this feature in the seller center，Eligible shopper orders placed with the same seller across Shop Tab, Video, and Livestream channels are auto-combined within a pre-defined time window when the buyer, buyer address, seller, and seller warehouse are...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">lm9400zu#4c7a66c6</guid>
-            <pubDate>Wed, 06 May 2026 02:16:16 +0000</pubDate>
-            <content:encoded><![CDATA[## Overview > Introduction in Academy：https://seller-us.tiktok.com/university/essay?knowledge_id=5369161871132458 TikTok Shop currently supports **Automated Order Combination** across all shopping channels in the US market. If the merchant has enabled this feature in the seller center，Eligible shopper orders placed with the same seller across Shop Tab, Video, and Livestream channels are auto-combined within a pre-defined time window when the buyer, buyer address, seller, and seller warehouse are...]]></content:encoded>
         </item>
     </channel>
 </rss>

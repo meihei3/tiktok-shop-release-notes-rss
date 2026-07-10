@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "6d77d807d61d989547923ed7e8346964a6fe938d63bba262aaede5d5089a31cc",
-            "lastSeenAt": "2026-07-09T03:56:00+00:00"
+            "contentHash": "8f5bb5e0aea12c8864577e7f27e626c057613a207f4f0d5c494fe045ada7e903",
+            "lastSeenAt": "2026-07-10T03:52:25+00:00"
         }
     ],
     "items": [
@@ -1071,6 +1071,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "mdpqmff0",
+            "title": "Product APIs Support Customer Purchase Limits Configuration",
+            "description": "# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...",
+            "contentHash": "806fbca58de8a24d7588158c141b8194036b51cfa0ccdf63c2c80d4d1350b9b3",
+            "pubDate": "2026-07-09T12:52:25+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/mdpqmff0",
+            "keywords": [
+                "Coming Soon"
             ]
         }
     ]
