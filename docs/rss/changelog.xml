@@ -5,13 +5,13 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 14 Jul 2026 02:54:25 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 02:53:18 +0000</lastBuildDate>
         <item>
             <title>Product APIs Support Customer Purchase Limits Configuration</title>
             <link>https://partner.tiktokshop.com/docv2/page/mdpqmff0</link>
             <description><![CDATA[# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...]]></description>
             <category>Coming Soon</category>
-            <guid isPermaLink="false">mdpqmff0#806fbca5</guid>
+            <guid isPermaLink="false">mdpqmff0#e404792f</guid>
             <pubDate>Thu, 09 Jul 2026 12:52:25 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...]]></content:encoded>
         </item>
