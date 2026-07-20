@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "4fe87ac52d750536a6294aea915d42221be115ac21e3aac18f8b9a85e994f8dd",
-            "lastSeenAt": "2026-07-19T03:26:33+00:00"
+            "contentHash": "27c3d70b662de3fabdeac317f7746645151d1c0431601e9848e89ba285c4adaa",
+            "lastSeenAt": "2026-07-20T03:40:15+00:00"
         }
     ],
     "items": [
@@ -1105,6 +1105,17 @@
             "keywords": [
                 "New",
                 "Hot"
+            ]
+        },
+        {
+            "document_path": "xvrcifoa",
+            "title": "For All markets：New Republish Activity API ",
+            "description": "# Summary The Promotion category adds a new Republish Activity API that lets sellers bring an expired or deactivated promotion activity (product discount or flash deal) back online for a new effective period. There is no need to recreate the activity or re-associate products and SKUs — promotions can be restored in a single call. # Value & Use Cases * **Lower cost, higher efficiency:** Previously, restoring an expired activity meant recreating it and re-adding every product/SKU one by one — many...",
+            "contentHash": "9ccf31e3876adbe31c7faa9abe438cc1aa6c0a8cf9c9f71e503f666c55930784",
+            "pubDate": "2026-07-19T08:49:56+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xvrcifoa",
+            "keywords": [
+                "New"
             ]
         }
     ]
