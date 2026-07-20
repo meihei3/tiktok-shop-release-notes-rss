@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 19 Jul 2026 03:26:33 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 03:40:15 +0000</lastBuildDate>
+        <item>
+            <title>For All markets：New Republish Activity API </title>
+            <link>https://partner.tiktokshop.com/docv2/page/xvrcifoa</link>
+            <description><![CDATA[# Summary The Promotion category adds a new Republish Activity API that lets sellers bring an expired or deactivated promotion activity (product discount or flash deal) back online for a new effective period. There is no need to recreate the activity or re-associate products and SKUs — promotions can be restored in a single call. # Value & Use Cases * **Lower cost, higher efficiency:** Previously, restoring an expired activity meant recreating it and re-adding every product/SKU one by one — many...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xvrcifoa#9ccf31e3</guid>
+            <pubDate>Sun, 19 Jul 2026 08:49:56 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary The Promotion category adds a new Republish Activity API that lets sellers bring an expired or deactivated promotion activity (product discount or flash deal) back online for a new effective period. There is no need to recreate the activity or re-associate products and SKUs — promotions can be restored in a single call. # Value & Use Cases * **Lower cost, higher efficiency:** Previously, restoring an expired activity meant recreating it and re-adding every product/SKU one by one — many...]]></content:encoded>
+        </item>
         <item>
             <title>Post Shoppable Video and Photos APIs v202607: New Fields Added</title>
             <link>https://partner.tiktokshop.com/docv2/page/0gaq46iv</link>
@@ -280,15 +289,6 @@
             <guid isPermaLink="false">07q2huia#99749cba</guid>
             <pubDate>Tue, 19 May 2026 06:15:53 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? TikTok Shop is introducing **SKU-level dimension and weight support** in Partner APIs. This update allows product weight and dimensions to be maintained and synchronized at the SKU level, which improves shipping-related accuracy for products with multiple variants. Previously, weight and dimension data were mainly handled at the product level. With this release, APIs now support dedicated SKU-level fields so partners can send and retrieve more precise package information for ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Enhanced Get Tracking API for CBT First-Mile Pickup Visibility</title>
-            <link>https://partner.tiktokshop.com/docv2/page/8syhoy40</link>
-            <description><![CDATA[**Effective date:** June 30, 2026 (target — final date confirmed at general availability) **API version:** `v202604` or later **Audience:** Apps that integrate with TikTok Shop logistics APIs for CBT orders ## Overview TikTok Shop is releasing an enhanced **Get Tracking API** that exposes the full end-to-end tracking history of CBT parcels — including the **first-mile pickup leg** that is currently missing from most App systems. Starting in late June 2026, your app can call a single endpoint to ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">8syhoy40#e2974a37</guid>
-            <pubDate>Wed, 13 May 2026 06:08:50 +0000</pubDate>
-            <content:encoded><![CDATA[**Effective date:** June 30, 2026 (target — final date confirmed at general availability) **API version:** `v202604` or later **Audience:** Apps that integrate with TikTok Shop logistics APIs for CBT orders ## Overview TikTok Shop is releasing an enhanced **Get Tracking API** that exposes the full end-to-end tracking history of CBT parcels — including the **first-mile pickup leg** that is currently missing from most App systems. Starting in late June 2026, your app can call a single endpoint to ...]]></content:encoded>
         </item>
     </channel>
 </rss>
