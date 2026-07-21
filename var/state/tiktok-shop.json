@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "27c3d70b662de3fabdeac317f7746645151d1c0431601e9848e89ba285c4adaa",
-            "lastSeenAt": "2026-07-20T03:40:15+00:00"
+            "contentHash": "72833d6dd1a6cd70007daf0556fa8ab774b1640e737c0afc1b0fac3300a7bf5c",
+            "lastSeenAt": "2026-07-21T03:20:22+00:00"
         }
     ],
     "items": [
@@ -1116,6 +1116,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/xvrcifoa",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "ct8iyu95",
+            "title": "New Function：POD Customization Config APIs",
+            "description": "TikTok Shop now supports configuring Print-on-Demand (POD) customization for Made-to-Order (MTO) products through the Product APIs. ISVs and seller applications can upload customization assets, submit template configurations, and retrieve the saved configuration programmatically. With this capability, an integration can: * Upload background, mask, and default customization images. * Associate one or more SKUs with a POD template. * Define product surfaces and ordered image or text customization ...",
+            "contentHash": "cf3983b82c211c803e983f0dd8f9f90026fbd18ead2b2485204d5df3d1d4ac39",
+            "pubDate": "2026-07-20T14:09:29+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ct8iyu95",
+            "keywords": [
+                "Coming Soon"
             ]
         }
     ]
