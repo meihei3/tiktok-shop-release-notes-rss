@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 21 Jul 2026 03:20:22 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 03:18:47 +0000</lastBuildDate>
+        <item>
+            <title>Shop Performance Score (SPS) APIs v202606 for US Shops: Five New APIs Added</title>
+            <link>https://partner.tiktokshop.com/docv2/page/3t9j6tz0</link>
+            <description><![CDATA[# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...]]></description>
+            <category>Action Required</category>
+            <category>New</category>
+            <guid isPermaLink="false">3t9j6tz0#752f979e</guid>
+            <pubDate>Tue, 21 Jul 2026 10:03:27 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...]]></content:encoded>
+        </item>
         <item>
             <title>New Function：POD Customization Config APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/ct8iyu95</link>
@@ -149,11 +159,11 @@
         <item>
             <title>For the US Market: Masking Recipient Phone Number and Address for 4PL Orders</title>
             <link>https://partner.tiktokshop.com/docv2/page/cobygjha</link>
-            <description><![CDATA[**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...]]></description>
+            <description><![CDATA[**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...]]></description>
             <category>New</category>
-            <guid isPermaLink="false">cobygjha#8e33707e</guid>
+            <guid isPermaLink="false">cobygjha#c055d30a</guid>
             <pubDate>Thu, 02 Jul 2026 04:03:00 +0000</pubDate>
-            <content:encoded><![CDATA[**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...]]></content:encoded>
+            <content:encoded><![CDATA[**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...]]></content:encoded>
         </item>
         <item>
             <title>For Thailand market: Set Fda Food Registration Number On Product Label as a Mandatory Qualification for Rice Category</title>
@@ -279,16 +289,6 @@
             <guid isPermaLink="false">eibloj08#227a4e66</guid>
             <pubDate>Fri, 22 May 2026 07:11:24 +0000</pubDate>
             <content:encoded><![CDATA[## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Analytics API Response Data Optimization</title>
-            <link>https://partner.tiktokshop.com/docv2/page/kpkfccsa</link>
-            <description><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">kpkfccsa#51017b6f</guid>
-            <pubDate>Thu, 21 May 2026 09:48:26 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview This release introduces three new versioned Analytics APIs that deliver enriched Seller Compass data, achieving full metric parity between the OpenAPI and the Seller Center Data Compass UI. Developers can now programmatically access comprehensive product performance metrics (including traffic funnel, conversion, and channel-level attribution), video performance metrics (with creator attribution and engagement data), and bestselling product image information — eliminating the need for ...]]></content:encoded>
         </item>
     </channel>
 </rss>

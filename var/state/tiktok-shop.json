@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "72833d6dd1a6cd70007daf0556fa8ab774b1640e737c0afc1b0fac3300a7bf5c",
-            "lastSeenAt": "2026-07-21T03:20:22+00:00"
+            "contentHash": "c2fe1813631c0c868bb43f18c60bfbb473c96c4d66fc2babd80afea024144189",
+            "lastSeenAt": "2026-07-22T03:18:47+00:00"
         }
     ],
     "items": [
@@ -963,8 +963,8 @@
         {
             "document_path": "cobygjha",
             "title": "For the US Market: Masking Recipient Phone Number and Address for 4PL Orders",
-            "description": "**Effective date:** July 13 2026 * **Markets:** US * **Scope:** 4PL orders * **Audience:** Apps that read order data from the Order APIs ## Overview Starting July 13 2026, TikTok Shop will mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change applies across all order statuses and affects data returned by the Order APIs. This update strengthens buyer data protection by limiting access to buyer contact details that are not needed to fulfill a...",
-            "contentHash": "8e33707e933d106448c4f1abbf5c7aae674933ec98ac3c3f0798e615222f7e5e",
+            "description": "**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...",
+            "contentHash": "c055d30a9ceeb18aa8b091f21555fe4d532889178d40af4611d66304f8f35452",
             "pubDate": "2026-07-02T04:03:00+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/cobygjha",
             "keywords": [
@@ -1127,6 +1127,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/ct8iyu95",
             "keywords": [
                 "Coming Soon"
+            ]
+        },
+        {
+            "document_path": "3t9j6tz0",
+            "title": "Shop Performance Score (SPS) APIs v202606 for US Shops: Five New APIs Added",
+            "description": "# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...",
+            "contentHash": "752f979e4fb3702f307f918c2c4d45ae799c3f1e375db6cbfaa9ee5eadb80e0f",
+            "pubDate": "2026-07-21T10:03:27+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/3t9j6tz0",
+            "keywords": [
+                "Action Required",
+                "New"
             ]
         }
     ]
