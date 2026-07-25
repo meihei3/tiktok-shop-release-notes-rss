@@ -5,7 +5,25 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 24 Jul 2026 03:19:52 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 03:17:56 +0000</lastBuildDate>
+        <item>
+            <title>For US Market: POD Customization Details Are Now Available</title>
+            <link>https://partner.tiktokshop.com/docv2/page/18u5qdc2</link>
+            <description><![CDATA[| **Market** | US | | --- | --- | | **Audience** | Apps that retrieve and manage order data for US sellers | | **Change type** | Additive, non-breaking API enhancement | # Overview TikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it. This change is additive. Existing apps that ignore unknown...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">18u5qdc2#10a8c347</guid>
+            <pubDate>Fri, 24 Jul 2026 09:32:33 +0000</pubDate>
+            <content:encoded><![CDATA[| **Market** | US | | --- | --- | | **Audience** | Apps that retrieve and manage order data for US sellers | | **Change type** | Additive, non-breaking API enhancement | # Overview TikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it. This change is additive. Existing apps that ignore unknown...]]></content:encoded>
+        </item>
+        <item>
+            <title>For All Markets :  Marketplace Creator API add an optional parameter</title>
+            <link>https://partner.tiktokshop.com/docv2/page/d5oa8gw3</link>
+            <description><![CDATA[# Summary The Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency. # Scope of Impact * **Affected endpoint...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">d5oa8gw3#15bc90b5</guid>
+            <pubDate>Fri, 24 Jul 2026 08:28:26 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary The Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency. # Scope of Impact * **Affected endpoint...]]></content:encoded>
+        </item>
         <item>
             <title>Shop Performance Score (SPS) APIs v202606 for US Shops: Five New APIs Added</title>
             <link>https://partner.tiktokshop.com/docv2/page/3t9j6tz0</link>
@@ -271,24 +289,6 @@
             <guid isPermaLink="false">itmwgzg3#3b18da1c</guid>
             <pubDate>Thu, 04 Jun 2026 03:16:58 +0000</pubDate>
             <content:encoded><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Full Account Development Shop supports manual order status updates</title>
-            <link>https://partner.tiktokshop.com/docv2/page/e8ut2woi</link>
-            <description><![CDATA[**Summary** The Full Function Account Development Shop now supports manual order status updates for test orders placed in the TikTok App. This helps merchants and developers validate end-to-end forward and reverse order flows in the sandbox without relying on real fulfillment. [Development Shop Manual Order Status Update Guide](https://partner.tiktokshop.com/docv2/page/ar5ppjvv) # Highlights The Development Shop capability has been expanded so that test orders created from the TikTok App can now...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">e8ut2woi#60b4cb74</guid>
-            <pubDate>Tue, 02 Jun 2026 06:58:05 +0000</pubDate>
-            <content:encoded><![CDATA[**Summary** The Full Function Account Development Shop now supports manual order status updates for test orders placed in the TikTok App. This helps merchants and developers validate end-to-end forward and reverse order flows in the sandbox without relying on real fulfillment. [Development Shop Manual Order Status Update Guide](https://partner.tiktokshop.com/docv2/page/ar5ppjvv) # Highlights The Development Shop capability has been expanded so that test orders created from the TikTok App can now...]]></content:encoded>
-        </item>
-        <item>
-            <title>Seller Access &amp;amp; Sandbox Rate Limit Updates</title>
-            <link>https://partner.tiktokshop.com/docv2/page/eibloj08</link>
-            <description><![CDATA[## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...]]></description>
-            <category></category>
-            <guid isPermaLink="false">eibloj08#227a4e66</guid>
-            <pubDate>Fri, 22 May 2026 07:11:24 +0000</pubDate>
-            <content:encoded><![CDATA[## What's Changing ### 1. Inactive Seller Access Restriction TikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable). ### 2. Sandbox Account Rate Limit Update To optimize resource allocation, we are updating the rate limits for testing environments: * **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**. * **Threshold:** Requests may be throttled with a **429 ...]]></content:encoded>
         </item>
     </channel>
 </rss>
