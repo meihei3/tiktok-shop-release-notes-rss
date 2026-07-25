@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "09db069e2bd0170577ae6a0ac5f691150207a207418a24737e6e1fa1b5feb9ef",
-            "lastSeenAt": "2026-07-24T03:19:52+00:00"
+            "contentHash": "aad2045632b5984730cb496c4d7f11635d7db3ada10bb70a021047f698d1d1a0",
+            "lastSeenAt": "2026-07-25T03:17:56+00:00"
         }
     ],
     "items": [
@@ -1139,6 +1139,28 @@
             "keywords": [
                 "Action Required",
                 "New"
+            ]
+        },
+        {
+            "document_path": "18u5qdc2",
+            "title": "For US Market: POD Customization Details Are Now Available",
+            "description": "| **Market** | US | | --- | --- | | **Audience** | Apps that retrieve and manage order data for US sellers | | **Change type** | Additive, non-breaking API enhancement | # Overview TikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it. This change is additive. Existing apps that ignore unknown...",
+            "contentHash": "10a8c3470212e8d77a8deb0b65227aeab25c7d4fd63d16244b9889b4743b5f6e",
+            "pubDate": "2026-07-24T09:32:33+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/18u5qdc2",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "d5oa8gw3",
+            "title": "For All Markets :  Marketplace Creator API add an optional parameter",
+            "description": "# Summary The Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency. # Scope of Impact * **Affected endpoint...",
+            "contentHash": "15bc90b5da488c7abed3ea85e5d40e94c63e79a17db03f9a2f49ae91cc15199b",
+            "pubDate": "2026-07-24T08:28:26+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/d5oa8gw3",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
