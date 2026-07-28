@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 27 Jul 2026 03:39:58 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 02:56:45 +0000</lastBuildDate>
         <item>
             <title>For US Market: POD Customization Details Are Now Available</title>
             <link>https://partner.tiktokshop.com/docv2/page/18u5qdc2</link>
@@ -64,12 +64,12 @@
         <item>
             <title>TTS Open Toolkit: Make your AI assistant fluent in TTS integration! </title>
             <link>https://partner.tiktokshop.com/docv2/page/hhw7w40d</link>
-            <description><![CDATA[TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent install it (recommended) > 目前已经支持 Codex、Claude Code 、 Trae 。如果你同时使用多个 Agent，可以分别执行对应命令。后续如果希望支持 Cursor、Windsurf、Cline 或其他 Agent...]]></description>
+            <description><![CDATA[TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. For more details, please refer to: [TTS Open Toolkit Developer Tools](https://partner.tiktokshop.com/docv2/page/6kiauzd6) # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent insta...]]></description>
             <category>New</category>
             <category>Hot</category>
-            <guid isPermaLink="false">hhw7w40d#700d287e</guid>
+            <guid isPermaLink="false">hhw7w40d#b4d1c894</guid>
             <pubDate>Wed, 15 Jul 2026 02:57:24 +0000</pubDate>
-            <content:encoded><![CDATA[TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent install it (recommended) > 目前已经支持 Codex、Claude Code 、 Trae 。如果你同时使用多个 Agent，可以分别执行对应命令。后续如果希望支持 Cursor、Windsurf、Cline 或其他 Agent...]]></content:encoded>
+            <content:encoded><![CDATA[TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. For more details, please refer to: [TTS Open Toolkit Developer Tools](https://partner.tiktokshop.com/docv2/page/6kiauzd6) # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent insta...]]></content:encoded>
         </item>
         <item>
             <title>Product APIs Support Customer Purchase Limits Configuration</title>
