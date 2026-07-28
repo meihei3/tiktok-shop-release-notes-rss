@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "aad2045632b5984730cb496c4d7f11635d7db3ada10bb70a021047f698d1d1a0",
-            "lastSeenAt": "2026-07-27T03:39:58+00:00"
+            "contentHash": "3d74ff4d2b439b889c086232b35b69f651f012f5544c96ce8e959e8b43437025",
+            "lastSeenAt": "2026-07-28T02:56:45+00:00"
         }
     ],
     "items": [
@@ -1098,8 +1098,8 @@
         {
             "document_path": "hhw7w40d",
             "title": "TTS Open Toolkit: Make your AI assistant fluent in TTS integration! ",
-            "description": "TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent install it (recommended) > 目前已经支持 Codex、Claude Code 、 Trae 。如果你同时使用多个 Agent，可以分别执行对应命令。后续如果希望支持 Cursor、Windsurf、Cline 或其他 Agent...",
-            "contentHash": "700d287ed067a67b2ce4389ba92f8a99f2f7d0a7ef362fd2d9ecd7fb04c85cc1",
+            "description": "TTS Open Toolkit is a CLI for TikTok Shop OpenAPI developers. The official release installs and updates TTS OpenAPI skills for your AI coding agent, connects App and Shop context, helps complete required scopes, and validates supported API calls after authorization so you can integrate and troubleshoot faster. For more details, please refer to: [TTS Open Toolkit Developer Tools](https://partner.tiktokshop.com/docv2/page/6kiauzd6) # 如何安装 // Getting started ## Agent 直接安装（推荐）// Let your agent insta...",
+            "contentHash": "b4d1c894f400432296037ccd1d0a8f4441823bdd82b4bc8b7bc2db6c7df5a3da",
             "pubDate": "2026-07-15T02:57:24+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/hhw7w40d",
             "keywords": [
