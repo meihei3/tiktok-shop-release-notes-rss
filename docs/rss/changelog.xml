@@ -5,7 +5,28 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 29 Jul 2026 03:15:16 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 02:48:06 +0000</lastBuildDate>
+        <item>
+            <title>For All Markets : Affiliate API — Legacy Versions and Endpoints Sunset</title>
+            <link>https://partner.tiktokshop.com/docv2/page/1wqfoc2s</link>
+            <description><![CDATA[# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...]]></description>
+            <category>Breaking Change</category>
+            <category>Action Required</category>
+            <category>Deprecation</category>
+            <guid isPermaLink="false">1wqfoc2s#64aad036</guid>
+            <pubDate>Wed, 29 Jul 2026 09:13:57 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...]]></content:encoded>
+        </item>
+        <item>
+            <title>For Philippines Market: Product Certification for Pest Control Category will to be changed from FPA to FDA</title>
+            <link>https://partner.tiktokshop.com/docv2/page/q6srthav</link>
+            <description><![CDATA[# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the "certifications" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">q6srthav#a21ea983</guid>
+            <pubDate>Wed, 29 Jul 2026 03:19:52 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the "certifications" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...]]></content:encoded>
+        </item>
         <item>
             <title>For US Market: POD Customization Details Are Now Available</title>
             <link>https://partner.tiktokshop.com/docv2/page/18u5qdc2</link>
@@ -270,25 +291,6 @@
             <guid isPermaLink="false">mm5jh8jj#789b594e</guid>
             <pubDate>Sun, 07 Jun 2026 14:09:49 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If "Material = Plastic"", "PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Malaysia market: Updates to Mandatory Attributes on Beauty &amp;amp; Wellness Supplement Related Categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6hdaqven</link>
-            <description><![CDATA[# What is changing? Starting from 9 July 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Beauty Supplement 700648, Fitness Supplements 700649, Vitamins, Minerals & Wellness Supplements 700650 and Herbal Supplements 2160400. The mandatory product attributes will include : * NPRA Registered * If "NPRA Registered = Yes", "MAL No. / 101088” is mandatory. # Which markets are affected? The updates of ...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">6hdaqven#33eb1739</guid>
-            <pubDate>Sun, 07 Jun 2026 13:28:04 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 9 July 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Beauty Supplement 700648, Fitness Supplements 700649, Vitamins, Minerals & Wellness Supplements 700650 and Herbal Supplements 2160400. The mandatory product attributes will include : * NPRA Registered * If "NPRA Registered = Yes", "MAL No. / 101088” is mandatory. # Which markets are affected? The updates of ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Product APIs support regular Auction Product CRUD</title>
-            <link>https://partner.tiktokshop.com/docv2/page/itmwgzg3</link>
-            <description><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">itmwgzg3#3b18da1c</guid>
-            <pubDate>Thu, 04 Jun 2026 03:16:58 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary ### What is changing Regular auction products are now supported across the Product API lifecycle. Developers can create and update regular auction products, and can identify auction status and starting bid information when reading product data. This release applies only to **regular auction products**. **Temporary Listing Auction Product** is out of scope for this release. ### Why this is changing This update extends auction product operations from Seller Center to the API channel, so ...]]></content:encoded>
         </item>
     </channel>
 </rss>
