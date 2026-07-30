@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "4a2d8cc1ef36331a4d919c51c02ea8524f013f0b126357a4a46047f8b3a48545",
-            "lastSeenAt": "2026-07-29T03:15:16+00:00"
+            "contentHash": "6079c3b3bf81f0cbd2f9733e835653c06638184b951ba2cee0824ac9ceca9725",
+            "lastSeenAt": "2026-07-30T02:48:06+00:00"
         }
     ],
     "items": [
@@ -1161,6 +1161,31 @@
             "link": "https://partner.tiktokshop.com/docv2/page/d5oa8gw3",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "1wqfoc2s",
+            "title": "For All Markets : Affiliate API — Legacy Versions and Endpoints Sunset",
+            "description": "# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...",
+            "contentHash": "64aad036290c835470bef26349ebeadf6afdb5171304513e488a1b3f31f9bc0f",
+            "pubDate": "2026-07-29T09:13:57+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/1wqfoc2s",
+            "keywords": [
+                "Breaking Change",
+                "Action Required",
+                "Deprecation"
+            ]
+        },
+        {
+            "document_path": "q6srthav",
+            "title": "For Philippines Market: Product Certification for Pest Control Category will to be changed from FPA to FDA",
+            "description": "# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the \"certifications\" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...",
+            "contentHash": "a21ea983b85fef0eb3083c9dbf4cbedb89e9d35ffdcb166e91dc7ba095cc9523",
+            "pubDate": "2026-07-29T03:19:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/q6srthav",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
