@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 31 Jul 2026 03:30:52 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 03:30:23 +0000</lastBuildDate>
+        <item>
+            <title>For All Markets: FBT Goods Create / Update API Request Field Changes </title>
+            <link>https://partner.tiktokshop.com/docv2/page/t8h58fcy</link>
+            <description><![CDATA[# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">t8h58fcy#0cb2fbb9</guid>
+            <pubDate>Fri, 31 Jul 2026 08:33:16 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...]]></content:encoded>
+        </item>
         <item>
             <title>For All Markets : Affiliate API — Legacy Versions and Endpoints Sunset</title>
             <link>https://partner.tiktokshop.com/docv2/page/1wqfoc2s</link>
@@ -281,16 +290,6 @@
             <guid isPermaLink="false">xyegis5x#ace23647</guid>
             <pubDate>Mon, 08 Jun 2026 07:20:25 +0000</pubDate>
             <content:encoded><![CDATA[**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Philippine market: Updates to Mandatory Attributes on Chair Categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/mm5jh8jj</link>
-            <description><![CDATA[# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If "Material = Plastic"", "PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">mm5jh8jj#789b594e</guid>
-            <pubDate>Sun, 07 Jun 2026 14:09:49 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 4 August 2026, partners will be required to provide mandatory product attributes when listing or editing products by using API under the following categories: Chairs 876040, Outdoor Chairs 877704 and Chairs 879624. The mandatory product attributes will include : * Material / 100701 * If "Material = Plastic"", "PS/ICC No. / 101073” is mandatory. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in the P...]]></content:encoded>
         </item>
     </channel>
 </rss>
