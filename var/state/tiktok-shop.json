@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "a6a24d36de0c8e78ba82e20590067805816237f3027b262184e45ee44feef824",
-            "lastSeenAt": "2026-07-31T03:30:52+00:00"
+            "contentHash": "818469c4a9533b8cba1443963f19c0eea17b79df57911e40849f57fa838ed252",
+            "lastSeenAt": "2026-08-01T03:30:23+00:00"
         }
     ],
     "items": [
@@ -1186,6 +1186,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "t8h58fcy",
+            "title": "For All Markets: FBT Goods Create / Update API Request Field Changes ",
+            "description": "# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...",
+            "contentHash": "0cb2fbb9435e62c493f0e4610c229db79bf0f5be438dfad695441e915321b1e9",
+            "pubDate": "2026-07-31T08:33:16+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/t8h58fcy",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
