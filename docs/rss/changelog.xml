@@ -5,7 +5,34 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 04 Aug 2026 03:14:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 02:55:52 +0000</lastBuildDate>
+        <item>
+            <title>For US Market: Warehouse ID in Get Package Detail API</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xehvl72m</link>
+            <description><![CDATA[# Overview TikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed. This update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. | Item | Scope | | --- | --- | | Market | US | | Audience | Apps that integrate ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xehvl72m#ef38c886</guid>
+            <pubDate>Wed, 05 Aug 2026 02:41:29 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview TikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed. This update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. | Item | Scope | | --- | --- | | Market | US | | Audience | Apps that integrate ...]]></content:encoded>
+        </item>
+        <item>
+            <title>For All Markets: Identify Temporary Listings in Order APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/a1wu1nlb</link>
+            <description><![CDATA[# Overview This response-only enhancement is available to apps that retrieve order data through the Get Order List and Get Order Detail APIs. It does not change API requests or existing order workflows. | Item | Details | | --- | --- | | **Availability** | All markets, since July 30, 2026 | | **Change type** | Non-breaking, additive response field | | **Affected apps** | Order management, shipping, warehouse management, and other apps that need to distinguish temporary listing SKUs | | **Develop...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">a1wu1nlb#67d90d8e</guid>
+            <pubDate>Wed, 05 Aug 2026 02:21:44 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview This response-only enhancement is available to apps that retrieve order data through the Get Order List and Get Order Detail APIs. It does not change API requests or existing order workflows. | Item | Details | | --- | --- | | **Availability** | All markets, since July 30, 2026 | | **Change type** | Non-breaking, additive response field | | **Affected apps** | Order management, shipping, warehouse management, and other apps that need to distinguish temporary listing SKUs | | **Develop...]]></content:encoded>
+        </item>
+        <item>
+            <title>2026 July TikTok Shop API Updates Summary</title>
+            <link>https://partner.tiktokshop.com/docv2/page/kgigtxr7</link>
+            <description><![CDATA[Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...]]></description>
+            <category></category>
+            <guid isPermaLink="false">kgigtxr7#e5f098d4</guid>
+            <pubDate>Tue, 04 Aug 2026 08:52:53 +0000</pubDate>
+            <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...]]></content:encoded>
+        </item>
         <item>
             <title>For All Markets: FBT Goods Create / Update API Request Field Changes </title>
             <link>https://partner.tiktokshop.com/docv2/page/t8h58fcy</link>
@@ -262,34 +289,6 @@
             <guid isPermaLink="false">si5r1bv3#d18f7351</guid>
             <pubDate>Thu, 11 Jun 2026 09:29:30 +0000</pubDate>
             <content:encoded><![CDATA[# Summary The [Creator Search Affiliate Trace Orders](https://partner.tiktokshop.com/docv2/page/creator-search-affiliate-trace-orders-202505) API will be fully retired on 2026-08-15 **;** all partners must complete migration before this date to avoid integration failures. This API allowed partners to retrieve a list of affiliate orders generated by a creator, returning the order ID and product ID, so that partners could track affiliate conversions on behalf of a creator. Going forward, developer...]]></content:encoded>
-        </item>
-        <item>
-            <title>Meet Partner Assistant — Your AI Q&amp;amp;A Copilot in Partner Center</title>
-            <link>https://partner.tiktokshop.com/docv2/page/27kia292</link>
-            <description><![CDATA[## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">27kia292#3ec70993</guid>
-            <pubDate>Wed, 10 Jun 2026 09:49:28 +0000</pubDate>
-            <content:encoded><![CDATA[## 1. What is Partner Assistant Partner Assistant is an AI Q&A copilot built into TikTok Shop Partner Center. Ask it a question in plain language and get an answer without leaving your current page. Partner Assistant helps you understand the docs, diagnose API errors, find the right reference, and check read-only config — then routes you to a human when you need one. * Knows the docs and the Open Platform. * Aware of the page you're on, so you don't have to re-explain context. * A human is one c...]]></content:encoded>
-        </item>
-        <item>
-            <title>All Market：Adjust product dimensions  to two decimal places</title>
-            <link>https://partner.tiktokshop.com/docv2/page/c00mfi6i</link>
-            <description><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places. This update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields. According to the current Product API design, the affected dimension fields are already defined as string values. Thi...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">c00mfi6i#8f157c42</guid>
-            <pubDate>Tue, 09 Jun 2026 10:21:01 +0000</pubDate>
-            <content:encoded><![CDATA[# Background To support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places. This update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields. According to the current Product API design, the affected dimension fields are already defined as string values. Thi...]]></content:encoded>
-        </item>
-        <item>
-            <title>Gateway HTTP Access to Be Discontinued</title>
-            <link>https://partner.tiktokshop.com/docv2/page/xyegis5x</link>
-            <description><![CDATA[**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...]]></description>
-            <category>Action Required</category>
-            <guid isPermaLink="false">xyegis5x#ace23647</guid>
-            <pubDate>Mon, 08 Jun 2026 07:20:25 +0000</pubDate>
-            <content:encoded><![CDATA[**Breaking change.** From **[2026-06-17]**, the TikTok Shop Open Platform gateway `open-api.tiktokglobalshop.com` will accept **HTTPS only**. Requests sent over plain `http://` will be rejected and will not be processed. Make sure every integration calls the gateway over `https://` before this date to avoid service disruption. # Summary To strengthen the security of data in transit, access to the API gateway `open-api.tiktokglobalshop.com` will move to **HTTPS-only**. Plain-text HTTP access will...]]></content:encoded>
         </item>
     </channel>
 </rss>

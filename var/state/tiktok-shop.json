@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "273eaa409ee92ba66952f3303f59b7a1ba036fac5b15cc40ca83916a951aede8",
-            "lastSeenAt": "2026-08-04T03:14:55+00:00"
+            "contentHash": "a9f51486cbb96993b66503b0f658e38956ad159f0e023454ea07ccc37a407cbf",
+            "lastSeenAt": "2026-08-05T02:55:52+00:00"
         }
     ],
     "items": [
@@ -1197,6 +1197,39 @@
             "link": "https://partner.tiktokshop.com/docv2/page/t8h58fcy",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "xehvl72m",
+            "title": "For US Market: Warehouse ID in Get Package Detail API",
+            "description": "# Overview TikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed. This update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. | Item | Scope | | --- | --- | | Market | US | | Audience | Apps that integrate ...",
+            "contentHash": "ef38c886fe62b206e995eea52f2df061f70c81d0721fbd8b74166074d138b68d",
+            "pubDate": "2026-08-05T02:41:29+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xehvl72m",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "a1wu1nlb",
+            "title": "For All Markets: Identify Temporary Listings in Order APIs",
+            "description": "# Overview This response-only enhancement is available to apps that retrieve order data through the Get Order List and Get Order Detail APIs. It does not change API requests or existing order workflows. | Item | Details | | --- | --- | | **Availability** | All markets, since July 30, 2026 | | **Change type** | Non-breaking, additive response field | | **Affected apps** | Order management, shipping, warehouse management, and other apps that need to distinguish temporary listing SKUs | | **Develop...",
+            "contentHash": "67d90d8e1ac531a8fa9c03e0844e0607dff9296051efc317d084c237cc5941cc",
+            "pubDate": "2026-08-05T02:21:44+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/a1wu1nlb",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "kgigtxr7",
+            "title": "2026 July TikTok Shop API Updates Summary",
+            "description": "Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...",
+            "contentHash": "e5f098d4f5ba75bc968b08017cc880ebfbd964c003b20502f1ca0c11c7c0aaad",
+            "pubDate": "2026-08-04T08:52:53+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/kgigtxr7",
+            "keywords": [
+                ""
             ]
         }
     ]
