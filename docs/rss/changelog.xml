@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 05 Aug 2026 02:55:52 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 03:13:23 +0000</lastBuildDate>
+        <item>
+            <title>For Japan: New Customs Information APIs for Fulfillment</title>
+            <link>https://partner.tiktokshop.com/docv2/page/9ohh0qnw</link>
+            <description><![CDATA[# Overview **Effective date: July 24, 2026.** On July 24, 2026, TikTok Shop introduced two fulfillment APIs in **API version** **`v202607`** for apps that handle customs information in the Japan order fulfillment flow. The APIs let your app determine whether an order requires customs information and submit item-level composition data before package fulfillment. This change applies to ERP, warehouse management system (WMS), and fulfillment apps that process applicable TikTok Shop orders. The two ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">9ohh0qnw#28b30720</guid>
+            <pubDate>Wed, 05 Aug 2026 06:28:07 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview **Effective date: July 24, 2026.** On July 24, 2026, TikTok Shop introduced two fulfillment APIs in **API version** **`v202607`** for apps that handle customs information in the Japan order fulfillment flow. The APIs let your app determine whether an order requires customs information and submit item-level composition data before package fulfillment. This change applies to ERP, warehouse management system (WMS), and fulfillment apps that process applicable TikTok Shop orders. The two ...]]></content:encoded>
+        </item>
         <item>
             <title>For US Market: Warehouse ID in Get Package Detail API</title>
             <link>https://partner.tiktokshop.com/docv2/page/xehvl72m</link>
@@ -20,7 +29,7 @@
             <link>https://partner.tiktokshop.com/docv2/page/a1wu1nlb</link>
             <description><![CDATA[# Overview This response-only enhancement is available to apps that retrieve order data through the Get Order List and Get Order Detail APIs. It does not change API requests or existing order workflows. | Item | Details | | --- | --- | | **Availability** | All markets, since July 30, 2026 | | **Change type** | Non-breaking, additive response field | | **Affected apps** | Order management, shipping, warehouse management, and other apps that need to distinguish temporary listing SKUs | | **Develop...]]></description>
             <category>New</category>
-            <guid isPermaLink="false">a1wu1nlb#67d90d8e</guid>
+            <guid isPermaLink="false">a1wu1nlb#b3c9253d</guid>
             <pubDate>Wed, 05 Aug 2026 02:21:44 +0000</pubDate>
             <content:encoded><![CDATA[# Overview This response-only enhancement is available to apps that retrieve order data through the Get Order List and Get Order Detail APIs. It does not change API requests or existing order workflows. | Item | Details | | --- | --- | | **Availability** | All markets, since July 30, 2026 | | **Change type** | Non-breaking, additive response field | | **Affected apps** | Order management, shipping, warehouse management, and other apps that need to distinguish temporary listing SKUs | | **Develop...]]></content:encoded>
         </item>
@@ -29,7 +38,7 @@
             <link>https://partner.tiktokshop.com/docv2/page/kgigtxr7</link>
             <description><![CDATA[Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...]]></description>
             <category></category>
-            <guid isPermaLink="false">kgigtxr7#e5f098d4</guid>
+            <guid isPermaLink="false">kgigtxr7#4238fad8</guid>
             <pubDate>Tue, 04 Aug 2026 08:52:53 +0000</pubDate>
             <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...]]></content:encoded>
         </item>
@@ -92,11 +101,11 @@
             <content:encoded><![CDATA[# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...]]></content:encoded>
         </item>
         <item>
-            <title>New Function：POD Customization Config APIs</title>
+            <title>US Market New Function：POD Customization Config APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/ct8iyu95</link>
             <description><![CDATA[TikTok Shop now supports configuring Print-on-Demand (POD) customization for Made-to-Order (MTO) products through the Product APIs. ISVs and seller applications can upload customization assets, submit template configurations, and retrieve the saved configuration programmatically. With this capability, an integration can: * Upload background, mask, and default customization images. * Associate one or more SKUs with a POD template. * Define product surfaces and ordered image or text customization ...]]></description>
             <category>Coming Soon</category>
-            <guid isPermaLink="false">ct8iyu95#cf3983b8</guid>
+            <guid isPermaLink="false">ct8iyu95#502982f0</guid>
             <pubDate>Mon, 20 Jul 2026 14:09:29 +0000</pubDate>
             <content:encoded><![CDATA[TikTok Shop now supports configuring Print-on-Demand (POD) customization for Made-to-Order (MTO) products through the Product APIs. ISVs and seller applications can upload customization assets, submit template configurations, and retrieve the saved configuration programmatically. With this capability, an integration can: * Upload background, mask, and default customization images. * Associate one or more SKUs with a POD template. * Define product surfaces and ordered image or text customization ...]]></content:encoded>
         </item>
@@ -279,16 +288,6 @@
             <guid isPermaLink="false">p48h74af#4cde072d</guid>
             <pubDate>Mon, 15 Jun 2026 06:02:03 +0000</pubDate>
             <content:encoded><![CDATA[## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets : Deprecating the Creator Search Affiliate Trace Orders API</title>
-            <link>https://partner.tiktokshop.com/docv2/page/si5r1bv3</link>
-            <description><![CDATA[# Summary The [Creator Search Affiliate Trace Orders](https://partner.tiktokshop.com/docv2/page/creator-search-affiliate-trace-orders-202505) API will be fully retired on 2026-08-15 **;** all partners must complete migration before this date to avoid integration failures. This API allowed partners to retrieve a list of affiliate orders generated by a creator, returning the order ID and product ID, so that partners could track affiliate conversions on behalf of a creator. Going forward, developer...]]></description>
-            <category>Breaking Change</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">si5r1bv3#d18f7351</guid>
-            <pubDate>Thu, 11 Jun 2026 09:29:30 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary The [Creator Search Affiliate Trace Orders](https://partner.tiktokshop.com/docv2/page/creator-search-affiliate-trace-orders-202505) API will be fully retired on 2026-08-15 **;** all partners must complete migration before this date to avoid integration failures. This API allowed partners to retrieve a list of affiliate orders generated by a creator, returning the order ID and product ID, so that partners could track affiliate conversions on behalf of a creator. Going forward, developer...]]></content:encoded>
         </item>
     </channel>
 </rss>
