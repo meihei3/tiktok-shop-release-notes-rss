@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1bce0a366db695f6b4660e38cee913759628c437b4b7e02fb57b1b0ccced46f9",
-            "lastSeenAt": "2026-08-10T02:11:59+00:00"
+            "contentHash": "404fd035da0b623638583330a694ec53db10d9769f4426ffdb43b3e2ddeec87c",
+            "lastSeenAt": "2026-08-11T02:06:32+00:00"
         }
     ],
     "items": [
@@ -1239,6 +1239,17 @@
             "contentHash": "28b307206aaf0c78a32cbc5108e9d76908a8a2570823b1a25f04519560011b2a",
             "pubDate": "2026-08-05T06:28:07+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/9ohh0qnw",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "lnhl0afk",
+            "title": "For the US Market: Introducing 4PL Express Shipping",
+            "description": "**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...",
+            "contentHash": "2b7c3429435e6830d989614c272b6bd604db484733959a66e843ea0668c8c05a",
+            "pubDate": "2026-08-10T10:17:57+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/lnhl0afk",
             "keywords": [
                 "New"
             ]

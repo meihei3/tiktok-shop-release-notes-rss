@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 10 Aug 2026 02:11:59 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 02:06:32 +0000</lastBuildDate>
+        <item>
+            <title>For the US Market: Introducing 4PL Express Shipping</title>
+            <link>https://partner.tiktokshop.com/docv2/page/lnhl0afk</link>
+            <description><![CDATA[**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">lnhl0afk#2b7c3429</guid>
+            <pubDate>Mon, 10 Aug 2026 10:17:57 +0000</pubDate>
+            <content:encoded><![CDATA[**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...]]></content:encoded>
+        </item>
         <item>
             <title>For Japan: New Customs Information APIs for Fulfillment</title>
             <link>https://partner.tiktokshop.com/docv2/page/9ohh0qnw</link>
@@ -277,17 +286,6 @@
             <guid isPermaLink="false">75s7dxwb#57dfa2fe</guid>
             <pubDate>Mon, 15 Jun 2026 06:30:41 +0000</pubDate>
             <content:encoded><![CDATA[# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets : Get Payments API — Migrate from 202309 to 202605</title>
-            <link>https://partner.tiktokshop.com/docv2/page/p48h74af</link>
-            <description><![CDATA[## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...]]></description>
-            <category>Breaking Change</category>
-            <category> Action Required</category>
-            <category>Updated</category>
-            <guid isPermaLink="false">p48h74af#4cde072d</guid>
-            <pubDate>Mon, 15 Jun 2026 06:02:03 +0000</pubDate>
-            <content:encoded><![CDATA[## 1. Summary The **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on 2026-08-15. All ISVs must migrate to **202605** by this date. **Key Deadline — Sunset Date: 2026-08-15.*...]]></content:encoded>
         </item>
     </channel>
 </rss>
