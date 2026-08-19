@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "415ec7404b69e5ef65481aae86f4093a0a03a50b69141ee1e827696020c34ac0",
-            "lastSeenAt": "2026-08-18T01:35:55+00:00"
+            "contentHash": "fbd12e2b79591be66b3a9bf2f37bed51a9ab2c5efd821a892ab24610fc374ace",
+            "lastSeenAt": "2026-08-19T01:37:53+00:00"
         }
     ],
     "items": [
@@ -1252,6 +1252,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/lnhl0afk",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "e119x000",
+            "title": "For Thailand Market: TIS Related Changes for Slime & Squishy Toys and Stress Relief Toys Categories",
+            "description": "# What is changing? Starting from 15 September 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for Slime & Squishy Toys and Stress Relief Toys categories. This information will be put into the \"certifications\" parameter in the API. TIS Standard Number and TIS License Number will also be changed from optional to mandatory attributes for these two categories. # Whic...",
+            "contentHash": "c6a6eeb4ee25b272b72ed2856065ea80076f9d2fc0ee60b1c9274689c193a1e9",
+            "pubDate": "2026-08-18T03:59:44+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/e119x000",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]

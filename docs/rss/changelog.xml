@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 18 Aug 2026 01:35:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 19 Aug 2026 01:37:53 +0000</lastBuildDate>
+        <item>
+            <title>For Thailand Market: TIS Related Changes for Slime &amp;amp; Squishy Toys and Stress Relief Toys Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/e119x000</link>
+            <description><![CDATA[# What is changing? Starting from 15 September 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for Slime & Squishy Toys and Stress Relief Toys categories. This information will be put into the "certifications" parameter in the API. TIS Standard Number and TIS License Number will also be changed from optional to mandatory attributes for these two categories. # Whic...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">e119x000#c6a6eeb4</guid>
+            <pubDate>Tue, 18 Aug 2026 03:59:44 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting from 15 September 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for Slime & Squishy Toys and Stress Relief Toys categories. This information will be put into the "certifications" parameter in the API. TIS Standard Number and TIS License Number will also be changed from optional to mandatory attributes for these two categories. # Whic...]]></content:encoded>
+        </item>
         <item>
             <title>For the US Market: Introducing 4PL Express Shipping</title>
             <link>https://partner.tiktokshop.com/docv2/page/lnhl0afk</link>
@@ -277,15 +287,6 @@
             <guid isPermaLink="false">p9x5je85#e6da651a</guid>
             <pubDate>Mon, 15 Jun 2026 10:15:55 +0000</pubDate>
             <content:encoded><![CDATA[# 1. Overview To improve platform data security and ensure fair use of the Open API, the API Gateway will introduce two new control policies: 1. **Sandbox shop rate limiting** — all sandbox shops will be subject to a unified **QPH limit of 1000**. 2. **Inactive seller/shop access control** — Open API requests from shops or sellers in inactive states will be rejected. Both changes apply at the API Gateway layer and affect how ISV integrations behave under the listed conditions. # 2. What Is Chang...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets :  Target Collaboration Conflict Pre-Check &amp;amp; Resolution Feature</title>
-            <link>https://partner.tiktokshop.com/docv2/page/75s7dxwb</link>
-            <description><![CDATA[# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">75s7dxwb#57dfa2fe</guid>
-            <pubDate>Mon, 15 Jun 2026 06:30:41 +0000</pubDate>
-            <content:encoded><![CDATA[# 1. Overview Today, when an ISV creates a target (open) collaboration, it calls [Create Open Collaboration](https://partner.tiktokshop.com/docv2/page/create-open-collaboration-202309) directly and only learns the outcome from the response. Because the creation endpoint enforces a set of business rules (including conflicts with existing target collaborations on the same creator + product), creation **frequently fails**, forcing ISVs into a trial-and-error loop and putting unnecessary load on the...]]></content:encoded>
         </item>
     </channel>
 </rss>
