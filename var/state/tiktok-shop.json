@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "fbd12e2b79591be66b3a9bf2f37bed51a9ab2c5efd821a892ab24610fc374ace",
-            "lastSeenAt": "2026-08-19T01:37:53+00:00"
+            "contentHash": "174e6046821fbcfbf9e5376245ab55eee83092fec249c60e719141481c2230d3",
+            "lastSeenAt": "2026-08-20T01:36:29+00:00"
         }
     ],
     "items": [
@@ -1264,6 +1264,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "todhou0d",
+            "title": "Optional source-platform product context added to Recommend Category API",
+            "description": "# Summary ## What is changing The Recommend Category API now accepts five new optional request fields that allow developers to provide product information from the source platform: * `origin_platform_product_type` * `origin_platform_vendor` * `origin_platform_tags` * `origin_platform_category` * `origin_platform_product_meta_data` ## Why this is changing This update allows catalog synchronization and cross-platform listing integrations to include additional source-platform context when requestin...",
+            "contentHash": "bb54e9f2d6ed829b09e3f166786f335260f752921fe16aa0b347032c9a52b4f7",
+            "pubDate": "2026-08-19T14:25:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/todhou0d",
+            "keywords": [
+                "New"
             ]
         }
     ]
