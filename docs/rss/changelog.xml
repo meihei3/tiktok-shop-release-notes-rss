@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 21 Aug 2026 01:41:30 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 01:35:03 +0000</lastBuildDate>
+        <item>
+            <title>For All Market  New Affiliate Seller APIs: Creator Outreach Quota, Creator Promotion Performance, and Affiliate IM Inbox Management</title>
+            <link>https://partner.tiktokshop.com/docv2/page/g97fzz79</link>
+            <description><![CDATA[## Summary We have released 6 new Affiliate seller APIs and upgraded 4 existing ones. Sellers and ISVs can now check the outreach quota before reaching out to creators, collect outreach results afterwards, drill down into a creator's promotion performance product by product inside a target collaboration, and manage the Affiliate IM inbox with starring, archiving, and category counts. Upload Message Image V2 also fixes the issue where images uploaded by US cross-border sellers through the previou...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">g97fzz79#c08ecb4a</guid>
+            <pubDate>Fri, 21 Aug 2026 12:19:52 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary We have released 6 new Affiliate seller APIs and upgraded 4 existing ones. Sellers and ISVs can now check the outreach quota before reaching out to creators, collect outreach results afterwards, drill down into a creator's promotion performance product by product inside a target collaboration, and manage the Affiliate IM inbox with starring, archiving, and category counts. Upload Message Image V2 also fixes the issue where images uploaded by US cross-border sellers through the previou...]]></content:encoded>
+        </item>
         <item>
             <title>Optional source-platform product context added to Recommend Category API</title>
             <link>https://partner.tiktokshop.com/docv2/page/todhou0d</link>
@@ -276,16 +285,6 @@
             <guid isPermaLink="false">cobygjha#c055d30a</guid>
             <pubDate>Thu, 02 Jul 2026 04:03:00 +0000</pubDate>
             <content:encoded><![CDATA[**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Thailand market: Set Fda Food Registration Number On Product Label as a Mandatory Qualification for Rice Category</title>
-            <link>https://partner.tiktokshop.com/docv2/page/5pylr6nx</link>
-            <description><![CDATA[# What is changing? Starting from 31 July 2026, partners will be required to set Fda Food Registration Number On Product Label as a mandatory qualification when listing or editing products by using API for Rice Category (Category ID: 917896). “Product Label” information will be put into "certifications" parameter and its image URI will be put to the place "certifications->images->uri". # Which markets are affected? The updates of the requirements apply to local to local sellers in the Thailand m...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">5pylr6nx#aa71145d</guid>
-            <pubDate>Sun, 28 Jun 2026 14:15:59 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 31 July 2026, partners will be required to set Fda Food Registration Number On Product Label as a mandatory qualification when listing or editing products by using API for Rice Category (Category ID: 917896). “Product Label” information will be put into "certifications" parameter and its image URI will be put to the place "certifications->images->uri". # Which markets are affected? The updates of the requirements apply to local to local sellers in the Thailand m...]]></content:encoded>
         </item>
     </channel>
 </rss>
