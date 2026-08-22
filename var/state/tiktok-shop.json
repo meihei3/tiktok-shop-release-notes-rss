@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1e4fafb546333cd15d63e5026659f5bbdf89ec85ddb536e8a85ed3102d98fe7a",
-            "lastSeenAt": "2026-08-21T01:41:30+00:00"
+            "contentHash": "e6f98370ddc45da8554bb597e32463a1f9332be52650a4371871d0ec699fa094",
+            "lastSeenAt": "2026-08-22T01:35:03+00:00"
         }
     ],
     "items": [
@@ -1273,6 +1273,17 @@
             "contentHash": "bb54e9f2d6ed829b09e3f166786f335260f752921fe16aa0b347032c9a52b4f7",
             "pubDate": "2026-08-19T14:25:21+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/todhou0d",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "g97fzz79",
+            "title": "For All Market  New Affiliate Seller APIs: Creator Outreach Quota, Creator Promotion Performance, and Affiliate IM Inbox Management",
+            "description": "## Summary We have released 6 new Affiliate seller APIs and upgraded 4 existing ones. Sellers and ISVs can now check the outreach quota before reaching out to creators, collect outreach results afterwards, drill down into a creator's promotion performance product by product inside a target collaboration, and manage the Affiliate IM inbox with starring, archiving, and category counts. Upload Message Image V2 also fixes the issue where images uploaded by US cross-border sellers through the previou...",
+            "contentHash": "c08ecb4af09a9625f83ad0cd2a5f4c0f9dd7f473149377aae7d7d5be1ea84e2f",
+            "pubDate": "2026-08-21T12:19:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/g97fzz79",
             "keywords": [
                 "New"
             ]
