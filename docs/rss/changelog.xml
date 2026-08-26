@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 25 Aug 2026 01:37:11 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 01:41:52 +0000</lastBuildDate>
+        <item>
+            <title>US &amp;amp; EMEA Markets: Get Review Decisions API (NEW)</title>
+            <link>https://partner.tiktokshop.com/docv2/page/k9sj1xw5</link>
+            <description><![CDATA[**Effective date:** Aug 24, 2026 ## What's changing For returns decision management, TikTok has released a new endpoint called **Get Review Decisions API**, which allows sellers to evaluate which seller decisions are currently allowed for the specified aftersales request. The API returns one result per requested decision, including whether the decision is currently eligible and any rejection reasons that are applicable for an eligible reject decision. ***How is this different from the existing**...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">k9sj1xw5#553451d4</guid>
+            <pubDate>Tue, 25 Aug 2026 03:05:24 +0000</pubDate>
+            <content:encoded><![CDATA[**Effective date:** Aug 24, 2026 ## What's changing For returns decision management, TikTok has released a new endpoint called **Get Review Decisions API**, which allows sellers to evaluate which seller decisions are currently allowed for the specified aftersales request. The API returns one result per requested decision, including whether the decision is currently eligible and any rejection reasons that are applicable for an eligible reject decision. ***How is this different from the existing**...]]></content:encoded>
+        </item>
         <item>
             <title>For All Market  New Affiliate Seller APIs: Creator Outreach Quota, Creator Promotion Performance, and Affiliate IM Inbox Management</title>
             <link>https://partner.tiktokshop.com/docv2/page/g97fzz79</link>
@@ -276,15 +285,6 @@
             <guid isPermaLink="false">wqmuutis#6206d15c</guid>
             <pubDate>Thu, 02 Jul 2026 14:58:43 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting from 5 August 2026, partners will be required to provide TIS(Thai Industrial Standard) mandatory product attributes when listing or editing products by using API under the following categories in the list: | Category Name | Category Id | Mandatory Attribute Name | Attribute Id | | --- | --- | --- | --- | | Hair Dryers | 874376 | TIS License No. | 103637 | | | | TIS License URL | 103636 | | Power Banks | 910728 | TIS License No. | 103637 | | | | TIS License URL | 1036...]]></content:encoded>
-        </item>
-        <item>
-            <title>For the US Market: Masking Recipient Phone Number and Address for 4PL Orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/cobygjha</link>
-            <description><![CDATA[**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">cobygjha#c055d30a</guid>
-            <pubDate>Thu, 02 Jul 2026 04:03:00 +0000</pubDate>
-            <content:encoded><![CDATA[**Tentative launch timing:** Mid-August 2026 **Markets:** US **Scope:** 4PL orders (TikTok-managed shipping) **Audience:** Apps that read order data from the Order APIs ## Overview TikTok Shop plans to mask the recipient phone number and detailed shipping address for **4PL orders in the US market**. The change is tentatively scheduled for mid-August 2026. The exact effective date will be announced before rollout. The change will apply across all order statuses and affect data returned by the Ord...]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e834b40597639fc976bc0edee919bdf55395117c434cfbe9567c61788b442b49",
-            "lastSeenAt": "2026-08-25T01:37:11+00:00"
+            "contentHash": "1853d6a8ba091af60890cee2562687f03ac84e4e9ee8b588fe4870966f2686c0",
+            "lastSeenAt": "2026-08-26T01:41:52+00:00"
         }
     ],
     "items": [
@@ -1284,6 +1284,17 @@
             "contentHash": "c08ecb4af09a9625f83ad0cd2a5f4c0f9dd7f473149377aae7d7d5be1ea84e2f",
             "pubDate": "2026-08-21T12:19:52+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/g97fzz79",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "k9sj1xw5",
+            "title": "US & EMEA Markets: Get Review Decisions API (NEW)",
+            "description": "**Effective date:** Aug 24, 2026 ## What's changing For returns decision management, TikTok has released a new endpoint called **Get Review Decisions API**, which allows sellers to evaluate which seller decisions are currently allowed for the specified aftersales request. The API returns one result per requested decision, including whether the decision is currently eligible and any rejection reasons that are applicable for an eligible reject decision. ***How is this different from the existing**...",
+            "contentHash": "553451d411143aabb8b2fac87589b8df894c56ccb5d667c9b6cfd5b5ce0f8c28",
+            "pubDate": "2026-08-25T03:05:24+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/k9sj1xw5",
             "keywords": [
                 "New"
             ]
