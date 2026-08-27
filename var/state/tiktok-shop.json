@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1853d6a8ba091af60890cee2562687f03ac84e4e9ee8b588fe4870966f2686c0",
-            "lastSeenAt": "2026-08-26T01:41:52+00:00"
+            "contentHash": "5f029f43068431bd9867eb7e47adea482f8c6505c0b4467abdd643197d8f895d",
+            "lastSeenAt": "2026-08-27T08:38:32+00:00"
         }
     ],
     "items": [
@@ -1297,6 +1297,43 @@
             "link": "https://partner.tiktokshop.com/docv2/page/k9sj1xw5",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "39qm5hge",
+            "title": "Upcoming OpenAPI Update: Structured Size Chart Capabilities",
+            "description": "**Expected availability: September 4, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...",
+            "contentHash": "cc90bf674ff85aafee0408a3a77fb6b09ac4f597b1e13fd78bbd260d3207309a",
+            "pubDate": "2026-08-26T10:17:14+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/39qm5hge",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "dmo81egx",
+            "title": "For Indonesia Market: Add Mandatory Attribute \"Imported Goods\" to All Categories except Digital Category",
+            "description": "# What is changing? Starting from 27 October 2026, partners will be required to provide mandatory product attribute \"Imported Goods\"(Attribute ID `102254`, values `Yes` = `1000058` / `No` = `1000059`) when listing or editing products by using API to all categories except digital category. # Which markets are affected? The updates of the requirements apply to local to local sellers in the Indonesian market. # Who is affected? Developers with applications that use [Create Product](https://partner....",
+            "contentHash": "45d6e46c9cdf5a919acb9f4be93aaf64b562ce489d5058a1cf96c6e3c55e9b61",
+            "pubDate": "2026-08-26T09:18:01+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/dmo81egx",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "6z874qqu",
+            "title": "For EU Markets: Sell Across EU - Global Product APIs (GPA) to Local Replication Architecture",
+            "description": "# What is changing? TikTok Shop is moving the Sell Across EU product model from the legacy Global Product APIs (GPA) to the new Local Replication architecture. This change improves scalability and aligns product management with how EU shops operate. **The legacy GPA model (Global APIs) is scheduled to be deprecated by October 30th, 2026.** GPA vs EU Local Replication (at a glance) | **Area** | **Global Product APIs (GPA)** | **Local Replication architecture** | | --- | --- | --- | | Listing meth...",
+            "contentHash": "3f21ac0f4aee3873fa73140d55f8882b2963cd56a7957b921190be939d0297e6",
+            "pubDate": "2026-08-26T08:11:35+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/6z874qqu",
+            "keywords": [
+                "New",
+                "Action Required",
+                "Breaking Change"
             ]
         }
     ]
