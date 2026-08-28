@@ -5,7 +5,26 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 27 Aug 2026 08:38:32 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 10:50:51 +0000</lastBuildDate>
+        <item>
+            <title>For EU Markets: Product Attribute Changes and New Category Openings Notice</title>
+            <link>https://partner.tiktokshop.com/docv2/page/4t418mt7</link>
+            <description><![CDATA[# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...]]></description>
+            <category>Action Required</category>
+            <guid isPermaLink="false">4t418mt7#a23878b5</guid>
+            <pubDate>Fri, 28 Aug 2026 07:50:53 +0000</pubDate>
+            <content:encoded><![CDATA[# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...]]></content:encoded>
+        </item>
+        <item>
+            <title>For SEA market: Order and Fulfillment API will be changed for In-Store Pickup Business</title>
+            <link>https://partner.tiktokshop.com/docv2/page/fqmbs42f</link>
+            <description><![CDATA[# What is changing? From September 1, 2026, Platform will update order and fulfillment API for in-store pickup business. 1. A new parameter "instore_pickup_sla_time" will be added under the "orders" parameter in response body of [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API. This API is used to get the order information data detail. 2. A new enumeration for existing p...]]></description>
+            <category>Coming Soon</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">fqmbs42f#79786f43</guid>
+            <pubDate>Thu, 27 Aug 2026 09:55:08 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? From September 1, 2026, Platform will update order and fulfillment API for in-store pickup business. 1. A new parameter "instore_pickup_sla_time" will be added under the "orders" parameter in response body of [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API. This API is used to get the order information data detail. 2. A new enumeration for existing p...]]></content:encoded>
+        </item>
         <item>
             <title>Upcoming OpenAPI Update: Structured Size Chart Capabilities</title>
             <link>https://partner.tiktokshop.com/docv2/page/39qm5hge</link>
@@ -267,26 +286,6 @@
             <guid isPermaLink="false">lpel3k3x#bc587d17</guid>
             <pubDate>Wed, 08 Jul 2026 04:03:40 +0000</pubDate>
             <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Malaysia Market: Add Mandatory Attributes to Household Appliances Category</title>
-            <link>https://partner.tiktokshop.com/docv2/page/l013m4r4</link>
-            <description><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide several mandatory product attributes when listing or editing products by using API under Household Appliances category in the list: | **Leaf Category Name** | **Leaf Category Id** | **Attribute Name** | **Attribute Id** | | --- | --- | --- | --- | | Cleaning Equipment | 851080 | Corded/Cordless | 100292 | | Electric Mops | 934152 | Corded/Cordless | 100292 | | Electric Window Cleaners | 601116 | Corded/Cordless...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">l013m4r4#36065d1b</guid>
-            <pubDate>Wed, 08 Jul 2026 03:51:41 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide several mandatory product attributes when listing or editing products by using API under Household Appliances category in the list: | **Leaf Category Name** | **Leaf Category Id** | **Attribute Name** | **Attribute Id** | | --- | --- | --- | --- | | Cleaning Equipment | 851080 | Corded/Cordless | 100292 | | Electric Mops | 934152 | Corded/Cordless | 100292 | | Electric Window Cleaners | 601116 | Corded/Cordless...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA Market: Add  Mandatory Attributes to Baby&amp;amp;Maternity and Automotive&amp;amp;Motorcycle Categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/jvo7fzwt</link>
-            <description><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide two mandatory product attributes "Recommended Age" and "Baby Life Stage" to Baby & Maternity category, another two mandatory product attributes "Applicable Brand" and "Model" to Automotive & Motorcycle category. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in SEA market. # Who is affected? Developers with applications that use [Create Product](ht...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">jvo7fzwt#f0cd4bed</guid>
-            <pubDate>Tue, 07 Jul 2026 14:55:32 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 1 August 2026, partners will be required to provide two mandatory product attributes "Recommended Age" and "Baby Life Stage" to Baby & Maternity category, another two mandatory product attributes "Applicable Brand" and "Model" to Automotive & Motorcycle category. # Which markets are affected? The updates of the requirements apply to local to local and cross border sellers in SEA market. # Who is affected? Developers with applications that use [Create Product](ht...]]></content:encoded>
         </item>
     </channel>
 </rss>
