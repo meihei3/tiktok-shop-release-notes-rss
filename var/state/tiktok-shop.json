@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "5f029f43068431bd9867eb7e47adea482f8c6505c0b4467abdd643197d8f895d",
-            "lastSeenAt": "2026-08-27T08:38:32+00:00"
+            "contentHash": "8142f0527e2b8ce72438264625481e6463c95ad2de49da880fe17712077ba017",
+            "lastSeenAt": "2026-08-28T10:50:51+00:00"
         }
     ],
     "items": [
@@ -1334,6 +1334,29 @@
                 "New",
                 "Action Required",
                 "Breaking Change"
+            ]
+        },
+        {
+            "document_path": "4t418mt7",
+            "title": "For EU Markets: Product Attribute Changes and New Category Openings Notice",
+            "description": "# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...",
+            "contentHash": "a23878b52dbff7c7cac84b06a9f59e60adedeb2a846c8531d09cae6f598978f0",
+            "pubDate": "2026-08-28T07:50:53+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/4t418mt7",
+            "keywords": [
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "fqmbs42f",
+            "title": "For SEA market: Order and Fulfillment API will be changed for In-Store Pickup Business",
+            "description": "# What is changing? From September 1, 2026, Platform will update order and fulfillment API for in-store pickup business. 1. A new parameter \"instore_pickup_sla_time\" will be added under the \"orders\" parameter in response body of [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API. This API is used to get the order information data detail. 2. A new enumeration for existing p...",
+            "contentHash": "79786f430ad9ca79a4d57bf7c3f337417101e7b5f65e833732a0dcdd80bcf540",
+            "pubDate": "2026-08-27T09:55:08+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/fqmbs42f",
+            "keywords": [
+                "Coming Soon",
+                "Action Required"
             ]
         }
     ]
