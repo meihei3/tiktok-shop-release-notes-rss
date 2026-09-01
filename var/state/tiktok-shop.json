@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "8142f0527e2b8ce72438264625481e6463c95ad2de49da880fe17712077ba017",
-            "lastSeenAt": "2026-08-31T04:54:45+00:00"
+            "contentHash": "3efdcb38874741244cf67b0b3f54b63cecdff19341cf2ed4b098fa84ae440bd3",
+            "lastSeenAt": "2026-09-01T04:33:57+00:00"
         }
     ],
     "items": [
@@ -1357,6 +1357,17 @@
             "keywords": [
                 "Coming Soon",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "q50o39n1",
+            "title": "Get Product API v202309: New not_submitted_reasons Response Field Added",
+            "description": "# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...",
+            "contentHash": "30f71dd0d0ee13fc2dae07b3b6492c0542ee021d182ae0a66a4972e11c860518",
+            "pubDate": "2026-08-31T08:02:09+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/q50o39n1",
+            "keywords": [
+                "New"
             ]
         }
     ]

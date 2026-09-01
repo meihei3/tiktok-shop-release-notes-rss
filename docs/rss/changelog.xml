@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 31 Aug 2026 04:54:45 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 04:33:57 +0000</lastBuildDate>
+        <item>
+            <title>Get Product API v202309: New not_submitted_reasons Response Field Added</title>
+            <link>https://partner.tiktokshop.com/docv2/page/q50o39n1</link>
+            <description><![CDATA[# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">q50o39n1#30f71dd0</guid>
+            <pubDate>Mon, 31 Aug 2026 08:02:09 +0000</pubDate>
+            <content:encoded><![CDATA[# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...]]></content:encoded>
+        </item>
         <item>
             <title>For EU Markets: Product Attribute Changes and New Category Openings Notice</title>
             <link>https://partner.tiktokshop.com/docv2/page/4t418mt7</link>
@@ -277,15 +286,6 @@
             <guid isPermaLink="false">tm34wba8#126ea921</guid>
             <pubDate>Wed, 08 Jul 2026 04:12:07 +0000</pubDate>
             <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...]]></content:encoded>
-        </item>
-        <item>
-            <title>US &amp;amp; UK Markets: Exchange Orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/lpel3k3x</link>
-            <description><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">lpel3k3x#bc587d17</guid>
-            <pubDate>Wed, 08 Jul 2026 04:03:40 +0000</pubDate>
-            <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to perform an exchange, which is initiated through their return journey within the TikTok application. This allows sellers to save GMV, rather than just giving a refund for a returned item. When a buyer submits an exchange, there are new API fields within the Returns & Orders API that identify an exchange is required. # Impact This is a backward-compatible change and will not require a new API version. Existi...]]></content:encoded>
         </item>
     </channel>
 </rss>
