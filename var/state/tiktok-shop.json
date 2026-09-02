@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "3efdcb38874741244cf67b0b3f54b63cecdff19341cf2ed4b098fa84ae440bd3",
-            "lastSeenAt": "2026-09-01T04:33:57+00:00"
+            "contentHash": "b0cc17b75e306acb325dae72d6907bdfe151b63880450493c4ae1c558cfe6437",
+            "lastSeenAt": "2026-09-02T03:56:46+00:00"
         }
     ],
     "items": [
@@ -1368,6 +1368,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/q50o39n1",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "2ixd0cad",
+            "title": "For GS POP Sellers Shipping to EU Markets: Product Identifier (PID) Attribute Requirement Update",
+            "description": "# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...",
+            "contentHash": "f3fe2e220e2920f73b9bf1ac1fa0d80fd5f01367cd24917a35b6bdfb65e014ce",
+            "pubDate": "2026-09-01T11:37:28+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/2ixd0cad",
+            "keywords": [
+                "New",
+                "Action Required"
             ]
         }
     ]

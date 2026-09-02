@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 01 Sep 2026 04:33:57 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 03:56:46 +0000</lastBuildDate>
+        <item>
+            <title>For GS POP Sellers Shipping to EU Markets: Product Identifier (PID) Attribute Requirement Update</title>
+            <link>https://partner.tiktokshop.com/docv2/page/2ixd0cad</link>
+            <description><![CDATA[# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">2ixd0cad#f3fe2e22</guid>
+            <pubDate>Tue, 01 Sep 2026 11:37:28 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...]]></content:encoded>
+        </item>
         <item>
             <title>Get Product API v202309: New not_submitted_reasons Response Field Added</title>
             <link>https://partner.tiktokshop.com/docv2/page/q50o39n1</link>
@@ -277,15 +287,6 @@
             <guid isPermaLink="false">jli5x787#7f795add</guid>
             <pubDate>Wed, 08 Jul 2026 08:18:12 +0000</pubDate>
             <content:encoded><![CDATA[## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...]]></content:encoded>
-        </item>
-        <item>
-            <title>US &amp;amp; UK Markets: Replacement Orders</title>
-            <link>https://partner.tiktokshop.com/docv2/page/tm34wba8</link>
-            <description><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">tm34wba8#126ea921</guid>
-            <pubDate>Wed, 08 Jul 2026 04:12:07 +0000</pubDate>
-            <content:encoded><![CDATA[**Effective date:** July 8, 2026 ## What's changing TikTok buyers will have the ability to request a replacement shipment, which means they will keep the original item in the event their order has been marked as `delivered` and meets one of the following criteria: * Non-returnable item + seller fault (damaged items/packaging) * Non-returnable item + DNR (Delivered, not received) * Returnable item + DNR (Delivered, not received) # Impact This is a backward-compatible change and will not require a...]]></content:encoded>
         </item>
     </channel>
 </rss>
