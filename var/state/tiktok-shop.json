@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "6775b4f1cf796c7ad1939187bf7a66227f4786dcc73dcdb00d87e156c0f99aa3",
-            "lastSeenAt": "2026-09-03T03:55:13+00:00"
+            "contentHash": "b012317b8010720bf665bff2931bc07afab0cc8cc8319b5a5f011c1b698505ed",
+            "lastSeenAt": "2026-09-04T03:57:24+00:00"
         }
     ],
     "items": [
@@ -1377,6 +1377,18 @@
             "contentHash": "f3fe2e220e2920f73b9bf1ac1fa0d80fd5f01367cd24917a35b6bdfb65e014ce",
             "pubDate": "2026-09-01T11:37:28+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/2ixd0cad",
+            "keywords": [
+                "New",
+                "Action Required"
+            ]
+        },
+        {
+            "document_path": "h6c7xadr",
+            "title": "For UK & EU markets: Dangerous Goods (DG) Compliance Requirements ",
+            "description": "# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...",
+            "contentHash": "b74a284c96bd35d9de000002c78b826c816cd0112a31b05373e12a88390bcdf1",
+            "pubDate": "2026-09-03T14:10:48+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/h6c7xadr",
             "keywords": [
                 "New",
                 "Action Required"

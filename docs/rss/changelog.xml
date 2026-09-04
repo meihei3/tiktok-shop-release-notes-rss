@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 03 Sep 2026 03:55:13 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2026 03:57:24 +0000</lastBuildDate>
+        <item>
+            <title>For UK &amp;amp; EU markets: Dangerous Goods (DG) Compliance Requirements </title>
+            <link>https://partner.tiktokshop.com/docv2/page/h6c7xadr</link>
+            <description><![CDATA[# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...]]></description>
+            <category>New</category>
+            <category>Action Required</category>
+            <guid isPermaLink="false">h6c7xadr#b74a284c</guid>
+            <pubDate>Thu, 03 Sep 2026 14:10:48 +0000</pubDate>
+            <content:encoded><![CDATA[# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...]]></content:encoded>
+        </item>
         <item>
             <title>For GS POP Sellers Shipping to EU Markets: Product Identifier (PID) Attribute Requirement Update</title>
             <link>https://partner.tiktokshop.com/docv2/page/2ixd0cad</link>
@@ -278,15 +288,6 @@
             <guid isPermaLink="false">xbd5dfga#8cd50f69</guid>
             <pubDate>Wed, 08 Jul 2026 08:55:46 +0000</pubDate>
             <content:encoded><![CDATA[# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets : New properties added to Finance transaction APIs</title>
-            <link>https://partner.tiktokshop.com/docv2/page/jli5x787</link>
-            <description><![CDATA[## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...]]></description>
-            <category></category>
-            <guid isPermaLink="false">jli5x787#7f795add</guid>
-            <pubDate>Wed, 08 Jul 2026 08:18:12 +0000</pubDate>
-            <content:encoded><![CDATA[## Overview Three Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are: * **Get Transactions by Order** * **Get Transactions by Statement** * **Get Unsettled Transaction** In summary, the three new properties are: * **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant. * **cps_shop_ads_commission_tax_amount** — the tax c...]]></content:encoded>
         </item>
     </channel>
 </rss>
