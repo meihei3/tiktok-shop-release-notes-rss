@@ -5,7 +5,25 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sat, 05 Sep 2026 03:54:48 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 06 Sep 2026 03:59:59 +0000</lastBuildDate>
+        <item>
+            <title>For All markets：New auction_support_type Field to Control Auction Product Support</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xiqhn3o4</link>
+            <description><![CDATA[# **Summary** The Promotion Activity APIs add one optional field, `auction_support_type`, which declares whether a promotion activity applies to auction products in addition to normal products. It is accepted as an optional request field on Create / Update Promotion Activity and returned on Get Activity / Search Promotion Activities. ## Impact | Item | Detail | | --- | --- | | Impacted endpoints | **Request (new optional field)**: Create Promotion Activity (`POST /promotion/202309/activities`), ...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">xiqhn3o4#589b5f28</guid>
+            <pubDate>Sat, 05 Sep 2026 08:38:29 +0000</pubDate>
+            <content:encoded><![CDATA[# **Summary** The Promotion Activity APIs add one optional field, `auction_support_type`, which declares whether a promotion activity applies to auction products in addition to normal products. It is accepted as an optional request field on Create / Update Promotion Activity and returned on Get Activity / Search Promotion Activities. ## Impact | Item | Detail | | --- | --- | | Impacted endpoints | **Request (new optional field)**: Create Promotion Activity (`POST /promotion/202309/activities`), ...]]></content:encoded>
+        </item>
+        <item>
+            <title>2026 August TikTok Shop API Updates Summary</title>
+            <link>https://partner.tiktokshop.com/docv2/page/1nj6l9ok</link>
+            <description><![CDATA[Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...]]></description>
+            <category>NEW</category>
+            <guid isPermaLink="false">1nj6l9ok#3d1c7e59</guid>
+            <pubDate>Sat, 05 Sep 2026 07:10:12 +0000</pubDate>
+            <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...]]></content:encoded>
+        </item>
         <item>
             <title>For UK &amp;amp; EU markets: Dangerous Goods (DG) Compliance Requirements </title>
             <link>https://partner.tiktokshop.com/docv2/page/h6c7xadr</link>
@@ -270,24 +288,6 @@
             <guid isPermaLink="false">mdpqmff0#e404792f</guid>
             <pubDate>Thu, 09 Jul 2026 12:52:25 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? TikTok Shop is adding customer purchase limit configuration to Product APIs. This allows sellers and partners to configure product-level purchase limits through API, instead of relying only on Seller Center PC settings. The change aligns API capabilities with the existing Seller Center PC experience and helps partners such as ERP / integration platforms keep their product templates, downstream systems, and TikTok Shop product rules consistent. ### Which APIs are affected? | A...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets: Create FBT MCF Order Request Parameter district_or_county now optional</title>
-            <link>https://partner.tiktokshop.com/docv2/page/dinqyhzz</link>
-            <description><![CDATA[# 1. Overview This release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**. Previously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side. # 2. Change Details | **A...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">dinqyhzz#281b3146</guid>
-            <pubDate>Wed, 08 Jul 2026 09:12:11 +0000</pubDate>
-            <content:encoded><![CDATA[# 1. Overview This release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**. Previously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side. # 2. Change Details | **A...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Indonesia Market:  Get Toko Product Mappers API Release </title>
-            <link>https://partner.tiktokshop.com/docv2/page/xbd5dfga</link>
-            <description><![CDATA[# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">xbd5dfga#8cd50f69</guid>
-            <pubDate>Wed, 08 Jul 2026 08:55:46 +0000</pubDate>
-            <content:encoded><![CDATA[# 1. Overview This release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services. Previously, partners serving Toko affiliate rebate channels had no reliable way...]]></content:encoded>
         </item>
     </channel>
 </rss>

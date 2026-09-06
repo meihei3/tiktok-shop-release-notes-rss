@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b012317b8010720bf665bff2931bc07afab0cc8cc8319b5a5f011c1b698505ed",
-            "lastSeenAt": "2026-09-05T03:54:48+00:00"
+            "contentHash": "f2ae9320f29b24239674519acd5cc1fc68033919791bb9e74dc42a97acad2c20",
+            "lastSeenAt": "2026-09-06T03:59:59+00:00"
         }
     ],
     "items": [
@@ -1392,6 +1392,28 @@
             "keywords": [
                 "New",
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "xiqhn3o4",
+            "title": "For All markets：New auction_support_type Field to Control Auction Product Support",
+            "description": "# **Summary** The Promotion Activity APIs add one optional field, `auction_support_type`, which declares whether a promotion activity applies to auction products in addition to normal products. It is accepted as an optional request field on Create / Update Promotion Activity and returned on Get Activity / Search Promotion Activities. ## Impact | Item | Detail | | --- | --- | | Impacted endpoints | **Request (new optional field)**: Create Promotion Activity (`POST /promotion/202309/activities`), ...",
+            "contentHash": "589b5f28dd43a155671221ae0041b27867b8995fffc6a08224c85508436c0b6f",
+            "pubDate": "2026-09-05T08:38:29+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xiqhn3o4",
+            "keywords": [
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "1nj6l9ok",
+            "title": "2026 August TikTok Shop API Updates Summary",
+            "description": "Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...",
+            "contentHash": "3d1c7e59e5c1698f8cc56aaa22057fef7539ed06dac5d198ba9ef00d51616bc7",
+            "pubDate": "2026-09-05T07:10:12+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/1nj6l9ok",
+            "keywords": [
+                "NEW"
             ]
         }
     ]
