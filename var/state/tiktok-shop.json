@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "20a21f1be6613bab3cbe71a5d8784b3967f5ce2f39f169e05c46d97bdf2c15d1",
-            "lastSeenAt": "2026-09-08T04:01:01+00:00"
+            "contentHash": "285cbd1dd56d6b7bbea0335db635103c9c732bef714a3df987967d3736a5b251",
+            "lastSeenAt": "2026-09-09T04:07:55+00:00"
         }
     ],
     "items": [
@@ -1302,8 +1302,8 @@
         {
             "document_path": "39qm5hge",
             "title": "Upcoming OpenAPI Update: Structured Size Chart Capabilities",
-            "description": "**Expected availability: September 4, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...",
-            "contentHash": "cc90bf674ff85aafee0408a3a77fb6b09ac4f597b1e13fd78bbd260d3207309a",
+            "description": "**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...",
+            "contentHash": "1c780b0f78e3fda5da583b4b9ee7e2e1aea3492109968b20ac2c29704cf0da30",
             "pubDate": "2026-08-26T10:17:14+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/39qm5hge",
             "keywords": [
