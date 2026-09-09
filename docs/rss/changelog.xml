@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 08 Sep 2026 04:01:01 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 04:07:55 +0000</lastBuildDate>
         <item>
             <title>For All markets：New auction_support_type Field to Control Auction Product Support</title>
             <link>https://partner.tiktokshop.com/docv2/page/xiqhn3o4</link>
@@ -75,12 +75,12 @@
         <item>
             <title>Upcoming OpenAPI Update: Structured Size Chart Capabilities</title>
             <link>https://partner.tiktokshop.com/docv2/page/39qm5hge</link>
-            <description><![CDATA[**Expected availability: September 4, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></description>
+            <description><![CDATA[**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></description>
             <category>Coming Soon</category>
             <category>Action Required</category>
-            <guid isPermaLink="false">39qm5hge#cc90bf67</guid>
+            <guid isPermaLink="false">39qm5hge#1c780b0f</guid>
             <pubDate>Wed, 26 Aug 2026 10:17:14 +0000</pubDate>
-            <content:encoded><![CDATA[**Expected availability: September 4, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></content:encoded>
+            <content:encoded><![CDATA[**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></content:encoded>
         </item>
         <item>
             <title>For Indonesia Market: Add Mandatory Attribute &amp;quot;Imported Goods&amp;quot; to All Categories except Digital Category</title>
