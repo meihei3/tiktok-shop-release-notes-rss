@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "285cbd1dd56d6b7bbea0335db635103c9c732bef714a3df987967d3736a5b251",
-            "lastSeenAt": "2026-09-09T04:07:55+00:00"
+            "contentHash": "9f84a068272f9cc9beed864064c538afbd0d20d4cf4972137d076e09a25de0ad",
+            "lastSeenAt": "2026-09-10T04:05:38+00:00"
         }
     ],
     "items": [
@@ -1414,6 +1414,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/1nj6l9ok",
             "keywords": [
                 "NEW"
+            ]
+        },
+        {
+            "document_path": "k0ubfjdt",
+            "title": "Combined Listing: Merge into Variants and API Integration Updates",
+            "description": "Combined Listing now supports **Merge into Variants**, allowing sellers to consolidate same-style products listed under separate links into one main product detail page. New sales and reviews generated through the main listing are aggregated under the main product. Historical sales and reviews are not fully transferred, and orders placed through the original child listings continue to contribute to those child products. [Feature guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1...",
+            "contentHash": "159a111ab779cab71f033ef624cf1fbf9632d612d8b3aa462141187c8c675659",
+            "pubDate": "2026-09-09T16:24:42+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/k0ubfjdt",
+            "keywords": [
+                "New"
             ]
         }
     ]
