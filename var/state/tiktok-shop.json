@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "9f84a068272f9cc9beed864064c538afbd0d20d4cf4972137d076e09a25de0ad",
-            "lastSeenAt": "2026-09-10T04:05:38+00:00"
+            "contentHash": "c0005f53dca847a88a46c4087c70b10201c2428bb0ce3357700f0546e88bb9b5",
+            "lastSeenAt": "2026-09-11T04:03:01+00:00"
         }
     ],
     "items": [
@@ -1425,6 +1425,50 @@
             "link": "https://partner.tiktokshop.com/docv2/page/k0ubfjdt",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "t9vttkxw",
+            "title": "Post Shoppable Photos and Post Shoppable Video APIs: Auction-Only Product Restriction Added",
+            "description": "## Summary Post Shoppable Photos and Post Shoppable Video APIs now validate whether an attached product only supports auction sales. Auction-only products cannot be used in shoppable videos or carousels. Both APIs return the new error code `170001063` when an auction-only product is added. ## What is changing The following validation and error code are added to both APIs. | API | Validation | | --- | --- | | Post Shoppable Photos | Rejects auction-only products attached to shoppable carousels. |...",
+            "contentHash": "74f5b6028404f993303e4db74d9f99de2746252519e0fcb76453062c0efbe9f2",
+            "pubDate": "2026-09-10T13:57:15+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/t9vttkxw",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "57me406k",
+            "title": "Get Opportunity Detail and List Opportunity APIs: New Fields Added",
+            "description": "## Summary Get Opportunity Detail and List Opportunity APIs add new response fields to provide opportunity tag codes and reference product information. Get Opportunity Detail also adds opportunity tags, while List Opportunity adds information about rewards sellers can receive for listing products as required. List Opportunity also supports filtering opportunities by tag codes through a new optional request field, `tag_codes`. ## What is changing **Get Opportunity Detail — 4 new response fields**...",
+            "contentHash": "31e01bb271b60209b9e79b027be60881481573694ac5dcdc56ba6b536efc8862",
+            "pubDate": "2026-09-10T13:43:47+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/57me406k",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "tovst8vl",
+            "title": "For UK and EU Markets: Shipped by Platform - Edit Parcel Dimensions and Weight for Shipping Label Creation",
+            "description": "# What is changing? This update expands the existing **Create Packages** endpoint to **UK and EU** sellers and ISVs. Previously, this endpoint was used by US sellers and ISVs; With this change, UK/EU integrations can use it for shipping label creation and package submission flows. For the updated fulfillment flow, refer to the [Fulfillment API Overview](https://partner.tiktokshop.com/docv2/page/fulfillment-api-overview), specifically the **Purchase shipping** diagram. The change responds to ship...",
+            "contentHash": "a84c138bee3c9faaf9d381a1caab31ffe1f62939950c5a54a880891b941556b9",
+            "pubDate": "2026-09-10T13:23:45+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/tovst8vl",
+            "keywords": [
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "iuhsev4x",
+            "title": "Webhook Egress IP Update",
+            "description": "**Tag**: `Action required` · * **Change type**: no change to the webhook contract * **Effective date**: **2026.8.30** * **What changed**: new egress (source) IP ranges are being added to the infrastructure that delivers TikTok Shop webhooks. * **Who must act**: apps whose webhook endpoint only accepts inbound traffic from an allowlist of TikTok Shop source IPs. * **If you do nothing**: webhooks sent from the new IPs are dropped by your own firewall, so you **silently miss events** — no error is ...",
+            "contentHash": "4f6f2d48fb839c19affa658186f3bfb540bbc487b7e1bddbc81c8eed8b6420b9",
+            "pubDate": "2026-09-10T07:21:57+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/iuhsev4x",
+            "keywords": [
+                "Action Required"
             ]
         }
     ]
