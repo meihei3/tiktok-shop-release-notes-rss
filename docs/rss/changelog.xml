@@ -5,7 +5,35 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 16 Sep 2026 04:18:42 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 04:24:50 +0000</lastBuildDate>
+        <item>
+            <title>Inventory Changed by Shop: New Webhook for SKU Inventory Updates</title>
+            <link>https://partner.tiktokshop.com/docv2/page/nn6csp5o</link>
+            <description><![CDATA[## What is changing? TikTok Shop is introducing the **Inventory Changed by Shop** webhook (`type: 71`) to notify developers when SKU inventory quantities change. This webhook covers inventory changes caused by order creation, cancellation, and shipment; manual adjustments in Seller Center; inventory updates through OpenAPIs; inventory locking and release for marketing campaigns or creator collaborations; and automatic replenishment by the system. Each notification includes: * **Affected product ...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">nn6csp5o#04c29df2</guid>
+            <pubDate>Wed, 16 Sep 2026 10:46:00 +0000</pubDate>
+            <content:encoded><![CDATA[## What is changing? TikTok Shop is introducing the **Inventory Changed by Shop** webhook (`type: 71`) to notify developers when SKU inventory quantities change. This webhook covers inventory changes caused by order creation, cancellation, and shipment; manual adjustments in Seller Center; inventory updates through OpenAPIs; inventory locking and release for marketing campaigns or creator collaborations; and automatic replenishment by the system. Each notification includes: * **Affected product ...]]></content:encoded>
+        </item>
+        <item>
+            <title>Product APIs: Selling Format Support Added for Fixed-Price Sales and LIVE Auctions</title>
+            <link>https://partner.tiktokshop.com/docv2/page/tfdpn5tm</link>
+            <description><![CDATA[## Summary Product APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions. The field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only. ## What is changing **New re...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">tfdpn5tm#3f977d4f</guid>
+            <pubDate>Wed, 16 Sep 2026 10:02:23 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Product APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions. The field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only. ## What is changing **New re...]]></content:encoded>
+        </item>
+        <item>
+            <title>Cancel Order API: Two Buyer-Fault Cancellation Reasons Will Be Removed</title>
+            <link>https://partner.tiktokshop.com/docv2/page/i9eftnnv</link>
+            <description><![CDATA[## Summary Buyer-fault cancellation reasons have already been removed from the seller-initiated cancellation flow in Seller Center, for both standard orders and auction orders. API callers, however, can still attribute a cancellation to two buyer-fault reasons: **Buyer requested cancellation** and **Unable to deliver to buyer address**. Starting **October 31, 2026**, these two reasons will also be removed from the API channel so that API behavior is aligned with Seller Center. From that date, re...]]></description>
+            <category>Updated</category>
+            <category>Breaking Change</category>
+            <guid isPermaLink="false">i9eftnnv#7561efea</guid>
+            <pubDate>Wed, 16 Sep 2026 07:36:03 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Buyer-fault cancellation reasons have already been removed from the seller-initiated cancellation flow in Seller Center, for both standard orders and auction orders. API callers, however, can still attribute a cancellation to two buyer-fault reasons: **Buyer requested cancellation** and **Unable to deliver to buyer address**. Starting **October 31, 2026**, these two reasons will also be removed from the API channel so that API behavior is aligned with Seller Center. From that date, re...]]></content:encoded>
+        </item>
         <item>
             <title>Post Shoppable Photos and Post Shoppable Video APIs: Auction-Only Product Restriction Added</title>
             <link>https://partner.tiktokshop.com/docv2/page/t9vttkxw</link>
@@ -259,34 +287,6 @@
             <guid isPermaLink="false">q6srthav#a21ea983</guid>
             <pubDate>Wed, 29 Jul 2026 03:19:52 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the "certifications" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...]]></content:encoded>
-        </item>
-        <item>
-            <title>For US Market: POD Customization Details Are Now Available</title>
-            <link>https://partner.tiktokshop.com/docv2/page/18u5qdc2</link>
-            <description><![CDATA[| **Market** | US | | --- | --- | | **Audience** | Apps that retrieve and manage order data for US sellers | | **Change type** | Additive, non-breaking API enhancement | # Overview TikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it. This change is additive. Existing apps that ignore unknown...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">18u5qdc2#10a8c347</guid>
-            <pubDate>Fri, 24 Jul 2026 09:32:33 +0000</pubDate>
-            <content:encoded><![CDATA[| **Market** | US | | --- | --- | | **Audience** | Apps that retrieve and manage order data for US sellers | | **Change type** | Additive, non-breaking API enhancement | # Overview TikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it. This change is additive. Existing apps that ignore unknown...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets :  Marketplace Creator API add an optional parameter</title>
-            <link>https://partner.tiktokshop.com/docv2/page/d5oa8gw3</link>
-            <description><![CDATA[# Summary The Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency. # Scope of Impact * **Affected endpoint...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">d5oa8gw3#15bc90b5</guid>
-            <pubDate>Fri, 24 Jul 2026 08:28:26 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary The Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency. # Scope of Impact * **Affected endpoint...]]></content:encoded>
-        </item>
-        <item>
-            <title>Shop Performance Score (SPS) APIs v202606 for US Shops: Five New APIs Added</title>
-            <link>https://partner.tiktokshop.com/docv2/page/3t9j6tz0</link>
-            <description><![CDATA[# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...]]></description>
-            <category>Action Required</category>
-            <category>New</category>
-            <guid isPermaLink="false">3t9j6tz0#752f979e</guid>
-            <pubDate>Tue, 21 Jul 2026 10:03:27 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Five new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues. Apps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not...]]></content:encoded>
         </item>
     </channel>
 </rss>

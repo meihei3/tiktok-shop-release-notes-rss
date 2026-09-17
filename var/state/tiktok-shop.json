@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "20761967c8440d8c1fa1d25ec79e0032838c400fd9d41994e83ac378c46980d5",
-            "lastSeenAt": "2026-09-16T04:18:42+00:00"
+            "contentHash": "71de6eaa20338ba4a085a02191cdb1e10f66b86d6168b7a1ee5a7598cb3e66b6",
+            "lastSeenAt": "2026-09-17T04:24:50+00:00"
         }
     ],
     "items": [
@@ -1469,6 +1469,40 @@
             "link": "https://partner.tiktokshop.com/docv2/page/iuhsev4x",
             "keywords": [
                 "Action Required"
+            ]
+        },
+        {
+            "document_path": "nn6csp5o",
+            "title": "Inventory Changed by Shop: New Webhook for SKU Inventory Updates",
+            "description": "## What is changing? TikTok Shop is introducing the **Inventory Changed by Shop** webhook (`type: 71`) to notify developers when SKU inventory quantities change. This webhook covers inventory changes caused by order creation, cancellation, and shipment; manual adjustments in Seller Center; inventory updates through OpenAPIs; inventory locking and release for marketing campaigns or creator collaborations; and automatic replenishment by the system. Each notification includes: * **Affected product ...",
+            "contentHash": "04c29df2a99e8c14c00cb364b1916ee7d3a1406da76ce16884b75bb8b14819de",
+            "pubDate": "2026-09-16T10:46:00+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/nn6csp5o",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "tfdpn5tm",
+            "title": "Product APIs: Selling Format Support Added for Fixed-Price Sales and LIVE Auctions",
+            "description": "## Summary Product APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions. The field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only. ## What is changing **New re...",
+            "contentHash": "3f977d4f916aeae0a8f57aa99c25ec1feaa55a217093659c8709d36eec632e55",
+            "pubDate": "2026-09-16T10:02:23+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/tfdpn5tm",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "i9eftnnv",
+            "title": "Cancel Order API: Two Buyer-Fault Cancellation Reasons Will Be Removed",
+            "description": "## Summary Buyer-fault cancellation reasons have already been removed from the seller-initiated cancellation flow in Seller Center, for both standard orders and auction orders. API callers, however, can still attribute a cancellation to two buyer-fault reasons: **Buyer requested cancellation** and **Unable to deliver to buyer address**. Starting **October 31, 2026**, these two reasons will also be removed from the API channel so that API behavior is aligned with Seller Center. From that date, re...",
+            "contentHash": "7561efea6cdd77f62ef3d3fa0930831dc5adf497e3d62b57d19e08e7d177aa66",
+            "pubDate": "2026-09-16T07:36:03+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/i9eftnnv",
+            "keywords": [
+                "Updated",
+                "Breaking Change"
             ]
         }
     ]
