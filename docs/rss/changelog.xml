@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 18 Sep 2026 04:08:48 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 04:05:55 +0000</lastBuildDate>
+        <item>
+            <title>Product APIs: Mandatory Wig Material and Conditional Certification Requirements (US)</title>
+            <link>https://partner.tiktokshop.com/docv2/page/ewba9wve</link>
+            <description><![CDATA[# What is changing? Starting **November 21, 2026**, the **Wig material** attribute (ID: `102428`) will become mandatory when creating or editing products in the affected US wig categories through APIs. The attribute is currently optional. This update is intended to improve the accuracy and completeness of wig material information. Developers must collect the material selection and submit any additional information required by that selection: | Wig material | Requirement | | --- | --- | | **Human...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">ewba9wve#867eabef</guid>
+            <pubDate>Fri, 18 Sep 2026 06:55:28 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting **November 21, 2026**, the **Wig material** attribute (ID: `102428`) will become mandatory when creating or editing products in the affected US wig categories through APIs. The attribute is currently optional. This update is intended to improve the accuracy and completeness of wig material information. Developers must collect the material selection and submit any additional information required by that selection: | Wig material | Requirement | | --- | --- | | **Human...]]></content:encoded>
+        </item>
         <item>
             <title>Inventory Changed by Shop: New Webhook for SKU Inventory Updates</title>
             <link>https://partner.tiktokshop.com/docv2/page/nn6csp5o</link>
@@ -277,16 +286,6 @@
             <guid isPermaLink="false">1wqfoc2s#64aad036</guid>
             <pubDate>Wed, 29 Jul 2026 09:13:57 +0000</pubDate>
             <content:encoded><![CDATA[# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Philippines Market: Product Certification for Pest Control Category will to be changed from FPA to FDA</title>
-            <link>https://partner.tiktokshop.com/docv2/page/q6srthav</link>
-            <description><![CDATA[# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the "certifications" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">q6srthav#a21ea983</guid>
-            <pubDate>Wed, 29 Jul 2026 03:19:52 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the "certifications" parameter in the API. # Which markets are affected? The updates of the requirements apply to cross border and local to local sellers in the Philippines market. # Who is affected? Developers with applications...]]></content:encoded>
         </item>
     </channel>
 </rss>

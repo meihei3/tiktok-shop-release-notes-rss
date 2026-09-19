@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "a1ac264c3ad61bd10cde3de51241ebbc08e6d70ef9b5058ff90da819f893f693",
-            "lastSeenAt": "2026-09-18T04:08:48+00:00"
+            "contentHash": "d05b20f9d53ac9df0e7a59cbcbb1232e79c829312054e08f24c329d1c609fedd",
+            "lastSeenAt": "2026-09-19T04:05:54+00:00"
         }
     ],
     "items": [
@@ -1503,6 +1503,17 @@
             "keywords": [
                 "Updated",
                 "Breaking Change"
+            ]
+        },
+        {
+            "document_path": "ewba9wve",
+            "title": "Product APIs: Mandatory Wig Material and Conditional Certification Requirements (US)",
+            "description": "# What is changing? Starting **November 21, 2026**, the **Wig material** attribute (ID: `102428`) will become mandatory when creating or editing products in the affected US wig categories through APIs. The attribute is currently optional. This update is intended to improve the accuracy and completeness of wig material information. Developers must collect the material selection and submit any additional information required by that selection: | Wig material | Requirement | | --- | --- | | **Human...",
+            "contentHash": "867eabeff4535f40044eb67186f65981767031fdc901c657babe5255a295be67",
+            "pubDate": "2026-09-18T06:55:28+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ewba9wve",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
