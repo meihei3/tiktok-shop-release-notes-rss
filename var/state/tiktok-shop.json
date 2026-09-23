@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "95a86bea860dea764ee85bbef15ab341500a0040757ccc9d90b5fe59de30c309",
-            "lastSeenAt": "2026-09-22T04:18:24+00:00"
+            "contentHash": "893f487a11922d98497d69b9c0b9539429d8ece68b1fa4b2dd29e9cd86dbff61",
+            "lastSeenAt": "2026-09-23T04:15:38+00:00"
         }
     ],
     "items": [
@@ -1512,6 +1512,17 @@
             "contentHash": "867eabeff4535f40044eb67186f65981767031fdc901c657babe5255a295be67",
             "pubDate": "2026-09-18T06:55:28+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/ewba9wve",
+            "keywords": [
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "8he1k3et",
+            "title": "Finance Transaction APIs: New Fee & Tax Properties for Growth Package and Auto-Post Shoppable Video",
+            "description": "## Summary Three Finance transaction APIs — **Get Transactions by Order**, **Get Transactions by Statement**, and **Get Unsettled Transactions** — add **8 new response properties** under the existing `fee_tax_breakdown.fee` and `fee_tax_breakdown.tax` objects. Four properties report the fee and sales tax charged for the three new **Smart Promotion Growth Packages** (New Customer / Store GMV / Target Product GMV), and four report the commission fee and sales tax for orders attributed to **AI-gene...",
+            "contentHash": "e49dcdcafb24364b2accef0a57bc05e7101a794af39f3f1bc1652c43f4f8abab",
+            "pubDate": "2026-09-22T07:53:29+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/8he1k3et",
             "keywords": [
                 "Updated"
             ]
