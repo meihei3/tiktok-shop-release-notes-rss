@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 22 Sep 2026 04:18:24 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 04:15:38 +0000</lastBuildDate>
+        <item>
+            <title>Finance Transaction APIs: New Fee &amp;amp; Tax Properties for Growth Package and Auto-Post Shoppable Video</title>
+            <link>https://partner.tiktokshop.com/docv2/page/8he1k3et</link>
+            <description><![CDATA[## Summary Three Finance transaction APIs — **Get Transactions by Order**, **Get Transactions by Statement**, and **Get Unsettled Transactions** — add **8 new response properties** under the existing `fee_tax_breakdown.fee` and `fee_tax_breakdown.tax` objects. Four properties report the fee and sales tax charged for the three new **Smart Promotion Growth Packages** (New Customer / Store GMV / Target Product GMV), and four report the commission fee and sales tax for orders attributed to **AI-gene...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">8he1k3et#e49dcdca</guid>
+            <pubDate>Tue, 22 Sep 2026 07:53:29 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Three Finance transaction APIs — **Get Transactions by Order**, **Get Transactions by Statement**, and **Get Unsettled Transactions** — add **8 new response properties** under the existing `fee_tax_breakdown.fee` and `fee_tax_breakdown.tax` objects. Four properties report the fee and sales tax charged for the three new **Smart Promotion Growth Packages** (New Customer / Store GMV / Target Product GMV), and four report the commission fee and sales tax for orders attributed to **AI-gene...]]></content:encoded>
+        </item>
         <item>
             <title>Product APIs: Mandatory Wig Material and Conditional Certification Requirements (US)</title>
             <link>https://partner.tiktokshop.com/docv2/page/ewba9wve</link>
@@ -275,17 +284,6 @@
             <guid isPermaLink="false">t8h58fcy#0cb2fbb9</guid>
             <pubDate>Fri, 31 Jul 2026 08:33:16 +0000</pubDate>
             <content:encoded><![CDATA[# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets : Affiliate API — Legacy Versions and Endpoints Sunset</title>
-            <link>https://partner.tiktokshop.com/docv2/page/1wqfoc2s</link>
-            <description><![CDATA[# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...]]></description>
-            <category>Breaking Change</category>
-            <category>Action Required</category>
-            <category>Deprecation</category>
-            <guid isPermaLink="false">1wqfoc2s#64aad036</guid>
-            <pubDate>Wed, 29 Jul 2026 09:13:57 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview We are removing two groups of TikTok Shop Affiliate (Affiliate Seller) APIs: 1、Several historical versions of the 2024 APIs; 2、A set of 2022 legacy affiliate endpoints that have been superseded by newer APIs. Migrate your integration to the corresponding latest version before the removal date to avoid disruption. # Effective date All listed old versions and legacy endpoints will sunset on **2026-10-12 10:00 (UTC+8)**. After this time, requests to these endpoints will fail. # Who is af...]]></content:encoded>
         </item>
     </channel>
 </rss>
