@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 23 Sep 2026 04:15:38 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 04:11:49 +0000</lastBuildDate>
+        <item>
+            <title>Shipping Template Widget Sunset</title>
+            <link>https://partner.tiktokshop.com/docv2/page/9kaaw0r4</link>
+            <description><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></description>
+            <category>Breaking Change</category>
+            <guid isPermaLink="false">9kaaw0r4#e3643f36</guid>
+            <pubDate>Thu, 24 Sep 2026 03:07:39 +0000</pubDate>
+            <content:encoded><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></content:encoded>
+        </item>
         <item>
             <title>Finance Transaction APIs: New Fee &amp;amp; Tax Properties for Growth Package and Auto-Post Shoppable Video</title>
             <link>https://partner.tiktokshop.com/docv2/page/8he1k3et</link>
@@ -275,15 +284,6 @@
             <guid isPermaLink="false">kgigtxr7#4238fad8</guid>
             <pubDate>Tue, 04 Aug 2026 08:52:53 +0000</pubDate>
             <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for July 2026. One of these updates is a **Breaking Change** (Affiliate legacy versions and endpoints sunset), and several category-level mandatory attribute and certification requirements will take effect **starting in August**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. For the full record, refer to the Changelog at the end of this document. ## 1. Breaki...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Markets: FBT Goods Create / Update API Request Field Changes </title>
-            <link>https://partner.tiktokshop.com/docv2/page/t8h58fcy</link>
-            <description><![CDATA[# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">t8h58fcy#0cb2fbb9</guid>
-            <pubDate>Fri, 31 Jul 2026 08:33:16 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary Version 202607 of the **Create FBT Goods** and **Update FBT Goods Info** APIs adds four groups of optional request-body fields — SIOC (Ships In Own Container), bulky-item accessory, goods safety attributes, and aerosol hazmat info — and removes the return cycle (`return_cycle`) and return address (`return_address_info`) fields under `shelf_life_attribute_info`, to support more granular product compliance and delivery-attribute input. Staying on 202603 requires no changes; migrating to ...]]></content:encoded>
         </item>
     </channel>
 </rss>
