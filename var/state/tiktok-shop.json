@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "7fd61960a3b77a7adfcb31632ebe14ba33c3f7a32b0543f9a38441360e5ee545",
-            "lastSeenAt": "2026-09-24T04:11:49+00:00"
+            "contentHash": "2bb9658eda0978fc2c685d67b6769e3e62647f060ea84e8324d649c13ff0964f",
+            "lastSeenAt": "2026-09-25T04:24:26+00:00"
         }
     ],
     "items": [
@@ -1536,6 +1536,28 @@
             "link": "https://partner.tiktokshop.com/docv2/page/9kaaw0r4",
             "keywords": [
                 "Breaking Change"
+            ]
+        },
+        {
+            "document_path": "46di8q34",
+            "title": "US SPS Update: Impact on Existing APIs",
+            "description": "**Effective date: October 15, 2026** TikTok Shop will launch the new Shop Performance Score (SPS) in the US on October 15, 2026. The new SPS page will replace the existing page in Seller Center. This update revises the metrics and calculations for Product Satisfaction and Logistics & Fulfillment; Customer Service remains unchanged. For details, see the [New SPS Trial-run Guide](https://seller-us.tiktok.com/university/essay?knowledge_id=7105568016090887). The impact on API integrations is as foll...",
+            "contentHash": "94364432eb439587706da654a30a527d80c5e957c81a09c27f770c234dc5f1ec",
+            "pubDate": "2026-09-24T07:17:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/46di8q34",
+            "keywords": [
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "ksfhhcre",
+            "title": "[US] Product Listing API: Category Attribute Updates for Auto Parts, Tires, Motorcycles, and Engine Oils",
+            "description": "**Planned effective date: September 30, 2026** **Market: United States** TikTok Shop plans to update product attributes for selected US categories covering auto parts, tires, motorcycles, and engine oils. These updates introduce additional vehicle fitment, product specification, and compliance information. Developers listing products in the affected categories should review their attribute configurations and prepare to submit product information according to the updated requirements. **What is c...",
+            "contentHash": "012a8c6cb1daed24441c600c0569ec8482879a4d5a228766e20c50b90faf2ce8",
+            "pubDate": "2026-09-24T07:15:14+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/ksfhhcre",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
