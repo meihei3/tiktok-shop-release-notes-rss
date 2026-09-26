@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "2bb9658eda0978fc2c685d67b6769e3e62647f060ea84e8324d649c13ff0964f",
-            "lastSeenAt": "2026-09-25T04:24:26+00:00"
+            "contentHash": "5d82c92f5a1191540191f6d58b2bf5e0e613c73f29575ec81f09059074b41480",
+            "lastSeenAt": "2026-09-26T04:28:39+00:00"
         }
     ],
     "items": [
@@ -1558,6 +1558,18 @@
             "link": "https://partner.tiktokshop.com/docv2/page/ksfhhcre",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "m8p624yr",
+            "title": "For MY Market: Key Attributes Become Mandatory for Selected Hi-Po Categories",
+            "description": "## Summary Malaysia will roll out mandatory key attributes for selected hi-po categories in **30 September, 2026**. For Health, Sports & Outdoor, and Tools & Hardware, selected attributes will change from **optional** to **required**. For Household Appliances, TikTok Shop will add a new structured attribute, **Energy Efficiency Star Rating**, and require it for relevant products. This is a category configuration update that affects seller-center and partner-powered product creation flows. ## Wha...",
+            "contentHash": "57e3e46535805a0332691afe787e593e95c232734f47a3f811860f5aa58f925e",
+            "pubDate": "2026-09-25T08:26:53+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/m8p624yr",
+            "keywords": [
+                "Coming Soon",
+                "New "
             ]
         }
     ]
