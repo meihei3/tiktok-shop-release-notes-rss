@@ -5,7 +5,17 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 25 Sep 2026 04:24:26 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 26 Sep 2026 04:28:39 +0000</lastBuildDate>
+        <item>
+            <title>For MY Market: Key Attributes Become Mandatory for Selected Hi-Po Categories</title>
+            <link>https://partner.tiktokshop.com/docv2/page/m8p624yr</link>
+            <description><![CDATA[## Summary Malaysia will roll out mandatory key attributes for selected hi-po categories in **30 September, 2026**. For Health, Sports & Outdoor, and Tools & Hardware, selected attributes will change from **optional** to **required**. For Household Appliances, TikTok Shop will add a new structured attribute, **Energy Efficiency Star Rating**, and require it for relevant products. This is a category configuration update that affects seller-center and partner-powered product creation flows. ## Wha...]]></description>
+            <category>Coming Soon</category>
+            <category>New </category>
+            <guid isPermaLink="false">m8p624yr#57e3e465</guid>
+            <pubDate>Fri, 25 Sep 2026 08:26:53 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Malaysia will roll out mandatory key attributes for selected hi-po categories in **30 September, 2026**. For Health, Sports & Outdoor, and Tools & Hardware, selected attributes will change from **optional** to **required**. For Household Appliances, TikTok Shop will add a new structured attribute, **Energy Efficiency Star Rating**, and require it for relevant products. This is a category configuration update that affects seller-center and partner-powered product creation flows. ## Wha...]]></content:encoded>
+        </item>
         <item>
             <title>US SPS Update: Impact on Existing APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/46di8q34</link>
@@ -275,15 +285,6 @@
             <guid isPermaLink="false">9ohh0qnw#28b30720</guid>
             <pubDate>Wed, 05 Aug 2026 06:28:07 +0000</pubDate>
             <content:encoded><![CDATA[# Overview **Effective date: July 24, 2026.** On July 24, 2026, TikTok Shop introduced two fulfillment APIs in **API version** **`v202607`** for apps that handle customs information in the Japan order fulfillment flow. The APIs let your app determine whether an order requires customs information and submit item-level composition data before package fulfillment. This change applies to ERP, warehouse management system (WMS), and fulfillment apps that process applicable TikTok Shop orders. The two ...]]></content:encoded>
-        </item>
-        <item>
-            <title>For US Market: Warehouse ID in Get Package Detail API</title>
-            <link>https://partner.tiktokshop.com/docv2/page/xehvl72m</link>
-            <description><![CDATA[# Overview TikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed. This update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. | Item | Scope | | --- | --- | | Market | US | | Audience | Apps that integrate ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">xehvl72m#ef38c886</guid>
-            <pubDate>Wed, 05 Aug 2026 02:41:29 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview TikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed. This update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. | Item | Scope | | --- | --- | | Market | US | | Audience | Apps that integrate ...]]></content:encoded>
         </item>
     </channel>
 </rss>
