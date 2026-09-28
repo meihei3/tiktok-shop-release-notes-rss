@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 27 Sep 2026 04:46:38 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 04:48:32 +0000</lastBuildDate>
         <item>
             <title>For MY Market: Key Attributes Become Mandatory for Selected Hi-Po Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/m8p624yr</link>
@@ -39,7 +39,7 @@
             <link>https://partner.tiktokshop.com/docv2/page/9kaaw0r4</link>
             <description><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></description>
             <category>Breaking Change</category>
-            <guid isPermaLink="false">9kaaw0r4#e3643f36</guid>
+            <guid isPermaLink="false">9kaaw0r4#0f72bcbe</guid>
             <pubDate>Thu, 24 Sep 2026 03:07:39 +0000</pubDate>
             <content:encoded><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></content:encoded>
         </item>
