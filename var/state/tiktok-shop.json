@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "5d82c92f5a1191540191f6d58b2bf5e0e613c73f29575ec81f09059074b41480",
-            "lastSeenAt": "2026-09-27T04:46:38+00:00"
+            "contentHash": "e513c7b3ce8bcdeedebc582c3b70cb535cbf87074070f65e465ef4e4cff1ecab",
+            "lastSeenAt": "2026-09-28T04:48:32+00:00"
         }
     ],
     "items": [
@@ -1531,7 +1531,7 @@
             "document_path": "9kaaw0r4",
             "title": "Shipping Template Widget Sunset",
             "description": "## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose \"shipping by sellers\" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...",
-            "contentHash": "e3643f3692ea61fa9a28d7c84b385ecb00b65a21252c671d9583770230204c48",
+            "contentHash": "0f72bcbef4221f2b67b238de814ea8ca433ef9e01897046a24291b409fb1e4ae",
             "pubDate": "2026-09-24T03:07:39+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/9kaaw0r4",
             "keywords": [
