@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 28 Sep 2026 04:48:32 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 05:14:26 +0000</lastBuildDate>
+        <item>
+            <title>Analytics API Changelog: Enhanced Shop, Video, and LIVE Analytics</title>
+            <link>https://partner.tiktokshop.com/docv2/page/6az7iwe9</link>
+            <description><![CDATA[**Release date: 2026-09-28 | Availability: Public by default | API documentation: Publicly visible** This update expands Analytics API coverage for shop sales and channel attribution, video sales and engagement, and LIVE sales and viewing performance. New attributed GMV, traffic conversion, and LIVE auction metrics help developers analyze shop and content performance in greater detail. **Video details API migration:** The new `Get Shop Videos Performance Details` replaces `Get Shop Video Perform...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">6az7iwe9#1f5ac6ff</guid>
+            <pubDate>Mon, 28 Sep 2026 09:05:21 +0000</pubDate>
+            <content:encoded><![CDATA[**Release date: 2026-09-28 | Availability: Public by default | API documentation: Publicly visible** This update expands Analytics API coverage for shop sales and channel attribution, video sales and engagement, and LIVE sales and viewing performance. New attributed GMV, traffic conversion, and LIVE auction metrics help developers analyze shop and content performance in greater detail. **Video details API migration:** The new `Get Shop Videos Performance Details` replaces `Get Shop Video Perform...]]></content:encoded>
+        </item>
         <item>
             <title>For MY Market: Key Attributes Become Mandatory for Selected Hi-Po Categories</title>
             <link>https://partner.tiktokshop.com/docv2/page/m8p624yr</link>
@@ -276,15 +285,6 @@
             <guid isPermaLink="false">lnhl0afk#2b7c3429</guid>
             <pubDate>Mon, 10 Aug 2026 10:17:57 +0000</pubDate>
             <content:encoded><![CDATA[**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Japan: New Customs Information APIs for Fulfillment</title>
-            <link>https://partner.tiktokshop.com/docv2/page/9ohh0qnw</link>
-            <description><![CDATA[# Overview **Effective date: July 24, 2026.** On July 24, 2026, TikTok Shop introduced two fulfillment APIs in **API version** **`v202607`** for apps that handle customs information in the Japan order fulfillment flow. The APIs let your app determine whether an order requires customs information and submit item-level composition data before package fulfillment. This change applies to ERP, warehouse management system (WMS), and fulfillment apps that process applicable TikTok Shop orders. The two ...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">9ohh0qnw#28b30720</guid>
-            <pubDate>Wed, 05 Aug 2026 06:28:07 +0000</pubDate>
-            <content:encoded><![CDATA[# Overview **Effective date: July 24, 2026.** On July 24, 2026, TikTok Shop introduced two fulfillment APIs in **API version** **`v202607`** for apps that handle customs information in the Japan order fulfillment flow. The APIs let your app determine whether an order requires customs information and submit item-level composition data before package fulfillment. This change applies to ERP, warehouse management system (WMS), and fulfillment apps that process applicable TikTok Shop orders. The two ...]]></content:encoded>
         </item>
     </channel>
 </rss>
