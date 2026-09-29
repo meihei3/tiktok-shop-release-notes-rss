@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "e513c7b3ce8bcdeedebc582c3b70cb535cbf87074070f65e465ef4e4cff1ecab",
-            "lastSeenAt": "2026-09-28T04:48:32+00:00"
+            "contentHash": "e944b812cb8042e3f4e48151bc9947eedd1169d1113cd683ba5b422ac6d992f4",
+            "lastSeenAt": "2026-09-29T05:14:26+00:00"
         }
     ],
     "items": [
@@ -1570,6 +1570,17 @@
             "keywords": [
                 "Coming Soon",
                 "New "
+            ]
+        },
+        {
+            "document_path": "6az7iwe9",
+            "title": "Analytics API Changelog: Enhanced Shop, Video, and LIVE Analytics",
+            "description": "**Release date: 2026-09-28 | Availability: Public by default | API documentation: Publicly visible** This update expands Analytics API coverage for shop sales and channel attribution, video sales and engagement, and LIVE sales and viewing performance. New attributed GMV, traffic conversion, and LIVE auction metrics help developers analyze shop and content performance in greater detail. **Video details API migration:** The new `Get Shop Videos Performance Details` replaces `Get Shop Video Perform...",
+            "contentHash": "1f5ac6ff645de6b3a982a444d28730d69fc76fc3bf8ee868db7b7dd97259f42d",
+            "pubDate": "2026-09-28T09:05:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/6az7iwe9",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
