@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 08 Oct 2026 05:31:27 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2026 05:35:31 +0000</lastBuildDate>
+        <item>
+            <title>For EU Markets: Removal of approved couriers for Shipped by Seller (3PL) domestic orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/7oobdgft</link>
+            <description><![CDATA[# What is changing? TikTok Shop periodically reviews the couriers approved for the **Shipped by Seller (3PL)** fulfillment method. Effective **October 14, 2026**, the couriers listed below will be removed from the approved courier list for **domestic EU orders**. This change applies to **local-to-local (L2L) sellers only**. | EU (L2L ONLY) | Provider name | Provider ID | | --- | --- | --- | | ES | SEUR | 7038836933132289793 | | ES | Ontime | 7447770919805650695 | | ES | Sending | 703880861003337...]]></description>
+            <category></category>
+            <guid isPermaLink="false">7oobdgft#ad900b64</guid>
+            <pubDate>Thu, 08 Oct 2026 14:47:58 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? TikTok Shop periodically reviews the couriers approved for the **Shipped by Seller (3PL)** fulfillment method. Effective **October 14, 2026**, the couriers listed below will be removed from the approved courier list for **domestic EU orders**. This change applies to **local-to-local (L2L) sellers only**. | EU (L2L ONLY) | Provider name | Provider ID | | --- | --- | --- | | ES | SEUR | 7038836933132289793 | | ES | Ontime | 7447770919805650695 | | ES | Sending | 703880861003337...]]></content:encoded>
+        </item>
         <item>
             <title>Analytics API Changelog: Enhanced Shop, Video, and LIVE Analytics</title>
             <link>https://partner.tiktokshop.com/docv2/page/6az7iwe9</link>
@@ -276,15 +285,6 @@
             <guid isPermaLink="false">e119x000#c6a6eeb4</guid>
             <pubDate>Tue, 18 Aug 2026 03:59:44 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting from 15 September 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for Slime & Squishy Toys and Stress Relief Toys categories. This information will be put into the "certifications" parameter in the API. TIS Standard Number and TIS License Number will also be changed from optional to mandatory attributes for these two categories. # Whic...]]></content:encoded>
-        </item>
-        <item>
-            <title>For the US Market: Introducing 4PL Express Shipping</title>
-            <link>https://partner.tiktokshop.com/docv2/page/lnhl0afk</link>
-            <description><![CDATA[**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">lnhl0afk#2b7c3429</guid>
-            <pubDate>Mon, 10 Aug 2026 10:17:57 +0000</pubDate>
-            <content:encoded><![CDATA[**Expected launch date:** August 12, 2026 **Change type:** Non-breaking enhancement **Affected audience:** Apps that generate TikTok Shipping labels for eligible US orders **Developer action:** Review how your app processes multiple shipping services and remove any hardcoded shipping service IDs. # Overview TikTok Shop plans to begin a phased rollout of **4PL Express shipping** for eligible US orders on August 12, 2026. During the rollout period, the service will be available only to invited sel...]]></content:encoded>
         </item>
     </channel>
 </rss>
