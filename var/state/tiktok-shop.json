@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "be2aba5ab5399a86f276daa2df1f1f0455c3087fca95c6591ca75b50918b58c1",
-            "lastSeenAt": "2026-10-08T05:31:27+00:00"
+            "contentHash": "4f80f80732d02928678f1f4b8a29f35896f84685edd61db93931d46c0ef12132",
+            "lastSeenAt": "2026-10-09T05:35:31+00:00"
         }
     ],
     "items": [
@@ -1581,6 +1581,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/6az7iwe9",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "7oobdgft",
+            "title": "For EU Markets: Removal of approved couriers for Shipped by Seller (3PL) domestic orders",
+            "description": "# What is changing? TikTok Shop periodically reviews the couriers approved for the **Shipped by Seller (3PL)** fulfillment method. Effective **October 14, 2026**, the couriers listed below will be removed from the approved courier list for **domestic EU orders**. This change applies to **local-to-local (L2L) sellers only**. | EU (L2L ONLY) | Provider name | Provider ID | | --- | --- | --- | | ES | SEUR | 7038836933132289793 | | ES | Ontime | 7447770919805650695 | | ES | Sending | 703880861003337...",
+            "contentHash": "ad900b64111efb344cb88525962881782143cde0cc64bbabb48baf03777bc8fc",
+            "pubDate": "2026-10-08T14:47:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/7oobdgft",
+            "keywords": [
+                ""
             ]
         }
     ]
