@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "4f80f80732d02928678f1f4b8a29f35896f84685edd61db93931d46c0ef12132",
-            "lastSeenAt": "2026-10-09T05:35:31+00:00"
+            "contentHash": "bfd2055c22709a1a65998d1a389c0fefa572a1b7b7bf49b4dff14ef30ab9ac95",
+            "lastSeenAt": "2026-10-10T05:19:23+00:00"
         }
     ],
     "items": [
@@ -1592,6 +1592,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/7oobdgft",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "vzfn7sdc",
+            "title": "For All Market：Creator Outreach Quota Rule Adjustment",
+            "description": "## 1. Background Targeted Collaboration is being upgraded so that invitation capacity follows **fit** rather than volume. Today a seller has one flat weekly outreach budget that can be spent on any creator. After the upgrade, capacity is allocated by **seller tier × creator level**, and sellers whose invitations actually convert into posts earn bonus capacity for higher-level creators. ### 1.1 Old model vs new model | Dimension | Before | After (from Oct 15, 2026; subject to actual effective dat...",
+            "contentHash": "8a59ce87b5c991e9ca3096c0b55e2344ecf5d60859336f393f00fe41db783408",
+            "pubDate": "2026-10-09T05:45:46+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/vzfn7sdc",
+            "keywords": [
+                "New"
             ]
         }
     ]
