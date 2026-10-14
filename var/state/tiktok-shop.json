@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "c33845f8d531745154db610d7df8c86af1cbb7f747a4acdedd98681051b87d0d",
-            "lastSeenAt": "2026-10-13T06:22:14+00:00"
+            "contentHash": "d64c69dc76c8c8a4d9fa180713acc2de466726988839919df6e56ac9b72a02e6",
+            "lastSeenAt": "2026-10-14T04:23:20+00:00"
         }
     ],
     "items": [
@@ -1603,6 +1603,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/vzfn7sdc",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "pgd9hfyy",
+            "title": "Buyer Personal Information Masking",
+            "description": "**Developer Notice**: TikTok Shop will control access to unmasked buyer personal information based on the app category; apps without unmasked-data access will receive masked values, so please review your app category and data-processing logic in advance. ## 1. What Is Changing Starting from October 12, To reduce unnecessary exposure of buyer personal information, TikTok Shop will determine whether relevant APIs return unmasked or masked buyer information based on the shop market and App Category...",
+            "contentHash": "012565bcc6802c54c751e6ee1be784dfb4a1f179bd7c821de64d37cc1be3eeae",
+            "pubDate": "2026-10-09T03:19:11+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/pgd9hfyy",
+            "keywords": [
+                ""
             ]
         }
     ]
