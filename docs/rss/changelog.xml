@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 18 Oct 2026 03:59:27 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 04:08:05 +0000</lastBuildDate>
+        <item>
+            <title>2026 September TikTok Shop API Updates Summary </title>
+            <link>https://partner.tiktokshop.com/docv2/page/5daswqdc</link>
+            <description><![CDATA[## Summary Below is a summary of TikTok Shop Open API updates for **September 2026**. Three of these updates are **Breaking Changes**: the removal of two buyer-fault cancellation reasons from the Cancel Order API, the Shipping Template widget sunset (both effective **October 31**), and the retirement of the single-video Analytics details API (no later than **December 28**). New category attribute and compliance requirements also take effect in the UK, EU, US, and Malaysia **from late September**...]]></description>
+            <category></category>
+            <guid isPermaLink="false">5daswqdc#858ce394</guid>
+            <pubDate>Sun, 18 Oct 2026 05:03:16 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Below is a summary of TikTok Shop Open API updates for **September 2026**. Three of these updates are **Breaking Changes**: the removal of two buyer-fault cancellation reasons from the Cancel Order API, the Shipping Template widget sunset (both effective **October 31**), and the retirement of the single-video Analytics details API (no later than **December 28**). New category attribute and compliance requirements also take effect in the UK, EU, US, and Malaysia **from late September**...]]></content:encoded>
+        </item>
         <item>
             <title>For All Market：Creator Outreach Quota Rule Adjustment</title>
             <link>https://partner.tiktokshop.com/docv2/page/vzfn7sdc</link>
@@ -275,15 +284,6 @@
             <guid isPermaLink="false">k9sj1xw5#553451d4</guid>
             <pubDate>Tue, 25 Aug 2026 03:05:24 +0000</pubDate>
             <content:encoded><![CDATA[**Effective date:** Aug 24, 2026 ## What's changing For returns decision management, TikTok has released a new endpoint called **Get Review Decisions API**, which allows sellers to evaluate which seller decisions are currently allowed for the specified aftersales request. The API returns one result per requested decision, including whether the decision is currently eligible and any rejection reasons that are applicable for an eligible reject decision. ***How is this different from the existing**...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All Market  New Affiliate Seller APIs: Creator Outreach Quota, Creator Promotion Performance, and Affiliate IM Inbox Management</title>
-            <link>https://partner.tiktokshop.com/docv2/page/g97fzz79</link>
-            <description><![CDATA[## Summary We have released 6 new Affiliate seller APIs and upgraded 4 existing ones. Sellers and ISVs can now check the outreach quota before reaching out to creators, collect outreach results afterwards, drill down into a creator's promotion performance product by product inside a target collaboration, and manage the Affiliate IM inbox with starring, archiving, and category counts. Upload Message Image V2 also fixes the issue where images uploaded by US cross-border sellers through the previou...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">g97fzz79#c08ecb4a</guid>
-            <pubDate>Fri, 21 Aug 2026 12:19:52 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary We have released 6 new Affiliate seller APIs and upgraded 4 existing ones. Sellers and ISVs can now check the outreach quota before reaching out to creators, collect outreach results afterwards, drill down into a creator's promotion performance product by product inside a target collaboration, and manage the Affiliate IM inbox with starring, archiving, and category counts. Upload Message Image V2 also fixes the issue where images uploaded by US cross-border sellers through the previou...]]></content:encoded>
         </item>
     </channel>
 </rss>

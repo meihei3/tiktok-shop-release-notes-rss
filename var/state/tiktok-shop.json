@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "48d60e36bc375b6bda0202e78491660751df9cc75c2e5b56d66fa972ad112d5c",
-            "lastSeenAt": "2026-10-18T03:59:27+00:00"
+            "contentHash": "1773f189e9ddd1faef6f3d08c422812a6aff7854b2cfa72d5ab90e4ce54e4ebe",
+            "lastSeenAt": "2026-10-19T04:08:05+00:00"
         }
     ],
     "items": [
@@ -1612,6 +1612,17 @@
             "contentHash": "012565bcc6802c54c751e6ee1be784dfb4a1f179bd7c821de64d37cc1be3eeae",
             "pubDate": "2026-10-09T03:19:11+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/pgd9hfyy",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "document_path": "5daswqdc",
+            "title": "2026 September TikTok Shop API Updates Summary ",
+            "description": "## Summary Below is a summary of TikTok Shop Open API updates for **September 2026**. Three of these updates are **Breaking Changes**: the removal of two buyer-fault cancellation reasons from the Cancel Order API, the Shipping Template widget sunset (both effective **October 31**), and the retirement of the single-video Analytics details API (no later than **December 28**). New category attribute and compliance requirements also take effect in the UK, EU, US, and Malaysia **from late September**...",
+            "contentHash": "858ce394b5410971d237c79779b46de9dba69556353740a71499ce6297d97211",
+            "pubDate": "2026-10-18T05:03:16+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/5daswqdc",
             "keywords": [
                 ""
             ]
