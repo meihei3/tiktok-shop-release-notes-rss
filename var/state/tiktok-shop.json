@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1773f189e9ddd1faef6f3d08c422812a6aff7854b2cfa72d5ab90e4ce54e4ebe",
-            "lastSeenAt": "2026-10-19T04:08:05+00:00"
+            "contentHash": "988ac992312ed656bf8a7d62b5f541b2a4e027dacb5e5d29263edd93c29d6712",
+            "lastSeenAt": "2026-10-20T04:20:54+00:00"
         }
     ],
     "items": [
@@ -1623,6 +1623,17 @@
             "contentHash": "858ce394b5410971d237c79779b46de9dba69556353740a71499ce6297d97211",
             "pubDate": "2026-10-18T05:03:16+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/5daswqdc",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "document_path": "vh1mgiuw",
+            "title": "For SEA L2L Market: Update on SLA fields for Order Fulfillment in Open API",
+            "description": "# Change Summary From 15 October 2026, this update adds two new response fields to the Order Open API, covering both **getorderlist** and **getorderdetail**. The fields expose fast fulfillment SLA timestamps for shipping and collection actions, so sellers and partners can identify the required SLA time directly from order data. | Field | Data type | Description | | --- | --- | --- | | `fast_rts_sla_time` | int | Indicates the fast fulfillment SLA for shipping action. The value is a Unix timestam...",
+            "contentHash": "1673a9ed4cd7dcb5f41a4e36841da5bef935f9d454b9b64eff36b14d85a3bedb",
+            "pubDate": "2026-10-19T09:56:11+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/vh1mgiuw",
             "keywords": [
                 ""
             ]
