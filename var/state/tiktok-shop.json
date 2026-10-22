@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "9756b5e6f85810b78f5130b3a2b17cf5753efe52749b45d6ec944ebcdc88a299",
-            "lastSeenAt": "2026-10-21T04:09:55+00:00"
+            "contentHash": "2de28c6f5c451f4684eeb9340aa71ae3f8e349a40b5fc8cfa6c4047957bc30ea",
+            "lastSeenAt": "2026-10-22T04:10:32+00:00"
         }
     ],
     "items": [
@@ -1636,6 +1636,29 @@
             "link": "https://partner.tiktokshop.com/docv2/page/vh1mgiuw",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "8z0tllw9",
+            "title": "【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes",
+            "description": "TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...",
+            "contentHash": "9e760108aec2c4dae4ea393b5021f53446b8795407f757b58b785832a44d9b22",
+            "pubDate": "2026-10-21T15:32:16+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/8z0tllw9",
+            "keywords": [
+                "Action Required",
+                "Updated"
+            ]
+        },
+        {
+            "document_path": "xntktl90",
+            "title": "New API: Suggest Brands (202609) Is Now Available",
+            "description": "The **Suggest Brands API** is now available on TikTok Shop Open Platform. ISVs can use product information to retrieve brand suggestions and incorporate them into their product listing workflows. **Availability:** Available now **API version:** 202609 **Endpoint:** `POST /product/202609/brands/suggest` # What's new * **Product-based brand suggestions:** Provide the required `product_title` to request suggested brands. You can also supply `category_id`, `description`, and `images` as optional inp...",
+            "contentHash": "b53b1e3efd81f30073d9ddcd0c83d7c4e3ecdc3a8debd6939cd13b3b9116c561",
+            "pubDate": "2026-10-21T15:13:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/xntktl90",
+            "keywords": [
+                "New"
             ]
         }
     ]
