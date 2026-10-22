@@ -5,7 +5,26 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 21 Oct 2026 04:09:55 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 04:10:32 +0000</lastBuildDate>
+        <item>
+            <title>【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes</title>
+            <link>https://partner.tiktokshop.com/docv2/page/8z0tllw9</link>
+            <description><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...]]></description>
+            <category>Action Required</category>
+            <category>Updated</category>
+            <guid isPermaLink="false">8z0tllw9#9e760108</guid>
+            <pubDate>Wed, 21 Oct 2026 15:32:16 +0000</pubDate>
+            <content:encoded><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...]]></content:encoded>
+        </item>
+        <item>
+            <title>New API: Suggest Brands (202609) Is Now Available</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xntktl90</link>
+            <description><![CDATA[The **Suggest Brands API** is now available on TikTok Shop Open Platform. ISVs can use product information to retrieve brand suggestions and incorporate them into their product listing workflows. **Availability:** Available now **API version:** 202609 **Endpoint:** `POST /product/202609/brands/suggest` # What's new * **Product-based brand suggestions:** Provide the required `product_title` to request suggested brands. You can also supply `category_id`, `description`, and `images` as optional inp...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xntktl90#b53b1e3e</guid>
+            <pubDate>Wed, 21 Oct 2026 15:13:58 +0000</pubDate>
+            <content:encoded><![CDATA[The **Suggest Brands API** is now available on TikTok Shop Open Platform. ISVs can use product information to retrieve brand suggestions and incorporate them into their product listing workflows. **Availability:** Available now **API version:** 202609 **Endpoint:** `POST /product/202609/brands/suggest` # What's new * **Product-based brand suggestions:** Provide the required `product_title` to request suggested brands. You can also supply `category_id`, `description`, and `images` as optional inp...]]></content:encoded>
+        </item>
         <item>
             <title>For SEA L2L Market: Update on SLA fields for Order Fulfillment in Open API</title>
             <link>https://partner.tiktokshop.com/docv2/page/vh1mgiuw</link>
@@ -263,27 +282,6 @@
             <guid isPermaLink="false">39qm5hge#1c780b0f</guid>
             <pubDate>Wed, 26 Aug 2026 10:17:14 +0000</pubDate>
             <content:encoded><![CDATA[**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></content:encoded>
-        </item>
-        <item>
-            <title>For Indonesia Market: Add Mandatory Attribute &amp;quot;Imported Goods&amp;quot; to All Categories except Digital Category</title>
-            <link>https://partner.tiktokshop.com/docv2/page/dmo81egx</link>
-            <description><![CDATA[# What is changing? Starting from 27 October 2026, partners will be required to provide mandatory product attribute "Imported Goods"(Attribute ID `102254`, values `Yes` = `1000058` / `No` = `1000059`) when listing or editing products by using API to all categories except digital category. # Which markets are affected? The updates of the requirements apply to local to local sellers in the Indonesian market. # Who is affected? Developers with applications that use [Create Product](https://partner....]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">dmo81egx#45d6e46c</guid>
-            <pubDate>Wed, 26 Aug 2026 09:18:01 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting from 27 October 2026, partners will be required to provide mandatory product attribute "Imported Goods"(Attribute ID `102254`, values `Yes` = `1000058` / `No` = `1000059`) when listing or editing products by using API to all categories except digital category. # Which markets are affected? The updates of the requirements apply to local to local sellers in the Indonesian market. # Who is affected? Developers with applications that use [Create Product](https://partner....]]></content:encoded>
-        </item>
-        <item>
-            <title>For EU Markets: Sell Across EU - Global Product APIs (GPA) to Local Replication Architecture</title>
-            <link>https://partner.tiktokshop.com/docv2/page/6z874qqu</link>
-            <description><![CDATA[# What is changing? TikTok Shop is moving the Sell Across EU product model from the legacy Global Product APIs (GPA) to the new Local Replication architecture. This change improves scalability and aligns product management with how EU shops operate. **The legacy GPA model (Global APIs) is scheduled to be deprecated by October 30th, 2026.** GPA vs EU Local Replication (at a glance) | **Area** | **Global Product APIs (GPA)** | **Local Replication architecture** | | --- | --- | --- | | Listing meth...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <category>Breaking Change</category>
-            <guid isPermaLink="false">6z874qqu#3f21ac0f</guid>
-            <pubDate>Wed, 26 Aug 2026 08:11:35 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? TikTok Shop is moving the Sell Across EU product model from the legacy Global Product APIs (GPA) to the new Local Replication architecture. This change improves scalability and aligns product management with how EU shops operate. **The legacy GPA model (Global APIs) is scheduled to be deprecated by October 30th, 2026.** GPA vs EU Local Replication (at a glance) | **Area** | **Global Product APIs (GPA)** | **Local Replication architecture** | | --- | --- | --- | | Listing meth...]]></content:encoded>
         </item>
     </channel>
 </rss>
