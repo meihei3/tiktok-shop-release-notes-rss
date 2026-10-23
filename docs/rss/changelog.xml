@@ -5,7 +5,25 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Thu, 22 Oct 2026 04:10:32 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 04:13:56 +0000</lastBuildDate>
+        <item>
+            <title>All Markets: Order APIs Add LIVE Session ID and Buyer Nickname Fields</title>
+            <link>https://partner.tiktokshop.com/docv2/page/gfhiex0q</link>
+            <description><![CDATA[# What is changing? As of October 22, 2026, two response fields have been added to Order APIs to support LIVE Auction workflows. * `orders[].line_items[].room_id`: A string containing the LIVE session ID for the order line item. For line items not created from LIVE, this field returns an empty string. * `orders[].buyer_nickname`: A string containing the TikTok buyer nickname for identifying the buyer in LIVE workflows. The fields are included in these API specifications: | API | Version | Method...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">gfhiex0q#8289ad35</guid>
+            <pubDate>Thu, 22 Oct 2026 10:29:25 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? As of October 22, 2026, two response fields have been added to Order APIs to support LIVE Auction workflows. * `orders[].line_items[].room_id`: A string containing the LIVE session ID for the order line item. For line items not created from LIVE, this field returns an empty string. * `orders[].buyer_nickname`: A string containing the TikTok buyer nickname for identifying the buyer in LIVE workflows. The fields are included in these API specifications: | API | Version | Method...]]></content:encoded>
+        </item>
+        <item>
+            <title>For US, EU, UK, JP markets: New Order Tags in Order APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/l0aungg9</link>
+            <description><![CDATA[# What is changing? TikTok Shop Seller Center and app already surfaces order tags that help sellers identify refundable samples, authentication-required orders, subscription orders, and auction orders. This update brings the corresponding order indicators into Open API responses so order-management and fulfillment integrations can interpret the same order context. Across the listed API versions, three boolean fields are added or extended in `orders[]`, while `AUCTION` is added to `orders[].order...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">l0aungg9#1689804d</guid>
+            <pubDate>Thu, 22 Oct 2026 10:21:45 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? TikTok Shop Seller Center and app already surfaces order tags that help sellers identify refundable samples, authentication-required orders, subscription orders, and auction orders. This update brings the corresponding order indicators into Open API responses so order-management and fulfillment integrations can interpret the same order context. Across the listed API versions, three boolean fields are added or extended in `orders[]`, while `AUCTION` is added to `orders[].order...]]></content:encoded>
+        </item>
         <item>
             <title>【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes</title>
             <link>https://partner.tiktokshop.com/docv2/page/8z0tllw9</link>
@@ -262,26 +280,6 @@
             <guid isPermaLink="false">4t418mt7#a23878b5</guid>
             <pubDate>Fri, 28 Aug 2026 07:50:53 +0000</pubDate>
             <content:encoded><![CDATA[# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...]]></content:encoded>
-        </item>
-        <item>
-            <title>For SEA market: Order and Fulfillment API will be changed for In-Store Pickup Business</title>
-            <link>https://partner.tiktokshop.com/docv2/page/fqmbs42f</link>
-            <description><![CDATA[# What is changing? From September 1, 2026, Platform will update order and fulfillment API for in-store pickup business. 1. A new parameter "instore_pickup_sla_time" will be added under the "orders" parameter in response body of [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API. This API is used to get the order information data detail. 2. A new enumeration for existing p...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">fqmbs42f#79786f43</guid>
-            <pubDate>Thu, 27 Aug 2026 09:55:08 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? From September 1, 2026, Platform will update order and fulfillment API for in-store pickup business. 1. A new parameter "instore_pickup_sla_time" will be added under the "orders" parameter in response body of [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) API. This API is used to get the order information data detail. 2. A new enumeration for existing p...]]></content:encoded>
-        </item>
-        <item>
-            <title>Upcoming OpenAPI Update: Structured Size Chart Capabilities</title>
-            <link>https://partner.tiktokshop.com/docv2/page/39qm5hge</link>
-            <description><![CDATA[**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></description>
-            <category>Coming Soon</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">39qm5hge#1c780b0f</guid>
-            <pubDate>Wed, 26 Aug 2026 10:17:14 +0000</pubDate>
-            <content:encoded><![CDATA[**Expected availability: September 9, 2026** TikTok Shop plans to enhance its OpenAPI capabilities for creating, managing, parsing, and validating structured size charts. TikTok Shop will progressively introduce governance measures for products in applicable categories that do not provide a qualified size chart. Developers and service providers supporting product creation or editing must prepare their integrations to upload and submit size charts before the related governance measures take effec...]]></content:encoded>
         </item>
     </channel>
 </rss>
