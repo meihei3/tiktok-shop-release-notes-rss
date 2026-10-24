@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 23 Oct 2026 04:13:56 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 04:05:52 +0000</lastBuildDate>
+        <item>
+            <title>Finance  API Updates: New Fee, Tax, Trade-In, and SKU Data</title>
+            <link>https://partner.tiktokshop.com/docv2/page/62g4f932</link>
+            <description><![CDATA[## Summary This update adds new response fields to the Finance transaction APIs, introduces two new Trade-In account APIs for SEA, and adds SKU details to Search Seller Affiliate Orders. All changes are **backward compatible**. Existing integrations keep working without changes. We recommend adopting the new fields to give sellers a more accurate view of their fees, taxes, and settlements. | # | Update | Markets | What you get | | --- | --- | --- | --- | | 1 | 4 new fulfillment fee fields in Fin...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">62g4f932#1bd51b79</guid>
+            <pubDate>Fri, 23 Oct 2026 08:56:24 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary This update adds new response fields to the Finance transaction APIs, introduces two new Trade-In account APIs for SEA, and adds SKU details to Search Seller Affiliate Orders. All changes are **backward compatible**. Existing integrations keep working without changes. We recommend adopting the new fields to give sellers a more accurate view of their fees, taxes, and settlements. | # | Update | Markets | What you get | | --- | --- | --- | --- | | 1 | 4 new fulfillment fee fields in Fin...]]></content:encoded>
+        </item>
         <item>
             <title>All Markets: Order APIs Add LIVE Session ID and Buyer Nickname Fields</title>
             <link>https://partner.tiktokshop.com/docv2/page/gfhiex0q</link>
@@ -271,15 +280,6 @@
             <guid isPermaLink="false">q50o39n1#30f71dd0</guid>
             <pubDate>Mon, 31 Aug 2026 08:02:09 +0000</pubDate>
             <content:encoded><![CDATA[# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...]]></content:encoded>
-        </item>
-        <item>
-            <title>For EU Markets: Product Attribute Changes and New Category Openings Notice</title>
-            <link>https://partner.tiktokshop.com/docv2/page/4t418mt7</link>
-            <description><![CDATA[# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...]]></description>
-            <category>Action Required</category>
-            <guid isPermaLink="false">4t418mt7#a23878b5</guid>
-            <pubDate>Fri, 28 Aug 2026 07:50:53 +0000</pubDate>
-            <content:encoded><![CDATA[# **What is changing?** To strengthen compliance governance, improve product information completeness, and manage category openings in EU markets, TikTok Shop will roll out 7 updates related to product attributes and category openings. 4 items involve attribute collection or mandatory field adjustments, and 3 items are new category opening notices. Please pay close attention to attribute items that require action, and complete adaptation in the listing pipeline, product templates, and API submis...]]></content:encoded>
         </item>
     </channel>
 </rss>
