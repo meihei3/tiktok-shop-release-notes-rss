@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "9e0359f7e8f8e919a9b723177a2fc094d02be871016ebf71f0512eb4526b271c",
-            "lastSeenAt": "2026-10-23T04:13:56+00:00"
+            "contentHash": "3abe238caee37599b11e5cc5ad63d7cb6eb5eee68aede557a2b1be1383f6e6ba",
+            "lastSeenAt": "2026-10-24T04:05:52+00:00"
         }
     ],
     "items": [
@@ -1681,6 +1681,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/l0aungg9",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "62g4f932",
+            "title": "Finance  API Updates: New Fee, Tax, Trade-In, and SKU Data",
+            "description": "## Summary This update adds new response fields to the Finance transaction APIs, introduces two new Trade-In account APIs for SEA, and adds SKU details to Search Seller Affiliate Orders. All changes are **backward compatible**. Existing integrations keep working without changes. We recommend adopting the new fields to give sellers a more accurate view of their fees, taxes, and settlements. | # | Update | Markets | What you get | | --- | --- | --- | --- | | 1 | 4 new fulfillment fee fields in Fin...",
+            "contentHash": "1bd51b79ae2c34df35f3d8f8bd3f1a99197cd80a3fbe4e464cc1444780a0deba",
+            "pubDate": "2026-10-23T08:56:24+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/62g4f932",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
