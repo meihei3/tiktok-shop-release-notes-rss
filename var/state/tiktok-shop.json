@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "23ba333302c6410ceca6ff4f89cbafb36e99359456f4720705e8d9c252cf64f3",
-            "lastSeenAt": "2026-10-26T04:11:47+00:00"
+            "contentHash": "b3eb566ffc061d6725e5415a6945f507e4ea945f2f6e79a70bc20624a176f00a",
+            "lastSeenAt": "2026-10-27T04:31:05+00:00"
         }
     ],
     "items": [
@@ -1692,6 +1692,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/62g4f932",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "7fcazxi4",
+            "title": "For ID L2L Market: Tokopedia & TikTok Shop Dual Listing",
+            "description": "# What is changing? Starting **29 October 2026**, a new Dual Listing policy will take effect for the Indonesia market. Products listed on TikTok Shop will automatically become available on Tokopedia. **For ISVs**, the distribution channel selection for \"TikTok Shop-only\" will be deprecated in the API. * **Automatic Dual Listing**: Products currently available only on TikTok Shop will automatically become available for purchase on Tokopedia, subject to platform rules. * **Channel Consolidation**:...",
+            "contentHash": "5de9deee91385590806411d5f0e494ae91ff55ef86fcd786d1f96a6673b1eaaa",
+            "pubDate": "2026-10-26T08:20:47+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/7fcazxi4",
+            "keywords": [
+                "Coming Soon"
             ]
         }
     ]

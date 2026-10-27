@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 26 Oct 2026 04:11:48 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 27 Oct 2026 04:31:05 +0000</lastBuildDate>
+        <item>
+            <title>For ID L2L Market: Tokopedia &amp;amp; TikTok Shop Dual Listing</title>
+            <link>https://partner.tiktokshop.com/docv2/page/7fcazxi4</link>
+            <description><![CDATA[# What is changing? Starting **29 October 2026**, a new Dual Listing policy will take effect for the Indonesia market. Products listed on TikTok Shop will automatically become available on Tokopedia. **For ISVs**, the distribution channel selection for "TikTok Shop-only" will be deprecated in the API. * **Automatic Dual Listing**: Products currently available only on TikTok Shop will automatically become available for purchase on Tokopedia, subject to platform rules. * **Channel Consolidation**:...]]></description>
+            <category>Coming Soon</category>
+            <guid isPermaLink="false">7fcazxi4#5de9deee</guid>
+            <pubDate>Mon, 26 Oct 2026 08:20:47 +0000</pubDate>
+            <content:encoded><![CDATA[# What is changing? Starting **29 October 2026**, a new Dual Listing policy will take effect for the Indonesia market. Products listed on TikTok Shop will automatically become available on Tokopedia. **For ISVs**, the distribution channel selection for "TikTok Shop-only" will be deprecated in the API. * **Automatic Dual Listing**: Products currently available only on TikTok Shop will automatically become available for purchase on Tokopedia, subject to platform rules. * **Channel Consolidation**:...]]></content:encoded>
+        </item>
         <item>
             <title>Finance  API Updates: New Fee, Tax, Trade-In, and SKU Data</title>
             <link>https://partner.tiktokshop.com/docv2/page/62g4f932</link>
@@ -271,15 +280,6 @@
             <guid isPermaLink="false">2ixd0cad#f3fe2e22</guid>
             <pubDate>Tue, 01 Sep 2026 11:37:28 +0000</pubDate>
             <content:encoded><![CDATA[# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...]]></content:encoded>
-        </item>
-        <item>
-            <title>Get Product API v202309: New not_submitted_reasons Response Field Added</title>
-            <link>https://partner.tiktokshop.com/docv2/page/q50o39n1</link>
-            <description><![CDATA[# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">q50o39n1#30f71dd0</guid>
-            <pubDate>Mon, 31 Aug 2026 08:02:09 +0000</pubDate>
-            <content:encoded><![CDATA[# Summary The Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites. This field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array. # What is changing The following response field is added to the Get Product API. **Endpo...]]></content:encoded>
         </item>
     </channel>
 </rss>
