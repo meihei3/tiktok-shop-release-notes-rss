@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 27 Oct 2026 04:31:05 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 05:01:54 +0000</lastBuildDate>
+        <item>
+            <title>Development Shops: Virtual credit cards for mobile test orders</title>
+            <link>https://partner.tiktokshop.com/docv2/page/9s2dupvc</link>
+            <description><![CDATA[**Test mobile checkout without using a personal credit card.** Eligible test buyers can select a platform-provided virtual credit card when ordering from a Full Account Development Shop. Payments made with the test card are simulated and do not move real funds. # What changes * **Test cards appear in checkout.** Use the payment methods provided for your eligible test shop, without entering a card number, CVV or expiry date. * **Create test orders from the TikTok app.** Complete the buyer checkou...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">9s2dupvc#3fe38749</guid>
+            <pubDate>Tue, 27 Oct 2026 07:52:40 +0000</pubDate>
+            <content:encoded><![CDATA[**Test mobile checkout without using a personal credit card.** Eligible test buyers can select a platform-provided virtual credit card when ordering from a Full Account Development Shop. Payments made with the test card are simulated and do not move real funds. # What changes * **Test cards appear in checkout.** Use the payment methods provided for your eligible test shop, without entering a card number, CVV or expiry date. * **Create test orders from the TikTok app.** Complete the buyer checkou...]]></content:encoded>
+        </item>
         <item>
             <title>For ID L2L Market: Tokopedia &amp;amp; TikTok Shop Dual Listing</title>
             <link>https://partner.tiktokshop.com/docv2/page/7fcazxi4</link>
@@ -270,16 +279,6 @@
             <guid isPermaLink="false">h6c7xadr#b74a284c</guid>
             <pubDate>Thu, 03 Sep 2026 14:10:48 +0000</pubDate>
             <content:encoded><![CDATA[# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...]]></content:encoded>
-        </item>
-        <item>
-            <title>For GS POP Sellers Shipping to EU Markets: Product Identifier (PID) Attribute Requirement Update</title>
-            <link>https://partner.tiktokshop.com/docv2/page/2ixd0cad</link>
-            <description><![CDATA[# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">2ixd0cad#f3fe2e22</guid>
-            <pubDate>Tue, 01 Sep 2026 11:37:28 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? Starting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets. For each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes: * **Seller SKU**, which maps to **NS-PID** * **Product Identifier**, which maps to **S-PID*...]]></content:encoded>
         </item>
     </channel>
 </rss>

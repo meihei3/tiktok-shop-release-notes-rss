@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "b3eb566ffc061d6725e5415a6945f507e4ea945f2f6e79a70bc20624a176f00a",
-            "lastSeenAt": "2026-10-27T04:31:05+00:00"
+            "contentHash": "051cbe78e759754bc97c88f5e846e7235f5489fad38458cf24b931d5552cf84c",
+            "lastSeenAt": "2026-10-28T05:01:54+00:00"
         }
     ],
     "items": [
@@ -1703,6 +1703,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/7fcazxi4",
             "keywords": [
                 "Coming Soon"
+            ]
+        },
+        {
+            "document_path": "9s2dupvc",
+            "title": "Development Shops: Virtual credit cards for mobile test orders",
+            "description": "**Test mobile checkout without using a personal credit card.** Eligible test buyers can select a platform-provided virtual credit card when ordering from a Full Account Development Shop. Payments made with the test card are simulated and do not move real funds. # What changes * **Test cards appear in checkout.** Use the payment methods provided for your eligible test shop, without entering a card number, CVV or expiry date. * **Create test orders from the TikTok app.** Complete the buyer checkou...",
+            "contentHash": "3fe38749d238d0bb2d1dcbc948a4a245f76099d099127882e252ab4b508b2772",
+            "pubDate": "2026-10-27T07:52:40+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/9s2dupvc",
+            "keywords": [
+                "New"
             ]
         }
     ]
