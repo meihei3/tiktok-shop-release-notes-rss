@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "583481934b37ed8200fbe58761645a285c02f29327e7a308b41b747a80aeb65b",
-            "lastSeenAt": "2026-11-02T05:27:07+00:00"
+            "contentHash": "6b3b9c7cbece0a6e1f2666e0666a22e343f895c20d64e21934008641d18cf782",
+            "lastSeenAt": "2026-11-03T06:05:48+00:00"
         }
     ],
     "items": [
@@ -1712,6 +1712,17 @@
             "contentHash": "3fe38749d238d0bb2d1dcbc948a4a245f76099d099127882e252ab4b508b2772",
             "pubDate": "2026-10-27T07:52:40+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/9s2dupvc",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "fb9qtudp",
+            "title": "Analytics API Changelog: New Off Site and ACC APIs",
+            "description": "TikTok Shop Open Platform introduces **11 new Analytics APIs** for Off Site performance and ACC (Audience Conversion Classification). Developers can bring Data Compass insights into their own dashboards and BI tools to evaluate attributed off-site sales alongside TikTok Shop performance and understand brand audiences and their purchasing preferences. # Off Site Analytics: Connect On-site and Off-site Performance Four new APIs help developers build combined sales reports and assess content and pr...",
+            "contentHash": "39db5c9f8625919a79c53425916d813dcb78ee350247e5fe306183b429d0c2e3",
+            "pubDate": "2026-11-02T10:00:58+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/fb9qtudp",
             "keywords": [
                 "New"
             ]

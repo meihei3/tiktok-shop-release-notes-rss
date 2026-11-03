@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 02 Nov 2026 05:27:07 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 06:05:48 +0000</lastBuildDate>
+        <item>
+            <title>Analytics API Changelog: New Off Site and ACC APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/fb9qtudp</link>
+            <description><![CDATA[TikTok Shop Open Platform introduces **11 new Analytics APIs** for Off Site performance and ACC (Audience Conversion Classification). Developers can bring Data Compass insights into their own dashboards and BI tools to evaluate attributed off-site sales alongside TikTok Shop performance and understand brand audiences and their purchasing preferences. # Off Site Analytics: Connect On-site and Off-site Performance Four new APIs help developers build combined sales reports and assess content and pr...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">fb9qtudp#39db5c9f</guid>
+            <pubDate>Mon, 02 Nov 2026 10:00:58 +0000</pubDate>
+            <content:encoded><![CDATA[TikTok Shop Open Platform introduces **11 new Analytics APIs** for Off Site performance and ACC (Audience Conversion Classification). Developers can bring Data Compass insights into their own dashboards and BI tools to evaluate attributed off-site sales alongside TikTok Shop performance and understand brand audiences and their purchasing preferences. # Off Site Analytics: Connect On-site and Off-site Performance Four new APIs help developers build combined sales reports and assess content and pr...]]></content:encoded>
+        </item>
         <item>
             <title>Development Shops: Virtual credit cards for mobile test orders</title>
             <link>https://partner.tiktokshop.com/docv2/page/9s2dupvc</link>
@@ -269,16 +278,6 @@
             <guid isPermaLink="false">1nj6l9ok#3d1c7e59</guid>
             <pubDate>Sat, 05 Sep 2026 07:10:12 +0000</pubDate>
             <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...]]></content:encoded>
-        </item>
-        <item>
-            <title>For UK &amp;amp; EU markets: Dangerous Goods (DG) Compliance Requirements </title>
-            <link>https://partner.tiktokshop.com/docv2/page/h6c7xadr</link>
-            <description><![CDATA[# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...]]></description>
-            <category>New</category>
-            <category>Action Required</category>
-            <guid isPermaLink="false">h6c7xadr#b74a284c</guid>
-            <pubDate>Thu, 03 Sep 2026 14:10:48 +0000</pubDate>
-            <content:encoded><![CDATA[# **What is changing?** TikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**. Depending on category type, sellers may be required to provide: * Battery type * Battery character...]]></content:encoded>
         </item>
     </channel>
 </rss>
