@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "6b3b9c7cbece0a6e1f2666e0666a22e343f895c20d64e21934008641d18cf782",
-            "lastSeenAt": "2026-11-03T06:05:48+00:00"
+            "contentHash": "dde56b2e26c943064ca2081db292d45dace14c098fdb55f4fee3056b3de80339",
+            "lastSeenAt": "2026-11-04T05:44:41+00:00"
         }
     ],
     "items": [
@@ -1725,6 +1725,28 @@
             "link": "https://partner.tiktokshop.com/docv2/page/fb9qtudp",
             "keywords": [
                 "New"
+            ]
+        },
+        {
+            "document_path": "x0e9lq64",
+            "title": "For Global Markets: Surprise Set and Team Break Order Tags",
+            "description": "# Overview TikTok Shop is introducing order tags in **Get Order Detail** to help your app identify Surprise Set and Team Break purchases. Surprise Set orders use the existing `order_type` value `AUCTION`, with the new **Surprise Set order tag** identifying the purchase format. **Affected API:** Get Order Detail To distinguish these purchases in your app, add order-tag handling to your labels, filters, routing rules, and reports. # What is changing The new order-tag field supports two tags: **Sur...",
+            "contentHash": "c29bcbfcdd68265784e41e6197d208fdc85aa907a8679118c78659e55df2bc89",
+            "pubDate": "2026-11-04T02:41:13+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/x0e9lq64",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "document_path": "pcr7j9rd",
+            "title": "2026 October TikTok Shop API Updates Summary",
+            "description": "## Summary Below is a summary of TikTok Shop Open API updates for **October 2026**. Three of these updates are **Breaking Changes**: buyer personal information is now masked by App Category (in effect since **October 12**), the TikTok Shop-only channel is no longer available in Indonesia (effective **October 29**), and Analytics introduces query window limits and retires several endpoints (**November 6** and **December 28**). Several Action Required changes are already in effect, including the r...",
+            "contentHash": "e98e952c64c8dcc92577ce6dbf89080abb149f742dda8396ad5eb203e50f907e",
+            "pubDate": "2026-11-03T06:15:22+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/pcr7j9rd",
+            "keywords": [
+                "Action Required"
             ]
         }
     ]

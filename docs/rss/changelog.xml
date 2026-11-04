@@ -5,7 +5,25 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Tue, 03 Nov 2026 06:05:48 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 05:44:41 +0000</lastBuildDate>
+        <item>
+            <title>For Global Markets: Surprise Set and Team Break Order Tags</title>
+            <link>https://partner.tiktokshop.com/docv2/page/x0e9lq64</link>
+            <description><![CDATA[# Overview TikTok Shop is introducing order tags in **Get Order Detail** to help your app identify Surprise Set and Team Break purchases. Surprise Set orders use the existing `order_type` value `AUCTION`, with the new **Surprise Set order tag** identifying the purchase format. **Affected API:** Get Order Detail To distinguish these purchases in your app, add order-tag handling to your labels, filters, routing rules, and reports. # What is changing The new order-tag field supports two tags: **Sur...]]></description>
+            <category></category>
+            <guid isPermaLink="false">x0e9lq64#c29bcbfc</guid>
+            <pubDate>Wed, 04 Nov 2026 02:41:13 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview TikTok Shop is introducing order tags in **Get Order Detail** to help your app identify Surprise Set and Team Break purchases. Surprise Set orders use the existing `order_type` value `AUCTION`, with the new **Surprise Set order tag** identifying the purchase format. **Affected API:** Get Order Detail To distinguish these purchases in your app, add order-tag handling to your labels, filters, routing rules, and reports. # What is changing The new order-tag field supports two tags: **Sur...]]></content:encoded>
+        </item>
+        <item>
+            <title>2026 October TikTok Shop API Updates Summary</title>
+            <link>https://partner.tiktokshop.com/docv2/page/pcr7j9rd</link>
+            <description><![CDATA[## Summary Below is a summary of TikTok Shop Open API updates for **October 2026**. Three of these updates are **Breaking Changes**: buyer personal information is now masked by App Category (in effect since **October 12**), the TikTok Shop-only channel is no longer available in Indonesia (effective **October 29**), and Analytics introduces query window limits and retires several endpoints (**November 6** and **December 28**). Several Action Required changes are already in effect, including the r...]]></description>
+            <category>Action Required</category>
+            <guid isPermaLink="false">pcr7j9rd#e98e952c</guid>
+            <pubDate>Tue, 03 Nov 2026 06:15:22 +0000</pubDate>
+            <content:encoded><![CDATA[## Summary Below is a summary of TikTok Shop Open API updates for **October 2026**. Three of these updates are **Breaking Changes**: buyer personal information is now masked by App Category (in effect since **October 12**), the TikTok Shop-only channel is no longer available in Indonesia (effective **October 29**), and Analytics introduces query window limits and retires several endpoints (**November 6** and **December 28**). Several Action Required changes are already in effect, including the r...]]></content:encoded>
+        </item>
         <item>
             <title>Analytics API Changelog: New Off Site and ACC APIs</title>
             <link>https://partner.tiktokshop.com/docv2/page/fb9qtudp</link>
@@ -260,24 +278,6 @@
             <guid isPermaLink="false">k0ubfjdt#159a111a</guid>
             <pubDate>Wed, 09 Sep 2026 16:24:42 +0000</pubDate>
             <content:encoded><![CDATA[Combined Listing now supports **Merge into Variants**, allowing sellers to consolidate same-style products listed under separate links into one main product detail page. New sales and reviews generated through the main listing are aggregated under the main product. Historical sales and reviews are not fully transferred, and orders placed through the original child listings continue to contribute to those child products. [Feature guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1...]]></content:encoded>
-        </item>
-        <item>
-            <title>For All markets：New auction_support_type Field to Control Auction Product Support</title>
-            <link>https://partner.tiktokshop.com/docv2/page/xiqhn3o4</link>
-            <description><![CDATA[# **Summary** The Promotion Activity APIs add one optional field, `auction_support_type`, which declares whether a promotion activity applies to auction products in addition to normal products. It is accepted as an optional request field on Create / Update Promotion Activity and returned on Get Activity / Search Promotion Activities. ## Impact | Item | Detail | | --- | --- | | Impacted endpoints | **Request (new optional field)**: Create Promotion Activity (`POST /promotion/202309/activities`), ...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">xiqhn3o4#589b5f28</guid>
-            <pubDate>Sat, 05 Sep 2026 08:38:29 +0000</pubDate>
-            <content:encoded><![CDATA[# **Summary** The Promotion Activity APIs add one optional field, `auction_support_type`, which declares whether a promotion activity applies to auction products in addition to normal products. It is accepted as an optional request field on Create / Update Promotion Activity and returned on Get Activity / Search Promotion Activities. ## Impact | Item | Detail | | --- | --- | | Impacted endpoints | **Request (new optional field)**: Create Promotion Activity (`POST /promotion/202309/activities`), ...]]></content:encoded>
-        </item>
-        <item>
-            <title>2026 August TikTok Shop API Updates Summary</title>
-            <link>https://partner.tiktokshop.com/docv2/page/1nj6l9ok</link>
-            <description><![CDATA[Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...]]></description>
-            <category>NEW</category>
-            <guid isPermaLink="false">1nj6l9ok#3d1c7e59</guid>
-            <pubDate>Sat, 05 Sep 2026 07:10:12 +0000</pubDate>
-            <content:encoded><![CDATA[Below is a summary of TikTok Shop Open API updates for **August 2026**. One of these updates is a **Breaking Change** (Sell Across EU: Global Product APIs migrating to the Local Replication architecture), and a series of category-level mandatory attribute, certification, and size chart requirements will take effect **starting in September**. Please prioritize impact assessment and complete the required migrations and field updates according to each market's effective date. Severity markers used ...]]></content:encoded>
         </item>
     </channel>
 </rss>
