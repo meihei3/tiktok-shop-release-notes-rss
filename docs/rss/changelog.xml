@@ -5,7 +5,7 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Sun, 08 Nov 2026 05:30:16 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 05:41:29 +0000</lastBuildDate>
         <item>
             <title>For Global Markets: Surprise Set and Team Break Order Tags</title>
             <link>https://partner.tiktokshop.com/docv2/page/x0e9lq64</link>
@@ -81,12 +81,12 @@
         <item>
             <title>【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes</title>
             <link>https://partner.tiktokshop.com/docv2/page/8z0tllw9</link>
-            <description><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...]]></description>
+            <description><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **January 31, 2027:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: January 31, 2027** The following ...]]></description>
             <category>Action Required</category>
             <category>Updated</category>
-            <guid isPermaLink="false">8z0tllw9#9e760108</guid>
+            <guid isPermaLink="false">8z0tllw9#5c03d421</guid>
             <pubDate>Wed, 21 Oct 2026 15:32:16 +0000</pubDate>
-            <content:encoded><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...]]></content:encoded>
+            <content:encoded><![CDATA[TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **January 31, 2027:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: January 31, 2027** The following ...]]></content:encoded>
         </item>
         <item>
             <title>New API: Suggest Brands (202609) Is Now Available</title>
