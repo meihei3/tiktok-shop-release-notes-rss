@@ -6,7 +6,7 @@
             "etag": null,
             "lastModified": null,
             "contentHash": "9d853a37094419f918a39f4bfe8dd821d931c5d6e08013f87d9d8aee7118295c",
-            "lastSeenAt": "2026-11-08T05:30:16+00:00"
+            "lastSeenAt": "2026-11-09T05:41:29+00:00"
         }
     ],
     "items": [
@@ -1641,8 +1641,8 @@
         {
             "document_path": "8z0tllw9",
             "title": "【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes",
-            "description": "TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: December 28, 2026** The followin...",
-            "contentHash": "9e760108aec2c4dae4ea393b5021f53446b8795407f757b58b785832a44d9b22",
+            "description": "TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date. * **November 6, 2026:** Maximum query window changes for two endpoints. * **January 31, 2027:** Retirement of the single-video performance endpoint and older shop video list API versions. # 1. Single-video performance endpoint retirement **Effective date: January 31, 2027** The following ...",
+            "contentHash": "5c03d421ec370cec61976f83272882fe5ea5ca5ba612830d2985661bb486c664",
             "pubDate": "2026-10-21T15:32:16+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/8z0tllw9",
             "keywords": [
