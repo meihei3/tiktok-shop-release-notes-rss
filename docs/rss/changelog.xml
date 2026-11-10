@@ -5,7 +5,70 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 09 Nov 2026 05:41:29 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 06:50:03 +0000</lastBuildDate>
+        <item>
+            <title>Product APIs add Seller SKU requirements for EU cross-border POP listings</title>
+            <link>https://partner.tiktokshop.com/docv2/page/tz2xjbrq</link>
+            <description><![CDATA[## What’s changing Get Category Rules now returns `data.seller_sku.is_required`, a Boolean that indicates whether a Seller SKU is required for the category. This rule applies to cross-border POP shops in EU markets. [Get Category Rules](https://partner.tiktokshop.com/docv2/page/get-category-rules-202309) When `is_required` is `true`, provide a Seller SKU for each SKU when creating or editing a product. Each value must be **6–50 characters** long and may contain only letters, digits, hyphens (`-`...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">tz2xjbrq#9ed8c380</guid>
+            <pubDate>Mon, 09 Nov 2026 10:17:01 +0000</pubDate>
+            <content:encoded><![CDATA[## What’s changing Get Category Rules now returns `data.seller_sku.is_required`, a Boolean that indicates whether a Seller SKU is required for the category. This rule applies to cross-border POP shops in EU markets. [Get Category Rules](https://partner.tiktokshop.com/docv2/page/get-category-rules-202309) When `is_required` is `true`, provide a Seller SKU for each SKU when creating or editing a product. Each value must be **6–50 characters** long and may contain only letters, digits, hyphens (`-`...]]></content:encoded>
+        </item>
+        <item>
+            <title>Product APIs now support temporary listings for LIVE</title>
+            <link>https://partner.tiktokshop.com/docv2/page/64utj2fj</link>
+            <description><![CDATA[# What’s changing Sellers with the required permission can now create temporary listings (`LIVE_QUICK` products) through the Product API. Apps can also retrieve eligible categories, request category recommendations, and include temporary listings in product search results. | API | Endpoint | Field and location | Behavior | | --- | --- | --- | --- | | [Create Product v202309](https://partner.tiktokshop.com/docv2/page/create-product-202309) | `POST /product/202309/products` | `is_live_quick` in th...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">64utj2fj#7040860c</guid>
+            <pubDate>Mon, 09 Nov 2026 10:14:24 +0000</pubDate>
+            <content:encoded><![CDATA[# What’s changing Sellers with the required permission can now create temporary listings (`LIVE_QUICK` products) through the Product API. Apps can also retrieve eligible categories, request category recommendations, and include temporary listings in product search results. | API | Endpoint | Field and location | Behavior | | --- | --- | --- | --- | | [Create Product v202309](https://partner.tiktokshop.com/docv2/page/create-product-202309) | `POST /product/202309/products` | `is_live_quick` in th...]]></content:encoded>
+        </item>
+        <item>
+            <title>Product APIs add the is_blind_box request field</title>
+            <link>https://partner.tiktokshop.com/docv2/page/fqjadaur</link>
+            <description><![CDATA[# What’s changing Create Product and Partial Edit Product now accept `is_blind_box`(Only support JP), a Boolean field at the top level of the JSON request body. Set it to `true` for a blind box or lucky bag, or to `false` for other products. | API | Endpoint | When to use it | | --- | --- | --- | | [Create Product v202309](https://partner.tiktokshop.com/docv2/page/create-product-202309) | `POST /product/202309/products` | Set the flag when creating a product. | | [Partial Edit Product v202509](h...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">fqjadaur#a13c89a3</guid>
+            <pubDate>Mon, 09 Nov 2026 10:12:57 +0000</pubDate>
+            <content:encoded><![CDATA[# What’s changing Create Product and Partial Edit Product now accept `is_blind_box`(Only support JP), a Boolean field at the top level of the JSON request body. Set it to `true` for a blind box or lucky bag, or to `false` for other products. | API | Endpoint | When to use it | | --- | --- | --- | | [Create Product v202309](https://partner.tiktokshop.com/docv2/page/create-product-202309) | `POST /product/202309/products` | Set the flag when creating a product. | | [Partial Edit Product v202509](h...]]></content:encoded>
+        </item>
+        <item>
+            <title>Product APIs now support measurement-based product attributes</title>
+            <link>https://partner.tiktokshop.com/docv2/page/355im6ja</link>
+            <description><![CDATA[# What’s changing TikTok Shop Product APIs now support structured measurements for product attributes configured with a measurement template. For example, sellers can provide the percentage of each material in a fabric blend. | Change | API | | --- | --- | | Returns the measurement template configuration for applicable category attributes, including the measurement items and supported units. | [Get Attributes](https://partner.tiktokshop.com/docv2/page/6509c5784a0bb702c0561cc8) | | Accepts measur...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">355im6ja#ecabad50</guid>
+            <pubDate>Mon, 09 Nov 2026 10:10:56 +0000</pubDate>
+            <content:encoded><![CDATA[# What’s changing TikTok Shop Product APIs now support structured measurements for product attributes configured with a measurement template. For example, sellers can provide the percentage of each material in a fabric blend. | Change | API | | --- | --- | | Returns the measurement template configuration for applicable category attributes, including the measurement items and supported units. | [Get Attributes](https://partner.tiktokshop.com/docv2/page/6509c5784a0bb702c0561cc8) | | Accepts measur...]]></content:encoded>
+        </item>
+        <item>
+            <title>For the US Market: Promotion Activity IDs in Order Price Details</title>
+            <link>https://partner.tiktokshop.com/docv2/page/r6gcvyhh</link>
+            <description><![CDATA[# Overview TikTok Shop is adding promotion activity IDs and discount amounts to **Get Order Price Details** for US orders. Your app can identify the seller-funded product and shipping promotions applied to each line item and use the details for promotion-level reconciliation. **Affected API:** [Get Order Price Details](https://partner.tiktokshop.com/docv2/page/get-order-price-details-202407), API version `v202407`. `GET /order/202407/orders/{order_id}/price_detail` # What is changing The respons...]]></description>
+            <category></category>
+            <guid isPermaLink="false">r6gcvyhh#dedebeb1</guid>
+            <pubDate>Mon, 09 Nov 2026 08:06:12 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview TikTok Shop is adding promotion activity IDs and discount amounts to **Get Order Price Details** for US orders. Your app can identify the seller-funded product and shipping promotions applied to each line item and use the details for promotion-level reconciliation. **Affected API:** [Get Order Price Details](https://partner.tiktokshop.com/docv2/page/get-order-price-details-202407), API version `v202407`. `GET /order/202407/orders/{order_id}/price_detail` # What is changing The respons...]]></content:encoded>
+        </item>
+        <item>
+            <title>3PL Bulky Item Split Shipment API Integration Guide</title>
+            <link>https://partner.tiktokshop.com/docv2/page/93a8kgxo</link>
+            <description><![CDATA[# Introduction Bulky item split shipment means dividing a single bulky item into multiple physical parcels for separate shipment because of its size or weight, while retaining one SKU and one order line for transaction and inventory purposes. Typical examples include beds (with the headboard, frame, and slats packed separately), sofas, and large home appliances. **Use Cases** * **Bulky furniture and home improvement products:** A single SKU consists of multiple components, and a single box would...]]></description>
+            <category></category>
+            <guid isPermaLink="false">93a8kgxo#fe05b64d</guid>
+            <pubDate>Mon, 09 Nov 2026 07:27:29 +0000</pubDate>
+            <content:encoded><![CDATA[# Introduction Bulky item split shipment means dividing a single bulky item into multiple physical parcels for separate shipment because of its size or weight, while retaining one SKU and one order line for transaction and inventory purposes. Typical examples include beds (with the headboard, frame, and slats packed separately), sofas, and large home appliances. **Use Cases** * **Bulky furniture and home improvement products:** A single SKU consists of multiple components, and a single box would...]]></content:encoded>
+        </item>
+        <item>
+            <title>For US Markets: Change the Shipping Warehouse Before Purchasing a Label</title>
+            <link>https://partner.tiktokshop.com/docv2/page/elfjjara</link>
+            <description><![CDATA[# Overview You can now specify a shipping warehouse when purchasing a label for eligible US local-to-local orders. This lets your app align the label’s ship-from address with the seller’s actual shipping location. This update applies to ERP, WMS, and other fulfillment apps supporting eligible TikTok Shipping and TikTok Shipping(upgraded), include CBT. Integrate the new field if your sellers need to ship from a different warehouse after an order is placed. The field is optional; adopting it does ...]]></description>
+            <category></category>
+            <guid isPermaLink="false">elfjjara#35a9bbe6</guid>
+            <pubDate>Mon, 09 Nov 2026 07:11:57 +0000</pubDate>
+            <content:encoded><![CDATA[# Overview You can now specify a shipping warehouse when purchasing a label for eligible US local-to-local orders. This lets your app align the label’s ship-from address with the seller’s actual shipping location. This update applies to ERP, WMS, and other fulfillment apps supporting eligible TikTok Shipping and TikTok Shipping(upgraded), include CBT. Integrate the new field if your sellers need to ship from a different warehouse after an order is placed. The field is optional; adopting it does ...]]></content:encoded>
+        </item>
         <item>
             <title>For Global Markets: Surprise Set and Team Break Order Tags</title>
             <link>https://partner.tiktokshop.com/docv2/page/x0e9lq64</link>
@@ -214,70 +277,6 @@
             <guid isPermaLink="false">nn6csp5o#04c29df2</guid>
             <pubDate>Wed, 16 Sep 2026 10:46:00 +0000</pubDate>
             <content:encoded><![CDATA[## What is changing? TikTok Shop is introducing the **Inventory Changed by Shop** webhook (`type: 71`) to notify developers when SKU inventory quantities change. This webhook covers inventory changes caused by order creation, cancellation, and shipment; manual adjustments in Seller Center; inventory updates through OpenAPIs; inventory locking and release for marketing campaigns or creator collaborations; and automatic replenishment by the system. Each notification includes: * **Affected product ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Product APIs: Selling Format Support Added for Fixed-Price Sales and LIVE Auctions</title>
-            <link>https://partner.tiktokshop.com/docv2/page/tfdpn5tm</link>
-            <description><![CDATA[## Summary Product APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions. The field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only. ## What is changing **New re...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">tfdpn5tm#3f977d4f</guid>
-            <pubDate>Wed, 16 Sep 2026 10:02:23 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Product APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions. The field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only. ## What is changing **New re...]]></content:encoded>
-        </item>
-        <item>
-            <title>Cancel Order API: Two Buyer-Fault Cancellation Reasons Will Be Removed</title>
-            <link>https://partner.tiktokshop.com/docv2/page/i9eftnnv</link>
-            <description><![CDATA[## Summary Buyer-fault cancellation reasons have already been removed from the seller-initiated cancellation flow in Seller Center, for both standard orders and auction orders. API callers, however, can still attribute a cancellation to two buyer-fault reasons: **Buyer requested cancellation** and **Unable to deliver to buyer address**. Starting **October 31, 2026**, these two reasons will also be removed from the API channel so that API behavior is aligned with Seller Center. From that date, re...]]></description>
-            <category>Updated</category>
-            <category>Breaking Change</category>
-            <guid isPermaLink="false">i9eftnnv#7561efea</guid>
-            <pubDate>Wed, 16 Sep 2026 07:36:03 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Buyer-fault cancellation reasons have already been removed from the seller-initiated cancellation flow in Seller Center, for both standard orders and auction orders. API callers, however, can still attribute a cancellation to two buyer-fault reasons: **Buyer requested cancellation** and **Unable to deliver to buyer address**. Starting **October 31, 2026**, these two reasons will also be removed from the API channel so that API behavior is aligned with Seller Center. From that date, re...]]></content:encoded>
-        </item>
-        <item>
-            <title>Post Shoppable Photos and Post Shoppable Video APIs: Auction-Only Product Restriction Added</title>
-            <link>https://partner.tiktokshop.com/docv2/page/t9vttkxw</link>
-            <description><![CDATA[## Summary Post Shoppable Photos and Post Shoppable Video APIs now validate whether an attached product only supports auction sales. Auction-only products cannot be used in shoppable videos or carousels. Both APIs return the new error code `170001063` when an auction-only product is added. ## What is changing The following validation and error code are added to both APIs. | API | Validation | | --- | --- | | Post Shoppable Photos | Rejects auction-only products attached to shoppable carousels. |...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">t9vttkxw#74f5b602</guid>
-            <pubDate>Thu, 10 Sep 2026 13:57:15 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Post Shoppable Photos and Post Shoppable Video APIs now validate whether an attached product only supports auction sales. Auction-only products cannot be used in shoppable videos or carousels. Both APIs return the new error code `170001063` when an auction-only product is added. ## What is changing The following validation and error code are added to both APIs. | API | Validation | | --- | --- | | Post Shoppable Photos | Rejects auction-only products attached to shoppable carousels. |...]]></content:encoded>
-        </item>
-        <item>
-            <title>Get Opportunity Detail and List Opportunity APIs: New Fields Added</title>
-            <link>https://partner.tiktokshop.com/docv2/page/57me406k</link>
-            <description><![CDATA[## Summary Get Opportunity Detail and List Opportunity APIs add new response fields to provide opportunity tag codes and reference product information. Get Opportunity Detail also adds opportunity tags, while List Opportunity adds information about rewards sellers can receive for listing products as required. List Opportunity also supports filtering opportunities by tag codes through a new optional request field, `tag_codes`. ## What is changing **Get Opportunity Detail — 4 new response fields**...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">57me406k#31e01bb2</guid>
-            <pubDate>Thu, 10 Sep 2026 13:43:47 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Get Opportunity Detail and List Opportunity APIs add new response fields to provide opportunity tag codes and reference product information. Get Opportunity Detail also adds opportunity tags, while List Opportunity adds information about rewards sellers can receive for listing products as required. List Opportunity also supports filtering opportunities by tag codes through a new optional request field, `tag_codes`. ## What is changing **Get Opportunity Detail — 4 new response fields**...]]></content:encoded>
-        </item>
-        <item>
-            <title>For UK and EU Markets: Shipped by Platform - Edit Parcel Dimensions and Weight for Shipping Label Creation</title>
-            <link>https://partner.tiktokshop.com/docv2/page/tovst8vl</link>
-            <description><![CDATA[# What is changing? This update expands the existing **Create Packages** endpoint to **UK and EU** sellers and ISVs. Previously, this endpoint was used by US sellers and ISVs; With this change, UK/EU integrations can use it for shipping label creation and package submission flows. For the updated fulfillment flow, refer to the [Fulfillment API Overview](https://partner.tiktokshop.com/docv2/page/fulfillment-api-overview), specifically the **Purchase shipping** diagram. The change responds to ship...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">tovst8vl#a84c138b</guid>
-            <pubDate>Thu, 10 Sep 2026 13:23:45 +0000</pubDate>
-            <content:encoded><![CDATA[# What is changing? This update expands the existing **Create Packages** endpoint to **UK and EU** sellers and ISVs. Previously, this endpoint was used by US sellers and ISVs; With this change, UK/EU integrations can use it for shipping label creation and package submission flows. For the updated fulfillment flow, refer to the [Fulfillment API Overview](https://partner.tiktokshop.com/docv2/page/fulfillment-api-overview), specifically the **Purchase shipping** diagram. The change responds to ship...]]></content:encoded>
-        </item>
-        <item>
-            <title>Webhook Egress IP Update</title>
-            <link>https://partner.tiktokshop.com/docv2/page/iuhsev4x</link>
-            <description><![CDATA[**Tag**: `Action required` · * **Change type**: no change to the webhook contract * **Effective date**: **2026.8.30** * **What changed**: new egress (source) IP ranges are being added to the infrastructure that delivers TikTok Shop webhooks. * **Who must act**: apps whose webhook endpoint only accepts inbound traffic from an allowlist of TikTok Shop source IPs. * **If you do nothing**: webhooks sent from the new IPs are dropped by your own firewall, so you **silently miss events** — no error is ...]]></description>
-            <category>Action Required</category>
-            <guid isPermaLink="false">iuhsev4x#4f6f2d48</guid>
-            <pubDate>Thu, 10 Sep 2026 07:21:57 +0000</pubDate>
-            <content:encoded><![CDATA[**Tag**: `Action required` · * **Change type**: no change to the webhook contract * **Effective date**: **2026.8.30** * **What changed**: new egress (source) IP ranges are being added to the infrastructure that delivers TikTok Shop webhooks. * **Who must act**: apps whose webhook endpoint only accepts inbound traffic from an allowlist of TikTok Shop source IPs. * **If you do nothing**: webhooks sent from the new IPs are dropped by your own firewall, so you **silently miss events** — no error is ...]]></content:encoded>
-        </item>
-        <item>
-            <title>Combined Listing: Merge into Variants and API Integration Updates</title>
-            <link>https://partner.tiktokshop.com/docv2/page/k0ubfjdt</link>
-            <description><![CDATA[Combined Listing now supports **Merge into Variants**, allowing sellers to consolidate same-style products listed under separate links into one main product detail page. New sales and reviews generated through the main listing are aggregated under the main product. Historical sales and reviews are not fully transferred, and orders placed through the original child listings continue to contribute to those child products. [Feature guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1...]]></description>
-            <category>New</category>
-            <guid isPermaLink="false">k0ubfjdt#159a111a</guid>
-            <pubDate>Wed, 09 Sep 2026 16:24:42 +0000</pubDate>
-            <content:encoded><![CDATA[Combined Listing now supports **Merge into Variants**, allowing sellers to consolidate same-style products listed under separate links into one main product detail page. New sales and reviews generated through the main listing are aggregated under the main product. Historical sales and reviews are not fully transferred, and orders placed through the original child listings continue to contribute to those child products. [Feature guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1...]]></content:encoded>
         </item>
     </channel>
 </rss>
