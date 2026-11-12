@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "d772d869ce34f6dac54d5a2af19bc3e1005b81e376fee114046666e6aaea9d73",
-            "lastSeenAt": "2026-11-11T05:39:07+00:00"
+            "contentHash": "15bae351a539978abbfcf70819be150a2e98fbe8872939a7fd437edaa6724e9b",
+            "lastSeenAt": "2026-11-12T06:44:01+00:00"
         }
     ],
     "items": [
@@ -1824,6 +1824,39 @@
             "link": "https://partner.tiktokshop.com/docv2/page/elfjjara",
             "keywords": [
                 ""
+            ]
+        },
+        {
+            "document_path": "3fgvgy5r",
+            "title": "Update Inventory API: New Inventory and Warehouse Update Modes",
+            "description": "# Summary The [Update Inventory](https://partner.tiktokshop.com/docv2/page/update-inventory-202309) API now supports adding and unlinking SKU–warehouse associations through two optional update modes: INCREMENTAL and FULL. This update applies to API version 202309. Existing integrations remain compatible when the new parameters are omitted. # What is changing? ## New update modes The optional request-level field sku_warehouse_stock_update_mode controls how inventory and warehouse associations are...",
+            "contentHash": "dbf9e8f85d78fade7813aecd8ab7de240710cdb4f918df7a1b94f28415c6ce25",
+            "pubDate": "2026-11-11T12:33:31+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/3fgvgy5r",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "l9i01qpl",
+            "title": "Get Product API: New Product Detail URL Response Field",
+            "description": "# Summary The Get Product API now supports returning a product detail URL that can deep link directly into the TikTok client and open the corresponding product detail page. This update applies to API version 202309. The new field is opt-in and is only returned when explicitly requested, so existing integrations remain fully compatible without any changes. # What is changing? ### New response field A new optional response field, `product_detail_url` (JSON key `detail_url`, type `String`), provide...",
+            "contentHash": "fa7e8d1a224d84f79fabe38d4574f0949ac50d7083aa01ed7238d7f9e9b638d8",
+            "pubDate": "2026-11-11T12:30:09+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/l9i01qpl",
+            "keywords": [
+                "New"
+            ]
+        },
+        {
+            "document_path": "meue9f2l",
+            "title": "For All Market：Sample Settings Updates in Target Collaboration APIs",
+            "description": "## Change Overview | Item | Details | | --- | --- | | Module | Affiliate Seller / Target Collaboration | | API Version | 202508 | | Change Type | Update | | Release Date | 2026-11-12 | | Breaking Change Assessment | This release does not include breaking changes and is backward compatible. Existing clients that still send `preferred_content_type` will not fail, but the value will be ignored. | | Highlights | 1. Added `sample_fulfillment_content_type`, which allows you to specify whether free-sam...",
+            "contentHash": "113d2b7f00a5173370dfe51de3a1009e68096d55770685482bc45738775223f8",
+            "pubDate": "2026-11-11T10:05:21+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/meue9f2l",
+            "keywords": [
+                "Updated"
             ]
         }
     ]
