@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Mon, 16 Nov 2026 05:50:21 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 07:27:35 +0000</lastBuildDate>
+        <item>
+            <title>Seller-Side Partner Campaign API Integration Guide</title>
+            <link>https://partner.tiktokshop.com/docv2/page/h7oge2nu</link>
+            <description><![CDATA[# Background TikTok Shop is introducing seller-side Partner Campaign APIs to help developers build more efficient affiliate campaign registration workflows. Previously, sellers could register products into agency Partner Campaigns only through Affiliate Center. This required sellers to manually select campaigns, configure commission information, and submit products for review. With these APIs, authorized applications such as Boost Engine AutoBoost can support campaign discovery, product registra...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">h7oge2nu#a3743b77</guid>
+            <pubDate>Mon, 16 Nov 2026 07:27:52 +0000</pubDate>
+            <content:encoded><![CDATA[# Background TikTok Shop is introducing seller-side Partner Campaign APIs to help developers build more efficient affiliate campaign registration workflows. Previously, sellers could register products into agency Partner Campaigns only through Affiliate Center. This required sellers to manually select campaigns, configure commission information, and submit products for review. With these APIs, authorized applications such as Boost Engine AutoBoost can support campaign discovery, product registra...]]></content:encoded>
+        </item>
         <item>
             <title>Update Inventory API: New Inventory and Warehouse Update Modes</title>
             <link>https://partner.tiktokshop.com/docv2/page/3fgvgy5r</link>
@@ -268,15 +277,6 @@
             <guid isPermaLink="false">ksfhhcre#012a8c6c</guid>
             <pubDate>Thu, 24 Sep 2026 07:15:14 +0000</pubDate>
             <content:encoded><![CDATA[**Planned effective date: September 30, 2026** **Market: United States** TikTok Shop plans to update product attributes for selected US categories covering auto parts, tires, motorcycles, and engine oils. These updates introduce additional vehicle fitment, product specification, and compliance information. Developers listing products in the affected categories should review their attribute configurations and prepare to submit product information according to the updated requirements. **What is c...]]></content:encoded>
-        </item>
-        <item>
-            <title>Shipping Template Widget Sunset</title>
-            <link>https://partner.tiktokshop.com/docv2/page/9kaaw0r4</link>
-            <description><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></description>
-            <category>Breaking Change</category>
-            <guid isPermaLink="false">9kaaw0r4#0f72bcbe</guid>
-            <pubDate>Thu, 24 Sep 2026 03:07:39 +0000</pubDate>
-            <content:encoded><![CDATA[## 1. Background The Shipping template widget lives under **Development Kits → Widgets** in Partner Center. It is an embeddable component that lets sellers who choose "shipping by sellers" create and maintain shipping templates directly inside an ISV app, without going to Seller Center. The widget is a **2024 legacy version**. Compared with the current shipping template capability in Seller Center: * The underlying data model is different. Fields and template structure in the legacy model no lon...]]></content:encoded>
         </item>
     </channel>
 </rss>
