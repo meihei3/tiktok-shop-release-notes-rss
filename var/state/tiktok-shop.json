@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "1966923843d98007497a933e7c8d330fa56db9e8e2482a9168c521bbba4f0bcf",
-            "lastSeenAt": "2026-11-16T05:50:21+00:00"
+            "contentHash": "7206a23ef98d7ef20f411648a60412a10d9f359bbf3a7e07fa6721dd25faec5a",
+            "lastSeenAt": "2026-11-17T07:27:35+00:00"
         }
     ],
     "items": [
@@ -1857,6 +1857,17 @@
             "link": "https://partner.tiktokshop.com/docv2/page/meue9f2l",
             "keywords": [
                 "Updated"
+            ]
+        },
+        {
+            "document_path": "h7oge2nu",
+            "title": "Seller-Side Partner Campaign API Integration Guide",
+            "description": "# Background TikTok Shop is introducing seller-side Partner Campaign APIs to help developers build more efficient affiliate campaign registration workflows. Previously, sellers could register products into agency Partner Campaigns only through Affiliate Center. This required sellers to manually select campaigns, configure commission information, and submit products for review. With these APIs, authorized applications such as Boost Engine AutoBoost can support campaign discovery, product registra...",
+            "contentHash": "a3743b7766dee073b8530a282031534144a6d00889d5a9ad15a4131256e95463",
+            "pubDate": "2026-11-16T07:27:52+00:00",
+            "link": "https://partner.tiktokshop.com/docv2/page/h7oge2nu",
+            "keywords": [
+                "New"
             ]
         }
     ]
