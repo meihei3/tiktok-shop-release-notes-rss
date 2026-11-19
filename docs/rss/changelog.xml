@@ -5,7 +5,16 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Wed, 18 Nov 2026 06:51:34 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 06:52:40 +0000</lastBuildDate>
+        <item>
+            <title>AI Report API Changelog | Custom queries for shop performance data</title>
+            <link>https://partner.tiktokshop.com/docv2/page/7ih0jhpw</link>
+            <description><![CDATA[**API version 202611**　|　Analytics The AI Report API is now available. Choose metrics such as gross merchandise value (GMV) and traffic, break them down by date, product, or content type, and use the results in your own dashboards or weekly reports. # New endpoints All six endpoints are read-only and use the path prefix `/analytics/202611/ai_report`. | Endpoint | What it does | When to call it | | --- | --- | --- | | [GET /catalog](https://partner.tiktokshop.com/docv2/page/get-ai-report-catalog-...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">7ih0jhpw#4a6ef1cc</guid>
+            <pubDate>Thu, 19 Nov 2026 04:29:36 +0000</pubDate>
+            <content:encoded><![CDATA[**API version 202611**　|　Analytics The AI Report API is now available. Choose metrics such as gross merchandise value (GMV) and traffic, break them down by date, product, or content type, and use the results in your own dashboards or weekly reports. # New endpoints All six endpoints are read-only and use the path prefix `/analytics/202611/ai_report`. | Endpoint | What it does | When to call it | | --- | --- | --- | | [GET /catalog](https://partner.tiktokshop.com/docv2/page/get-ai-report-catalog-...]]></content:encoded>
+        </item>
         <item>
             <title>Seller-Side Partner Campaign API Integration Guide</title>
             <link>https://partner.tiktokshop.com/docv2/page/h7oge2nu</link>
@@ -268,15 +277,6 @@
             <guid isPermaLink="false">46di8q34#94364432</guid>
             <pubDate>Thu, 24 Sep 2026 07:17:52 +0000</pubDate>
             <content:encoded><![CDATA[**Effective date: October 15, 2026** TikTok Shop will launch the new Shop Performance Score (SPS) in the US on October 15, 2026. The new SPS page will replace the existing page in Seller Center. This update revises the metrics and calculations for Product Satisfaction and Logistics & Fulfillment; Customer Service remains unchanged. For details, see the [New SPS Trial-run Guide](https://seller-us.tiktok.com/university/essay?knowledge_id=7105568016090887). The impact on API integrations is as foll...]]></content:encoded>
-        </item>
-        <item>
-            <title>[US] Product Listing API: Category Attribute Updates for Auto Parts, Tires, Motorcycles, and Engine Oils</title>
-            <link>https://partner.tiktokshop.com/docv2/page/ksfhhcre</link>
-            <description><![CDATA[**Planned effective date: September 30, 2026** **Market: United States** TikTok Shop plans to update product attributes for selected US categories covering auto parts, tires, motorcycles, and engine oils. These updates introduce additional vehicle fitment, product specification, and compliance information. Developers listing products in the affected categories should review their attribute configurations and prepare to submit product information according to the updated requirements. **What is c...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">ksfhhcre#012a8c6c</guid>
-            <pubDate>Thu, 24 Sep 2026 07:15:14 +0000</pubDate>
-            <content:encoded><![CDATA[**Planned effective date: September 30, 2026** **Market: United States** TikTok Shop plans to update product attributes for selected US categories covering auto parts, tires, motorcycles, and engine oils. These updates introduce additional vehicle fitment, product specification, and compliance information. Developers listing products in the affected categories should review their attribute configurations and prepare to submit product information according to the updated requirements. **What is c...]]></content:encoded>
         </item>
     </channel>
 </rss>
