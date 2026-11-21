@@ -5,7 +5,25 @@
         <link>https://partner.tiktokshop.com/docv2</link>
         <description>Official updates for TikTok Shop developer docs</description>
         <language>ja</language>
-        <lastBuildDate>Fri, 20 Nov 2026 06:42:18 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 06:34:45 +0000</lastBuildDate>
+        <item>
+            <title>Finance  API Updates: New smart_shipping_fee_amount Field in Transaction APIs</title>
+            <link>https://partner.tiktokshop.com/docv2/page/s45a9vza</link>
+            <description><![CDATA[## Change Overview | Item | Details | | --- | --- | | Module | Finance | | Change type | Update | | Applicable market | Poland (PL), covering both L2L and CB sellers. | | Breaking change assessment | Non-breaking and backward compatible. The change only adds an optional response field; the meaning of existing fields and the request structure remain unchanged. Clients that do not parse the new field are not affected. | | Highlights | 1. A new `smart_shipping_fee_amount` field is added to the resp...]]></description>
+            <category>Updated</category>
+            <guid isPermaLink="false">s45a9vza#4e22772c</guid>
+            <pubDate>Fri, 20 Nov 2026 10:18:21 +0000</pubDate>
+            <content:encoded><![CDATA[## Change Overview | Item | Details | | --- | --- | | Module | Finance | | Change type | Update | | Applicable market | Poland (PL), covering both L2L and CB sellers. | | Breaking change assessment | Non-breaking and backward compatible. The change only adds an optional response field; the meaning of existing fields and the request structure remain unchanged. Clients that do not parse the new field are not affected. | | Highlights | 1. A new `smart_shipping_fee_amount` field is added to the resp...]]></content:encoded>
+        </item>
+        <item>
+            <title>Product API changelog — Size chart updates and Seller SKU requirements</title>
+            <link>https://partner.tiktokshop.com/docv2/page/xa5xbxpy</link>
+            <description><![CDATA[# Get Category Rules `GET /product/202309/categories/{category_id}/rules` **New response fields** `data.size_chart.size_systems` and `data.size_chart.measurement_and_options[].size_systems` return the size-system IDs supported by the shop, such as `size_chart_size_system_us` and `size_chart_size_system_uk`. Both fields are arrays of strings. When creating or editing a size chart, use a returned ID for each size-system column in `size_chart_data.table.headers[].id`. Supported IDs depend on the sh...]]></description>
+            <category>New</category>
+            <guid isPermaLink="false">xa5xbxpy#d785af63</guid>
+            <pubDate>Fri, 20 Nov 2026 09:40:37 +0000</pubDate>
+            <content:encoded><![CDATA[# Get Category Rules `GET /product/202309/categories/{category_id}/rules` **New response fields** `data.size_chart.size_systems` and `data.size_chart.measurement_and_options[].size_systems` return the size-system IDs supported by the shop, such as `size_chart_size_system_us` and `size_chart_size_system_uk`. Both fields are arrays of strings. When creating or editing a size chart, use a returned ID for each size-system column in `size_chart_data.table.headers[].id`. Supported IDs depend on the sh...]]></content:encoded>
+        </item>
         <item>
             <title>AI Report API Changelog | Custom queries for shop performance data</title>
             <link>https://partner.tiktokshop.com/docv2/page/7ih0jhpw</link>
@@ -258,25 +276,6 @@
             <guid isPermaLink="false">6az7iwe9#1f5ac6ff</guid>
             <pubDate>Mon, 28 Sep 2026 09:05:21 +0000</pubDate>
             <content:encoded><![CDATA[**Release date: 2026-09-28 | Availability: Public by default | API documentation: Publicly visible** This update expands Analytics API coverage for shop sales and channel attribution, video sales and engagement, and LIVE sales and viewing performance. New attributed GMV, traffic conversion, and LIVE auction metrics help developers analyze shop and content performance in greater detail. **Video details API migration:** The new `Get Shop Videos Performance Details` replaces `Get Shop Video Perform...]]></content:encoded>
-        </item>
-        <item>
-            <title>For MY Market: Key Attributes Become Mandatory for Selected Hi-Po Categories</title>
-            <link>https://partner.tiktokshop.com/docv2/page/m8p624yr</link>
-            <description><![CDATA[## Summary Malaysia will roll out mandatory key attributes for selected hi-po categories in **30 September, 2026**. For Health, Sports & Outdoor, and Tools & Hardware, selected attributes will change from **optional** to **required**. For Household Appliances, TikTok Shop will add a new structured attribute, **Energy Efficiency Star Rating**, and require it for relevant products. This is a category configuration update that affects seller-center and partner-powered product creation flows. ## Wha...]]></description>
-            <category>Coming Soon</category>
-            <category>New </category>
-            <guid isPermaLink="false">m8p624yr#57e3e465</guid>
-            <pubDate>Fri, 25 Sep 2026 08:26:53 +0000</pubDate>
-            <content:encoded><![CDATA[## Summary Malaysia will roll out mandatory key attributes for selected hi-po categories in **30 September, 2026**. For Health, Sports & Outdoor, and Tools & Hardware, selected attributes will change from **optional** to **required**. For Household Appliances, TikTok Shop will add a new structured attribute, **Energy Efficiency Star Rating**, and require it for relevant products. This is a category configuration update that affects seller-center and partner-powered product creation flows. ## Wha...]]></content:encoded>
-        </item>
-        <item>
-            <title>US SPS Update: Impact on Existing APIs</title>
-            <link>https://partner.tiktokshop.com/docv2/page/46di8q34</link>
-            <description><![CDATA[**Effective date: October 15, 2026** TikTok Shop will launch the new Shop Performance Score (SPS) in the US on October 15, 2026. The new SPS page will replace the existing page in Seller Center. This update revises the metrics and calculations for Product Satisfaction and Logistics & Fulfillment; Customer Service remains unchanged. For details, see the [New SPS Trial-run Guide](https://seller-us.tiktok.com/university/essay?knowledge_id=7105568016090887). The impact on API integrations is as foll...]]></description>
-            <category>Updated</category>
-            <guid isPermaLink="false">46di8q34#94364432</guid>
-            <pubDate>Thu, 24 Sep 2026 07:17:52 +0000</pubDate>
-            <content:encoded><![CDATA[**Effective date: October 15, 2026** TikTok Shop will launch the new Shop Performance Score (SPS) in the US on October 15, 2026. The new SPS page will replace the existing page in Seller Center. This update revises the metrics and calculations for Product Satisfaction and Logistics & Fulfillment; Customer Service remains unchanged. For details, see the [New SPS Trial-run Guide](https://seller-us.tiktok.com/university/essay?knowledge_id=7105568016090887). The impact on API integrations is as foll...]]></content:encoded>
         </item>
     </channel>
 </rss>
