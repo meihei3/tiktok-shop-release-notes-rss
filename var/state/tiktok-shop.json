@@ -5,8 +5,8 @@
             "url": "https://partner.tiktokshop.com/api/v1/document/tree?workspace_id=3&aid=359713&locale=ja-JP",
             "etag": null,
             "lastModified": null,
-            "contentHash": "f111830de0fb965e09ff7d85e87c7ac84b23f6162d37a21041d020ccba38aee8",
-            "lastSeenAt": "2026-11-25T07:55:07+00:00"
+            "contentHash": "54a327d39e36e84693b154de72f62c3e9e3c09c0a402b12dd7f1addf60fe1c7a",
+            "lastSeenAt": "2026-11-26T07:46:13+00:00"
         }
     ],
     "items": [
@@ -1553,7 +1553,7 @@
             "document_path": "ksfhhcre",
             "title": "[US] Product Listing API: Category Attribute Updates for Auto Parts, Tires, Motorcycles, and Engine Oils",
             "description": "**Planned effective date: September 30, 2026** **Market: United States** TikTok Shop plans to update product attributes for selected US categories covering auto parts, tires, motorcycles, and engine oils. These updates introduce additional vehicle fitment, product specification, and compliance information. Developers listing products in the affected categories should review their attribute configurations and prepare to submit product information according to the updated requirements. **What is c...",
-            "contentHash": "012a8c6cb1daed24441c600c0569ec8482879a4d5a228766e20c50b90faf2ce8",
+            "contentHash": "715a58f785fb999efefc40ee5cb15ee552f219bc953e029b4e6e020d68400d9f",
             "pubDate": "2026-09-24T07:15:14+00:00",
             "link": "https://partner.tiktokshop.com/docv2/page/ksfhhcre",
             "keywords": [
